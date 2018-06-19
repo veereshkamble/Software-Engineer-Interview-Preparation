@@ -20,7 +20,7 @@ public class InsertionSort {
     }
 
     public static void main(String[] args) {
-        int[] array = new int[] {4,2,1,3,5,6,9,8,7};
+        int[] array = new int[] {2,4,1,3,5,6,9,8,7};
         System.out.println("Before Sort");
         printArray(array);
         insertionSort(array);
