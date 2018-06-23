@@ -18,6 +18,23 @@ public class BinarySearchTree {
         return null;
     }
 
+    public Integer smallest() {
+        if (this.root != null)
+            return root.smallest();
+        return null;
+    }
+
+    public Integer largest() {
+        if (this.root != null)
+            return root.largest();
+        return null;
+    }
+
+    public void softDelete(Integer data) {
+        TreeNode toDel = find(data);
+        toDel.delete() ;
+    }
+
     public void delete(Integer data) {
         TreeNode current = this.root;
         TreeNode parent = this.root;
