@@ -70,16 +70,37 @@ public class BinarySearchTree {
             }
         }
 
-        if(current.getLeftChild() != null) {
-            parent.setLeftChild(current.getLeftChild());
+        else {
+            TreeNode successor = getSuccessor(current);
+            if(root == successor) {
+                root = successor;
+            }
+            if(isLeftChild) {
+                parent.setLeftChild(successor);
+            } else {
+                parent.setRightChild(successor);
+            }
+            successor.setLeftChild(current.getLeftChild());
+        }
+    }
+
+    public TreeNode getSuccessor(TreeNode node) {
+        TreeNode parentOfSuccessor = node;
+        TreeNode successor = node;
+        TreeNode current = node.getRightChild();
+
+        while (current != null) {
+            parentOfSuccessor = successor;
+            successor = current;
+            current = current.getLeftChild();
         }
 
-        if(current.getRightChild() != null) {
-            parent.setRightChild(current.getRightChild());
+        if(successor != node.getRightChild()) {
+            parentOfSuccessor.setLeftChild(successor.getRightChild());
+            successor.setRightChild(parentOfSuccessor);
         }
 
-
-
+        return successor;
     }
 }
 
