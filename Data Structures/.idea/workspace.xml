@@ -21,20 +21,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="QuickSorter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Sorting/QuickSorter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="QuickSorting.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Sorting/QuickSorting.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+            <state relative-caret-position="460">
+              <caret line="39" column="5" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="39" selection-end-column="5" />
               <folding>
                 <element signature="e#82#83#0" expanded="true" />
                 <element signature="e#134#135#0" expanded="true" />
@@ -46,8 +37,8 @@
       <file leaf-file-name="MergeSorting.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Sorting/MergeSorting.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="67" column="64" lean-forward="true" selection-start-line="67" selection-start-column="8" selection-end-line="67" selection-end-column="64" />
+            <state relative-caret-position="460">
+              <caret line="71" column="5" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="71" selection-end-column="5" />
               <folding>
                 <element signature="e#80#81#0" expanded="true" />
                 <element signature="e#132#133#0" expanded="true" />
@@ -92,9 +83,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="width" value="677" />
-    <option name="height" value="1032" />
+    <option name="x" value="-15" />
+    <option name="width" value="850" />
+    <option name="height" value="1105" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -114,12 +105,6 @@
               <item name="Data Structures" type="b2602c69:ProjectViewProjectNode" />
               <item name="Data Structures" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Data Structures" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Data Structures" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Sorting" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -286,11 +271,11 @@
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="6" />
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.20793433" />
+      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.20793433" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18229167" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18229167" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
@@ -577,17 +562,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Sorting/MergeSorting.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="67" column="64" lean-forward="true" selection-start-line="67" selection-start-column="8" selection-end-line="67" selection-end-column="64" />
-          <folding>
-            <element signature="e#80#81#0" expanded="true" />
-            <element signature="e#132#133#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/VEERESH/Learning/Lynda/Ex_Files_Intro_DataStructures_Algorithms_Java/Exercise Files/src/chapter8/QuickSorter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="443">
@@ -602,10 +576,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Sorting/MergeSorting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="71" column="5" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="71" selection-end-column="5" />
+          <folding>
+            <element signature="e#80#81#0" expanded="true" />
+            <element signature="e#132#133#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Sorting/QuickSorting.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+        <state relative-caret-position="460">
+          <caret line="39" column="5" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="39" selection-end-column="5" />
           <folding>
             <element signature="e#82#83#0" expanded="true" />
             <element signature="e#134#135#0" expanded="true" />
