@@ -23,6 +23,14 @@ public class TreeNode {
         return this.rightChild.largest();
     }
 
+    public void traverseInOrder() {
+        if (this.leftChild != null)
+            this.leftChild.traverseInOrder();
+        System.out.print(this + " ");
+        if (this.rightChild != null)
+            this.rightChild.traverseInOrder();
+    }
+
     public TreeNode find(Integer data) {
         if (this.data == data && !isDeleted)
             return this;
