@@ -10,7 +10,7 @@ public class DominantIndex {
         int largest = 0;
         int index = 0;
 
-        for(int i=1; i<nums.length; i++) {
+        for(int i=0; i<nums.length; i++) {
             if(nums[i] >= largest) {
                 secondLargest = largest;
                 largest = nums[i];
