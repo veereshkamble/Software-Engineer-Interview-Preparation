@@ -42,11 +42,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FindDiagonalOrder.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FindDiagonalOrder.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/FindDiagonalOrder.java">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="388">
+              <caret line="32" column="5" lean-forward="true" selection-start-line="28" selection-start-column="4" selection-end-line="32" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SpiralOrder.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/SpiralOrder.java">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="354">
-              <caret line="30" column="59" selection-start-line="30" selection-start-column="59" selection-end-line="30" selection-end-column="59" />
+              <caret line="53" column="70" lean-forward="true" selection-start-line="53" selection-start-column="8" selection-end-line="53" selection-end-column="70" />
+              <folding>
+                <element signature="e#152#161#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -67,6 +79,7 @@
         <option value="$PROJECT_DIR$/src/ArraysAndStrings/DominantIndex.java" />
         <option value="$PROJECT_DIR$/src/ArraysAndStrings/PlusOne.java" />
         <option value="$PROJECT_DIR$/src/ArraysAndStrings/FindDiagonalOrder.java" />
+        <option value="$PROJECT_DIR$/src/ArraysAndStrings/SpiralOrder.java" />
       </list>
     </option>
   </component>
@@ -295,8 +308,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/FindDiagonalOrder.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="32" column="5" lean-forward="true" selection-start-line="28" selection-start-column="4" selection-end-line="32" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/SpiralOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="354">
-          <caret line="30" column="59" selection-start-line="30" selection-start-column="59" selection-end-line="30" selection-end-column="59" />
+          <caret line="53" column="70" lean-forward="true" selection-start-line="53" selection-start-column="8" selection-end-line="53" selection-end-column="70" />
+          <folding>
+            <element signature="e#152#161#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
