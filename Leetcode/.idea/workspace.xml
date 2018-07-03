@@ -63,11 +63,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PascalsTriangle.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PascalsTriangle.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/PascalsTriangle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
+            <state relative-caret-position="235">
               <caret line="15" column="54" selection-start-line="15" selection-start-column="54" selection-end-line="15" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PascalTriangle.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/PascalTriangle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+              <folding>
+                <element signature="e#194#209#0" expanded="true" />
+                <element signature="e#260#269#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -90,6 +103,7 @@
         <option value="$PROJECT_DIR$/src/ArraysAndStrings/FindDiagonalOrder.java" />
         <option value="$PROJECT_DIR$/src/ArraysAndStrings/SpiralOrder.java" />
         <option value="$PROJECT_DIR$/src/ArraysAndStrings/PascalsTriangle.java" />
+        <option value="$PROJECT_DIR$/src/ArraysAndStrings/PascalTriangle.java" />
       </list>
     </option>
   </component>
@@ -142,9 +156,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PascalsTriangle">
-    <configuration name="DominantIndex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArraysAndStrings.DominantIndex" />
+  <component name="RunManager" selected="Application.PascalTriangle">
+    <configuration name="FindDiagonalOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArraysAndStrings.FindDiagonalOrder" />
       <module name="Leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -154,8 +168,8 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="FindDiagonalOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArraysAndStrings.FindDiagonalOrder" />
+    <configuration name="PascalTriangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArraysAndStrings.PascalTriangle" />
       <module name="Leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -240,19 +254,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.DominantIndex" />
       <item itemvalue="Application.PlusOne" />
       <item itemvalue="Application.FindDiagonalOrder" />
       <item itemvalue="Application.SpiralOrder" />
       <item itemvalue="Application.PascalsTriangle" />
+      <item itemvalue="Application.PascalTriangle" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PascalTriangle" />
         <item itemvalue="Application.PascalsTriangle" />
         <item itemvalue="Application.SpiralOrder" />
         <item itemvalue="Application.FindDiagonalOrder" />
         <item itemvalue="Application.PlusOne" />
-        <item itemvalue="Application.DominantIndex" />
       </list>
     </recent_temporary>
   </component>
@@ -348,8 +362,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/PascalsTriangle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
+        <state relative-caret-position="235">
           <caret line="15" column="54" selection-start-line="15" selection-start-column="54" selection-end-line="15" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/PascalTriangle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+          <folding>
+            <element signature="e#194#209#0" expanded="true" />
+            <element signature="e#260#269#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
