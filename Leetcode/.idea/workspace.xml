@@ -72,7 +72,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PascalTriangle.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PascalTriangle.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/PascalTriangle.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
@@ -81,6 +81,15 @@
                 <element signature="e#194#209#0" expanded="true" />
                 <element signature="e#260#269#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AddBinary.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/AddBinary.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -104,6 +113,8 @@
         <option value="$PROJECT_DIR$/src/ArraysAndStrings/SpiralOrder.java" />
         <option value="$PROJECT_DIR$/src/ArraysAndStrings/PascalsTriangle.java" />
         <option value="$PROJECT_DIR$/src/ArraysAndStrings/PascalTriangle.java" />
+        <option value="$PROJECT_DIR$/src/ArraysAndStrings/addBinary.java" />
+        <option value="$PROJECT_DIR$/src/ArraysAndStrings/AddBinary.java" />
       </list>
     </option>
   </component>
@@ -156,7 +167,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PascalTriangle">
+  <component name="RunManager" selected="Application.AddBinary">
+    <configuration name="AddBinary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArraysAndStrings.AddBinary" />
+      <module name="Leetcode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ArraysAndStrings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="FindDiagonalOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArraysAndStrings.FindDiagonalOrder" />
       <module name="Leetcode" />
@@ -181,17 +203,6 @@
     </configuration>
     <configuration name="PascalsTriangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArraysAndStrings.PascalsTriangle" />
-      <module name="Leetcode" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ArraysAndStrings.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="PlusOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArraysAndStrings.PlusOne" />
       <module name="Leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -254,19 +265,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.PlusOne" />
       <item itemvalue="Application.FindDiagonalOrder" />
       <item itemvalue="Application.SpiralOrder" />
       <item itemvalue="Application.PascalsTriangle" />
       <item itemvalue="Application.PascalTriangle" />
+      <item itemvalue="Application.AddBinary" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AddBinary" />
         <item itemvalue="Application.PascalTriangle" />
         <item itemvalue="Application.PascalsTriangle" />
         <item itemvalue="Application.SpiralOrder" />
         <item itemvalue="Application.FindDiagonalOrder" />
-        <item itemvalue="Application.PlusOne" />
       </list>
     </recent_temporary>
   </component>
@@ -375,6 +386,13 @@
             <element signature="e#194#209#0" expanded="true" />
             <element signature="e#260#269#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/AddBinary.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
         </state>
       </provider>
     </entry>
