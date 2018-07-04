@@ -19,7 +19,7 @@ public class RemoveElement {
         RemoveElement removeElement = new RemoveElement();
         int len = removeElement.removeElement(nums, val);
         for(int i=0; i<len; i++) {
-            System.out.println(nums[i]);
+            System.out.print(nums[i] + " ");
         }
     }
 }
