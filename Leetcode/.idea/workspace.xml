@@ -12,15 +12,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="PascalsTriangle.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/PascalsTriangle.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
-              <caret line="15" column="54" selection-start-line="15" selection-start-column="54" selection-end-line="15" selection-end-column="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="PascalTriangle.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/PascalTriangle.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -79,11 +70,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MaxConsecutiveOnes.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MaxConsecutiveOnes.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/MaxConsecutiveOnes.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
               <caret line="19" column="76" selection-start-line="19" selection-start-column="76" selection-end-line="19" selection-end-column="76" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MinimumSizeSubarraySum.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/MinimumSizeSubarraySum.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -134,6 +134,7 @@
         <option value="$PROJECT_DIR$/src/ArraysAndStrings/TwoSumII.java" />
         <option value="$PROJECT_DIR$/src/ArraysAndStrings/RemoveElement.java" />
         <option value="$PROJECT_DIR$/src/ArraysAndStrings/MaxConsecutiveOnes.java" />
+        <option value="$PROJECT_DIR$/src/ArraysAndStrings/MinimumSizeSubarraySum.java" />
       </list>
     </option>
   </component>
@@ -461,6 +462,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" column="76" selection-start-line="19" selection-start-column="76" selection-end-line="19" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/MinimumSizeSubarraySum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
         </state>
       </provider>
     </entry>
