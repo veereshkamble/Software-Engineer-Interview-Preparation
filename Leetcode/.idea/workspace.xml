@@ -21,15 +21,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RemoveElement.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/RemoveElement.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="40" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="MinimumSizeSubarraySum.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/MinimumSizeSubarraySum.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -93,11 +84,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ReverseWordsInAStringIII.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ReverseWordsInAStringIII.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/ReverseWordsInAStringIII.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
               <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RemoveDuplicatesFromSortedArray.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/RemoveDuplicatesFromSortedArray.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -136,6 +136,7 @@
         <option value="$PROJECT_DIR$/src/ArraysAndStrings/PascalsIndex.java" />
         <option value="$PROJECT_DIR$/src/ArraysAndStrings/ReverseWordsInAString.java" />
         <option value="$PROJECT_DIR$/src/ArraysAndStrings/ReverseWordsInAStringIII.java" />
+        <option value="$PROJECT_DIR$/src/ArraysAndStrings/RemoveDuplicatesFromSortedArray.java" />
       </list>
     </option>
   </component>
@@ -188,9 +189,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ReverseWordsInAStringIII">
+  <component name="RunManager" selected="Application.RemoveDuplicatesFromSortedArray">
     <configuration name="PascalsIndex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArraysAndStrings.PascalsIndex" />
+      <module name="Leetcode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ArraysAndStrings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="RemoveDuplicatesFromSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArraysAndStrings.RemoveDuplicatesFromSortedArray" />
       <module name="Leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -213,17 +225,6 @@
     </configuration>
     <configuration name="ReverseWordsInAStringIII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArraysAndStrings.ReverseWordsInAStringIII" />
-      <module name="Leetcode" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ArraysAndStrings.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="RotateArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArraysAndStrings.RotateArray" />
       <module name="Leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -286,19 +287,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.RotateArray" />
       <item itemvalue="Application.RotateArrayOptimized" />
       <item itemvalue="Application.PascalsIndex" />
       <item itemvalue="Application.ReverseWordsInAString" />
       <item itemvalue="Application.ReverseWordsInAStringIII" />
+      <item itemvalue="Application.RemoveDuplicatesFromSortedArray" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RemoveDuplicatesFromSortedArray" />
         <item itemvalue="Application.ReverseWordsInAStringIII" />
         <item itemvalue="Application.ReverseWordsInAString" />
         <item itemvalue="Application.PascalsIndex" />
         <item itemvalue="Application.RotateArrayOptimized" />
-        <item itemvalue="Application.RotateArray" />
       </list>
     </recent_temporary>
   </component>
@@ -568,6 +569,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/RemoveDuplicatesFromSortedArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
         </state>
       </provider>
     </entry>
