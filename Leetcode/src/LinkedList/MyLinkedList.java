@@ -102,7 +102,13 @@ public class MyLinkedList {
         }
     }
 
-    
+    public void printLinkedList(MyLinkedList linkedList) {
+        Node current = linkedList.head;
+        while(current != null) {
+            System.out.print(current.val + " -> ");
+            current = current.next;
+        }
+    }
 
     public static void main(String[] args) {
         MyLinkedList myLinkedList = new MyLinkedList();
