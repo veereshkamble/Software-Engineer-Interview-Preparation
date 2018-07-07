@@ -12,15 +12,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MinimumSizeSubarraySum.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/MinimumSizeSubarraySum.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" column="66" selection-start-line="27" selection-start-column="66" selection-end-line="27" selection-end-column="66" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="RotateArray.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/RotateArray.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -93,11 +84,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MoveZeroes.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MoveZeroes.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/MoveZeroes.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="46" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
+            <state relative-caret-position="408">
+              <caret line="24" column="38" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Node.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/LinkedList/Node.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -138,13 +138,14 @@
         <option value="$PROJECT_DIR$/src/ArraysAndStrings/ReverseWordsInAStringIII.java" />
         <option value="$PROJECT_DIR$/src/ArraysAndStrings/RemoveDuplicatesFromSortedArray.java" />
         <option value="$PROJECT_DIR$/src/ArraysAndStrings/MoveZeroes.java" />
+        <option value="$PROJECT_DIR$/src/LinkedList/Node.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-15" />
     <option name="width" value="850" />
-    <option name="height" value="1105" />
+    <option name="height" value="1103" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -164,12 +165,6 @@
               <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ArraysAndStrings" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -330,11 +325,11 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.29548565" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.29548565" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -582,8 +577,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/MoveZeroes.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="46" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
+        <state relative-caret-position="408">
+          <caret line="24" column="38" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LinkedList/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
         </state>
       </provider>
     </entry>
