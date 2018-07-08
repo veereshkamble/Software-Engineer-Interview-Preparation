@@ -21,4 +21,13 @@ public class LinkedListIntersection {
         }
         return new Result(current, size);
     }
+
+    public static Node getKthNode(Node head, int k) {
+        Node current = head;
+        while (k > 0 && current != null) {
+            current = current.next;
+            k--;
+        }
+        return current;
+    }
 }
