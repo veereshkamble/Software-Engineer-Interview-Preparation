@@ -19,4 +19,21 @@ public class RemoveLinkedListElements {
         }
         return head;
     }
+
+    public Node removeElement(Node head, int val) {
+        while(head != null && head.val == val) {
+            head = head.next;
+        }
+
+        Node curr = head;
+        while(curr != null && curr.next != null) {
+            if(curr.next.val == val) {
+                curr.next = curr.next.next;
+            } else {
+                curr = curr.next;
+            }
+        }
+        return head;
+    }
+}
 }
