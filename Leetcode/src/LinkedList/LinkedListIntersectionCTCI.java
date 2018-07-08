@@ -1,6 +1,6 @@
 package LinkedList;
 
-public class LinkedListIntersection {
+public class LinkedListIntersectionCTCI {
     public static class Result {
         public Node tail;
         public int size;
