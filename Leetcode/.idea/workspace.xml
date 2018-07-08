@@ -52,11 +52,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LinkedListIntersection.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LinkedListIntersection.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LinkedList/LinkedListIntersection.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="430">
               <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RemoveNthNodeFromTheEnd.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/LinkedList/RemoveNthNodeFromTheEnd.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="430">
+              <caret line="30" column="12" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -112,6 +121,7 @@
         <option value="$PROJECT_DIR$/src/LinkedList/MyLinkedList.java" />
         <option value="$PROJECT_DIR$/src/LinkedList/LinkedListIntersectionCTCI.java" />
         <option value="$PROJECT_DIR$/src/LinkedList/LinkedListIntersection.java" />
+        <option value="$PROJECT_DIR$/src/LinkedList/RemoveNthNodeFromTheEnd.java" />
       </list>
     </option>
   </component>
@@ -327,17 +337,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/LinkedList/Node.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
-          <folding>
-            <element signature="e#94#95#0" expanded="true" />
-            <element signature="e#124#125#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/LinkedList/MyLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2210">
@@ -693,6 +692,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="430">
           <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LinkedList/RemoveNthNodeFromTheEnd.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="30" column="12" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
         </state>
       </provider>
     </entry>
