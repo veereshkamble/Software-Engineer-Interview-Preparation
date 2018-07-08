@@ -18,5 +18,7 @@ public class LinkedListCycle {
         return true;
     }
 
-    
+    public static void main(String[] args) {
+
+    }
 }

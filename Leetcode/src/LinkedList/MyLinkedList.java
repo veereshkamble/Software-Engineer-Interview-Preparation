@@ -110,6 +110,23 @@ public class MyLinkedList {
         }
     }
 
+    public boolean hasCycle(MyLinkedList node) {
+        if(node.head== null || node.head.next== null) {
+            return false;
+        }
+
+        Node slow = node.head;
+        Node fast = node.head.next;
+        while(slow != fast) {
+            if(fast == null || fast.next == null) {
+                return false;
+            }
+            slow = slow.next;
+            fast = fast.next.next;
+        }
+        return true;
+    }
+
     public static void main(String[] args) {
         MyLinkedList myLinkedList = new MyLinkedList();
         myLinkedList.addAtHead(1);
@@ -117,6 +134,7 @@ public class MyLinkedList {
         myLinkedList.addAtIndex(1, 7);
         myLinkedList.printLinkedList(myLinkedList);
         System.out.println(myLinkedList.get(2));
+        System.out.println(myLinkedList.hasCycle(myLinkedList));
     }
 }
 
