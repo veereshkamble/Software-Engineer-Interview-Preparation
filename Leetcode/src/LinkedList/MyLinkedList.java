@@ -127,6 +127,34 @@ public class MyLinkedList {
         return true;
     }
 
+    public Node detectCycle(MyLinkedList linkedList) {
+        Node slow = head;
+        Node fast = head;
+
+        //find meeting point
+        while(fast !=null && fast.next != null) {
+            slow = slow.next;
+            fast = fast.next.next;
+            if(slow == fast) {
+                break;
+            }
+        }
+
+        //Check if there is a loop
+        if(fast == null || fast.next == null) {
+            return null;
+        }
+
+        //find the node where the cycle begins
+        slow = head;
+        while(slow != fast) {
+            slow = slow.next;
+            fast = fast.next;
+        }
+
+        return slow;
+    }
+
     public static void main(String[] args) {
         MyLinkedList myLinkedList = new MyLinkedList();
         myLinkedList.addAtHead(1);
@@ -135,6 +163,7 @@ public class MyLinkedList {
         myLinkedList.printLinkedList(myLinkedList);
         System.out.println(myLinkedList.get(2));
         System.out.println(myLinkedList.hasCycle(myLinkedList));
+        System.out.println(myLinkedList.detectCycle(myLinkedList));
     }
 }
 
