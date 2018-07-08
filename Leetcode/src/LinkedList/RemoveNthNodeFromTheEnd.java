@@ -3,7 +3,8 @@ package LinkedList;
 public class RemoveNthNodeFromTheEnd {
 
     public Node removeNthNode(Node head, int n) {
-        int length = length(head);
+        LinkedListIntersection linkedListIntersection = new LinkedListIntersection();
+        int length = linkedListIntersection.length(head);
         length = length - n;
         int count = 1;
         Node node = head;
