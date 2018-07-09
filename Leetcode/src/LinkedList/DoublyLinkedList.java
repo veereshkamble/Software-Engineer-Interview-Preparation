@@ -68,4 +68,22 @@ public class DoublyLinkedList {
             next.prev = cur;
         }
     }
+
+    public void deleteAtIndex(int index) {
+        DoublyListNode cur = getNode(index);
+        if (cur == null) {
+            return;
+        }
+        DoublyListNode prev = cur.prev;
+        DoublyListNode next = cur.next;
+        if (prev != null) {
+            prev.next = next;
+        } else {
+            // modify head when deleting the first node.
+            head = next;
+        }
+        if (next != null) {
+            next.prev = prev;
+        }
+    }
 }
