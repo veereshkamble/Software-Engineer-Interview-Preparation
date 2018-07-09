@@ -5,12 +5,14 @@ public class RotateList {
         if(head == null || head.next == null) {
             return  head;
         }
+        Node dummy = new Node(0);
+        dummy.next = head;
 
-        Node fast = head;
-        Node slow = head;
+        Node fast = dummy;
+        Node slow = dummy;
 
         int i;
-        for(i=0; fast != null; i++) {
+        for(i=0; fast.next != null; i++) {
             fast = fast.next;
         }
 
@@ -22,6 +24,6 @@ public class RotateList {
         head = slow.next;
         slow.next = null;
 
-        return head;
+        return dummy.next;
     }
 }
