@@ -49,4 +49,23 @@ public class DoublyLinkedList {
         prev.next = curr;
         curr.prev = prev;
     }
+
+    public void addAtIndex(int index, int val) {
+        if (index == 0) {
+            addAtHead(val);
+            return;
+        }
+        DoublyListNode prev = getNode(index - 1);
+        if (prev == null) {
+            return;
+        }
+        DoublyListNode cur = new DoublyListNode(val);
+        DoublyListNode next = prev.next;
+        cur.prev = prev;
+        cur.next = next;
+        prev.next = cur;
+        if (next != null) {
+            next.prev = cur;
+        }
+    }
 }
