@@ -12,15 +12,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="LinkedListIntersection.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/LinkedList/LinkedListIntersection.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="RemoveNthNodeFromTheEnd.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LinkedList/RemoveNthNodeFromTheEnd.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -88,11 +79,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MergeTwoSortedLists.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MergeTwoSortedLists.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LinkedList/MergeTwoSortedLists.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+            <state relative-caret-position="85">
+              <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AddTwoNumbers.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/LinkedList/AddTwoNumbers.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="109" selection-start-line="10" selection-start-column="109" selection-end-line="10" selection-end-column="109" />
             </state>
           </provider>
         </entry>
@@ -161,6 +161,7 @@
         <option value="$PROJECT_DIR$/src/LinkedList/DoublyListNode.java" />
         <option value="$PROJECT_DIR$/src/LinkedList/DoublyLinkedList.java" />
         <option value="$PROJECT_DIR$/src/LinkedList/MergeTwoSortedLists.java" />
+        <option value="$PROJECT_DIR$/src/LinkedList/AddTwoNumbers.java" />
       </list>
     </option>
   </component>
@@ -376,13 +377,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/RemoveDuplicatesFromSortedArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="28" lean-forward="true" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/MoveZeroes.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -744,8 +738,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LinkedList/MergeTwoSortedLists.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        <state relative-caret-position="85">
+          <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LinkedList/AddTwoNumbers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="109" selection-start-line="10" selection-start-column="109" selection-end-line="10" selection-end-column="109" />
         </state>
       </provider>
     </entry>

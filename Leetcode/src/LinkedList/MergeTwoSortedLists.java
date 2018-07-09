@@ -3,7 +3,7 @@ package LinkedList;
 public class MergeTwoSortedLists {
     public Node mergeTwoLists(Node listOne, Node listTwo) {
 
-        Node preHead = new Node(-1-);
+        Node preHead = new Node(-1);
         Node prev = preHead;
 
         while(listOne != null && listTwo != null) {
