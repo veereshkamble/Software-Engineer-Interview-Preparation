@@ -14,7 +14,7 @@ public class DoublyLinkedList {
         }
         return cur;
     }
-    
+
 
     private DoublyListNode getTail() {
         DoublyListNode curr = head;
@@ -30,6 +30,12 @@ public class DoublyLinkedList {
     }
 
     public void addAtHead(int val) {
-
+        DoublyListNode curr = new DoublyListNode(val);
+        curr.next = head;
+        if(head != null) {
+            head.prev = curr;
+        }
+        head = curr;
+        return;
     }
 }
