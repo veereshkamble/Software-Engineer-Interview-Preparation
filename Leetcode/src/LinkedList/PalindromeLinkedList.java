@@ -17,5 +17,14 @@ public class PalindromeLinkedList {
         return head;
     }
 
-   
+    public boolean isEqual(Node nodeA, Node nodeB) {
+        while(nodeA != null && nodeB != null) {
+            if(nodeA != nodeB) {
+                return false;
+            }
+            nodeA = nodeA.next;
+            nodeB = nodeB.next;
+        }
+        return nodeA == null && nodeB == null;
+    }
 }
