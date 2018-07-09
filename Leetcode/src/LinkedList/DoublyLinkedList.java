@@ -38,4 +38,15 @@ public class DoublyLinkedList {
         head = curr;
         return;
     }
+
+    public void addAtTail(int val) {
+        if (head == null) {
+            addAtHead(val);
+            return;
+        }
+        DoublyListNode prev = getTail();
+        DoublyListNode curr = new DoublyListNode(val);
+        prev.next = curr;
+        curr.prev = prev;
+    }
 }
