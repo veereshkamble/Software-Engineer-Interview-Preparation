@@ -12,19 +12,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Node.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/LinkedList/Node.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
-              <folding>
-                <element signature="e#94#95#0" expanded="true" />
-                <element signature="e#124#125#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="LinkedListCycle.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LinkedList/LinkedListCycle.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -88,11 +75,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OddEvenLinkedList.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="OddEvenLinkedList.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LinkedList/OddEvenLinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+            <state relative-caret-position="85">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PalindromeLinkedList.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/LinkedList/PalindromeLinkedList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -152,6 +148,7 @@
         <option value="$PROJECT_DIR$/src/LinkedList/ReverseLinkedList.java" />
         <option value="$PROJECT_DIR$/src/LinkedList/RemoveLinkedListElements.java" />
         <option value="$PROJECT_DIR$/src/LinkedList/OddEvenLinkedList.java" />
+        <option value="$PROJECT_DIR$/src/LinkedList/PalindromeLinkedList.java" />
       </list>
     </option>
   </component>
@@ -367,13 +364,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/PascalTriangle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/PascalsTriangle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -727,8 +717,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LinkedList/OddEvenLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LinkedList/PalindromeLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
         </state>
       </provider>
     </entry>
