@@ -58,5 +58,15 @@ public class MyHashMapLeetCode {
         }
     }
 
+    /* Removes the mapping of the specified value key if this map contains a mapping for the key */
+    public void remove(int key) {
+        int index = getIndex(key);
+        int pos = getPos(key, index);
+
+        if(pos >= 0) {
+            map[index].remove(pos);
+        }
+    }
+
 
 }
