@@ -32,4 +32,18 @@ public class MyHashMapLeetCode {
         return -1;
     }
 
+    public void put(int key, int value) {
+        int index = getIndex(key);
+        int pos = getPos(key, index);
+        if (pos < 0) {
+            // Add new (key, value) pair if key does not exist
+            if(map[index] == null) {
+                map[index] = new ArrayList<Pair<Integer, Integer>>();
+            }
+            map[index].add(new Pair(key, value));
+        } else {
+            // Update the value of key exists
+            map[index].set(pos, new Pair(key, value));
+        }
+    }
 }
