@@ -42,7 +42,11 @@ public class MyHashMap {
     }
 
     /** Removes the mapping of the specified value key if this map contains a mapping for the key */
-    public void remove(int jey) {
-        
+    public void remove(int key) {
+        int hashKey = hash(key);
+
+        if(table[hashKey] != null) {
+            table[hashKey][pos(key)] = -1;
+        }
     }
 }
