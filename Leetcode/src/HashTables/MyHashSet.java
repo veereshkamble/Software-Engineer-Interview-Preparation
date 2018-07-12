@@ -38,6 +38,7 @@ public class MyHashSet {
     }
 
     public boolean contains (int key) {
-        
+        int hashKey = hash(key);
+        return table[hashKey] != null && table[hashKey][pos(key)];
     }
 }
