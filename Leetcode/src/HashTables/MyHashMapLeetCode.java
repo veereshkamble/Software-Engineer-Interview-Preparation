@@ -46,4 +46,17 @@ public class MyHashMapLeetCode {
             map[index].set(pos, new Pair(key, value));
         }
     }
+
+    /* Returns the value to which the specified key is mapped, or -1 if this map contains no mapping for the key */
+    public int get(int key) {
+        int index = getIndex(key);
+        int pos = getPos(key, index);
+        if(pos < 0) {
+            return -1;
+        } else {
+            return map[index].get(pos).getValue();
+        }
+    }
+
+
 }
