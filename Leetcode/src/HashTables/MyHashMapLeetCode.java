@@ -11,11 +11,25 @@ public class MyHashMapLeetCode {
     public MyHashMapLeetCode() {
         map = (List<Pair<Integer, Integer>>[]) new ArrayList[MAX_LEN];
     }
-    
+
     /**Returns the corresponding bucket index */
     private int getIndex(int key) {
         return key % MAX_LEN;
     }
 
+    /** Search the key in a specific bucket. Return -1 if the key does not exist */
+    private int getPos(int key, int index) {
+        //Each bucket contains a list.
+        List<Pair<Integer, Integer>> temp = map[index];
+        if(temp == null) {
+            return -1;
+        }
+        for(int i = 0; i < temp.size(); ++i) {
+            if(temp.get(i).getKey() == key) {
+                return i;
+            }
+        }
+        return -1;
+    }
 
 }
