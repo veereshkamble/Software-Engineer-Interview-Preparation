@@ -30,11 +30,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DesignHashSet.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/HashTables/DesignHashSet.java">
+      <file leaf-file-name="MyHashSet.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/HashTables/MyHashSet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+            <state relative-caret-position="544">
+              <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
+              <folding>
+                <element signature="e#218#219#0" expanded="true" />
+                <element signature="e#263#264#0" expanded="true" />
+                <element signature="e#296#297#0" expanded="true" />
+                <element signature="e#331#332#0" expanded="true" />
+                <element signature="e#367#368#0" expanded="true" />
+                <element signature="e#402#403#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -165,6 +173,7 @@
         <option value="$PROJECT_DIR$/src/LinkedList/RandomListNode.java" />
         <option value="$PROJECT_DIR$/src/LinkedList/RotateList.java" />
         <option value="$PROJECT_DIR$/src/HashTables/DesignHashSet.java" />
+        <option value="$PROJECT_DIR$/src/HashTables/MyHashSet.java" />
       </list>
     </option>
   </component>
@@ -738,10 +747,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/HashTables/DesignHashSet.java">
+    <entry file="file://$PROJECT_DIR$/src/HashTables/MyHashSet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        <state relative-caret-position="544">
+          <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
+          <folding>
+            <element signature="e#218#219#0" expanded="true" />
+            <element signature="e#263#264#0" expanded="true" />
+            <element signature="e#296#297#0" expanded="true" />
+            <element signature="e#331#332#0" expanded="true" />
+            <element signature="e#367#368#0" expanded="true" />
+            <element signature="e#402#403#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
