@@ -30,10 +30,14 @@ public class MyHashSet {
     }
 
     public void remove(int key) {
-        
+        int hashKey = hash(key);
+
+        if(table[hashKey] !=  null) {
+            table[hashKey][pos(key)] = false;
+        }
     }
 
     public boolean contains (int key) {
-
+        
     }
 }
