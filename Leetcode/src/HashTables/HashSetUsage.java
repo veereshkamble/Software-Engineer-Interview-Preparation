@@ -7,5 +7,12 @@ public class HashSetUsage {
         // 1. Initialize the hash set
         Set<Integer> hashSet = new HashSet<>();
 
+        // 2. Add new keys
+        hashSet.add(7);
+        hashSet.add(10);
+        hashSet.add(9);
+
+        // 3. remove keys
+        hashSet.remove(7);
     }
 }
