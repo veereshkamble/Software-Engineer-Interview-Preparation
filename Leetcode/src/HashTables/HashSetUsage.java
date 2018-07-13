@@ -14,5 +14,20 @@ public class HashSetUsage {
 
         // 3. remove keys
         hashSet.remove(7);
+
+        // 4. Check if a key is present in the Hash Set
+        if( !hashSet.contains(2)) {
+            System.out.println("Key 2 is not in the Has Set");
+        }
+
+        // 5. get the size of the Hash Set
+        System.out.println("The size of the hash set is : " + hashSet.size());
+
+        // 6. Iterate the Hash Set
+        for (Integer i : hashSet) {
+            System.out.print(i + " ");
+        }
+
+        // 7. 
     }
 }
