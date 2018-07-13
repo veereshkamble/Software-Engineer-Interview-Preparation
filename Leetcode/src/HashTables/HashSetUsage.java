@@ -1,6 +1,6 @@
 package HashTables;
 import java.util.HashSet;
-import java.util.Set
+import java.util.Set;
 
 public class HashSetUsage {
     public static void main(String[] args) {
@@ -27,7 +27,14 @@ public class HashSetUsage {
         for (Integer i : hashSet) {
             System.out.print(i + " ");
         }
+        System.out.println("are in the hash set");
 
-        // 7. 
+        // 7. clear the hash set
+        hashSet.clear();
+
+        // 8. check if the hash set is empty()
+        if(hashSet.isEmpty()) {
+            System.out.println("Hash Set is empty now");
+        }
     }
 }
