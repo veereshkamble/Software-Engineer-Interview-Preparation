@@ -26,4 +26,17 @@ public class Intersection {
         }
         return resultArray;
     }
+
+    public static void main(String[] args) {
+        int[] nums1 = new int[] {1, 2, 2, 1, 3, 5 ,7, 7, 9, 10};
+        int[] nums2 = new int[] {2, 2, 3, 6, 7};
+
+        Intersection intersection = new Intersection();
+        int[] result = intersection.instersection(nums1, nums2);
+
+        for (int i = 0; i < result.length; i++) {
+            System.out.print(result[i] + " ");
+        }
+    }
+
 }
