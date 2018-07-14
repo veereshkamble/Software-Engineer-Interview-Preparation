@@ -6,10 +6,10 @@ public class HappyNumber {
         while (true) {
             int k = n;
             int sum = 0;
-            while(k != 0) {
-                k = k % 10;
-                sum = sum + k^2;
-                k = k / 10;
+            while(n != 0) {
+                k = n % 10;
+                sum = sum + k*k;
+                n = n / 10;
             }
             if (sum == 1) {
                 return true;
@@ -22,5 +22,11 @@ public class HappyNumber {
 
         }
         return false;
+    }
+
+    public static void main(String[] args) {
+        int n = 19;
+        HappyNumber happyNumber = new HappyNumber();
+        System.out.println(happyNumber.isHappy(n));
     }
 }
