@@ -21,4 +21,10 @@ public class HappyNumberLeetCode {
         return false;
 
     }
+
+    public static void main(String[] args) {
+        int n = 19;
+        HappyNumberLeetCode happyNumberLeetCode = new HappyNumberLeetCode();
+        System.out.println(happyNumberLeetCode.isHappy(n));
+    }
 }
