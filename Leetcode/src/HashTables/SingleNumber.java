@@ -4,20 +4,14 @@ import java.util.*;
 
 public class SingleNumber {
     public int singleNumber(int[] nums) {
-        Set<Integer> hashSet = new HashSet<>();
-        int key = 0;
+        int ans =0;
 
-        for (int num : nums) {
-            if(hashSet.contains(num)) {
-                hashSet.remove(num);
-            }
-            hashSet.add(num);
-        }
+        int len = nums.length;
+        for(int i=0;i!=len;i++)
+            ans ^= nums[i];
 
-        for(Integer i : hashSet) {
-            key = i;
-        }
-        return key;
+        return ans;
+
     }
 
 }
