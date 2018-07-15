@@ -33,8 +33,12 @@
       <file leaf-file-name="TwoSum.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/HashTables/TwoSum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+            <state relative-caret-position="323">
+              <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+              <folding>
+                <element signature="e#512#513#0" expanded="true" />
+                <element signature="e#552#553#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -230,7 +234,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.HashMapUsage">
+  <component name="RunManager" selected="Application.TwoSum">
     <configuration name="HappyNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HashTables.HappyNumber" />
       <module name="Leetcode" />
@@ -264,8 +268,8 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="HashSetUsage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HashTables.HashSetUsage" />
+    <configuration name="Intersection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HashTables.Intersection" />
       <module name="Leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -275,8 +279,8 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Intersection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HashTables.Intersection" />
+    <configuration name="TwoSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HashTables.TwoSum" />
       <module name="Leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -328,19 +332,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.HashSetUsage" />
       <item itemvalue="Application.Intersection" />
       <item itemvalue="Application.HappyNumber" />
       <item itemvalue="Application.HappyNumberLeetCode" />
       <item itemvalue="Application.HashMapUsage" />
+      <item itemvalue="Application.TwoSum" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TwoSum" />
         <item itemvalue="Application.HashMapUsage" />
         <item itemvalue="Application.HappyNumberLeetCode" />
         <item itemvalue="Application.HappyNumber" />
         <item itemvalue="Application.Intersection" />
-        <item itemvalue="Application.HashSetUsage" />
       </list>
     </recent_temporary>
   </component>
@@ -782,8 +786,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/HashTables/TwoSum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        <state relative-caret-position="323">
+          <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+          <folding>
+            <element signature="e#512#513#0" expanded="true" />
+            <element signature="e#552#553#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
