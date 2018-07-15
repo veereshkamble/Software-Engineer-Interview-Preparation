@@ -6,7 +6,7 @@ public class IsomorphicStrings {
     public boolean isIsomorphic(String s, String t) {
 
         char[] string1 = s.toCharArray();
-        char[] string2 = t.toCharArray();
+        char[] string2 = s.toCharArray();
         HashMap<Character, Character> hashMap = new HashMap<Character, Character>();
         int i = 0;
         while(i < string1.length) {

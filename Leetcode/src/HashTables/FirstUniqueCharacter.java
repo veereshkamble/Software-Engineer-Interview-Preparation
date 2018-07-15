@@ -9,7 +9,7 @@ public class FirstUniqueCharacter {
 
         for (int i = 0; i < str.length; i++) {
             if(hashMap.containsKey(str[i])) {
-                hashMap.put(str[i], hashMap.get(str[i]++));
+                hashMap.put(str[i], hashMap.get(str[i]));
             } else {
                 hashMap.put(str[i], 1);
             }
@@ -23,5 +23,10 @@ public class FirstUniqueCharacter {
         return -1;
     }
 
-    
+    public static void main(String[] args) {
+        FirstUniqueCharacter firstUniqueCharacter = new FirstUniqueCharacter();
+        String s = "lleetcode";
+
+        System.out.println(firstUniqueCharacter.firstUniqChar(s));
+    }
 }
