@@ -28,8 +28,8 @@ public class IsomorphicStrings {
 
     public static void main(String[] args) {
         IsomorphicStrings isomorphicStrings = new IsomorphicStrings();
-        String string1 = "paper";
-        String string2 = "title";
+        String string1 = "aa";
+        String string2 = "ab";
 
         System.out.println(isomorphicStrings.isIsomorphic(string1, string2));
 
