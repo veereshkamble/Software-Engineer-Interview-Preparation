@@ -24,6 +24,23 @@ public class HashMapUsage {
         if(hashMap.containsKey(2)){
             System.out.println("Key 2 is not in the hash map");
         }
-        
+
+        // 7. get the size of the hash map
+        System.out.println("The size of the hash map is: " + hashMap.size());
+
+        // 8. iterate the hash map
+        for(Map.Entry<Integer, Integer> entry : hashMap.entrySet()) {
+            System.out.println("(" + entry.getKey() + "," +entry.getValue() + ")");
+        }
+
+        System.out.println("are in the hash map");
+
+        // 9. clear the hash map
+        hashMap.clear();
+
+        //10. check if the hash map is empty
+        if(hashMap.isEmpty()) {
+            System.out.println("hash mao is empty now!");
+        }
     }
 }
