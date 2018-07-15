@@ -16,4 +16,17 @@ public class FIndRestaturant {
         }
         return res.toArray(new String[res.size()]);
     }
+
+    public static void main(String[] args) {
+        String[] string1 = new String[] {"Shogun", "Tapioca Express", "Burger King", "KFC"};
+        String[] string2 = new String[] {"Piatti", "The Grill at Torrey Pines", "Hungry Hunter Steakhouse", "Shogun"};
+
+        FIndRestaturant fIndRestaturant = new FIndRestaturant();
+        String result[] = fIndRestaturant.findRestaurant(string1, string2);
+
+        for(int i = 0 ; i < result.length; i++ ){
+            System.out.println(result[i]);
+        }
+
+    }
 }

@@ -51,7 +51,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IsomorphicStringsLeetCode.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="IsomorphicStringsLeetCode.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/HashTables/IsomorphicStringsLeetCode.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
@@ -59,6 +59,15 @@
               <folding>
                 <element signature="e#225#247#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FIndRestaturant.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/HashTables/FIndRestaturant.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="430">
+              <caret line="27" column="42" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -118,7 +127,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/ArraysAndStrings/ArrayPartitionI.java" />
         <option value="$PROJECT_DIR$/src/ArraysAndStrings/TwoSumII.java" />
         <option value="$PROJECT_DIR$/src/ArraysAndStrings/RemoveElement.java" />
         <option value="$PROJECT_DIR$/src/ArraysAndStrings/MaxConsecutiveOnes.java" />
@@ -167,8 +175,9 @@
         <option value="$PROJECT_DIR$/src/HashTables/HashMapUsage.java" />
         <option value="$PROJECT_DIR$/src/HashTables/TwoSum.java" />
         <option value="$PROJECT_DIR$/src/HashTables/IsomorphicStrings.java" />
-        <option value="$PROJECT_DIR$/src/HashTables/IsomorphicStringsLeetCode.java" />
         <option value="$PROJECT_DIR$/src/FindRestaurant.java" />
+        <option value="$PROJECT_DIR$/src/HashTables/IsomorphicStringsLeetCode.java" />
+        <option value="$PROJECT_DIR$/src/HashTables/FIndRestaturant.java" />
       </list>
     </option>
   </component>
@@ -221,9 +230,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.IsomorphicStrings">
-    <configuration name="HappyNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HashTables.HappyNumber" />
+  <component name="RunManager" selected="Application.FIndRestaturant">
+    <configuration name="FIndRestaturant" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HashTables.FIndRestaturant" />
       <module name="Leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -319,19 +328,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.HappyNumber" />
       <item itemvalue="Application.HappyNumberLeetCode" />
       <item itemvalue="Application.HashMapUsage" />
       <item itemvalue="Application.TwoSum" />
       <item itemvalue="Application.IsomorphicStrings" />
+      <item itemvalue="Application.FIndRestaturant" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FIndRestaturant" />
         <item itemvalue="Application.IsomorphicStrings" />
         <item itemvalue="Application.HashMapUsage" />
         <item itemvalue="Application.TwoSum" />
         <item itemvalue="Application.HappyNumberLeetCode" />
-        <item itemvalue="Application.HappyNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -361,17 +370,17 @@
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="6" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.29548565" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.29548565" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17317708" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17317708" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.48290014" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.36662108" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -397,13 +406,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/TwoSumII.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="107" selection-start-line="31" selection-start-column="107" selection-end-line="31" selection-end-column="107" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/MinimumSizeSubarraySum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
@@ -781,6 +783,13 @@
           <folding>
             <element signature="e#225#247#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HashTables/FIndRestaturant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="27" column="42" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
         </state>
       </provider>
     </entry>
