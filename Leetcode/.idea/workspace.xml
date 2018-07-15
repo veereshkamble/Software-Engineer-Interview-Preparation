@@ -36,8 +36,11 @@
       <file leaf-file-name="IntersectionII.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/HashTables/IntersectionII.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="294">
+              <caret line="40" column="46" selection-start-line="40" selection-start-column="46" selection-end-line="40" selection-end-column="46" />
+              <folding>
+                <element signature="e#182#200#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -232,7 +235,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FirstUniqueCharacter">
+  <component name="RunManager" selected="Application.IntersectionII">
     <configuration name="FIndRestaturant" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HashTables.FIndRestaturant" />
       <module name="Leetcode" />
@@ -266,8 +269,8 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="IsomorphicStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HashTables.IsomorphicStrings" />
+    <configuration name="IntersectionII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HashTables.IntersectionII" />
       <module name="Leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -277,8 +280,8 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="TwoSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HashTables.TwoSum" />
+    <configuration name="IsomorphicStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HashTables.IsomorphicStrings" />
       <module name="Leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -331,18 +334,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.HashMapUsage" />
-      <item itemvalue="Application.TwoSum" />
       <item itemvalue="Application.IsomorphicStrings" />
       <item itemvalue="Application.FIndRestaturant" />
       <item itemvalue="Application.FirstUniqueCharacter" />
+      <item itemvalue="Application.IntersectionII" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IntersectionII" />
         <item itemvalue="Application.FirstUniqueCharacter" />
         <item itemvalue="Application.IsomorphicStrings" />
         <item itemvalue="Application.FIndRestaturant" />
         <item itemvalue="Application.HashMapUsage" />
-        <item itemvalue="Application.TwoSum" />
       </list>
     </recent_temporary>
   </component>
@@ -372,17 +375,17 @@
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="6" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.29548565" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.29548565" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17317708" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17317708" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.36662108" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.36662108" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -799,8 +802,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/HashTables/IntersectionII.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="294">
+          <caret line="40" column="46" selection-start-line="40" selection-start-column="46" selection-end-line="40" selection-end-column="46" />
+          <folding>
+            <element signature="e#182#200#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
