@@ -9,10 +9,15 @@ public class FirstUniqueCharacter {
 
         for (int i = 0; i < str.length; i++) {
             if(hashMap.containsKey(str[i])) {
-                hashMap.put(str[i], hashMap.get(str[i]));
+                int count = hashMap.get((str[i]));
+                hashMap.put(str[i], count+1);
             } else {
                 hashMap.put(str[i], 1);
             }
+        }
+
+        for(Map.Entry<Character, Integer> entry : hashMap.entrySet()) {
+            System.out.println("(" + entry.getKey() + "," +entry.getValue() + ")");
         }
 
         for (int i = 0; i < str.length; i++) {
@@ -20,6 +25,8 @@ public class FirstUniqueCharacter {
                 return i;
             }
         }
+
+
         return -1;
     }
 
