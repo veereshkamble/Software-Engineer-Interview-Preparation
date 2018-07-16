@@ -68,7 +68,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GroupShiftedStringsLeetCode.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GroupShiftedStringsLeetCode.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/HashTables/GroupShiftedStringsLeetCode.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="276">
@@ -79,6 +79,15 @@
                 <element signature="e#703#711#0" expanded="true" />
                 <element signature="e#1219#1233#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ValidSudoku.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/HashTables/ValidSudoku.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="8" lean-forward="true" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -119,18 +128,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ScenarioII.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/HashTables/ScenarioII.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="20" column="5" selection-end-line="25" />
-              <folding>
-                <element signature="e#0#691#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -143,7 +140,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/ArraysAndStrings/RemoveDuplicatesFromSortedArray.java" />
         <option value="$PROJECT_DIR$/src/ArraysAndStrings/MoveZeroes.java" />
         <option value="$PROJECT_DIR$/src/LinkedList/Node.java" />
         <option value="$PROJECT_DIR$/src/LinkedList/LinkedListCycle.java" />
@@ -194,6 +190,7 @@
         <option value="$PROJECT_DIR$/src/HashTables/GroupAnagrams.java" />
         <option value="$PROJECT_DIR$/src/HashTables/GroupShiftedStrings.java" />
         <option value="$PROJECT_DIR$/src/HashTables/GroupShiftedStringsLeetCode.java" />
+        <option value="$PROJECT_DIR$/src/HashTables/ValidSudoku.java" />
       </list>
     </option>
   </component>
@@ -375,6 +372,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -444,13 +442,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/LinkedList/LinkedListCycle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="5" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="18" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/LinkedList/LinkedListCycleII.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="413">
@@ -857,6 +848,13 @@
             <element signature="e#703#711#0" expanded="true" />
             <element signature="e#1219#1233#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HashTables/ValidSudoku.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="8" lean-forward="true" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
         </state>
       </provider>
     </entry>
