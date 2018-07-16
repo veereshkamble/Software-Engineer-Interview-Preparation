@@ -20,7 +20,7 @@ public class GroupAnagrams {
             }
 
             hashMap.get(keyString).add(s);
-            
+
         }
         return new ArrayList<List<String>>(hashMap.values());
     }
