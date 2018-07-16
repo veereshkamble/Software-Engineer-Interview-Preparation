@@ -5,11 +5,14 @@ public class Logger {
 
     public int timestamp;
     public String message;
+    HashMap<String, Integer> loggerMap;
 
     /** Initialize your data structure here. */
     public Logger() {
         this.timestamp = 0;
         this.message = " ";
+        this.loggerMap = new HashMap<String, Integer>();
+
     }
 
     public Logger(int timestamp, String message) {
@@ -22,11 +25,10 @@ public class Logger {
      The timestamp is in seconds granularity. */
     public boolean shouldPrintMessage(int timestamp, String message) {
 
-        HashMap<String, Integer> loggerMap = new HashMap<String, Integer>();
-
         if(loggerMap.containsKey(message)) {
             int lastPrintedTime = loggerMap.get(message);
             if(timestamp - lastPrintedTime >= 10) {
+                loggerMap.put(message, timestamp);
                 return true;
             } else {
                 return false;
@@ -39,7 +41,17 @@ public class Logger {
 
     public static void main(String[] args) {
         Logger logger = new Logger();
-        boolean param_1 = logger.shouldPrintMessage(1, "foo");
+
+        System.out.println(logger.shouldPrintMessage(1, "foo"));
+        System.out.println(logger.shouldPrintMessage(2, "bar"));
+        System.out.println(logger.shouldPrintMessage(3, "foo"));
+        System.out.println(logger.shouldPrintMessage(8, "bar"));
+        System.out.println(logger.shouldPrintMessage(10, "foo"));
+        System.out.println(logger.shouldPrintMessage(10, "bar"));
+        System.out.println(logger.shouldPrintMessage(10, "cat"));
+        System.out.println(logger.shouldPrintMessage(12, "bar"));
+
+
     }
 }
 
