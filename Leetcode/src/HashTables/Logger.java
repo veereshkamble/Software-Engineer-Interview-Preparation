@@ -21,6 +21,7 @@ public class Logger {
      If this method returns false, the message will not be printed.
      The timestamp is in seconds granularity. */
     public boolean shouldPrintMessage(int timestamp, String message) {
+
         HashMap<String, Integer> loggerMap = new HashMap<String, Integer>();
 
         if(loggerMap.containsKey(message)) {
@@ -34,6 +35,11 @@ public class Logger {
             loggerMap.put(message, timestamp);
         }
         return true;
+    }
+
+    public static void main(String[] args) {
+        Logger logger = new Logger();
+        boolean param_1 = logger.shouldPrintMessage(1, "foo");
     }
 }
 

@@ -37,7 +37,10 @@
         <entry file="file://$PROJECT_DIR$/src/HashTables/Logger.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
-              <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+              <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+              <folding>
+                <element signature="e#704#721#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -824,7 +827,10 @@
     <entry file="file://$PROJECT_DIR$/src/HashTables/Logger.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
-          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+          <folding>
+            <element signature="e#704#721#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
