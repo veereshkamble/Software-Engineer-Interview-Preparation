@@ -45,10 +45,11 @@
       <file leaf-file-name="GroupAnagrams.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/HashTables/GroupAnagrams.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="57" selection-start-line="19" selection-start-column="57" selection-end-line="19" selection-end-column="57" />
+            <state relative-caret-position="306">
+              <caret line="30" column="52" selection-start-line="30" selection-start-column="52" selection-end-line="30" selection-end-column="52" />
               <folding>
                 <element signature="e#298#320#0" expanded="true" />
+                <element signature="e#1021#1035#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -823,10 +824,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/HashTables/GroupAnagrams.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="57" selection-start-line="19" selection-start-column="57" selection-end-line="19" selection-end-column="57" />
+        <state relative-caret-position="306">
+          <caret line="30" column="52" selection-start-line="30" selection-start-column="52" selection-end-line="30" selection-end-column="52" />
           <folding>
             <element signature="e#298#320#0" expanded="true" />
+            <element signature="e#1021#1035#0" expanded="true" />
           </folding>
         </state>
       </provider>
