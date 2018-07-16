@@ -36,8 +36,8 @@
       <file leaf-file-name="IntersectionII.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/HashTables/IntersectionII.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="123">
-              <caret line="39" column="33" lean-forward="true" selection-start-line="39" selection-start-column="33" selection-end-line="39" selection-end-column="43" />
+            <state relative-caret-position="225">
+              <caret line="53" selection-start-line="53" selection-end-line="53" />
               <folding>
                 <element signature="e#182#200#0" expanded="true" />
               </folding>
@@ -364,7 +364,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -408,7 +407,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/HashTables/IntersectionII.java</url>
-          <line>38</line>
+          <line>46</line>
           <properties />
           <option name="timeStamp" value="10" />
         </line-breakpoint>
@@ -808,8 +807,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/HashTables/IntersectionII.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="39" column="33" lean-forward="true" selection-start-line="39" selection-start-column="33" selection-end-line="39" selection-end-column="43" />
+        <state relative-caret-position="225">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
           <folding>
             <element signature="e#182#200#0" expanded="true" />
           </folding>

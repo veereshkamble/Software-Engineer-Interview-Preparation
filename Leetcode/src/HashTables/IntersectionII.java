@@ -5,7 +5,7 @@ public class IntersectionII {
     public int[] intersect(int[] nums1, int[] nums2) {
 
         HashMap<Integer, Integer> hashMap = new HashMap<Integer, Integer>();
-        int[] result = new int[nums2.length];
+        List<Integer> result = new ArrayList<>();
 
         if(nums1.length == 0) {
             return new int[0];
@@ -25,13 +25,21 @@ public class IntersectionII {
             if(hashMap.containsKey(nums2[i])) {
                 int count = hashMap.get(nums2[i]);
                 if(count != 0) {
-                    result[i] = nums2[i];
+                    result.add(nums2[i]);
+                    count--;
                 }
-                count--;
+
                 hashMap.put(nums2[i], count);
             }
         }
-        return result;
+
+        int index = 0;
+        int[] res = new int[result.size()];
+
+        for(int num : result) {
+            res[index++] = num;
+        }
+        return res;
 
     }
 
@@ -39,7 +47,7 @@ public class IntersectionII {
         IntersectionII intersectionII = new IntersectionII();
         int[] nums1 = new int[] {1};
         int[] nums2 = new int[] {1, 1};
-        int[] result = new int[nums2.length];
+        int[] result = new int[10];
 
         result = intersectionII.intersect(nums1, nums2);
 
