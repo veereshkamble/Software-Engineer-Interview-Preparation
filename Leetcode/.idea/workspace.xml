@@ -58,8 +58,8 @@
       <file leaf-file-name="GroupShiftedStrings.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/HashTables/GroupShiftedStrings.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="26" column="57" selection-start-line="26" selection-start-column="57" selection-end-line="26" selection-end-column="57" />
+            <state relative-caret-position="391">
+              <caret line="38" column="5" lean-forward="true" selection-start-line="25" selection-start-column="4" selection-end-line="38" selection-end-column="5" />
               <folding>
                 <element signature="e#313#336#0" expanded="true" />
                 <element signature="e#890#904#0" expanded="true" />
@@ -71,8 +71,14 @@
       <file leaf-file-name="GroupShiftedStringsLeetCode.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/HashTables/GroupShiftedStringsLeetCode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+            <state relative-caret-position="132">
+              <caret line="33" column="100" selection-start-line="33" selection-start-column="100" selection-end-line="33" selection-end-column="100" />
+              <folding>
+                <element signature="e#197#211#0" expanded="true" />
+                <element signature="e#266#288#0" expanded="true" />
+                <element signature="e#703#711#0" expanded="true" />
+                <element signature="e#1219#1233#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -240,7 +246,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.GroupShiftedStrings">
+  <component name="RunManager" selected="Application.GroupShiftedStringsLeetCode">
     <configuration name="ContainsDuplicateII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HashTables.ContainsDuplicateII" />
       <module name="Leetcode" />
@@ -274,8 +280,8 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="IntersectionII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HashTables.IntersectionII" />
+    <configuration name="GroupShiftedStringsLeetCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HashTables.GroupShiftedStringsLeetCode" />
       <module name="Leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -338,19 +344,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.IntersectionII" />
       <item itemvalue="Application.ContainsDuplicateII" />
       <item itemvalue="Application.Logger" />
       <item itemvalue="Application.GroupAnagrams" />
       <item itemvalue="Application.GroupShiftedStrings" />
+      <item itemvalue="Application.GroupShiftedStringsLeetCode" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GroupShiftedStringsLeetCode" />
         <item itemvalue="Application.GroupShiftedStrings" />
         <item itemvalue="Application.GroupAnagrams" />
         <item itemvalue="Application.Logger" />
         <item itemvalue="Application.ContainsDuplicateII" />
-        <item itemvalue="Application.IntersectionII" />
       </list>
     </recent_temporary>
   </component>
@@ -380,11 +386,11 @@
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="6" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.29548565" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.40355676" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17317708" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17317708" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
@@ -822,8 +828,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/HashTables/GroupShiftedStrings.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="26" column="57" selection-start-line="26" selection-start-column="57" selection-end-line="26" selection-end-column="57" />
+        <state relative-caret-position="391">
+          <caret line="38" column="5" lean-forward="true" selection-start-line="25" selection-start-column="4" selection-end-line="38" selection-end-column="5" />
           <folding>
             <element signature="e#313#336#0" expanded="true" />
             <element signature="e#890#904#0" expanded="true" />
@@ -833,8 +839,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/HashTables/GroupShiftedStringsLeetCode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+        <state relative-caret-position="132">
+          <caret line="33" column="100" selection-start-line="33" selection-start-column="100" selection-end-line="33" selection-end-column="100" />
+          <folding>
+            <element signature="e#197#211#0" expanded="true" />
+            <element signature="e#266#288#0" expanded="true" />
+            <element signature="e#703#711#0" expanded="true" />
+            <element signature="e#1219#1233#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -29,4 +29,19 @@ public class GroupShiftedStringsLeetCode {
         }
         return result;
     }
+
+    public static void main(String[] args) {
+        String[] str = new String[] {"abc", "bcd", "cfs", "acef", "xyz", "az", "ba", "a", "z", "dgt"};
+        List<List<String>> strings = new ArrayList<List<String>>();
+        GroupShiftedStringsLeetCode groupShiftedStrings = new GroupShiftedStringsLeetCode();
+
+        strings = groupShiftedStrings.groupStrings(str);
+
+        for(List<String> strs : strings) {
+            for(String s : strs) {
+                System.out.print(s + " ");
+            }
+            System.out.println();
+        }
+    }
 }
