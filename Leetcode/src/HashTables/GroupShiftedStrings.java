@@ -22,4 +22,19 @@ public class GroupShiftedStrings {
         }
         return new ArrayList<List<String>>(hashMap.values());
     }
+
+    public static void main(String[] args) {
+        String[] str = new String[] {"abc", "bcd", "cfa", "acef", "xyz", "az", "ba", "a", "z"};
+        List<List<String>> strings = new ArrayList<List<String>>();
+        GroupShiftedStrings groupShiftedStrings = new GroupShiftedStrings();
+
+        strings = groupShiftedStrings.groupStrings(str);
+
+        for(List<String> strs : strings) {
+            for(String s : strs) {
+                System.out.print(s + " ");
+            }
+            System.out.println();
+        }
+    }
 }

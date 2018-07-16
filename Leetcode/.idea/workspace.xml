@@ -45,7 +45,7 @@
       <file leaf-file-name="GroupAnagrams.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/HashTables/GroupAnagrams.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
+            <state relative-caret-position="204">
               <caret line="24" column="61" lean-forward="true" selection-start-line="6" selection-start-column="8" selection-end-line="24" selection-end-column="61" />
               <folding>
                 <element signature="e#298#320#0" expanded="true" />
@@ -58,10 +58,11 @@
       <file leaf-file-name="GroupShiftedStrings.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/HashTables/GroupShiftedStrings.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="379">
-              <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+            <state relative-caret-position="430">
+              <caret line="36" column="33" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
               <folding>
                 <element signature="e#313#336#0" expanded="true" />
+                <element signature="e#890#904#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -242,7 +243,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.GroupAnagrams">
+  <component name="RunManager" selected="Application.GroupShiftedStrings">
     <configuration name="ContainsDuplicateII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HashTables.ContainsDuplicateII" />
       <module name="Leetcode" />
@@ -254,8 +255,8 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="FirstUniqueCharacter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HashTables.FirstUniqueCharacter" />
+    <configuration name="GroupAnagrams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HashTables.GroupAnagrams" />
       <module name="Leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -265,8 +266,8 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="GroupAnagrams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HashTables.GroupAnagrams" />
+    <configuration name="GroupShiftedStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HashTables.GroupShiftedStrings" />
       <module name="Leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -340,19 +341,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.FirstUniqueCharacter" />
       <item itemvalue="Application.IntersectionII" />
       <item itemvalue="Application.ContainsDuplicateII" />
       <item itemvalue="Application.Logger" />
       <item itemvalue="Application.GroupAnagrams" />
+      <item itemvalue="Application.GroupShiftedStrings" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GroupShiftedStrings" />
         <item itemvalue="Application.GroupAnagrams" />
         <item itemvalue="Application.Logger" />
         <item itemvalue="Application.ContainsDuplicateII" />
         <item itemvalue="Application.IntersectionII" />
-        <item itemvalue="Application.FirstUniqueCharacter" />
       </list>
     </recent_temporary>
   </component>
@@ -820,7 +821,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/HashTables/GroupAnagrams.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
+        <state relative-caret-position="204">
           <caret line="24" column="61" lean-forward="true" selection-start-line="6" selection-start-column="8" selection-end-line="24" selection-end-column="61" />
           <folding>
             <element signature="e#298#320#0" expanded="true" />
@@ -831,10 +832,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/HashTables/GroupShiftedStrings.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+        <state relative-caret-position="430">
+          <caret line="36" column="33" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
           <folding>
             <element signature="e#313#336#0" expanded="true" />
+            <element signature="e#890#904#0" expanded="true" />
           </folding>
         </state>
       </provider>
