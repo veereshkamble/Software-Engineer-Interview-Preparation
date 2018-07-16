@@ -15,11 +15,12 @@ public class GroupAnagrams {
             Arrays.sort(str);
             String keyString = new String(str);
 
-            if(hashMap.containsKey(keyString)) {
-                hashMap.get(keyString).add(s);
-            } else {
+            if(!hashMap.containsKey(keyString)) {
                 hashMap.put(keyString, new ArrayList<String>());
             }
+
+            hashMap.get(keyString).add(s);
+            
         }
         return new ArrayList<List<String>>(hashMap.values());
     }
@@ -30,7 +31,12 @@ public class GroupAnagrams {
         ArrayList<List<String>> strings = new ArrayList<List<String>>();
         strings = groupAnagrams.groupAnagrams(strs);
 
-        
+        for(List<String> str : strings) {
+           for(String s : str) {
+               System.out.print(s + " ");
+           }
+           System.out.println();
+        }
 
     }
 }
