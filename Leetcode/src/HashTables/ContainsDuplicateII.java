@@ -9,11 +9,23 @@ public class ContainsDuplicateII {
             if(hashMap.containsKey(nums[i])) {
                 int index = hashMap.get(nums[i]);
                 int diff = Math.abs(index - i);
-                if(diff <= k) return true;
+                if(diff > k) {
+                    hashMap.put(nums[i], i);
+                } else if(diff <= k) {
+                    return true;
+                }
             } else {
                 hashMap.put(nums[i], i);
             }
         }
         return false;
+    }
+
+    public static void main(String[] args) {
+        ContainsDuplicateII containsDuplicateII = new ContainsDuplicateII();
+        int[] nums = new int[] {1, 0, 1, 1};
+        int k = 1;
+
+        System.out.println(containsDuplicateII.containsNearbyDuplicate(nums, k));
     }
 }
