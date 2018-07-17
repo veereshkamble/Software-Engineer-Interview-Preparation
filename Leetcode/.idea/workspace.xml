@@ -86,8 +86,8 @@
       <file leaf-file-name="ValidSudoku.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/HashTables/ValidSudoku.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="89">
-              <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+            <state relative-caret-position="276">
+              <caret line="49" column="8" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -136,6 +136,12 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>'</find>
+      <find>&quot;</find>
+    </findStrings>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -243,18 +249,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.GroupShiftedStringsLeetCode">
-    <configuration name="ContainsDuplicateII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HashTables.ContainsDuplicateII" />
-      <module name="Leetcode" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="HashTables.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
+  <component name="RunManager" selected="Application.ValidSudoku">
     <configuration name="GroupAnagrams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HashTables.GroupAnagrams" />
       <module name="Leetcode" />
@@ -290,6 +285,17 @@
     </configuration>
     <configuration name="Logger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HashTables.Logger" />
+      <module name="Leetcode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HashTables.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="ValidSudoku" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HashTables.ValidSudoku" />
       <module name="Leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -341,19 +347,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.ContainsDuplicateII" />
       <item itemvalue="Application.Logger" />
       <item itemvalue="Application.GroupAnagrams" />
       <item itemvalue="Application.GroupShiftedStrings" />
       <item itemvalue="Application.GroupShiftedStringsLeetCode" />
+      <item itemvalue="Application.ValidSudoku" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ValidSudoku" />
         <item itemvalue="Application.GroupShiftedStringsLeetCode" />
         <item itemvalue="Application.GroupShiftedStrings" />
         <item itemvalue="Application.GroupAnagrams" />
         <item itemvalue="Application.Logger" />
-        <item itemvalue="Application.ContainsDuplicateII" />
       </list>
     </recent_temporary>
   </component>
@@ -853,8 +859,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/HashTables/ValidSudoku.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        <state relative-caret-position="276">
+          <caret line="49" column="8" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="8" />
         </state>
       </provider>
     </entry>
