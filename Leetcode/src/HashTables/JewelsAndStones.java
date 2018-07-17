@@ -19,4 +19,11 @@ public class JewelsAndStones {
         }
         return count;
     }
+
+    public static void main(String[] args) {
+        String jewels = "aA";
+        String stones = "aAAAbbb";
+        JewelsAndStones jewelsAndStones = new JewelsAndStones();
+        System.out.println(jewelsAndStones.numJewelsInStones(jewels, stones));
+    }
 }
