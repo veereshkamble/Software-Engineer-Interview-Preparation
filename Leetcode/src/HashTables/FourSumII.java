@@ -25,4 +25,16 @@ public class FourSumII {
         }
         return count;
     }
+
+    public static void main(String[] args) {
+        int[] A = new int[] {1, 2};
+        int[] B = new int[] {-2, -1};
+        int[] C = new int[] {-1, 2};
+        int[] D = new int[] {0, 2};
+
+        FourSumII fourSumII = new FourSumII();
+
+        System.out.println(fourSumII.fourSumCount(A, B, C, D));
+
+    }
 }

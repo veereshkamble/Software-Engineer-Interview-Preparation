@@ -247,9 +247,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TwoSumIII">
-    <configuration name="GroupShiftedStringsLeetCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HashTables.GroupShiftedStringsLeetCode" />
+  <component name="RunManager" selected="Application.FourSumII">
+    <configuration name="FourSumII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HashTables.FourSumII" />
       <module name="Leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -345,19 +345,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.GroupShiftedStringsLeetCode" />
       <item itemvalue="Application.ValidSudoku" />
       <item itemvalue="Application.JewelsAndStones" />
       <item itemvalue="Application.LongestSubstringWithoutRepeatingCharacters" />
       <item itemvalue="Application.TwoSumIII" />
+      <item itemvalue="Application.FourSumII" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FourSumII" />
         <item itemvalue="Application.TwoSumIII" />
         <item itemvalue="Application.LongestSubstringWithoutRepeatingCharacters" />
         <item itemvalue="Application.JewelsAndStones" />
         <item itemvalue="Application.ValidSudoku" />
-        <item itemvalue="Application.GroupShiftedStringsLeetCode" />
       </list>
     </recent_temporary>
   </component>
