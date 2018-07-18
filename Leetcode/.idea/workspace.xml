@@ -98,8 +98,8 @@
       <file leaf-file-name="TwoSumIII.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/HashTables/TwoSumIII.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="38" column="43" selection-start-line="38" selection-start-column="43" selection-end-line="38" selection-end-column="43" />
+            <state relative-caret-position="378">
+              <caret line="48" column="3" selection-start-line="48" selection-start-column="3" selection-end-line="48" selection-end-column="3" />
               <folding>
                 <element signature="e#756#757#0" expanded="true" />
                 <element signature="e#798#799#0" expanded="true" />
@@ -387,7 +387,7 @@
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="6" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.40355676" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.40355676" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
@@ -397,7 +397,7 @@
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.36662108" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.36662108" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -441,12 +441,6 @@
           <line>20</line>
           <properties />
           <option name="timeStamp" value="17" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/HashTables/TwoSumIII.java</url>
-          <line>32</line>
-          <properties />
-          <option name="timeStamp" value="18" />
         </line-breakpoint>
       </breakpoints>
       <option name="time" value="19" />
@@ -875,8 +869,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/HashTables/TwoSumIII.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="38" column="43" selection-start-line="38" selection-start-column="43" selection-end-line="38" selection-end-column="43" />
+        <state relative-caret-position="378">
+          <caret line="48" column="3" selection-start-line="48" selection-start-column="3" selection-end-line="48" selection-end-column="3" />
           <folding>
             <element signature="e#756#757#0" expanded="true" />
             <element signature="e#798#799#0" expanded="true" />
