@@ -28,4 +28,15 @@ public class TwoSumIII {
     public boolean find(int value) {
         return sum.contains(value);
     }
+
+    public static void main(String[] args) {
+        TwoSumIII twoSumIII = new TwoSumIII();
+        twoSumIII.add(1);
+        twoSumIII.add(3);
+        twoSumIII.add(5);
+
+        System.out.println(twoSumIII.find(4));
+        System.out.println(twoSumIII.find(6));
+
+    }
 }
