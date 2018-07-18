@@ -12,32 +12,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="GroupAnagrams.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/HashTables/GroupAnagrams.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="24" column="61" lean-forward="true" selection-start-line="6" selection-start-column="8" selection-end-line="24" selection-end-column="61" />
-              <folding>
-                <element signature="e#298#320#0" expanded="true" />
-                <element signature="e#1021#1035#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GroupShiftedStrings.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/HashTables/GroupShiftedStrings.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="38" column="5" lean-forward="true" selection-start-line="25" selection-start-column="4" selection-end-line="38" selection-end-column="5" />
-              <folding>
-                <element signature="e#313#336#0" expanded="true" />
-                <element signature="e#890#904#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="GroupShiftedStringsLeetCode.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/HashTables/GroupShiftedStringsLeetCode.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -95,14 +69,35 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TwoSumIII.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TwoSumIII.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/HashTables/TwoSumIII.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
+            <state relative-caret-position="582">
               <caret line="48" column="3" selection-start-line="48" selection-start-column="3" selection-end-line="48" selection-end-column="3" />
               <folding>
                 <element signature="e#756#757#0" expanded="true" />
                 <element signature="e#798#799#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FourSumII.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/HashTables/FourSumII.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="215">
+              <caret line="36" column="63" selection-start-line="36" selection-start-column="63" selection-end-line="36" selection-end-column="63" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TopKFrequentElements.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/HashTables/TopKFrequentElements.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
+              <folding>
+                <element signature="e#234#252#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -144,8 +139,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/LinkedList/LinkedListIntersectionCTCI.java" />
-        <option value="$PROJECT_DIR$/src/LinkedList/LinkedListIntersection.java" />
         <option value="$PROJECT_DIR$/src/LinkedList/RemoveNthNodeFromTheEnd.java" />
         <option value="$PROJECT_DIR$/src/LinkedList/ReverseLinkedList.java" />
         <option value="$PROJECT_DIR$/src/LinkedList/RemoveLinkedListElements.java" />
@@ -195,6 +188,8 @@
         <option value="$PROJECT_DIR$/src/HashTables/JewelsAndStones.java" />
         <option value="$PROJECT_DIR$/src/HashTables/LongestSubstringWithoutRepeatingCharacters.java" />
         <option value="$PROJECT_DIR$/src/HashTables/TwoSumIII.java" />
+        <option value="$PROJECT_DIR$/src/HashTables/FourSumII.java" />
+        <option value="$PROJECT_DIR$/src/HashTables/TopKFrequentElements.java" />
       </list>
     </option>
   </component>
@@ -387,7 +382,7 @@
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="6" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.40355676" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.40355676" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
@@ -397,7 +392,7 @@
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.36662108" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.36662108" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -452,20 +447,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/LinkedList/ReverseLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LinkedList/RemoveLinkedListElements.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/LinkedList/OddEvenLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -869,11 +850,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/HashTables/TwoSumIII.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
+        <state relative-caret-position="582">
           <caret line="48" column="3" selection-start-line="48" selection-start-column="3" selection-end-line="48" selection-end-column="3" />
           <folding>
             <element signature="e#756#757#0" expanded="true" />
             <element signature="e#798#799#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HashTables/FourSumII.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="36" column="63" selection-start-line="36" selection-start-column="63" selection-end-line="36" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HashTables/TopKFrequentElements.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
+          <folding>
+            <element signature="e#234#252#0" expanded="true" />
           </folding>
         </state>
       </provider>
