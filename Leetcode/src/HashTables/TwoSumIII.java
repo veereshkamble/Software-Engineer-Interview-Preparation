@@ -23,4 +23,9 @@ public class TwoSumIII {
             num.add(number);
         }
     }
+
+    /** Find if there exists any pair of numbers which sum is equal to the value. */
+    public boolean find(int value) {
+        return sum.contains(value);
+    }
 }
