@@ -47,7 +47,5 @@ public class PreorderRecursive {
         for(int node : result) {
             System.out.print(node + " ");
         }
-
-
     }
 }

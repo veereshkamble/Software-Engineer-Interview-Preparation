@@ -27,8 +27,8 @@
       <file leaf-file-name="PreorderRecursive.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Trees/PreorderRecursive.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="867">
-              <caret line="51" selection-start-line="51" selection-end-line="51" />
+            <state relative-caret-position="187">
+              <caret line="14" selection-start-line="14" selection-end-line="49" selection-end-column="5" />
               <folding>
                 <element signature="e#173#182#0" expanded="true" />
                 <element signature="e#1246#1255#0" expanded="true" />
@@ -40,8 +40,13 @@
       <file leaf-file-name="PreorderIterative.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Trees/PreorderIterative.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+            <state relative-caret-position="106">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
+              <folding>
+                <element signature="e#174#183#0" expanded="true" />
+                <element signature="e#293#303#0" expanded="true" />
+                <element signature="e#1459#1468#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -167,20 +172,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PreorderRecursive">
+  <component name="RunManager" selected="Application.PreorderIterative">
     <configuration name="FourSumII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HashTables.FourSumII" />
-      <module name="Leetcode" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="HashTables.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="JewelsAndStones" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HashTables.JewelsAndStones" />
       <module name="Leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -197,6 +191,17 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="HashTables.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="PreorderIterative" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Trees.PreorderIterative" />
+      <module name="Leetcode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Trees.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -265,19 +270,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.JewelsAndStones" />
       <item itemvalue="Application.LongestSubstringWithoutRepeatingCharacters" />
       <item itemvalue="Application.TwoSumIII" />
       <item itemvalue="Application.FourSumII" />
       <item itemvalue="Application.PreorderRecursive" />
+      <item itemvalue="Application.PreorderIterative" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PreorderIterative" />
         <item itemvalue="Application.PreorderRecursive" />
         <item itemvalue="Application.FourSumII" />
         <item itemvalue="Application.TwoSumIII" />
         <item itemvalue="Application.LongestSubstringWithoutRepeatingCharacters" />
-        <item itemvalue="Application.JewelsAndStones" />
       </list>
     </recent_temporary>
   </component>
@@ -307,7 +312,7 @@
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="6" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.30506155" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.30369356" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
@@ -362,14 +367,8 @@
           <properties />
           <option name="timeStamp" value="17" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Trees/PreorderRecursive.java</url>
-          <line>15</line>
-          <properties />
-          <option name="timeStamp" value="19" />
-        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="20" />
+      <option name="time" value="21" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
@@ -790,6 +789,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Trees/PreorderRecursive.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="14" selection-start-line="14" selection-end-line="49" selection-end-column="5" />
+          <folding>
+            <element signature="e#173#182#0" expanded="true" />
+            <element signature="e#1246#1255#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Trees/TreeNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -800,21 +810,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Trees/PreorderRecursive.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="867">
-          <caret line="51" selection-start-line="51" selection-end-line="51" />
-          <folding>
-            <element signature="e#173#182#0" expanded="true" />
-            <element signature="e#1246#1255#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Trees/PreorderIterative.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+        <state relative-caret-position="106">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="e#174#183#0" expanded="true" />
+            <element signature="e#293#303#0" expanded="true" />
+            <element signature="e#1459#1468#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
