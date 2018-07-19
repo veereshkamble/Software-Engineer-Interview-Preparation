@@ -262,9 +262,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PreorderRecursiveLeetCode">
-    <configuration name="InorderIterative" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Trees.InorderIterative" />
+  <component name="RunManager" selected="Application.InorderRecursiveLeetCode">
+    <configuration name="InorderRecursiveLeetCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Trees.InorderRecursiveLeetCode" />
       <module name="Leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -361,18 +361,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.PreorderIterative" />
-      <item itemvalue="Application.InorderIterative" />
       <item itemvalue="Application.PostorderRecursive" />
       <item itemvalue="Application.PostorderIterative" />
       <item itemvalue="Application.PreorderRecursiveLeetCode" />
+      <item itemvalue="Application.InorderRecursiveLeetCode" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.InorderRecursiveLeetCode" />
         <item itemvalue="Application.PreorderRecursiveLeetCode" />
         <item itemvalue="Application.PostorderIterative" />
         <item itemvalue="Application.PreorderIterative" />
         <item itemvalue="Application.PostorderRecursive" />
-        <item itemvalue="Application.InorderIterative" />
       </list>
     </recent_temporary>
   </component>
