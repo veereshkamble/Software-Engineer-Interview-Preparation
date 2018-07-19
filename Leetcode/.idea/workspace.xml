@@ -40,8 +40,8 @@
       <file leaf-file-name="InorderRecursive.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Trees/InorderRecursive.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="22" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="14" selection-end-column="22" />
+            <state relative-caret-position="390">
+              <caret line="52" column="5" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="52" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#209#218#0" expanded="true" />
@@ -51,23 +51,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PostorderRecursive.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PostorderRecursive.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Trees/PostorderRecursive.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+            <state relative-caret-position="323">
+              <caret line="46" column="46" selection-start-line="46" selection-start-column="46" selection-end-line="46" selection-end-column="46" />
               <folding>
                 <element signature="e#180#189#0" expanded="true" />
+                <element signature="e#1198#1207#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PreorderIterative.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="PreorderIterative.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Trees/PreorderIterative.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="458">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="186">
+              <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
               <folding>
                 <element signature="e#174#183#0" expanded="true" />
                 <element signature="e#293#303#0" expanded="true" />
@@ -80,7 +81,7 @@
       <file leaf-file-name="InorderIterative.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Trees/InorderIterative.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
+            <state relative-caret-position="866">
               <caret line="54" column="56" lean-forward="true" selection-start-line="54" selection-start-column="56" selection-end-line="54" selection-end-column="56" />
               <folding>
                 <element signature="e#166#175#0" expanded="true" />
@@ -107,6 +108,7 @@
       <find>preorderTraversal</find>
       <find>PreorderRecursive</find>
       <find>preorder</find>
+      <find>InorderRecursive</find>
     </findStrings>
   </component>
   <component name="IdeDocumentHistory">
@@ -159,10 +161,10 @@
         <option value="$PROJECT_DIR$/src/HashTables/InsertDeleteGetRandom.java" />
         <option value="$PROJECT_DIR$/src/Trees/TreeNode.java" />
         <option value="$PROJECT_DIR$/src/Trees/PreorderRecursive.java" />
-        <option value="$PROJECT_DIR$/src/Trees/PreorderIterative.java" />
         <option value="$PROJECT_DIR$/src/Trees/InorderRecursive.java" />
         <option value="$PROJECT_DIR$/src/Trees/InorderIterative.java" />
         <option value="$PROJECT_DIR$/src/Trees/PostorderRecursive.java" />
+        <option value="$PROJECT_DIR$/src/Trees/PreorderIterative.java" />
       </list>
     </option>
   </component>
@@ -215,18 +217,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.InorderIterative">
-    <configuration name="FourSumII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HashTables.FourSumII" />
-      <module name="Leetcode" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="HashTables.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
+  <component name="RunManager" selected="Application.PreorderIterative">
     <configuration name="InorderIterative" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Trees.InorderIterative" />
       <module name="Leetcode" />
@@ -240,6 +231,17 @@
     </configuration>
     <configuration name="InorderRecursive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Trees.InorderRecursive" />
+      <module name="Leetcode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Trees.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="PostorderRecursive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Trees.PostorderRecursive" />
       <module name="Leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -313,19 +315,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.FourSumII" />
       <item itemvalue="Application.PreorderRecursive" />
       <item itemvalue="Application.PreorderIterative" />
       <item itemvalue="Application.InorderRecursive" />
       <item itemvalue="Application.InorderIterative" />
+      <item itemvalue="Application.PostorderRecursive" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PreorderIterative" />
+        <item itemvalue="Application.PostorderRecursive" />
         <item itemvalue="Application.InorderIterative" />
         <item itemvalue="Application.InorderRecursive" />
-        <item itemvalue="Application.PreorderIterative" />
         <item itemvalue="Application.PreorderRecursive" />
-        <item itemvalue="Application.FourSumII" />
       </list>
     </recent_temporary>
   </component>
@@ -355,11 +357,11 @@
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="6" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.30369356" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30369356" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17317708" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17317708" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
@@ -832,34 +834,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Trees/PreorderIterative.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="458">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-          <folding>
-            <element signature="e#174#183#0" expanded="true" />
-            <element signature="e#293#303#0" expanded="true" />
-            <element signature="e#1459#1468#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Trees/InorderIterative.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="54" column="56" lean-forward="true" selection-start-line="54" selection-start-column="56" selection-end-line="54" selection-end-column="56" />
-          <folding>
-            <element signature="e#166#175#0" expanded="true" />
-            <element signature="e#225#235#0" expanded="true" />
-            <element signature="e#1419#1428#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Trees/InorderRecursive.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="22" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="14" selection-end-column="22" />
+        <state relative-caret-position="390">
+          <caret line="52" column="5" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="52" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#209#218#0" expanded="true" />
@@ -870,10 +848,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Trees/PostorderRecursive.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+        <state relative-caret-position="323">
+          <caret line="46" column="46" selection-start-line="46" selection-start-column="46" selection-end-line="46" selection-end-column="46" />
           <folding>
             <element signature="e#180#189#0" expanded="true" />
+            <element signature="e#1198#1207#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Trees/InorderIterative.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="866">
+          <caret line="54" column="56" lean-forward="true" selection-start-line="54" selection-start-column="56" selection-end-line="54" selection-end-column="56" />
+          <folding>
+            <element signature="e#166#175#0" expanded="true" />
+            <element signature="e#225#235#0" expanded="true" />
+            <element signature="e#1419#1428#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Trees/PreorderIterative.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+          <folding>
+            <element signature="e#174#183#0" expanded="true" />
+            <element signature="e#293#303#0" expanded="true" />
+            <element signature="e#1459#1468#0" expanded="true" />
           </folding>
         </state>
       </provider>
