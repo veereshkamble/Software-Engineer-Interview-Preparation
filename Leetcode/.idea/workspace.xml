@@ -202,7 +202,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.InorderRecursive">
+  <component name="RunManager" selected="Application.InorderIterative">
     <configuration name="FourSumII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HashTables.FourSumII" />
       <module name="Leetcode" />
@@ -210,6 +210,17 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="HashTables.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="InorderIterative" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Trees.InorderIterative" />
+      <module name="Leetcode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Trees.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -243,17 +254,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Trees.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="TwoSumIII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HashTables.TwoSumIII" />
-      <module name="Leetcode" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="HashTables.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -300,19 +300,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.TwoSumIII" />
       <item itemvalue="Application.FourSumII" />
       <item itemvalue="Application.PreorderRecursive" />
       <item itemvalue="Application.PreorderIterative" />
       <item itemvalue="Application.InorderRecursive" />
+      <item itemvalue="Application.InorderIterative" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.InorderIterative" />
         <item itemvalue="Application.InorderRecursive" />
         <item itemvalue="Application.PreorderIterative" />
         <item itemvalue="Application.PreorderRecursive" />
         <item itemvalue="Application.FourSumII" />
-        <item itemvalue="Application.TwoSumIII" />
       </list>
     </recent_temporary>
   </component>
