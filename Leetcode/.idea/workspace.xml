@@ -67,8 +67,8 @@
       <file leaf-file-name="PostorderIterative.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Trees/PostorderIterative.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="390">
+              <caret line="66" column="5" lean-forward="true" selection-start-line="31" selection-start-column="3" selection-end-line="66" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#235#244#0" expanded="true" />
@@ -79,11 +79,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PreorderRecursiveLeetCode.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="PreorderRecursiveLeetCode.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Trees/PreorderRecursiveLeetCode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
+            <state relative-caret-position="237">
+              <caret line="49" column="44" selection-start-line="49" selection-start-column="44" selection-end-line="49" selection-end-column="44" />
+              <folding>
+                <element signature="e#1406#1415#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -97,7 +100,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PostorderRecursiveLeetCode.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PostorderRecursiveLeetCode.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Trees/PostorderRecursiveLeetCode.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
@@ -204,9 +207,9 @@
         <option value="$PROJECT_DIR$/src/Trees/PostorderRecursive.java" />
         <option value="$PROJECT_DIR$/src/Trees/PreorderIterative.java" />
         <option value="$PROJECT_DIR$/src/Trees/PostorderIterative.java" />
-        <option value="$PROJECT_DIR$/src/Trees/PreorderRecursiveLeetCode.java" />
         <option value="$PROJECT_DIR$/src/Trees/InorderRecursiveLeetCode.java" />
         <option value="$PROJECT_DIR$/src/Trees/PostorderRecursiveLeetCode.java" />
+        <option value="$PROJECT_DIR$/src/Trees/PreorderRecursiveLeetCode.java" />
       </list>
     </option>
   </component>
@@ -259,20 +262,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PostorderIterative">
+  <component name="RunManager" selected="Application.PreorderRecursiveLeetCode">
     <configuration name="InorderIterative" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Trees.InorderIterative" />
-      <module name="Leetcode" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Trees.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="InorderRecursive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Trees.InorderRecursive" />
       <module name="Leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -306,6 +298,17 @@
     </configuration>
     <configuration name="PreorderIterative" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Trees.PreorderIterative" />
+      <module name="Leetcode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Trees.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="PreorderRecursiveLeetCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Trees.PreorderRecursiveLeetCode" />
       <module name="Leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -358,18 +361,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.PreorderIterative" />
-      <item itemvalue="Application.InorderRecursive" />
       <item itemvalue="Application.InorderIterative" />
       <item itemvalue="Application.PostorderRecursive" />
       <item itemvalue="Application.PostorderIterative" />
+      <item itemvalue="Application.PreorderRecursiveLeetCode" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PreorderRecursiveLeetCode" />
         <item itemvalue="Application.PostorderIterative" />
         <item itemvalue="Application.PreorderIterative" />
         <item itemvalue="Application.PostorderRecursive" />
         <item itemvalue="Application.InorderIterative" />
-        <item itemvalue="Application.InorderRecursive" />
       </list>
     </recent_temporary>
   </component>
@@ -388,7 +391,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -895,26 +897,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Trees/PostorderIterative.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#235#244#0" expanded="true" />
-            <element signature="e#354#364#0" expanded="true" />
-            <element signature="e#1515#1524#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Trees/PreorderRecursiveLeetCode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Trees/InorderRecursiveLeetCode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -926,6 +908,29 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Trees/PostorderIterative.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="66" column="5" lean-forward="true" selection-start-line="31" selection-start-column="3" selection-end-line="66" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#235#244#0" expanded="true" />
+            <element signature="e#354#364#0" expanded="true" />
+            <element signature="e#1515#1524#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Trees/PreorderRecursiveLeetCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="49" column="44" selection-start-line="49" selection-start-column="44" selection-end-line="49" selection-end-column="44" />
+          <folding>
+            <element signature="e#1406#1415#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
