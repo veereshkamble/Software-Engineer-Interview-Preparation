@@ -231,7 +231,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PreorderIterative">
+  <component name="RunManager" selected="Application.PostorderIterative">
     <configuration name="InorderIterative" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Trees.InorderIterative" />
       <module name="Leetcode" />
@@ -254,6 +254,17 @@
         </pattern>
       </extension>
     </configuration>
+    <configuration name="PostorderIterative" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Trees.PostorderIterative" />
+      <module name="Leetcode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Trees.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="PostorderRecursive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Trees.PostorderRecursive" />
       <module name="Leetcode" />
@@ -267,17 +278,6 @@
     </configuration>
     <configuration name="PreorderIterative" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Trees.PreorderIterative" />
-      <module name="Leetcode" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Trees.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="PreorderRecursive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Trees.PreorderRecursive" />
       <module name="Leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -329,19 +329,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.PreorderRecursive" />
       <item itemvalue="Application.PreorderIterative" />
       <item itemvalue="Application.InorderRecursive" />
       <item itemvalue="Application.InorderIterative" />
       <item itemvalue="Application.PostorderRecursive" />
+      <item itemvalue="Application.PostorderIterative" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PostorderIterative" />
         <item itemvalue="Application.PreorderIterative" />
         <item itemvalue="Application.PostorderRecursive" />
         <item itemvalue="Application.InorderIterative" />
         <item itemvalue="Application.InorderRecursive" />
-        <item itemvalue="Application.PreorderRecursive" />
       </list>
     </recent_temporary>
   </component>
