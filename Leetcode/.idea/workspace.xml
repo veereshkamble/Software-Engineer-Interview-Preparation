@@ -186,7 +186,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PreorderIterative">
+  <component name="RunManager" selected="Application.InorderRecursive">
     <configuration name="FourSumII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HashTables.FourSumII" />
       <module name="Leetcode" />
@@ -198,13 +198,13 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="LongestSubstringWithoutRepeatingCharacters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HashTables.LongestSubstringWithoutRepeatingCharacters" />
+    <configuration name="InorderRecursive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Trees.InorderRecursive" />
       <module name="Leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="HashTables.*" />
+          <option name="PATTERN" value="Trees.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -284,19 +284,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.LongestSubstringWithoutRepeatingCharacters" />
       <item itemvalue="Application.TwoSumIII" />
       <item itemvalue="Application.FourSumII" />
       <item itemvalue="Application.PreorderRecursive" />
       <item itemvalue="Application.PreorderIterative" />
+      <item itemvalue="Application.InorderRecursive" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.InorderRecursive" />
         <item itemvalue="Application.PreorderIterative" />
         <item itemvalue="Application.PreorderRecursive" />
         <item itemvalue="Application.FourSumII" />
         <item itemvalue="Application.TwoSumIII" />
-        <item itemvalue="Application.LongestSubstringWithoutRepeatingCharacters" />
       </list>
     </recent_temporary>
   </component>
