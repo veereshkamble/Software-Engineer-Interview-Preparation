@@ -1,4 +1,5 @@
 package HashTables;
+import java.util.*;
 
 public class InsertDeleteGetRandom {
     public class RandomizedSet {
