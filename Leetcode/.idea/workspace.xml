@@ -67,12 +67,13 @@
       <file leaf-file-name="PostorderIterative.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Trees/PostorderIterative.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+            <state relative-caret-position="272">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#235#244#0" expanded="true" />
                 <element signature="e#354#364#0" expanded="true" />
+                <element signature="e#1515#1524#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -81,8 +82,8 @@
       <file leaf-file-name="PreorderIterative.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Trees/PreorderIterative.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="407">
-              <caret line="25" column="5" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="25" selection-end-column="5" />
+            <state relative-caret-position="390">
+              <caret line="62" column="5" lean-forward="true" selection-start-line="27" selection-start-column="4" selection-end-line="62" selection-end-column="5" />
               <folding>
                 <element signature="e#174#183#0" expanded="true" />
                 <element signature="e#293#303#0" expanded="true" />
@@ -360,7 +361,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -878,8 +878,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Trees/PreorderIterative.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="25" column="5" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="25" selection-end-column="5" />
+        <state relative-caret-position="390">
+          <caret line="62" column="5" lean-forward="true" selection-start-line="27" selection-start-column="4" selection-end-line="62" selection-end-column="5" />
           <folding>
             <element signature="e#174#183#0" expanded="true" />
             <element signature="e#293#303#0" expanded="true" />
@@ -890,12 +890,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Trees/PostorderIterative.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+        <state relative-caret-position="272">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#235#244#0" expanded="true" />
             <element signature="e#354#364#0" expanded="true" />
+            <element signature="e#1515#1524#0" expanded="true" />
           </folding>
         </state>
       </provider>
