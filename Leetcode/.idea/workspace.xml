@@ -12,19 +12,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="PreorderIterativeLeetCode.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Trees/PreorderIterativeLeetCode.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1003">
-              <caret line="59" column="5" lean-forward="true" selection-start-line="24" selection-start-column="4" selection-end-line="59" selection-end-column="5" />
-              <folding>
-                <element signature="e#204#214#0" expanded="true" />
-                <element signature="e#1572#1581#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="PreorderIterative.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Trees/PreorderIterative.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -105,17 +92,26 @@
       <file leaf-file-name="SymmetricTreeIterative.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Trees/SymmetricTreeIterative.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
+            <state relative-caret-position="475">
               <caret line="101" column="76" selection-start-line="101" selection-start-column="76" selection-end-line="101" selection-end-column="76" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DepthBottomUp.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DepthBottomUp.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Trees/DepthBottomUp.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
               <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PathSumRecursive.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Trees/PathSumRecursive.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="424">
+              <caret line="40" column="59" selection-start-line="40" selection-start-column="59" selection-end-line="40" selection-end-column="59" />
             </state>
           </provider>
         </entry>
@@ -142,8 +138,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/HashTables/MyHashSetLeetCode.java" />
-        <option value="$PROJECT_DIR$/src/HashTables/MyHashMapLeetCode.java" />
         <option value="$PROJECT_DIR$/src/HashTables/HashSetUsage.java" />
         <option value="$PROJECT_DIR$/src/HashTables/FindDuplicates.java" />
         <option value="$PROJECT_DIR$/src/HashTables/ContainsDuplicates.java" />
@@ -193,6 +187,8 @@
         <option value="$PROJECT_DIR$/src/Trees/SymmetricTree.java" />
         <option value="$PROJECT_DIR$/src/Trees/SymmetricTreeRecursive.java" />
         <option value="$PROJECT_DIR$/src/Trees/SymmetricTreeIterative.java" />
+        <option value="$PROJECT_DIR$/src/Trees/PathSum.java" />
+        <option value="$PROJECT_DIR$/src/Trees/PathSumRecursive.java" />
       </list>
     </option>
   </component>
@@ -245,7 +241,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SymmetricTreeIterative">
+  <component name="RunManager" selected="Application.PathSumRecursive">
     <configuration name="DepthBottomUp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Trees.DepthBottomUp" />
       <module name="Leetcode" />
@@ -268,8 +264,8 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="LevelOrderTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Trees.LevelOrderTraversal" />
+    <configuration name="PathSumRecursive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Trees.PathSumRecursive" />
       <module name="Leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -343,19 +339,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.LevelOrderTraversal" />
       <item itemvalue="Application.DepthTopDown" />
       <item itemvalue="Application.DepthBottomUp" />
       <item itemvalue="Application.SymmetricTreeRecursive" />
       <item itemvalue="Application.SymmetricTreeIterative" />
+      <item itemvalue="Application.PathSumRecursive" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PathSumRecursive" />
         <item itemvalue="Application.SymmetricTreeIterative" />
         <item itemvalue="Application.SymmetricTreeRecursive" />
         <item itemvalue="Application.DepthBottomUp" />
         <item itemvalue="Application.DepthTopDown" />
-        <item itemvalue="Application.LevelOrderTraversal" />
       </list>
     </recent_temporary>
   </component>
@@ -450,13 +446,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/HashTables/ContainsDuplicates.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/HashTables/HashSetUsage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -887,13 +876,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Trees/SymmetricTreeIterative.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="101" column="76" selection-start-line="101" selection-start-column="76" selection-end-line="101" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Trees/DepthTopDown.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -905,6 +887,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Trees/SymmetricTreeIterative.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="101" column="76" selection-start-line="101" selection-start-column="76" selection-end-line="101" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Trees/PathSumRecursive.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="40" column="59" selection-start-line="40" selection-start-column="59" selection-end-line="40" selection-end-column="59" />
         </state>
       </provider>
     </entry>
