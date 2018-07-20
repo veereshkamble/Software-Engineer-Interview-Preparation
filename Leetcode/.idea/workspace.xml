@@ -12,19 +12,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="PreorderIterative.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Trees/PreorderIterative.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1053">
-              <caret line="62" column="5" lean-forward="true" selection-start-line="27" selection-start-column="4" selection-end-line="62" selection-end-column="5" />
-              <folding>
-                <element signature="e#174#183#0" expanded="true" />
-                <element signature="e#293#303#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="PostorderIterative.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Trees/PostorderIterative.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -107,11 +94,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PathSumRecursive.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PathSumRecursive.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Trees/PathSumRecursive.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="424">
-              <caret line="40" column="59" selection-start-line="40" selection-start-column="59" selection-end-line="40" selection-end-column="59" />
+              <caret line="40" column="67" selection-start-line="40" selection-start-column="67" selection-end-line="40" selection-end-column="67" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PathSumIterative.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Trees/PathSumIterative.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+              <folding>
+                <element signature="e#167#177#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -138,7 +137,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/HashTables/HashSetUsage.java" />
         <option value="$PROJECT_DIR$/src/HashTables/FindDuplicates.java" />
         <option value="$PROJECT_DIR$/src/HashTables/ContainsDuplicates.java" />
         <option value="$PROJECT_DIR$/src/HashTables/SingleNumber.java" />
@@ -189,6 +187,7 @@
         <option value="$PROJECT_DIR$/src/Trees/SymmetricTreeIterative.java" />
         <option value="$PROJECT_DIR$/src/Trees/PathSum.java" />
         <option value="$PROJECT_DIR$/src/Trees/PathSumRecursive.java" />
+        <option value="$PROJECT_DIR$/src/Trees/PathSumIterative.java" />
       </list>
     </option>
   </component>
@@ -381,11 +380,11 @@
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="6" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.30369356" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30369356" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17317708" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17317708" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
@@ -446,16 +445,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/HashTables/HashSetUsage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="29" column="26" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/HashTables/Intersection.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
@@ -900,7 +889,17 @@
     <entry file="file://$PROJECT_DIR$/src/Trees/PathSumRecursive.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="424">
-          <caret line="40" column="59" selection-start-line="40" selection-start-column="59" selection-end-line="40" selection-end-column="59" />
+          <caret line="40" column="67" selection-start-line="40" selection-start-column="67" selection-end-line="40" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Trees/PathSumIterative.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+          <folding>
+            <element signature="e#167#177#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
