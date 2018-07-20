@@ -99,5 +99,7 @@ public class SymmetricTreeIterative {
         SymmetricTreeIterative symmetricTreeIterativey= new SymmetricTreeIterative();
         System.out.println(symmetricTreeIterativey.isSymmetric(nodeA));
 
+        System.out.println(symmetricTreeIterativey.isSymmetricQueue(nodeA));
+
     }
 }
