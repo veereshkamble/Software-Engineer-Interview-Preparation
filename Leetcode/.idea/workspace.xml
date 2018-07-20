@@ -257,7 +257,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SymmetricTreeRecursive">
+  <component name="RunManager" selected="Application.SymmetricTreeIterative">
     <configuration name="DepthBottomUp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Trees.DepthBottomUp" />
       <module name="Leetcode" />
@@ -280,8 +280,8 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="InorderRecursiveLeetCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Trees.InorderRecursiveLeetCode" />
+    <configuration name="LevelOrderTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Trees.LevelOrderTraversal" />
       <module name="Leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -291,8 +291,8 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="LevelOrderTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Trees.LevelOrderTraversal" />
+    <configuration name="SymmetricTreeIterative" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Trees.SymmetricTreeIterative" />
       <module name="Leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -355,19 +355,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.InorderRecursiveLeetCode" />
       <item itemvalue="Application.LevelOrderTraversal" />
       <item itemvalue="Application.DepthTopDown" />
       <item itemvalue="Application.DepthBottomUp" />
       <item itemvalue="Application.SymmetricTreeRecursive" />
+      <item itemvalue="Application.SymmetricTreeIterative" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SymmetricTreeIterative" />
         <item itemvalue="Application.SymmetricTreeRecursive" />
         <item itemvalue="Application.DepthBottomUp" />
         <item itemvalue="Application.DepthTopDown" />
         <item itemvalue="Application.LevelOrderTraversal" />
-        <item itemvalue="Application.InorderRecursiveLeetCode" />
       </list>
     </recent_temporary>
   </component>
