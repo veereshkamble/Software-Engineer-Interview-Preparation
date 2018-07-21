@@ -28,4 +28,29 @@ public class UnivalueSubTrees {
         }
         return false;
     }
+
+    public static void main(String[] args) {
+        TreeNode nodeA = new TreeNode(5);
+        TreeNode nodeB = new TreeNode(1);
+        TreeNode nodeC = new TreeNode(5);
+        TreeNode nodeD = new TreeNode(5);
+        TreeNode nodeE = new TreeNode(5);
+        TreeNode nodeF = new TreeNode(5);
+        TreeNode nodeG = new TreeNode(7);
+
+        nodeA.left = nodeB;
+        nodeA.right = nodeC;
+
+        nodeB.left = nodeD;
+        nodeB.right = nodeE;
+
+        nodeC.left = nodeF;
+        nodeC.right = nodeG;
+
+        UnivalueSubTrees univalueSubTrees = new UnivalueSubTrees();
+        System.out.println(univalueSubTrees.countUnivalSubtrees(nodeA));
+
+
+
+    }
 }
