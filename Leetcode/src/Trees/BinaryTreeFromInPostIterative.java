@@ -36,4 +36,12 @@ public class BinaryTreeFromInPostIterative {
         }
         return root;
     }
+
+    public static void main(String[] args) {
+        int[] inorder = new int[] {9, 3, 15, 20, 7};
+        int[] postorder = new int[] {9, 15, 7, 20, 3};
+
+        BinaryTreeFromInPostIterative binaryTreeFromInPostIterative = new BinaryTreeFromInPostIterative();
+        System.out.println(binaryTreeFromInPostIterative.buildTree(inorder, postorder));
+    }
 }
