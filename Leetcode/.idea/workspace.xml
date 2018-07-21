@@ -21,15 +21,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InorderRecursiveLeetCode.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Trees/InorderRecursiveLeetCode.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="816">
-              <caret line="48" column="42" selection-start-line="48" selection-start-column="42" selection-end-line="48" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="LevelOrderTraversal.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Trees/LevelOrderTraversal.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -57,14 +48,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BinaryTreeFromInPost.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BinaryTreeFromInPost.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Trees/BinaryTreeFromInPost.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="48" column="79" selection-start-line="48" selection-start-column="79" selection-end-line="48" selection-end-column="79" />
+            <state relative-caret-position="544">
+              <caret line="49" column="54" selection-start-line="49" selection-start-column="54" selection-end-line="49" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#297#315#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BinaryTreeFromInPostIterative.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Trees/BinaryTreeFromInPostIterative.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" column="13" lean-forward="true" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+              <folding>
+                <element signature="e#345#355#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -132,7 +135,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/HashTables/SingleNumber.java" />
         <option value="$PROJECT_DIR$/src/HashTables/Intersection.java" />
         <option value="$PROJECT_DIR$/src/HashTables/HappyNumber.java" />
         <option value="$PROJECT_DIR$/src/HashTables/HappyNumberLeetCode.java" />
@@ -183,6 +185,7 @@
         <option value="$PROJECT_DIR$/src/Trees/PathSumIterative.java" />
         <option value="$PROJECT_DIR$/src/Trees/UnivalueSubTrees.java" />
         <option value="$PROJECT_DIR$/src/Trees/BinaryTreeFromInPost.java" />
+        <option value="$PROJECT_DIR$/src/Trees/BinaryTreeFromInPostIterative.java" />
       </list>
     </option>
   </component>
@@ -435,13 +438,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/HashTables/HappyNumberLeetCode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="59" selection-start-line="27" selection-start-column="59" selection-end-line="27" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/HashTables/MyHashMap.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="714">
@@ -800,11 +796,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Trees/BinaryTreeFromInPost.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="48" column="79" selection-start-line="48" selection-start-column="79" selection-end-line="48" selection-end-column="79" />
+        <state relative-caret-position="544">
+          <caret line="49" column="54" selection-start-line="49" selection-start-column="54" selection-end-line="49" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#297#315#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Trees/BinaryTreeFromInPostIterative.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="13" lean-forward="true" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+          <folding>
+            <element signature="e#345#355#0" expanded="true" />
           </folding>
         </state>
       </provider>
