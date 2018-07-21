@@ -1,4 +1,6 @@
 package Trees;
+import jdk.nashorn.api.tree.BinaryTree;
+
 import java.util.*;
 
 public class BinaryTreeFromInPost {
@@ -29,5 +31,25 @@ public class BinaryTreeFromInPost {
         root.left = leftChild;
         root.right = rightChild;
         return root;
+    }
+
+    public static void main(String[] args) {
+        TreeNode node1 = new TreeNode(3);
+        TreeNode node2 = new TreeNode(9);
+        TreeNode node3 = new TreeNode(20);
+        TreeNode node4 = new TreeNode(15);
+        TreeNode node5 = new TreeNode(7);
+
+        node1.left = node2;
+        node1.right = node3;
+
+        node3.left = node4;
+        node3.right = node5;
+
+        int[] inorder = new int[] {9, 3, 15, 20, 7};
+        int[] postorder = new int[] {9, 15, 7, 20, 3};
+
+        BinaryTreeFromInPost binaryTreeFromInPost = new BinaryTreeFromInPost();
+        System.out.println(binaryTreeFromInPost.buildTree(inorder, postorder));
     }
 }
