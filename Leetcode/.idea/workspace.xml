@@ -52,11 +52,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PopulateNextRightPointerRecursive.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PopulateNextRightPointerRecursive.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Trees/PopulateNextRightPointerRecursive.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+            <state relative-caret-position="629">
+              <caret line="37" column="74" selection-start-line="37" selection-start-column="69" selection-end-line="37" selection-end-column="74" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PopulateNextRightPointerIterative.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Trees/PopulateNextRightPointerIterative.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -128,7 +137,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/HashTables/TwoSum.java" />
         <option value="$PROJECT_DIR$/src/FindRestaurant.java" />
         <option value="$PROJECT_DIR$/src/HashTables/IsomorphicStringsLeetCode.java" />
         <option value="$PROJECT_DIR$/src/HashTables/FIndRestaturant.java" />
@@ -179,6 +187,7 @@
         <option value="$PROJECT_DIR$/src/Trees/BinaryTreeFromInPreIterative.java" />
         <option value="$PROJECT_DIR$/src/Trees/TreeLinkNode.java" />
         <option value="$PROJECT_DIR$/src/Trees/PopulateNextRightPointerRecursive.java" />
+        <option value="$PROJECT_DIR$/src/Trees/PopulateNextRightPointerIterative.java" />
       </list>
     </option>
   </component>
@@ -431,13 +440,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/HashTables/IsomorphicStringsLeetCode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/HashTables/FIndRestaturant.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="430">
@@ -817,8 +819,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Trees/PopulateNextRightPointerRecursive.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="629">
+          <caret line="37" column="74" selection-start-line="37" selection-start-column="69" selection-end-line="37" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Trees/PopulateNextRightPointerIterative.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
         </state>
       </provider>
     </entry>
