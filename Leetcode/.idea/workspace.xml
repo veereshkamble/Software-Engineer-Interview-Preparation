@@ -61,11 +61,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PopulateNextRightPointerIterative.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Trees/PopulateNextRightPointerIterative.java">
+      <file leaf-file-name="PopulateNextRightPointerII.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Trees/PopulateNextRightPointerII.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="44" column="5" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
+            <state relative-caret-position="408">
+              <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
             </state>
           </provider>
         </entry>
@@ -101,15 +101,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SymmetricTreeRecursive.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Trees/SymmetricTreeRecursive.java">
+      <file leaf-file-name="PopulateNextRightPointerIterative.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Trees/PopulateNextRightPointerIterative.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="39" column="5" selection-start-line="18" selection-start-column="4" selection-end-line="39" selection-end-column="5" />
-              <folding>
-                <element signature="e#101#102#0" expanded="true" />
-                <element signature="e#180#181#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="567">
+              <caret line="44" column="5" lean-forward="true" selection-start-line="22" selection-start-column="3" selection-end-line="44" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -137,7 +133,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/FindRestaurant.java" />
         <option value="$PROJECT_DIR$/src/HashTables/IsomorphicStringsLeetCode.java" />
         <option value="$PROJECT_DIR$/src/HashTables/FIndRestaturant.java" />
         <option value="$PROJECT_DIR$/src/HashTables/ScenarioI.java" />
@@ -188,6 +183,7 @@
         <option value="$PROJECT_DIR$/src/Trees/TreeLinkNode.java" />
         <option value="$PROJECT_DIR$/src/Trees/PopulateNextRightPointerRecursive.java" />
         <option value="$PROJECT_DIR$/src/Trees/PopulateNextRightPointerIterative.java" />
+        <option value="$PROJECT_DIR$/src/Trees/PopulateNextRightPointerII.java" />
       </list>
     </option>
   </component>
@@ -440,13 +436,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/HashTables/FIndRestaturant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="27" column="42" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/HashTables/ScenarioI.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -826,8 +815,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Trees/PopulateNextRightPointerIterative.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="44" column="5" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
+        <state relative-caret-position="567">
+          <caret line="44" column="5" lean-forward="true" selection-start-line="22" selection-start-column="3" selection-end-line="44" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Trees/PopulateNextRightPointerII.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
         </state>
       </provider>
     </entry>
