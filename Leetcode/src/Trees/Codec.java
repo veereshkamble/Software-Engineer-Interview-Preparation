@@ -1,4 +1,5 @@
 package Trees;
+import java.util.*;
 
 public class Codec {
 
@@ -19,6 +20,24 @@ public class Codec {
             sb.append(node.val).append(spliter);
             buildString(node.left, sb);
             buildString(node.right,sb);
+        }
+    }
+
+    // Decodes your encoded data to tree.
+    public TreeNode deserialize(String data) {
+        Deque<String> nodes = new LinkedList<>();
+        nodes.addAll(Arrays.asList(data.split(spliter)));
+        return buildTree(nodes);
+    }
+
+    private TreeNode buildTree(Deque<String> nodes) {
+        String val = nodes.remove();
+        if (val.equals(NN)) return null;
+        else {
+            TreeNode node = new TreeNode(Integer.valueOf(val));
+            node.left = buildTree(nodes);
+            node.right = buildTree(nodes);
+            return node;
         }
     }
 }
