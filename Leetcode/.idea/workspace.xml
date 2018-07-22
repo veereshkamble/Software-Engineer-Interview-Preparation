@@ -12,15 +12,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SymmetricTreeIterative.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Trees/SymmetricTreeIterative.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1717">
-              <caret line="101" column="76" selection-start-line="101" selection-start-column="76" selection-end-line="101" selection-end-column="76" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="UnivalueSubTrees.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Trees/UnivalueSubTrees.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -52,11 +43,33 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BinaryTreeFromInPreIterative.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BinaryTreeFromInPreIterative.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Trees/BinaryTreeFromInPreIterative.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="357">
               <caret line="46" column="9" lean-forward="true" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PopulateNextRightPointerRecursive.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Trees/PopulateNextRightPointerRecursive.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TreeLinkNode.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Trees/TreeLinkNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+              <folding>
+                <element signature="e#153#154#0" expanded="true" />
+                <element signature="e#183#184#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -104,15 +117,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PathSumIterative.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Trees/PathSumIterative.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="918">
-              <caret line="54" column="55" selection-start-line="54" selection-start-column="55" selection-end-line="54" selection-end-column="55" />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -135,8 +139,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/HashTables/HappyNumberLeetCode.java" />
-        <option value="$PROJECT_DIR$/src/HashTables/HashMapUsage.java" />
         <option value="$PROJECT_DIR$/src/HashTables/TwoSum.java" />
         <option value="$PROJECT_DIR$/src/FindRestaurant.java" />
         <option value="$PROJECT_DIR$/src/HashTables/IsomorphicStringsLeetCode.java" />
@@ -186,6 +188,8 @@
         <option value="$PROJECT_DIR$/src/Trees/BinaryTreeFromInPostIterative.java" />
         <option value="$PROJECT_DIR$/src/Trees/BinaryTreeFromInPre.java" />
         <option value="$PROJECT_DIR$/src/Trees/BinaryTreeFromInPreIterative.java" />
+        <option value="$PROJECT_DIR$/src/Trees/PopulateNextRightPointerRecursive.java" />
+        <option value="$PROJECT_DIR$/src/Trees/TreeLinkNode.java" />
       </list>
     </option>
   </component>
@@ -438,14 +442,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/ReverseString.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FindRestaurant.java" />
     <entry file="file://$PROJECT_DIR$/src/HashTables/IsomorphicStringsLeetCode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -812,6 +808,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="46" column="9" lean-forward="true" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Trees/PopulateNextRightPointerRecursive.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Trees/TreeLinkNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+          <folding>
+            <element signature="e#153#154#0" expanded="true" />
+            <element signature="e#183#184#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
