@@ -35,7 +35,7 @@ public class PopulateNextRightPointerRecursive {
         node3.right = node7;
 
         PopulateNextRightPointerRecursive populateNextRightPointerRecursive = new PopulateNextRightPointerRecursive();
-        System.out.println(populateNextRightPointerRecursive.connect(node1));
+        populateNextRightPointerRecursive.connect(node1);
 
 
     }
