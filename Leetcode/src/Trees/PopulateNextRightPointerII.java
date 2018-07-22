@@ -55,7 +55,7 @@ public class PopulateNextRightPointerII {
         node2.left = node4;
         node2.right = node5;
 
-     
+
         node3.right = node7;
 
         PopulateNextRightPointerII populateNextRightPointerII = new PopulateNextRightPointerII();
