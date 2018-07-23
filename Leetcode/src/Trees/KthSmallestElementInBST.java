@@ -44,13 +44,7 @@ public class KthSmallestElementInBST {
         node7.left = null;
         node7.right = null;
 
-        PreorderIterativeLeetCode preorder = new PreorderIterativeLeetCode();
-        List<Integer> result = new ArrayList<Integer>();
-
-        result = preorder.preorderTraversal(node5);
-
-        for(int node : result) {
-            System.out.print(node + " ");
-        }
+        KthSmallestElementInBST kthSmallestElementInBST = new KthSmallestElementInBST();
+        System.out.println(kthSmallestElementInBST.kthSmallest(node5, 5));
     }
 }

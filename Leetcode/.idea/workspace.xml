@@ -37,11 +37,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BinaryTreeInorderTraversal.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BinaryTreeInorderTraversal.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Trees/BinaryTreeInorderTraversal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="60" column="5" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
+            <state relative-caret-position="612">
+              <caret line="60" column="5" lean-forward="true" selection-start-line="25" selection-start-column="4" selection-end-line="60" selection-end-column="5" />
               <folding>
                 <element signature="e#196#205#0" expanded="true" />
                 <element signature="e#310#320#0" expanded="true" />
@@ -50,37 +50,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PreorderIterative.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Trees/PreorderIterative.java">
+      <file leaf-file-name="KthSmallestElementInBST.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Trees/KthSmallestElementInBST.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1054">
-              <caret line="62" column="5" lean-forward="true" selection-start-line="27" selection-start-column="4" selection-end-line="62" selection-end-column="5" />
-              <folding>
-                <element signature="e#174#183#0" expanded="true" />
-                <element signature="e#293#303#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PostorderIterative.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Trees/PostorderIterative.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1122">
-              <caret line="66" column="5" lean-forward="true" selection-start-line="31" selection-start-column="3" selection-end-line="66" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1515#1524#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PreorderIterativeLeetCode.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Trees/PreorderIterativeLeetCode.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="618">
-              <caret line="59" column="5" lean-forward="true" selection-start-line="24" selection-start-column="4" selection-end-line="59" selection-end-column="5" />
+            <state relative-caret-position="544">
+              <caret line="47" column="71" selection-start-line="47" selection-start-column="71" selection-end-line="47" selection-end-column="71" />
             </state>
           </provider>
         </entry>
@@ -122,7 +96,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/HashTables/IsomorphicStrings.java" />
         <option value="$PROJECT_DIR$/src/HashTables/FirstUniqueCharacter.java" />
         <option value="$PROJECT_DIR$/src/HashTables/IntersectionII.java" />
         <option value="$PROJECT_DIR$/src/HashTables/ContainsDuplicateII.java" />
@@ -173,6 +146,7 @@
         <option value="$PROJECT_DIR$/src/Trees/Codec.java" />
         <option value="$PROJECT_DIR$/src/Trees/ValidateBinarySearchTree.java" />
         <option value="$PROJECT_DIR$/src/Trees/BinaryTreeInorderTraversal.java" />
+        <option value="$PROJECT_DIR$/src/Trees/KthSmallestElementInBST.java" />
       </list>
     </option>
   </component>
@@ -225,7 +199,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.UnivalueSubTrees">
+  <component name="RunManager" selected="Application.KthSmallestElementInBST">
+    <configuration name="KthSmallestElementInBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Trees.KthSmallestElementInBST" />
+      <module name="Leetcode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Trees.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="PathSumIterative" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Trees.PathSumIterative" />
       <module name="Leetcode" />
@@ -250,17 +235,6 @@
     </configuration>
     <configuration name="SymmetricTreeIterative" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Trees.SymmetricTreeIterative" />
-      <module name="Leetcode" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Trees.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="SymmetricTreeRecursive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Trees.SymmetricTreeRecursive" />
       <module name="Leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -323,19 +297,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.SymmetricTreeRecursive" />
       <item itemvalue="Application.SymmetricTreeIterative" />
       <item itemvalue="Application.PathSumRecursive" />
       <item itemvalue="Application.PathSumIterative" />
       <item itemvalue="Application.UnivalueSubTrees" />
+      <item itemvalue="Application.KthSmallestElementInBST" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.KthSmallestElementInBST" />
         <item itemvalue="Application.UnivalueSubTrees" />
         <item itemvalue="Application.PathSumRecursive" />
         <item itemvalue="Application.PathSumIterative" />
         <item itemvalue="Application.SymmetricTreeIterative" />
-        <item itemvalue="Application.SymmetricTreeRecursive" />
       </list>
     </recent_temporary>
   </component>
@@ -425,16 +399,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/HashTables/FirstUniqueCharacter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="45" lean-forward="true" selection-start-line="11" selection-start-column="16" selection-end-line="12" selection-end-column="45" />
-          <folding>
-            <element signature="e#194#214#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/HashTables/IntersectionII.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -803,17 +767,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Trees/PreorderIterative.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1054">
-          <caret line="62" column="5" lean-forward="true" selection-start-line="27" selection-start-column="4" selection-end-line="62" selection-end-column="5" />
-          <folding>
-            <element signature="e#174#183#0" expanded="true" />
-            <element signature="e#293#303#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Trees/InorderIterative.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="918">
@@ -831,14 +784,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Trees/PreorderIterative.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1054">
+          <caret line="62" column="5" lean-forward="true" selection-start-line="27" selection-start-column="4" selection-end-line="62" selection-end-column="5" />
+          <folding>
+            <element signature="e#174#183#0" expanded="true" />
+            <element signature="e#293#303#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Trees/BinaryTreeInorderTraversal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="60" column="5" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
+        <state relative-caret-position="612">
+          <caret line="60" column="5" lean-forward="true" selection-start-line="25" selection-start-column="4" selection-end-line="60" selection-end-column="5" />
           <folding>
             <element signature="e#196#205#0" expanded="true" />
             <element signature="e#310#320#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Trees/KthSmallestElementInBST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="47" column="71" selection-start-line="47" selection-start-column="71" selection-end-line="47" selection-end-column="71" />
         </state>
       </provider>
     </entry>
