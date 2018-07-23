@@ -50,11 +50,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ValidateBinarySearchTreeIterative.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ValidateBinarySearchTreeIterative.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Trees/ValidateBinarySearchTreeIterative.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="33">
               <caret line="25" column="39" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InorderSuccessorinBST.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Trees/InorderSuccessorinBST.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -105,7 +114,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/HashTables/IntersectionII.java" />
         <option value="$PROJECT_DIR$/src/HashTables/ContainsDuplicateII.java" />
         <option value="$PROJECT_DIR$/src/HashTables/Logger.java" />
         <option value="$PROJECT_DIR$/src/HashTables/GroupAnagrams.java" />
@@ -156,6 +164,7 @@
         <option value="$PROJECT_DIR$/src/Trees/KthSmallestElementInBST.java" />
         <option value="$PROJECT_DIR$/src/Trees/BinaryTreeInorderTraversal.java" />
         <option value="$PROJECT_DIR$/src/Trees/ValidateBinarySearchTreeIterative.java" />
+        <option value="$PROJECT_DIR$/src/Trees/InorderSuccessorinBST.java" />
       </list>
     </option>
   </component>
@@ -408,13 +417,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/HashTables/HashMapUsage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="33" column="9" lean-forward="true" selection-start-line="31" selection-start-column="8" selection-end-line="33" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/HashTables/ContainsDuplicateII.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -816,6 +818,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="33">
           <caret line="25" column="39" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Trees/InorderSuccessorinBST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
         </state>
       </provider>
     </entry>
