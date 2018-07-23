@@ -53,8 +53,8 @@
       <file leaf-file-name="ValidateBinarySearchTreeIterative.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Trees/ValidateBinarySearchTreeIterative.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="33">
-              <caret line="25" column="39" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
+            <state relative-caret-position="390">
+              <caret line="51" column="5" lean-forward="true" selection-start-line="22" selection-start-column="4" selection-end-line="51" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -62,8 +62,8 @@
       <file leaf-file-name="InorderSuccessorinBST.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Trees/InorderSuccessorinBST.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+            <state relative-caret-position="407">
+              <caret line="46" column="83" selection-start-line="46" selection-start-column="83" selection-end-line="46" selection-end-column="83" />
             </state>
           </provider>
         </entry>
@@ -217,7 +217,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ValidateBinarySearchTreeIterative">
+  <component name="RunManager" selected="Application.InorderSuccessorinBST">
     <configuration name="BinaryTreeInorderTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Trees.BinaryTreeInorderTraversal" />
       <module name="Leetcode" />
@@ -229,8 +229,8 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="KthSmallestElementInBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Trees.KthSmallestElementInBST" />
+    <configuration name="InorderSuccessorinBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Trees.InorderSuccessorinBST" />
       <module name="Leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -240,8 +240,8 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="PathSumRecursive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Trees.PathSumRecursive" />
+    <configuration name="KthSmallestElementInBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Trees.KthSmallestElementInBST" />
       <module name="Leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -315,19 +315,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.PathSumRecursive" />
       <item itemvalue="Application.UnivalueSubTrees" />
       <item itemvalue="Application.KthSmallestElementInBST" />
       <item itemvalue="Application.BinaryTreeInorderTraversal" />
       <item itemvalue="Application.ValidateBinarySearchTreeIterative" />
+      <item itemvalue="Application.InorderSuccessorinBST" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.InorderSuccessorinBST" />
         <item itemvalue="Application.ValidateBinarySearchTreeIterative" />
         <item itemvalue="Application.BinaryTreeInorderTraversal" />
         <item itemvalue="Application.KthSmallestElementInBST" />
         <item itemvalue="Application.UnivalueSubTrees" />
-        <item itemvalue="Application.PathSumRecursive" />
       </list>
     </recent_temporary>
   </component>
@@ -816,15 +816,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Trees/ValidateBinarySearchTreeIterative.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33">
-          <caret line="25" column="39" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
+        <state relative-caret-position="390">
+          <caret line="51" column="5" lean-forward="true" selection-start-line="22" selection-start-column="4" selection-end-line="51" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Trees/InorderSuccessorinBST.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+        <state relative-caret-position="407">
+          <caret line="46" column="83" selection-start-line="46" selection-start-column="83" selection-end-line="46" selection-end-column="83" />
         </state>
       </provider>
     </entry>
