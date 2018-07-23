@@ -226,9 +226,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.InorderSuccessorinBST">
+  <component name="RunManager" selected="Application.InorderPredecessorinBST">
     <configuration name="BinaryTreeInorderTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Trees.BinaryTreeInorderTraversal" />
+      <module name="Leetcode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Trees.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="InorderPredecessorinBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Trees.InorderPredecessorinBST" />
       <module name="Leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -251,17 +262,6 @@
     </configuration>
     <configuration name="KthSmallestElementInBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Trees.KthSmallestElementInBST" />
-      <module name="Leetcode" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Trees.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="UnivalueSubTrees" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Trees.UnivalueSubTrees" />
       <module name="Leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -324,19 +324,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.UnivalueSubTrees" />
       <item itemvalue="Application.KthSmallestElementInBST" />
       <item itemvalue="Application.BinaryTreeInorderTraversal" />
       <item itemvalue="Application.ValidateBinarySearchTreeIterative" />
       <item itemvalue="Application.InorderSuccessorinBST" />
+      <item itemvalue="Application.InorderPredecessorinBST" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.InorderPredecessorinBST" />
         <item itemvalue="Application.InorderSuccessorinBST" />
         <item itemvalue="Application.ValidateBinarySearchTreeIterative" />
         <item itemvalue="Application.BinaryTreeInorderTraversal" />
         <item itemvalue="Application.KthSmallestElementInBST" />
-        <item itemvalue="Application.UnivalueSubTrees" />
       </list>
     </recent_temporary>
   </component>
