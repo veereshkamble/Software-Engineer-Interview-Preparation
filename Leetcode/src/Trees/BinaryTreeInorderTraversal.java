@@ -50,10 +50,10 @@ public class BinaryTreeInorderTraversal {
         node7.left = null;
         node7.right = null;
 
-        PreorderIterativeLeetCode preorder = new PreorderIterativeLeetCode();
+        BinaryTreeInorderTraversal binaryTreeInorderTraversal = new BinaryTreeInorderTraversal();
         List<Integer> result = new ArrayList<Integer>();
 
-        result = preorder.preorderTraversal(node5);
+        result = binaryTreeInorderTraversal.binaryTreeInorderTraversal(node5);
 
         for(int node : result) {
             System.out.print(node + " ");

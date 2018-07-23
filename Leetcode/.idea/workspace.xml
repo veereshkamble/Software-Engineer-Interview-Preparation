@@ -199,7 +199,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.KthSmallestElementInBST">
+  <component name="RunManager" selected="Application.BinaryTreeInorderTraversal">
+    <configuration name="BinaryTreeInorderTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Trees.BinaryTreeInorderTraversal" />
+      <module name="Leetcode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Trees.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="KthSmallestElementInBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Trees.KthSmallestElementInBST" />
       <module name="Leetcode" />
@@ -224,17 +235,6 @@
     </configuration>
     <configuration name="PathSumRecursive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Trees.PathSumRecursive" />
-      <module name="Leetcode" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Trees.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="SymmetricTreeIterative" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Trees.SymmetricTreeIterative" />
       <module name="Leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -297,19 +297,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.SymmetricTreeIterative" />
       <item itemvalue="Application.PathSumRecursive" />
       <item itemvalue="Application.PathSumIterative" />
       <item itemvalue="Application.UnivalueSubTrees" />
       <item itemvalue="Application.KthSmallestElementInBST" />
+      <item itemvalue="Application.BinaryTreeInorderTraversal" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BinaryTreeInorderTraversal" />
         <item itemvalue="Application.KthSmallestElementInBST" />
         <item itemvalue="Application.UnivalueSubTrees" />
         <item itemvalue="Application.PathSumRecursive" />
         <item itemvalue="Application.PathSumIterative" />
-        <item itemvalue="Application.SymmetricTreeIterative" />
       </list>
     </recent_temporary>
   </component>
