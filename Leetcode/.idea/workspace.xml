@@ -40,8 +40,8 @@
       <file leaf-file-name="BinaryTreeInorderTraversal.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Trees/BinaryTreeInorderTraversal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="60" column="5" lean-forward="true" selection-start-line="25" selection-start-column="4" selection-end-line="60" selection-end-column="5" />
+            <state relative-caret-position="272">
+              <caret line="55" column="78" selection-start-line="55" selection-start-column="78" selection-end-line="55" selection-end-column="78" />
               <folding>
                 <element signature="e#196#205#0" expanded="true" />
                 <element signature="e#310#320#0" expanded="true" />
@@ -50,10 +50,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="KthSmallestElementInBST.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ValidateBinarySearchTreeIterative.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Trees/ValidateBinarySearchTreeIterative.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="KthSmallestElementInBST.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Trees/KthSmallestElementInBST.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
+            <state relative-caret-position="305">
               <caret line="47" column="71" selection-start-line="47" selection-start-column="71" selection-end-line="47" selection-end-column="71" />
             </state>
           </provider>
@@ -96,7 +105,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/HashTables/FirstUniqueCharacter.java" />
         <option value="$PROJECT_DIR$/src/HashTables/IntersectionII.java" />
         <option value="$PROJECT_DIR$/src/HashTables/ContainsDuplicateII.java" />
         <option value="$PROJECT_DIR$/src/HashTables/Logger.java" />
@@ -145,8 +153,9 @@
         <option value="$PROJECT_DIR$/src/Trees/LowestCommonAncestor.java" />
         <option value="$PROJECT_DIR$/src/Trees/Codec.java" />
         <option value="$PROJECT_DIR$/src/Trees/ValidateBinarySearchTree.java" />
-        <option value="$PROJECT_DIR$/src/Trees/BinaryTreeInorderTraversal.java" />
         <option value="$PROJECT_DIR$/src/Trees/KthSmallestElementInBST.java" />
+        <option value="$PROJECT_DIR$/src/Trees/BinaryTreeInorderTraversal.java" />
+        <option value="$PROJECT_DIR$/src/Trees/ValidateBinarySearchTreeIterative.java" />
       </list>
     </option>
   </component>
@@ -332,13 +341,14 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32968536" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="6" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.30369356" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.30369356" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
@@ -355,7 +365,6 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32968536" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -399,16 +408,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/HashTables/IntersectionII.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="53" selection-start-line="53" selection-end-line="53" />
-          <folding>
-            <element signature="e#182#200#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/HashTables/HashMapUsage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
@@ -795,10 +794,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Trees/KthSmallestElementInBST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="47" column="71" selection-start-line="47" selection-start-column="71" selection-end-line="47" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Trees/BinaryTreeInorderTraversal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="60" column="5" lean-forward="true" selection-start-line="25" selection-start-column="4" selection-end-line="60" selection-end-column="5" />
+        <state relative-caret-position="272">
+          <caret line="55" column="78" selection-start-line="55" selection-start-column="78" selection-end-line="55" selection-end-column="78" />
           <folding>
             <element signature="e#196#205#0" expanded="true" />
             <element signature="e#310#320#0" expanded="true" />
@@ -806,10 +812,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Trees/KthSmallestElementInBST.java">
+    <entry file="file://$PROJECT_DIR$/src/Trees/ValidateBinarySearchTreeIterative.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="47" column="71" selection-start-line="47" selection-start-column="71" selection-end-line="47" selection-end-column="71" />
+        <state relative-caret-position="34">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
