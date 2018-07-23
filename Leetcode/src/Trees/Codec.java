@@ -61,7 +61,7 @@ public class Codec {
 
         Codec codec = new Codec();
         System.out.println(codec.serialize(node1));
-        
+
 
 
     }
