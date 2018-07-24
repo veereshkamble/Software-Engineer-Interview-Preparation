@@ -37,7 +37,22 @@ public class BSTIterator {
 
     //@return the next smallest number
     public int next() {
+        TreeNode node = stack.pop();
+        TreeNode cur = node;
 
+        //travere the right branch
+        if(cur.right != null) {
+            cur = cur.right;
+            while(cur != null) {
+                stack.push(cur);
+                if(cur.left != null) {
+                    cur = cur.left;
+                } else {
+                    break;
+                }
+            }
+        }
+        return node.val;
     }
 }
 
