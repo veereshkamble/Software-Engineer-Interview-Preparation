@@ -244,9 +244,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.InorderSuccessorInBSTRecursive">
-    <configuration name="BinaryTreeInorderTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Trees.BinaryTreeInorderTraversal" />
+  <component name="RunManager" selected="Application.InorderPredecessorInBSTRecursive">
+    <configuration name="InorderPredecessorInBSTRecursive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Trees.InorderPredecessorInBSTRecursive" />
       <module name="Leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -342,19 +342,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.BinaryTreeInorderTraversal" />
       <item itemvalue="Application.ValidateBinarySearchTreeIterative" />
       <item itemvalue="Application.InorderSuccessorinBST" />
       <item itemvalue="Application.InorderPredecessorinBST" />
       <item itemvalue="Application.InorderSuccessorInBSTRecursive" />
+      <item itemvalue="Application.InorderPredecessorInBSTRecursive" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.InorderPredecessorInBSTRecursive" />
         <item itemvalue="Application.InorderSuccessorInBSTRecursive" />
         <item itemvalue="Application.InorderPredecessorinBST" />
         <item itemvalue="Application.InorderSuccessorinBST" />
         <item itemvalue="Application.ValidateBinarySearchTreeIterative" />
-        <item itemvalue="Application.BinaryTreeInorderTraversal" />
       </list>
     </recent_temporary>
   </component>
