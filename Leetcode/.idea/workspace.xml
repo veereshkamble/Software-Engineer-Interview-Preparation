@@ -98,8 +98,8 @@
       <file leaf-file-name="BSTIterator.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Trees/BSTIterator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+            <state relative-caret-position="279">
+              <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -137,7 +137,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/HashTables/GroupShiftedStrings.java" />
         <option value="$PROJECT_DIR$/src/HashTables/GroupShiftedStringsLeetCode.java" />
         <option value="$PROJECT_DIR$/src/HashTables/ValidSudoku.java" />
         <option value="$PROJECT_DIR$/src/HashTables/FindDuplicateSubtrees.java" />
@@ -188,6 +187,7 @@
         <option value="$PROJECT_DIR$/src/Trees/InorderPredecessorinBST.java" />
         <option value="$PROJECT_DIR$/src/Trees/InorderSuccessorInBSTRecursive.java" />
         <option value="$PROJECT_DIR$/src/Trees/InorderPredecessorInBSTRecursive.java" />
+        <option value="$PROJECT_DIR$/src/Trees/BSTIterator.java" />
       </list>
     </option>
   </component>
@@ -502,6 +502,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="582">
           <caret line="48" column="3" selection-start-line="48" selection-start-column="3" selection-end-line="48" selection-end-column="3" />
+          <folding>
+            <element signature="e#756#757#0" expanded="true" />
+            <element signature="e#798#799#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -843,8 +847,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Trees/BSTIterator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+        <state relative-caret-position="279">
+          <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
         </state>
       </provider>
     </entry>

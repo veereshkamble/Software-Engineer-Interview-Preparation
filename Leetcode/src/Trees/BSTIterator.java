@@ -13,9 +13,21 @@ import java.util.*;
 
 public class BSTIterator {
 
+    private Stack<TreeNode> stack;
+
+
     //Inititalize your data structure here
     public BSTIterator(TreeNode root) {
-
+        stack = new Stack<TreeNode>();
+        TreeNode cur = root;
+        while(cur != null) {
+            stack.push(cur);
+            if(cur.left != null) {
+                cur = cur.left;
+            } else {
+                break;
+            }
+        }
     }
 
     //@return whether we have a next smallest number or not
