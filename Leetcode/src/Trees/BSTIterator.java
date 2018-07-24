@@ -32,7 +32,7 @@ public class BSTIterator {
 
     //@return whether we have a next smallest number or not
     public boolean hasNext() {
-
+        return !stack.isEmpty();
     }
 
     //@return the next smallest number
