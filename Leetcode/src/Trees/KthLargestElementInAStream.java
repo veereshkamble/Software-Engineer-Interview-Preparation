@@ -21,8 +21,29 @@ public class KthLargestElementInAStream {
             while(cur != null) {
                 cur.count++;
 
-
+                if(val < cur.val) {
+                    if(cur.left != null) {
+                        cur = cur.left;
+                    } else {
+                        cur.left = new TreeNodeK(val);
+                        break;
+                    }
+                } else {
+                    if(cur.right != null) {
+                        cur = cur.right;
+                    } else {
+                        cur.right = new TreeNodeK(val);
+                        break;
+                    }
+                }
             }
         }
+
+        if(!isInitialized) {
+            return -1;
+        }
+
+        TreeNodeK root = findKthLargest();
+        return root.val;
     }
 }
