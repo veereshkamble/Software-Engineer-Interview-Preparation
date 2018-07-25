@@ -4,8 +4,8 @@ public class TreeNodeK {
 
     public int val;
     public int count;
-    public TreeNode left;
-    public TreeNode right;
+    public TreeNodeK left;
+    public TreeNodeK right;
 
     public TreeNodeK(int val) {
         this.val = val;
