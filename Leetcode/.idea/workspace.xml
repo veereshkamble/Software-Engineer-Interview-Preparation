@@ -237,9 +237,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BSTSearch">
+  <component name="RunManager" selected="Application.BSTSearchRecursive">
     <configuration name="BSTSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Trees.BSTSearch" />
+      <module name="Leetcode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Trees.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="BSTSearchRecursive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Trees.BSTSearchRecursive" />
       <module name="Leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -273,17 +284,6 @@
     </configuration>
     <configuration name="InorderSuccessorInBSTRecursive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Trees.InorderSuccessorInBSTRecursive" />
-      <module name="Leetcode" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Trees.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="InorderSuccessorinBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Trees.InorderSuccessorinBST" />
       <module name="Leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -335,19 +335,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.InorderSuccessorinBST" />
       <item itemvalue="Application.InorderPredecessorinBST" />
       <item itemvalue="Application.InorderSuccessorInBSTRecursive" />
       <item itemvalue="Application.InorderPredecessorInBSTRecursive" />
       <item itemvalue="Application.BSTSearch" />
+      <item itemvalue="Application.BSTSearchRecursive" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BSTSearchRecursive" />
         <item itemvalue="Application.BSTSearch" />
         <item itemvalue="Application.InorderPredecessorInBSTRecursive" />
         <item itemvalue="Application.InorderSuccessorInBSTRecursive" />
         <item itemvalue="Application.InorderPredecessorinBST" />
-        <item itemvalue="Application.InorderSuccessorinBST" />
       </list>
     </recent_temporary>
   </component>
