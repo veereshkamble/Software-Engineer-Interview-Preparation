@@ -15,5 +15,10 @@ public class BSTInsertRecursive {
 
     }
 
-    
+    public static void main(String[] args) {
+        BSTInsertRecursive BSTInsertRecursive = new BSTInsertRecursive();
+        TreeNode node5 = BSTInsertRecursive.insertIntoBST(null, 5);
+        TreeNode node2 = BSTInsertRecursive.insertIntoBST(node5, 2);
+        TreeNode node4 = BSTInsertRecursive.insertIntoBST(node5, 4);
+    }
 }
