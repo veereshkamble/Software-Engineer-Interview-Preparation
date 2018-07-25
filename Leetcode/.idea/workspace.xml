@@ -12,15 +12,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="InorderSuccessorinBST.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Trees/InorderSuccessorinBST.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="47" column="5" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="47" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="InorderPredecessorinBST.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Trees/InorderPredecessorinBST.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -88,7 +79,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BSTSearchLeetCode.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BSTSearchLeetCode.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Trees/BSTSearchLeetCode.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="417">
@@ -100,8 +91,17 @@
       <file leaf-file-name="BSTInsert.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Trees/BSTInsert.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="451">
-              <caret line="31" selection-start-line="31" selection-end-line="31" />
+            <state relative-caret-position="434">
+              <caret line="59" column="62" selection-start-line="59" selection-start-column="62" selection-end-line="59" selection-end-column="62" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BSTInsertLeetCode.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Trees/BSTInsertLeetCode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -130,7 +130,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/HashTables/LongestSubstringWithoutRepeatingCharacters.java" />
         <option value="$PROJECT_DIR$/src/HashTables/TwoSumIII.java" />
         <option value="$PROJECT_DIR$/src/HashTables/FourSumII.java" />
         <option value="$PROJECT_DIR$/src/HashTables/TopKFrequentElements.java" />
@@ -181,6 +180,7 @@
         <option value="$PROJECT_DIR$/src/Trees/BSTSearchRecursiveLeetCode.java" />
         <option value="$PROJECT_DIR$/src/Trees/BSTSearchLeetCode.java" />
         <option value="$PROJECT_DIR$/src/Trees/BSTInsert.java" />
+        <option value="$PROJECT_DIR$/src/Trees/BSTInsertLeetCode.java" />
       </list>
     </option>
   </component>
@@ -433,13 +433,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/HashTables/SingleNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/HashTables/HappyNumber.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-132">
@@ -826,17 +819,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Trees/BSTInsert.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="451">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Trees/BSTSearchLeetCode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="417">
           <caret line="45" column="5" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="45" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Trees/BSTInsert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="59" column="62" selection-start-line="59" selection-start-column="62" selection-end-line="59" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Trees/BSTInsertLeetCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
         </state>
       </provider>
     </entry>
