@@ -230,7 +230,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LowestCommonAncestorRecursive">
+  <component name="RunManager" selected="Application.ContainsDuplicatesIII">
     <configuration name="BSTSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Trees.BSTSearch" />
       <module name="Leetcode" />
@@ -253,8 +253,8 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="InorderPredecessorInBSTRecursive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Trees.InorderPredecessorInBSTRecursive" />
+    <configuration name="ContainsDuplicatesIII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Trees.ContainsDuplicatesIII" />
       <module name="Leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -328,19 +328,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.InorderPredecessorInBSTRecursive" />
       <item itemvalue="Application.BSTSearch" />
       <item itemvalue="Application.BSTSearchRecursive" />
       <item itemvalue="Application.KthLargestElementInAStream" />
       <item itemvalue="Application.LowestCommonAncestorRecursive" />
+      <item itemvalue="Application.ContainsDuplicatesIII" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ContainsDuplicatesIII" />
         <item itemvalue="Application.LowestCommonAncestorRecursive" />
         <item itemvalue="Application.KthLargestElementInAStream" />
         <item itemvalue="Application.BSTSearchRecursive" />
         <item itemvalue="Application.BSTSearch" />
-        <item itemvalue="Application.InorderPredecessorInBSTRecursive" />
       </list>
     </recent_temporary>
   </component>

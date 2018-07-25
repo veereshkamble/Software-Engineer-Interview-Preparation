@@ -34,4 +34,13 @@ public class ContainsDuplicatesIII {
         }
         return false;
     }
+
+    public static void main(String[] args) {
+        int[] nums = new int[] {1, 2, 3, 1};
+        int k = 3;
+        int t = 0;
+
+        ContainsDuplicatesIII containsDuplicatesIII = new ContainsDuplicatesIII();
+        System.out.println(containsNearbyAlmostDuplicate(nums, k, t));
+    }
 }
