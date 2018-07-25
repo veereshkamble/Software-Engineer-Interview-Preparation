@@ -28,4 +28,11 @@ public class BSTInsertLeetCode {
         }
         return root;
     }
+
+    public static void main(String[] args) {
+        BSTInsertLeetCode bstInsertLeetCode = new BSTInsertLeetCode();
+        TreeNode node5 = bstInsertLeetCode.insertIntoBST(null, 5);
+        TreeNode node2 = bstInsertLeetCode.insertIntoBST(node5, 2);
+        TreeNode node4 = bstInsertLeetCode.insertIntoBST(node5, 4);
+    }
 }
