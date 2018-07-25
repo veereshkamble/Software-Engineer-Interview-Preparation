@@ -21,7 +21,7 @@ public class BSTSearchRecursiveLeetCode {
             }
             return searchBST(root.right, target);
         }
-    
+
 
     public static void main(String[] args) {
         TreeNode node1 = new TreeNode(1);
