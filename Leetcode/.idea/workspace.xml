@@ -30,15 +30,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BSTInsertLeetCode.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Trees/BSTInsertLeetCode.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="36" column="5" lean-forward="true" selection-start-line="31" selection-start-column="4" selection-end-line="36" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="KthSmallestElementInBST.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Trees/KthSmallestElementInBST.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -69,8 +60,8 @@
       <file leaf-file-name="LowestCommonAncestorRecursive.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Trees/LowestCommonAncestorRecursive.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+            <state relative-caret-position="434">
+              <caret line="46" column="100" selection-start-line="46" selection-start-column="100" selection-end-line="46" selection-end-column="100" />
             </state>
           </provider>
         </entry>
@@ -230,7 +221,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.KthLargestElementInAStream">
+  <component name="RunManager" selected="Application.LowestCommonAncestorRecursive">
     <configuration name="BSTSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Trees.BSTSearch" />
       <module name="Leetcode" />
@@ -264,8 +255,8 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="InorderSuccessorInBSTRecursive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Trees.InorderSuccessorInBSTRecursive" />
+    <configuration name="KthLargestElementInAStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Trees.KthLargestElementInAStream" />
       <module name="Leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -275,8 +266,8 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="KthLargestElementInAStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Trees.KthLargestElementInAStream" />
+    <configuration name="LowestCommonAncestorRecursive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Trees.LowestCommonAncestorRecursive" />
       <module name="Leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -328,19 +319,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.InorderSuccessorInBSTRecursive" />
       <item itemvalue="Application.InorderPredecessorInBSTRecursive" />
       <item itemvalue="Application.BSTSearch" />
       <item itemvalue="Application.BSTSearchRecursive" />
       <item itemvalue="Application.KthLargestElementInAStream" />
+      <item itemvalue="Application.LowestCommonAncestorRecursive" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LowestCommonAncestorRecursive" />
         <item itemvalue="Application.KthLargestElementInAStream" />
         <item itemvalue="Application.BSTSearchRecursive" />
         <item itemvalue="Application.BSTSearch" />
         <item itemvalue="Application.InorderPredecessorInBSTRecursive" />
-        <item itemvalue="Application.InorderSuccessorInBSTRecursive" />
       </list>
     </recent_temporary>
   </component>
@@ -770,13 +761,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Trees/BSTInsert.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="60" column="5" lean-forward="true" selection-start-line="31" selection-start-column="3" selection-end-line="60" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Trees/BSTInsertRecursive.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -788,13 +772,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="434">
           <caret line="74" column="68" selection-start-line="74" selection-start-column="68" selection-end-line="74" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Trees/BSTInsertLeetCode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" column="5" lean-forward="true" selection-start-line="31" selection-start-column="4" selection-end-line="36" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -826,10 +803,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Trees/BSTInsertLeetCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="36" column="5" lean-forward="true" selection-start-line="31" selection-start-column="4" selection-end-line="36" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Trees/BSTInsert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="60" column="5" lean-forward="true" selection-start-line="31" selection-start-column="3" selection-end-line="60" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Trees/LowestCommonAncestorRecursive.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+        <state relative-caret-position="434">
+          <caret line="46" column="100" selection-start-line="46" selection-start-column="100" selection-end-line="46" selection-end-column="100" />
         </state>
       </provider>
     </entry>
