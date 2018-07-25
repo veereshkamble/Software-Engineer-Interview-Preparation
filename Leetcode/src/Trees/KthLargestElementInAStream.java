@@ -52,11 +52,11 @@ public class KthLargestElementInAStream {
         TreeNodeK cur = root;
 
         while(cur != null && counter > 0) {
-            int pos = cur.right == null ? 1 : cur.right.count + 1;
+            int pos = (cur.right == null ? 1 : cur.right.count + 1);
 
             if(counter == pos) {
                 break;
-            } else if(counter < pos) {
+            } else if(counter > pos) {
                 counter -= pos;
                 cur = cur.left;
             } else {
@@ -64,5 +64,20 @@ public class KthLargestElementInAStream {
             }
         }
         return cur;
+    }
+
+    public static void main(String[] args) {
+        int[] nums = new int[] {4, 5, 8, 2};
+        int k = 3;
+
+        KthLargestElementInAStream kthLargestElementInAStream = new KthLargestElementInAStream(k, nums);
+
+        System.out.println(kthLargestElementInAStream.add(3));
+        System.out.println(kthLargestElementInAStream.add(5));
+        System.out.println(kthLargestElementInAStream.add(10));
+        System.out.println(kthLargestElementInAStream.add(9));
+        System.out.println(kthLargestElementInAStream.add(4));
+        System.out.println(kthLargestElementInAStream.add(17));
+
     }
 }
