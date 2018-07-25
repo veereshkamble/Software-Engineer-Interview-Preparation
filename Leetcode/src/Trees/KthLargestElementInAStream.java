@@ -46,4 +46,23 @@ public class KthLargestElementInAStream {
         TreeNodeK root = findKthLargest();
         return root.val;
     }
+
+    private TreeNodeK findKthLargest() {
+        int counter = k;
+        TreeNodeK cur = root;
+
+        while(cur != null && counter > 0) {
+            int pos = cur.right == null ? 1 : cur.right.count + 1;
+
+            if(counter == pos) {
+                break;
+            } else if(counter < pos) {
+                counter -= pos;
+                cur = cur.left;
+            } else {
+                cur = cur.right;
+            }
+        }
+        return cur;
+    }
 }
