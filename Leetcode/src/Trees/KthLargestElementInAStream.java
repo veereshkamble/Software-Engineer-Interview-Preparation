@@ -7,6 +7,6 @@ public class KthLargestElementInAStream {
     }
 
     public int add(int val) {
-        
+
     }
 }
