@@ -12,28 +12,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="InorderPredecessorInBSTRecursive.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Trees/InorderPredecessorInBSTRecursive.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="46" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BSTIterator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Trees/BSTIterator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="347">
-              <caret line="54" column="24" lean-forward="true" selection-start-line="54" selection-start-column="24" selection-end-line="54" selection-end-column="24" />
-              <folding>
-                <element signature="e#709#710#0" expanded="true" />
-                <element signature="e#732#733#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="BSTSearch.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Trees/BSTSearch.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -73,8 +51,8 @@
       <file leaf-file-name="BSTInsert.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Trees/BSTInsert.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="434">
-              <caret line="59" column="62" selection-start-line="59" selection-start-column="62" selection-end-line="59" selection-end-column="62" />
+            <state relative-caret-position="417">
+              <caret line="60" column="5" lean-forward="true" selection-start-line="31" selection-start-column="3" selection-end-line="60" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -82,8 +60,26 @@
       <file leaf-file-name="BSTInsertLeetCode.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Trees/BSTInsertLeetCode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
+            <state relative-caret-position="612">
               <caret line="36" column="5" lean-forward="true" selection-start-line="31" selection-start-column="4" selection-end-line="36" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="KthSmallestElementInBST.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Trees/KthSmallestElementInBST.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="816">
+              <caret line="48" column="5" lean-forward="true" selection-start-line="19" selection-start-column="3" selection-end-line="48" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="KthLargestElementInAStream.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Trees/KthLargestElementInAStream.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="39" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -97,11 +93,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BSTDeleteRecursive.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BSTDeleteRecursive.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Trees/BSTDeleteRecursive.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+            <state relative-caret-position="434">
+              <caret line="74" column="68" selection-start-line="74" selection-start-column="68" selection-end-line="74" selection-end-column="68" />
             </state>
           </provider>
         </entry>
@@ -131,7 +127,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/HashTables/FourSumII.java" />
         <option value="$PROJECT_DIR$/src/HashTables/TopKFrequentElements.java" />
         <option value="$PROJECT_DIR$/src/HashTables/UniqueWordAbbreviation.java" />
         <option value="$PROJECT_DIR$/src/HashTables/InsertDeleteGetRandom.java" />
@@ -182,6 +177,7 @@
         <option value="$PROJECT_DIR$/src/Trees/BSTInsert.java" />
         <option value="$PROJECT_DIR$/src/Trees/BSTInsertLeetCode.java" />
         <option value="$PROJECT_DIR$/src/Trees/BSTInsertRecursive.java" />
+        <option value="$PROJECT_DIR$/src/Trees/BSTDeleteRecursive.java" />
       </list>
     </option>
   </component>
@@ -434,13 +430,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/HashTables/FourSumII.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="36" column="63" selection-start-line="36" selection-start-column="63" selection-end-line="36" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/HashTables/TopKFrequentElements.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-244">
@@ -728,13 +717,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Trees/KthSmallestElementInBST.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="48" column="5" lean-forward="true" selection-start-line="19" selection-start-column="3" selection-end-line="48" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Trees/ValidateBinarySearchTreeIterative.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -811,15 +793,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Trees/BSTInsert.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="59" column="62" selection-start-line="59" selection-start-column="62" selection-end-line="59" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Trees/BSTInsertLeetCode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="36" column="5" lean-forward="true" selection-start-line="31" selection-start-column="4" selection-end-line="36" selection-end-column="5" />
+        <state relative-caret-position="417">
+          <caret line="60" column="5" lean-forward="true" selection-start-line="31" selection-start-column="3" selection-end-line="60" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -832,8 +807,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Trees/BSTDeleteRecursive.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="74" column="68" selection-start-line="74" selection-start-column="68" selection-end-line="74" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Trees/BSTInsertLeetCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" column="5" lean-forward="true" selection-start-line="31" selection-start-column="4" selection-end-line="36" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Trees/KthSmallestElementInBST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="48" column="5" lean-forward="true" selection-start-line="19" selection-start-column="3" selection-end-line="48" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Trees/KthLargestElementInAStream.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+          <caret line="2" column="39" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
         </state>
       </provider>
     </entry>
