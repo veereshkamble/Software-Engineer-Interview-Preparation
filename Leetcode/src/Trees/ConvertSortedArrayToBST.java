@@ -20,4 +20,11 @@ public class ConvertSortedArrayToBST {
         node.right = helper(num, mid + 1, high);
         return node;
     }
+
+    public static void main(String args) {
+        int[] nums = new int[] {1, 2, 3, 4, 5, 6, 7, 8,};
+
+        ConvertSortedArrayToBST sortedArrayToBST = new ConvertSortedArrayToBST();
+        sortedArrayToBST.sortedArrayToBST(nums);
+    }
 }
