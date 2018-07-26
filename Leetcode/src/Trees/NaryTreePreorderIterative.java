@@ -15,18 +15,18 @@ public class NaryTreePreorderIterative {
         stack.push(root);
 
         while(!stack.isEmpty()) {
-            NaryNode temp = stack.pop();
-            list.add(temp.val);
+            root = stack.pop();
+            list.add(root.val);
 
-            for(int i = temp.children.size() - 1; i >= 0; i--) {
-                stack.add(temp.children.get(i));
+            for(int i = root.children.size() - 1; i >= 0; i--) {
+                stack.add(root.children.get(i));
             }
         }
         return list;
     }
 
     public static void main(String[] args) {
-
+        NaryNode node1 = new NaryNode();
         NaryNode node2 = new NaryNode(2, null);
         NaryNode node3 = new NaryNode();
         NaryNode node4 = new NaryNode(4, null);
@@ -42,11 +42,13 @@ public class NaryTreePreorderIterative {
         node2Children.add(node5);
         node2Children.add(node6);
 
-        NaryNode node1 = new NaryNode(1, node1Children);
+        node1.val = 1;
+        node1.children = node1Children;
         node3.val = 3;
         node3.children = node2Children;
 
-        System.out.println()
+        NaryTreePreorderIterative naryTreePreorderIterative = new NaryTreePreorderIterative();
+        System.out.println(naryTreePreorderIterative.preorder(node1));
 
     }
 }

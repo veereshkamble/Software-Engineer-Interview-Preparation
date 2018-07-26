@@ -79,7 +79,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NaryNode.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="NaryNode.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Trees/NaryNode.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
@@ -88,11 +88,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NaryTreePreorderIterative.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="NaryTreePreorderIterative.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Trees/NaryTreePreorderIterative.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="389">
-              <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+            <state relative-caret-position="561">
+              <caret line="49" column="70" selection-start-line="49" selection-start-column="70" selection-end-line="49" selection-end-column="70" />
               <folding>
                 <element signature="e#152#161#0" expanded="true" />
                 <element signature="e#298#308#0" expanded="true" />
@@ -186,8 +186,8 @@
         <option value="$PROJECT_DIR$/src/Trees/BalancedBinaryTree.java" />
         <option value="$PROJECT_DIR$/src/Trees/ConvertSortedArrayToBST.java" />
         <option value="$PROJECT_DIR$/src/Trees/NaryTreePreorderRecursive.java" />
-        <option value="$PROJECT_DIR$/src/Trees/NaryTreePreorderIterative.java" />
         <option value="$PROJECT_DIR$/src/Trees/NaryNode.java" />
+        <option value="$PROJECT_DIR$/src/Trees/NaryTreePreorderIterative.java" />
       </list>
     </option>
   </component>
@@ -240,18 +240,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BalancedBinaryTree">
-    <configuration name="BSTSearchRecursive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Trees.BSTSearchRecursive" />
-      <module name="Leetcode" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Trees.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
+  <component name="RunManager" selected="Application.NaryTreePreorderIterative">
     <configuration name="BalancedBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Trees.BalancedBinaryTree" />
       <module name="Leetcode" />
@@ -287,6 +276,17 @@
     </configuration>
     <configuration name="LowestCommonAncestorRecursive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Trees.LowestCommonAncestorRecursive" />
+      <module name="Leetcode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Trees.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="NaryTreePreorderIterative" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Trees.NaryTreePreorderIterative" />
       <module name="Leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -338,19 +338,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.BSTSearchRecursive" />
       <item itemvalue="Application.KthLargestElementInAStream" />
       <item itemvalue="Application.LowestCommonAncestorRecursive" />
       <item itemvalue="Application.ContainsDuplicatesIII" />
       <item itemvalue="Application.BalancedBinaryTree" />
+      <item itemvalue="Application.NaryTreePreorderIterative" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NaryTreePreorderIterative" />
         <item itemvalue="Application.BalancedBinaryTree" />
         <item itemvalue="Application.ContainsDuplicatesIII" />
         <item itemvalue="Application.LowestCommonAncestorRecursive" />
         <item itemvalue="Application.KthLargestElementInAStream" />
-        <item itemvalue="Application.BSTSearchRecursive" />
       </list>
     </recent_temporary>
   </component>
@@ -380,17 +380,17 @@
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="6" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.22845417" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.22845417" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18619792" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18619792" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.3515732" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3515732" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -823,23 +823,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Trees/NaryNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Trees/NaryTreePreorderIterative.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+        <state relative-caret-position="561">
+          <caret line="49" column="70" selection-start-line="49" selection-start-column="70" selection-end-line="49" selection-end-column="70" />
           <folding>
             <element signature="e#152#161#0" expanded="true" />
             <element signature="e#298#308#0" expanded="true" />
             <element signature="e#999#1009#0" expanded="true" />
             <element signature="e#1160#1170#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Trees/NaryNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
         </state>
       </provider>
     </entry>
