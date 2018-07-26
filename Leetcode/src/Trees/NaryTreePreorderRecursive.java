@@ -9,8 +9,11 @@ public class NaryTreePreorderRecursive {
             return list;
 
         list.add(root.val);
-        for(NaryNode node: root.children)
-            preorder(node);
+        if (root.children != null) {
+            for (NaryNode node : root.children) {
+                preorder(node);
+        }
+    }
 
         return list;
     }
