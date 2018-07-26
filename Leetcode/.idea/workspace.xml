@@ -234,9 +234,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ContainsDuplicatesIII">
-    <configuration name="BSTSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Trees.BSTSearch" />
+  <component name="RunManager" selected="Application.BalancedBinaryTree">
+    <configuration name="BSTSearchRecursive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Trees.BSTSearchRecursive" />
       <module name="Leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -246,8 +246,8 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="BSTSearchRecursive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Trees.BSTSearchRecursive" />
+    <configuration name="BalancedBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Trees.BalancedBinaryTree" />
       <module name="Leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -332,19 +332,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.BSTSearch" />
       <item itemvalue="Application.BSTSearchRecursive" />
       <item itemvalue="Application.KthLargestElementInAStream" />
       <item itemvalue="Application.LowestCommonAncestorRecursive" />
       <item itemvalue="Application.ContainsDuplicatesIII" />
+      <item itemvalue="Application.BalancedBinaryTree" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BalancedBinaryTree" />
         <item itemvalue="Application.ContainsDuplicatesIII" />
         <item itemvalue="Application.LowestCommonAncestorRecursive" />
         <item itemvalue="Application.KthLargestElementInAStream" />
         <item itemvalue="Application.BSTSearchRecursive" />
-        <item itemvalue="Application.BSTSearch" />
       </list>
     </recent_temporary>
   </component>
