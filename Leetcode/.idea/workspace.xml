@@ -66,11 +66,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ContainsDuplicatesIII.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ContainsDuplicatesIII.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Trees/ContainsDuplicatesIII.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="360">
+              <caret line="43" column="70" selection-start-line="43" selection-start-column="70" selection-end-line="43" selection-end-column="70" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BalancedBinaryTree.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Trees/BalancedBinaryTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+              <folding>
+                <element signature="e#514#515#0" expanded="true" />
+                <element signature="e#557#558#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -80,15 +93,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <caret column="14" lean-forward="true" selection-start-column="14" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BSTInsertRecursive.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Trees/BSTInsertRecursive.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -127,7 +131,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Trees/PreorderRecursive.java" />
         <option value="$PROJECT_DIR$/src/Trees/InorderRecursive.java" />
         <option value="$PROJECT_DIR$/src/Trees/InorderIterative.java" />
         <option value="$PROJECT_DIR$/src/Trees/PostorderRecursive.java" />
@@ -178,6 +181,7 @@
         <option value="$PROJECT_DIR$/src/Trees/KthLargestElementInAStream.java" />
         <option value="$PROJECT_DIR$/src/Trees/LowestCommonAncestorRecursive.java" />
         <option value="$PROJECT_DIR$/src/Trees/ContainsDuplicatesIII.java" />
+        <option value="$PROJECT_DIR$/src/Trees/BalancedBinaryTree.java" />
       </list>
     </option>
   </component>
@@ -424,13 +428,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Trees/PostorderRecursive.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="46" column="46" selection-start-line="46" selection-start-column="46" selection-end-line="46" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Trees/PreorderRecursiveLeetCode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -824,8 +821,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Trees/ContainsDuplicatesIII.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="360">
+          <caret line="43" column="70" selection-start-line="43" selection-start-column="70" selection-end-line="43" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Trees/BalancedBinaryTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+          <folding>
+            <element signature="e#514#515#0" expanded="true" />
+            <element signature="e#557#558#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
