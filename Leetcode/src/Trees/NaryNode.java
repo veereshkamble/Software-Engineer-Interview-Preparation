@@ -7,7 +7,6 @@ public class NaryNode {
     public List<NaryNode> children;
 
     public NaryNode() {
-
     }
 
     public NaryNode(int val, List<NaryNode> children) {
