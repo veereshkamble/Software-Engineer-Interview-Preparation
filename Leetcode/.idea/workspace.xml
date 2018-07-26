@@ -240,7 +240,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.NaryTreePreorderIterative">
+  <component name="RunManager" selected="Application.NaryTreePreorderRecursive">
     <configuration name="BalancedBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Trees.BalancedBinaryTree" />
       <module name="Leetcode" />
@@ -263,17 +263,6 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="KthLargestElementInAStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Trees.KthLargestElementInAStream" />
-      <module name="Leetcode" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Trees.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
     <configuration name="LowestCommonAncestorRecursive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Trees.LowestCommonAncestorRecursive" />
       <module name="Leetcode" />
@@ -287,6 +276,17 @@
     </configuration>
     <configuration name="NaryTreePreorderIterative" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Trees.NaryTreePreorderIterative" />
+      <module name="Leetcode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Trees.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="NaryTreePreorderRecursive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Trees.NaryTreePreorderRecursive" />
       <module name="Leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -338,19 +338,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.KthLargestElementInAStream" />
       <item itemvalue="Application.LowestCommonAncestorRecursive" />
       <item itemvalue="Application.ContainsDuplicatesIII" />
       <item itemvalue="Application.BalancedBinaryTree" />
       <item itemvalue="Application.NaryTreePreorderIterative" />
+      <item itemvalue="Application.NaryTreePreorderRecursive" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NaryTreePreorderRecursive" />
         <item itemvalue="Application.NaryTreePreorderIterative" />
         <item itemvalue="Application.BalancedBinaryTree" />
         <item itemvalue="Application.ContainsDuplicatesIII" />
         <item itemvalue="Application.LowestCommonAncestorRecursive" />
-        <item itemvalue="Application.KthLargestElementInAStream" />
       </list>
     </recent_temporary>
   </component>
