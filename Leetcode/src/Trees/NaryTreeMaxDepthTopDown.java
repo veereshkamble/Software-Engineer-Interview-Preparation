@@ -10,8 +10,10 @@ public class NaryTreeMaxDepthTopDown {
 
         int max = 1;
 
-        for (NaryNode child : root.children) {
-            max = Math.max(max, maxDepth(child) + 1);
+        if(root.children != null) {
+            for (NaryNode child : root.children) {
+                max = Math.max(max, maxDepth(child) + 1);
+            }
         }
 
         return max;
