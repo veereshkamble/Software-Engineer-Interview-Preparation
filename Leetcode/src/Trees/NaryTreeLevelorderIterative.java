@@ -5,7 +5,7 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 
-public class NaryInorderIterative {
+public class NaryTreeLevelorderIterative {
 
     public List<List<Integer>> levelOrder(NaryNode root) {
         List<List<Integer>> ans = new ArrayList<>();
