@@ -12,9 +12,8 @@ public class NaryTreePreorderRecursive {
         if (root.children != null) {
             for (NaryNode node : root.children) {
                 preorder(node);
+            }
         }
-    }
-
         return list;
     }
 
