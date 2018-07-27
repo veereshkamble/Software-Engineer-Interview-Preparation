@@ -12,7 +12,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DepthTopDown.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DepthTopDown.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Trees/DepthTopDown.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
@@ -21,11 +21,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NaryNode.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Trees/NaryNode.java">
+      <file leaf-file-name="NaryTreeMaxDepthBottomUp.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Trees/NaryTreeMaxDepthBottomUp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+            <state relative-caret-position="468">
+              <caret line="46" column="69" selection-start-line="46" selection-start-column="69" selection-end-line="46" selection-end-column="69" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#792#802#0" expanded="true" />
+                <element signature="e#961#971#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -145,7 +150,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Trees/PreorderIterativeLeetCode.java" />
         <option value="$PROJECT_DIR$/src/Trees/LevelOrderTraversal.java" />
         <option value="$PROJECT_DIR$/src/Trees/DepthTopDown.java" />
         <option value="$PROJECT_DIR$/src/Trees/DepthBottomUp.java" />
@@ -196,6 +200,7 @@
         <option value="$PROJECT_DIR$/src/Trees/NaryTreePostorderRecursive.java" />
         <option value="$PROJECT_DIR$/src/Trees/NaryInorderIterative.java" />
         <option value="$PROJECT_DIR$/src/Trees/NaryTreeLevelorderIterative.java" />
+        <option value="$PROJECT_DIR$/src/Trees/NaryTreeMaxDepthBottomUp.java" />
       </list>
     </option>
   </component>
@@ -248,9 +253,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.NaryTreeLevelorderIterative">
+  <component name="RunManager" selected="Application.NaryTreeMaxDepthBottomUp">
     <configuration name="NaryTreeLevelorderIterative" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Trees.NaryTreeLevelorderIterative" />
+      <module name="Leetcode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Trees.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="NaryTreeMaxDepthBottomUp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Trees.NaryTreeMaxDepthBottomUp" />
       <module name="Leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -273,17 +289,6 @@
     </configuration>
     <configuration name="NaryTreePostorderRecursive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Trees.NaryTreePostorderRecursive" />
-      <module name="Leetcode" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Trees.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="NaryTreePreorderIterative" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Trees.NaryTreePreorderIterative" />
       <module name="Leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -346,19 +351,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.NaryTreePreorderIterative" />
       <item itemvalue="Application.NaryTreePreorderRecursive" />
       <item itemvalue="Application.NaryTreePostorderIterative" />
       <item itemvalue="Application.NaryTreePostorderRecursive" />
       <item itemvalue="Application.NaryTreeLevelorderIterative" />
+      <item itemvalue="Application.NaryTreeMaxDepthBottomUp" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NaryTreeMaxDepthBottomUp" />
         <item itemvalue="Application.NaryTreeLevelorderIterative" />
         <item itemvalue="Application.NaryTreePostorderRecursive" />
         <item itemvalue="Application.NaryTreePreorderRecursive" />
         <item itemvalue="Application.NaryTreePostorderIterative" />
-        <item itemvalue="Application.NaryTreePreorderIterative" />
       </list>
     </recent_temporary>
   </component>
@@ -442,13 +447,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Trees/UnivalueSubTrees.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
-          <caret line="54" selection-start-line="54" selection-end-line="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Trees/BinaryTreeFromInPost.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="850">
@@ -822,19 +820,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Trees/NaryTreePreorderIterative.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="445">
-          <caret line="54" column="5" lean-forward="true" selection-start-line="29" selection-start-column="4" selection-end-line="54" selection-end-column="5" />
-          <folding>
-            <element signature="e#152#161#0" expanded="true" />
-            <element signature="e#298#308#0" expanded="true" />
-            <element signature="e#999#1009#0" expanded="true" />
-            <element signature="e#1160#1170#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Trees/NaryTreeLevelorderIterative.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="417">
@@ -856,6 +841,31 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Trees/NaryTreePreorderIterative.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="445">
+          <caret line="54" column="5" lean-forward="true" selection-start-line="29" selection-start-column="4" selection-end-line="54" selection-end-column="5" />
+          <folding>
+            <element signature="e#152#161#0" expanded="true" />
+            <element signature="e#298#308#0" expanded="true" />
+            <element signature="e#999#1009#0" expanded="true" />
+            <element signature="e#1160#1170#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Trees/NaryTreeMaxDepthBottomUp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="46" column="69" selection-start-line="46" selection-start-column="69" selection-end-line="46" selection-end-column="69" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#792#802#0" expanded="true" />
+            <element signature="e#961#971#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
