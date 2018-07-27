@@ -10,12 +10,14 @@ public class NaryTreePostorderRecursive {
         if (root == null)
             return list;
 
-        list.add(root.val);
+
         if (root.children != null) {
             for (NaryNode node : root.children) {
                 preorder(node);
             }
         }
+        list.add(root.val);
+        
         return list;
     }
 }
