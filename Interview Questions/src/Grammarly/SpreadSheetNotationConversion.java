@@ -2,7 +2,7 @@ package Grammarly;
 
 public class SpreadSheetNotationConversion {
 
-    public String convertToSpreadSheetNotation(long n) {
+    public static String convertToSpreadSheetNotation(long n) {
         StringBuilder result = new StringBuilder();
         long k = n;
         long ans = 1;
@@ -13,7 +13,7 @@ public class SpreadSheetNotationConversion {
             ans++;
         }
 
-        n = n- (702 * (ans - 1));
+        n = n - (702 * (ans - 1));
 
         while(n > 0) {
             n--;
@@ -25,7 +25,7 @@ public class SpreadSheetNotationConversion {
     }
 
     public static void main(String[] args) {
-        
+        System.out.println(SpreadSheetNotationConversion.convertToSpreadSheetNotation(1));
     }
 }
 

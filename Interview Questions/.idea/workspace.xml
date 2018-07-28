@@ -27,8 +27,12 @@
       <file leaf-file-name="SpreadSheetNotationConversion.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Grammarly/SpreadSheetNotationConversion.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+            <state relative-caret-position="405">
+              <caret line="27" column="72" selection-start-line="27" selection-start-column="72" selection-end-line="27" selection-end-column="72" />
+              <folding>
+                <element signature="e#572#573#0" expanded="true" />
+                <element signature="e#616#617#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -99,9 +103,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.SpreadSheetNotationConversion">
     <configuration name="ParticleSpeedCollision" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Grammarly.ParticleSpeedCollision" />
+      <module name="Interview Questions" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Grammarly.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="SpreadSheetNotationConversion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Grammarly.SpreadSheetNotationConversion" />
       <module name="Interview Questions" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -152,8 +167,13 @@
       <properties />
       <listeners />
     </configuration>
+    <list>
+      <item itemvalue="Application.ParticleSpeedCollision" />
+      <item itemvalue="Application.SpreadSheetNotationConversion" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SpreadSheetNotationConversion" />
         <item itemvalue="Application.ParticleSpeedCollision" />
       </list>
     </recent_temporary>
@@ -219,8 +239,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Grammarly/SpreadSheetNotationConversion.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+        <state relative-caret-position="405">
+          <caret line="27" column="72" selection-start-line="27" selection-start-column="72" selection-end-line="27" selection-end-column="72" />
+          <folding>
+            <element signature="e#572#573#0" expanded="true" />
+            <element signature="e#616#617#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
