@@ -23,6 +23,10 @@ public class SpreadSheetNotationConversion {
         result.insert(0, ans);
         return result.toString();
     }
+
+    public static void main(String[] args) {
+        
+    }
 }
 
 
