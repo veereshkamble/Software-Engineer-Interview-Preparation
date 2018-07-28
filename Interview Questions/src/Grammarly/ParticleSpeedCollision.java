@@ -13,7 +13,15 @@ public class ParticleSpeedCollision {
                 if(speed.get(pos) < particleSpeed) {
                     numCollisions++;
                 }
-            } else 
+            } else if(count > pos) {
+                if(speed.get(pos) > particleSpeed) {
+                    numCollisions++;
+                }
+            }
+            count++;
         }
+        return numCollisions;
     }
+
+    
 }
