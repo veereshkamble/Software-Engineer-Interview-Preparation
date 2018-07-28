@@ -35,6 +35,7 @@ public class ParticleSpeedCollision {
 
         int pos = 2;
 
-        
+
+        System.out.println(ParticleSpeedCollision.collision(speed, pos));
     }
 }
