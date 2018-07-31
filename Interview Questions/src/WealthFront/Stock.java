@@ -10,6 +10,7 @@ class Stock {
     public Stock(String tickerSymbol) {
         this.tickerSymbol = tickerSymbol;
     }
-
 }
+
+
 
