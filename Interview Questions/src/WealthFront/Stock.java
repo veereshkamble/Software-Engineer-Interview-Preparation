@@ -21,7 +21,6 @@ class Position {
         this.stock = stock;
         this.quantity = quantity;
     }
-
 }
 
 class Portfolio {
@@ -55,7 +54,6 @@ class Portfolio {
                 }
             }
         }
-
     }
 
     /*
@@ -73,7 +71,6 @@ class Portfolio {
                 }
             }
         }
-
     }
 }
 
