@@ -23,6 +23,7 @@ public class SmallestPositiveInteger {
         return 1;
     }
     public static void main(String[] args) {
-
+        int[] A = new int[] {1, 5, 4, 2, 6};
+        
     }
 }
