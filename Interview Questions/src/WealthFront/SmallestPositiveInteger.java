@@ -5,7 +5,7 @@ public class SmallestPositiveInteger {
 
     public int solution(int[] A) {
         // write your code in Java SE 8
-        int min = Integer.MIN_VALUE;
+        int fullFlag = 1;
 
         Set<Integer> hashSet = new HashSet<>();
 
@@ -20,13 +20,15 @@ public class SmallestPositiveInteger {
                 return A[i] + 1;
             }
             if(!hashSet.contains(i+1)) {
+                fullFlag = 0;
                 return i+1;
             }
         }
-        return 1;
+
+        return fullFlag == 1 ? A[A.length -1] + 1 : 1;
     }
     public static void main(String[] args) {
-        int[] A = new int[] {1};
+        int[] A = new int[] {1, 2, 3};
         SmallestPositiveInteger smallestPositiveInteger = new SmallestPositiveInteger();
         System.out.println(smallestPositiveInteger.solution(A));
     }
