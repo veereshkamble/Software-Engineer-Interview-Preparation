@@ -17,7 +17,7 @@ public class SmallestPositiveInteger {
 
         for( int i = 0; i < A.length; i++) {
             if(!hashSet.contains(i+1)) {
-                return i;
+                return i+1;
             }
         }
         return 1;
