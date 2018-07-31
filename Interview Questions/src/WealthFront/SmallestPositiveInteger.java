@@ -11,6 +11,10 @@ public class SmallestPositiveInteger {
         Set<Integer> hashSet = new HashSet<>();
 
         for(int i = 0; i < A.length; i++) {
+            if (A[i] >= max) {
+
+                max = A[i];
+            }
             if(A[i] > 0 && !hashSet.contains(A[i])) {
                 hashSet.add(A[i]);
             }
