@@ -24,6 +24,7 @@ public class SmallestPositiveInteger {
     }
     public static void main(String[] args) {
         int[] A = new int[] {1, 5, 4, 2, 6};
-        
+        SmallestPositiveInteger smallestPositiveInteger = new SmallestPositiveInteger();
+        System.out.println(smallestPositiveInteger.solution(A));
     }
 }
