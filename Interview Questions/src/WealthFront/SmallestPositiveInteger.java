@@ -6,6 +6,7 @@ public class SmallestPositiveInteger {
     public int solution(int[] A) {
         // write your code in Java SE 8
         int fullFlag = 1;
+        int max = Integer.MIN_VALUE;
 
         Set<Integer> hashSet = new HashSet<>();
 
