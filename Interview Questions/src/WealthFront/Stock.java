@@ -12,5 +12,17 @@ class Stock {
     }
 }
 
+class Position {
+
+    public Stock stock;
+    public int quantity;
+
+    public Position(Stock stock, int quantity) {
+        this.stock = stock;
+        this.quantity = quantity;
+    }
+
+}
+
 
 
