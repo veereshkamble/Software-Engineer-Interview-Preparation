@@ -30,11 +30,34 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SmallestPositiveInteger.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SmallestPositiveInteger.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/WealthFront/SmallestPositiveInteger.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="33" column="5" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="33" selection-end-column="5" />
+            <state relative-caret-position="252">
+              <caret line="35" column="30" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RockPaperScissors.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/WealthFront/RockPaperScissors.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Stock.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/WealthFront/Stock.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="473">
+              <caret line="71" column="73" lean-forward="true" selection-start-line="71" selection-start-column="24" selection-end-line="71" selection-end-column="73" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#156#157#0" expanded="true" />
+                <element signature="e#204#205#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -54,6 +77,8 @@
         <option value="$PROJECT_DIR$/src/Grammarly/ParticleSpeedCollision.java" />
         <option value="$PROJECT_DIR$/src/Grammarly/SpreadSheetNotationConversion.java" />
         <option value="$PROJECT_DIR$/src/WealthFront/SmallestPositiveInteger.java" />
+        <option value="$PROJECT_DIR$/src/WealthFront/Stock.java" />
+        <option value="$PROJECT_DIR$/src/WealthFront/RockPaperScissors.java" />
       </list>
     </option>
   </component>
@@ -106,7 +131,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SmallestPositiveInteger">
+  <component name="RunManager" selected="Application.RockPaperScissors">
     <configuration name="ParticleSpeedCollision" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Grammarly.ParticleSpeedCollision" />
       <module name="Interview Questions" />
@@ -114,6 +139,17 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Grammarly.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="RockPaperScissors" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WealthFront.RockPaperScissors" />
+      <module name="Interview Questions" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="WealthFront.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -185,9 +221,11 @@
       <item itemvalue="Application.ParticleSpeedCollision" />
       <item itemvalue="Application.SpreadSheetNotationConversion" />
       <item itemvalue="Application.SmallestPositiveInteger" />
+      <item itemvalue="Application.RockPaperScissors" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RockPaperScissors" />
         <item itemvalue="Application.SmallestPositiveInteger" />
         <item itemvalue="Application.SpreadSheetNotationConversion" />
         <item itemvalue="Application.ParticleSpeedCollision" />
@@ -213,24 +251,24 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="bottom" id="Messages" order="10" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info id="Image Layers" order="2" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32968536" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32968536" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Designer" order="2" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Designer" order="3" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.171875" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.16826266" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -241,6 +279,19 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/WealthFront/RockPaperScissors.java</url>
+          <line>60</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="2" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Grammarly/ParticleSpeedCollision.java">
@@ -273,8 +324,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/WealthFront/SmallestPositiveInteger.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="33" column="5" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="33" selection-end-column="5" />
+        <state relative-caret-position="252">
+          <caret line="35" column="30" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/WealthFront/Stock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="473">
+          <caret line="71" column="73" lean-forward="true" selection-start-line="71" selection-start-column="24" selection-end-line="71" selection-end-column="73" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#156#157#0" expanded="true" />
+            <element signature="e#204#205#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/WealthFront/RockPaperScissors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
         </state>
       </provider>
     </entry>
