@@ -16,13 +16,13 @@ public class SmallestPositiveInteger {
         }
 
         for( int i = 1; i <= A.length; i++) {
-            if(!hashSet.contains(A[i])) {
+            if(!hashSet.contains(i)) {
                 return i;
             }
         }
         return 1;
     }
     public static void main(String[] args) {
-        
+
     }
 }
