@@ -24,5 +24,15 @@ class Position {
 
 }
 
+class Portfolio {
 
+    public int cash;
+    public List<Position> positions;
+
+    public Portfolio(int cash, Position... positions) {
+        this.cash = cash;
+        this.positions = new ArrayList<>(Arrays.asList(positions));
+    }
+
+}
 

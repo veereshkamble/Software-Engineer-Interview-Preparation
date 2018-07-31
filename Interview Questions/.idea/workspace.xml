@@ -39,7 +39,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RockPaperScissors.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="RockPaperScissors.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/WealthFront/RockPaperScissors.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
@@ -48,11 +48,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Stock.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Stock.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/WealthFront/Stock.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="473">
-              <caret line="71" column="73" lean-forward="true" selection-start-line="71" selection-start-column="24" selection-end-line="71" selection-end-column="73" />
+            <state relative-caret-position="421">
+              <caret line="36" column="1" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#156#157#0" expanded="true" />
@@ -77,8 +77,8 @@
         <option value="$PROJECT_DIR$/src/Grammarly/ParticleSpeedCollision.java" />
         <option value="$PROJECT_DIR$/src/Grammarly/SpreadSheetNotationConversion.java" />
         <option value="$PROJECT_DIR$/src/WealthFront/SmallestPositiveInteger.java" />
-        <option value="$PROJECT_DIR$/src/WealthFront/Stock.java" />
         <option value="$PROJECT_DIR$/src/WealthFront/RockPaperScissors.java" />
+        <option value="$PROJECT_DIR$/src/WealthFront/Stock.java" />
       </list>
     </option>
   </component>
@@ -329,22 +329,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/WealthFront/RockPaperScissors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/WealthFront/Stock.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="473">
-          <caret line="71" column="73" lean-forward="true" selection-start-line="71" selection-start-column="24" selection-end-line="71" selection-end-column="73" />
+        <state relative-caret-position="421">
+          <caret line="36" column="1" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#156#157#0" expanded="true" />
             <element signature="e#204#205#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/WealthFront/RockPaperScissors.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
         </state>
       </provider>
     </entry>
