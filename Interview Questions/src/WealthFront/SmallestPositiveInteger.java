@@ -33,7 +33,7 @@ public class SmallestPositiveInteger {
         return fullFlag == 1 ? max + 1 : 1;
     }
     public static void main(String[] args) {
-        int[] A = new int[] {3, 2, 1};
+        int[] A = new int[] {0};
         SmallestPositiveInteger smallestPositiveInteger = new SmallestPositiveInteger();
         System.out.println(smallestPositiveInteger.solution(A));
     }
