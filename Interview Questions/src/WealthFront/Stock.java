@@ -58,7 +58,23 @@ class Portfolio {
 
     }
 
-    
+    /*
+   If the sell is viable then execute it, otherwise do nothing.
+   */
+    public void sell(Stock stock, int quantity, int price) {
+        //throw new UnsupportedOperationException("Implement this method.");
+        if(quantity > 1 && price >= 0) {
+            for(Position position : positions) {
+                if(position.stock.tickerSymbol.equals(stock.tickerSymbol)) {
+                    if(position.quantity >= quantity) {
+                        this.cash = this.cash + (quantity * price);
+                        position.quantity = position.quantity + quantity;
+                    }
+                }
+            }
+        }
+
+    }
 }
 
 class Solution {
