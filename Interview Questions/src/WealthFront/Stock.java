@@ -33,6 +33,32 @@ class Portfolio {
         this.cash = cash;
         this.positions = new ArrayList<>(Arrays.asList(positions));
     }
+
+    /*
+        If the buy is viable then execute it, otherwise do nothing.
+        */
+    public void buy(Stock stock, int quantity, int price) {
+        //throw new UnsupportedOperationException("Implement this method.");
+        int positionPresent = 0;
+        if(quantity > 1 && price >= 0) {
+            if(this.cash >= quantity * price) {
+                this.cash = this.cash - (quantity * price);
+                for(Position position : positions) {
+                    if(position.stock.tickerSymbol.equals(stock.tickerSymbol)) {
+                        position.quantity = position.quantity + quantity;
+                        positionPresent = 1;
+                    }
+                }
+
+                if(positionPresent == 0) {
+                    positions.add(new Position(stock, quantity));
+                }
+            }
+        }
+
+    }
+
+    
 }
 
 class Solution {
