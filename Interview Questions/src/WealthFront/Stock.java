@@ -33,6 +33,25 @@ class Portfolio {
         this.cash = cash;
         this.positions = new ArrayList<>(Arrays.asList(positions));
     }
+}
 
+class Solution {
+    public String solution(String symbol, int quantity, int price) {
+        Portfolio portfolio = new Portfolio(1000,
+                new Position(new Stock("AAPL"), 20),
+                new Position(new Stock("MSFT"), 10));
+        portfolio.buy(new Stock(symbol), quantity, price);
+
+        Portfolio portfolio1 = new Portfolio(2000,
+                new Position(new Stock("ASD"), 30),
+                new Position(new Stock("MSFT"), 22));
+
+        return Stream.concat(
+                Stream.of("CASH:" + portfolio.cash),
+                portfolio.positions.stream()
+                        .sorted((p1, p2) -> p1.stock.tickerSymbol.compareToIgnoreCase(p2.stock.tickerSymbol))
+                        .map(p -> p.stock.tickerSymbol + ":" + p.quantity))
+                .collect(Collectors.joining(","));
+    }
 }
 
