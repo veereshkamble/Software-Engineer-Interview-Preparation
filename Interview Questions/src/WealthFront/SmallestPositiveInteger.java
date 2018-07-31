@@ -28,7 +28,7 @@ public class SmallestPositiveInteger {
         return fullFlag == 1 ? A[A.length -1] + 1 : 1;
     }
     public static void main(String[] args) {
-        int[] A = new int[] {1, 2, 3};
+        int[] A = new int[] {3, 2, 1};
         SmallestPositiveInteger smallestPositiveInteger = new SmallestPositiveInteger();
         System.out.println(smallestPositiveInteger.solution(A));
     }
