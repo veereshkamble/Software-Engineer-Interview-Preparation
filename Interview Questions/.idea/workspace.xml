@@ -33,8 +33,8 @@
       <file leaf-file-name="SmallestPositiveInteger.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/WealthFront/SmallestPositiveInteger.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+            <state relative-caret-position="459">
+              <caret line="27" column="64" lean-forward="true" selection-start-line="27" selection-start-column="64" selection-end-line="27" selection-end-column="64" />
             </state>
           </provider>
         </entry>
@@ -106,7 +106,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SpreadSheetNotationConversion">
+  <component name="RunManager" selected="Application.SmallestPositiveInteger">
     <configuration name="ParticleSpeedCollision" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Grammarly.ParticleSpeedCollision" />
       <module name="Interview Questions" />
@@ -114,6 +114,17 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Grammarly.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="SmallestPositiveInteger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WealthFront.SmallestPositiveInteger" />
+      <module name="Interview Questions" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="WealthFront.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -173,9 +184,11 @@
     <list>
       <item itemvalue="Application.ParticleSpeedCollision" />
       <item itemvalue="Application.SpreadSheetNotationConversion" />
+      <item itemvalue="Application.SmallestPositiveInteger" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SmallestPositiveInteger" />
         <item itemvalue="Application.SpreadSheetNotationConversion" />
         <item itemvalue="Application.ParticleSpeedCollision" />
       </list>
@@ -260,8 +273,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/WealthFront/SmallestPositiveInteger.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+        <state relative-caret-position="459">
+          <caret line="27" column="64" lean-forward="true" selection-start-line="27" selection-start-column="64" selection-end-line="27" selection-end-column="64" />
         </state>
       </provider>
     </entry>

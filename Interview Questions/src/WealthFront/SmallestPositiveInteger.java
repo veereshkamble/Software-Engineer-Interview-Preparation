@@ -16,6 +16,9 @@ public class SmallestPositiveInteger {
         }
 
         for( int i = 0; i < A.length; i++) {
+            if(hashSet.size() == 1) {
+                return A[i] + 1;
+            }
             if(!hashSet.contains(i+1)) {
                 return i+1;
             }
@@ -23,7 +26,7 @@ public class SmallestPositiveInteger {
         return 1;
     }
     public static void main(String[] args) {
-        int[] A = new int[] {1, 5, 4, 2, 6};
+        int[] A = new int[] {1};
         SmallestPositiveInteger smallestPositiveInteger = new SmallestPositiveInteger();
         System.out.println(smallestPositiveInteger.solution(A));
     }
