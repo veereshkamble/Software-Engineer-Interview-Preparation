@@ -23,7 +23,7 @@ public class ContainsDuplicateII {
 
     public static void main(String[] args) {
         ContainsDuplicateII containsDuplicateII = new ContainsDuplicateII();
-        int[] nums = new int[] {1, 0, 1, 1};
+        int[] nums = new int[] {1, 2, 3, 2};
         int k = 1;
 
         System.out.println(containsDuplicateII.containsNearbyDuplicate(nums, k));
