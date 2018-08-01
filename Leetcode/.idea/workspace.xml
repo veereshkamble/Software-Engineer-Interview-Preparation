@@ -12,11 +12,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DominantIndex.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DominantIndex.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/DominantIndex.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="442">
               <caret line="29" column="49" selection-start-line="29" selection-start-column="49" selection-end-line="29" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FindDiagonalOrder.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/FindDiagonalOrder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="500">
+              <caret line="30" column="70" selection-start-line="30" selection-start-column="70" selection-end-line="30" selection-end-column="70" />
             </state>
           </provider>
         </entry>
@@ -46,7 +55,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Trees/PathSum.java" />
         <option value="$PROJECT_DIR$/src/Trees/PathSumRecursive.java" />
         <option value="$PROJECT_DIR$/src/Trees/PathSumIterative.java" />
         <option value="$PROJECT_DIR$/src/Trees/UnivalueSubTrees.java" />
@@ -97,6 +105,7 @@
         <option value="$PROJECT_DIR$/src/ArraysAndStrings/AddBinary.java" />
         <option value="$PROJECT_DIR$/src/ArraysAndStrings/ArrayPartitionI.java" />
         <option value="$PROJECT_DIR$/src/ArraysAndStrings/DominantIndex.java" />
+        <option value="$PROJECT_DIR$/src/ArraysAndStrings/FindDiagonalOrder.java" />
       </list>
     </option>
   </component>
@@ -161,7 +170,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DominantIndex">
+  <component name="RunManager" selected="Application.FindDiagonalOrder">
     <configuration name="AddBinary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArraysAndStrings.AddBinary" />
       <module name="Leetcode" />
@@ -195,19 +204,19 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="ContainsDuplicates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HashTables.ContainsDuplicates" />
+    <configuration name="DominantIndex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArraysAndStrings.DominantIndex" />
       <module name="Leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="HashTables.*" />
+          <option name="PATTERN" value="ArraysAndStrings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="DominantIndex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArraysAndStrings.DominantIndex" />
+    <configuration name="FindDiagonalOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArraysAndStrings.FindDiagonalOrder" />
       <module name="Leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -259,19 +268,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.ContainsDuplicates" />
       <item itemvalue="Application.ContainsDuplicateII" />
       <item itemvalue="Application.AddBinary" />
       <item itemvalue="Application.ArrayPartitionI" />
       <item itemvalue="Application.DominantIndex" />
+      <item itemvalue="Application.FindDiagonalOrder" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FindDiagonalOrder" />
         <item itemvalue="Application.DominantIndex" />
         <item itemvalue="Application.ArrayPartitionI" />
         <item itemvalue="Application.AddBinary" />
         <item itemvalue="Application.ContainsDuplicateII" />
-        <item itemvalue="Application.ContainsDuplicates" />
       </list>
     </recent_temporary>
   </component>
@@ -300,12 +309,12 @@
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="6" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.1997264" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.1997264" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18619792" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18619792" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
@@ -355,13 +364,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Trees/PopulateNextRightPointerRecursive.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="40" column="5" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="40" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Trees/PopulateNextRightPointerIterative.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="567">
@@ -709,6 +711,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
           <caret line="29" column="49" selection-start-line="29" selection-start-column="49" selection-end-line="29" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/FindDiagonalOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="30" column="70" selection-start-line="30" selection-start-column="70" selection-end-line="30" selection-end-column="70" />
         </state>
       </provider>
     </entry>
