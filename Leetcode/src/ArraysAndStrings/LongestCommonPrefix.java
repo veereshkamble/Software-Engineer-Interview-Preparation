@@ -32,7 +32,7 @@ public class LongestCommonPrefix {
 
     public static void main(String [] args) {
         LongestCommonPrefix longestCommonPrefix = new LongestCommonPrefix();
-        String[] strs = new String[] {"qweradsffsd", "qwerfwefdf", "qwertyaqsdgdhf"};
+        String[] strs = new String[] {"flower", "flow", "flight"};
         System.out.println(longestCommonPrefix.longestCommonPrefix(strs));
     }
 }

@@ -12,20 +12,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DominantIndex.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/DominantIndex.java">
+      <file leaf-file-name="LongestCommonPrefix.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/LongestCommonPrefix.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="29" column="49" selection-start-line="29" selection-start-column="49" selection-end-line="29" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FindDiagonalOrder.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/FindDiagonalOrder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="30" column="70" selection-start-line="30" selection-start-column="70" selection-end-line="30" selection-end-column="70" />
+            <state relative-caret-position="374">
+              <caret line="34" column="63" selection-start-line="34" selection-start-column="63" selection-end-line="34" selection-end-column="63" />
             </state>
           </provider>
         </entry>
@@ -55,7 +46,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Trees/PathSumRecursive.java" />
         <option value="$PROJECT_DIR$/src/Trees/PathSumIterative.java" />
         <option value="$PROJECT_DIR$/src/Trees/UnivalueSubTrees.java" />
         <option value="$PROJECT_DIR$/src/Trees/BinaryTreeFromInPost.java" />
@@ -106,6 +96,7 @@
         <option value="$PROJECT_DIR$/src/ArraysAndStrings/ArrayPartitionI.java" />
         <option value="$PROJECT_DIR$/src/ArraysAndStrings/DominantIndex.java" />
         <option value="$PROJECT_DIR$/src/ArraysAndStrings/FindDiagonalOrder.java" />
+        <option value="$PROJECT_DIR$/src/ArraysAndStrings/LongestCommonPrefix.java" />
       </list>
     </option>
   </component>
@@ -170,7 +161,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FindDiagonalOrder">
+  <component name="RunManager" selected="Application.LongestCommonPrefix">
     <configuration name="AddBinary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArraysAndStrings.AddBinary" />
       <module name="Leetcode" />
@@ -193,17 +184,6 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="ContainsDuplicateII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HashTables.ContainsDuplicateII" />
-      <module name="Leetcode" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="HashTables.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
     <configuration name="DominantIndex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArraysAndStrings.DominantIndex" />
       <module name="Leetcode" />
@@ -217,6 +197,17 @@
     </configuration>
     <configuration name="FindDiagonalOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArraysAndStrings.FindDiagonalOrder" />
+      <module name="Leetcode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ArraysAndStrings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="LongestCommonPrefix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArraysAndStrings.LongestCommonPrefix" />
       <module name="Leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -268,19 +259,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.ContainsDuplicateII" />
       <item itemvalue="Application.AddBinary" />
       <item itemvalue="Application.ArrayPartitionI" />
       <item itemvalue="Application.DominantIndex" />
       <item itemvalue="Application.FindDiagonalOrder" />
+      <item itemvalue="Application.LongestCommonPrefix" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LongestCommonPrefix" />
         <item itemvalue="Application.FindDiagonalOrder" />
         <item itemvalue="Application.DominantIndex" />
         <item itemvalue="Application.ArrayPartitionI" />
         <item itemvalue="Application.AddBinary" />
-        <item itemvalue="Application.ContainsDuplicateII" />
       </list>
     </recent_temporary>
   </component>
@@ -364,13 +355,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Trees/PopulateNextRightPointerIterative.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="44" column="5" lean-forward="true" selection-start-line="22" selection-start-column="3" selection-end-line="44" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Trees/TreeNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -718,6 +702,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="500">
           <caret line="30" column="70" selection-start-line="30" selection-start-column="70" selection-end-line="30" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/LongestCommonPrefix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="34" column="63" selection-start-line="34" selection-start-column="63" selection-end-line="34" selection-end-column="63" />
         </state>
       </provider>
     </entry>
