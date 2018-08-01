@@ -34,7 +34,7 @@ public class NeedleInHaystack {
     public static void main(String[] args) {
         NeedleInHaystack needleInHaystack = new NeedleInHaystack();
         String haystack = "Hello";
-        String needle = "ll";
+        String needle = "Hello";
         System.out.println(needleInHaystack.needleInHaystack(haystack, needle));
     }
 }
