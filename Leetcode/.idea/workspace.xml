@@ -12,11 +12,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="LongestCommonPrefix.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/LongestCommonPrefix.java">
+      <file leaf-file-name="MaxConsecutiveOnes.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/MaxConsecutiveOnes.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="34" column="63" selection-start-line="34" selection-start-column="63" selection-end-line="34" selection-end-column="63" />
+            <state relative-caret-position="306">
+              <caret line="18" column="65" selection-start-line="18" selection-start-column="65" selection-end-line="18" selection-end-column="65" />
             </state>
           </provider>
         </entry>
@@ -46,7 +46,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Trees/PathSumIterative.java" />
         <option value="$PROJECT_DIR$/src/Trees/UnivalueSubTrees.java" />
         <option value="$PROJECT_DIR$/src/Trees/BinaryTreeFromInPost.java" />
         <option value="$PROJECT_DIR$/src/Trees/BinaryTreeFromInPostIterative.java" />
@@ -97,6 +96,7 @@
         <option value="$PROJECT_DIR$/src/ArraysAndStrings/DominantIndex.java" />
         <option value="$PROJECT_DIR$/src/ArraysAndStrings/FindDiagonalOrder.java" />
         <option value="$PROJECT_DIR$/src/ArraysAndStrings/LongestCommonPrefix.java" />
+        <option value="$PROJECT_DIR$/src/ArraysAndStrings/MaxConsecutiveOnes.java" />
       </list>
     </option>
   </component>
@@ -161,18 +161,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LongestCommonPrefix">
-    <configuration name="AddBinary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArraysAndStrings.AddBinary" />
-      <module name="Leetcode" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ArraysAndStrings.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
+  <component name="RunManager" selected="Application.MaxConsecutiveOnes">
     <configuration name="ArrayPartitionI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArraysAndStrings.ArrayPartitionI" />
       <module name="Leetcode" />
@@ -208,6 +197,17 @@
     </configuration>
     <configuration name="LongestCommonPrefix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArraysAndStrings.LongestCommonPrefix" />
+      <module name="Leetcode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ArraysAndStrings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="MaxConsecutiveOnes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArraysAndStrings.MaxConsecutiveOnes" />
       <module name="Leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -259,19 +259,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.AddBinary" />
       <item itemvalue="Application.ArrayPartitionI" />
       <item itemvalue="Application.DominantIndex" />
       <item itemvalue="Application.FindDiagonalOrder" />
       <item itemvalue="Application.LongestCommonPrefix" />
+      <item itemvalue="Application.MaxConsecutiveOnes" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaxConsecutiveOnes" />
         <item itemvalue="Application.LongestCommonPrefix" />
         <item itemvalue="Application.FindDiagonalOrder" />
         <item itemvalue="Application.DominantIndex" />
         <item itemvalue="Application.ArrayPartitionI" />
-        <item itemvalue="Application.AddBinary" />
       </list>
     </recent_temporary>
   </component>
@@ -355,13 +355,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Trees/TreeNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Trees/Codec.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1071">
@@ -709,6 +702,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="34" column="63" selection-start-line="34" selection-start-column="63" selection-end-line="34" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/MaxConsecutiveOnes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="65" selection-start-line="18" selection-start-column="65" selection-end-line="18" selection-end-column="65" />
         </state>
       </provider>
     </entry>
