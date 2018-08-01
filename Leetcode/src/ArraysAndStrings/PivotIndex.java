@@ -24,7 +24,7 @@ public class PivotIndex {
     }
 
     public static void main(String[] args) {
-        int[] nums = new int[] {1, 7, 3, 8};
+        int[] nums = new int[] {1, 7, 3, 6, 5, 6};
         PivotIndex pivotIndex = new PivotIndex();
         System.out.println(pivotIndex.pivotIndex(nums));
     }
