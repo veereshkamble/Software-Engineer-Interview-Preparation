@@ -4,7 +4,9 @@ public class AddBinary {
 
     public String addBinary(String str1, String str2) {
         StringBuilder sb = new StringBuilder();
-        int i = str1.length() - 1, j = str2.length() - 1, carry = 0;
+        int i = str1.length() - 1;
+        int j = str2.length() - 1;
+        int carry = 0;
 
         while( i >= 0 || j >= 0){
             int sum = carry;
@@ -19,7 +21,7 @@ public class AddBinary {
 
     public static void main(String[] args) {
         AddBinary addBinary = new AddBinary();
-        String str1 = "1010";
+        String str1 = "1011";
         String str2 = "1011";
         System.out.println(addBinary.addBinary(str1, str2));
     }
