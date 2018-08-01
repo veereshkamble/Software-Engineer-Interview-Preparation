@@ -12,6 +12,7 @@ public class MoveZeroes {
 
         while(index < nums.length) {
             nums[index] = 0;
+            index++;
         }
         return nums;
     }
@@ -22,7 +23,7 @@ public class MoveZeroes {
         int[] newNums = moveZeroes.moveZeroes(nums);
 
         for(int i = 0; i <  newNums.length; i++) {
-            System.out.println(newNums[i] + " ");
+            System.out.print(newNums[i] + " ");
         }
     }
 }
