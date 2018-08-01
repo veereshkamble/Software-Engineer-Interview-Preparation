@@ -12,11 +12,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ArrayPartitionI.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/ArrayPartitionI.java">
+      <file leaf-file-name="DominantIndex.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/DominantIndex.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="54" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
+            <state relative-caret-position="442">
+              <caret line="29" column="49" selection-start-line="29" selection-start-column="49" selection-end-line="29" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -46,7 +46,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Trees/SymmetricTreeIterative.java" />
         <option value="$PROJECT_DIR$/src/Trees/PathSum.java" />
         <option value="$PROJECT_DIR$/src/Trees/PathSumRecursive.java" />
         <option value="$PROJECT_DIR$/src/Trees/PathSumIterative.java" />
@@ -97,6 +96,7 @@
         <option value="$PROJECT_DIR$/src/HashTables/ContainsDuplicateII.java" />
         <option value="$PROJECT_DIR$/src/ArraysAndStrings/AddBinary.java" />
         <option value="$PROJECT_DIR$/src/ArraysAndStrings/ArrayPartitionI.java" />
+        <option value="$PROJECT_DIR$/src/ArraysAndStrings/DominantIndex.java" />
       </list>
     </option>
   </component>
@@ -161,7 +161,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ArrayPartitionI">
+  <component name="RunManager" selected="Application.DominantIndex">
     <configuration name="AddBinary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArraysAndStrings.AddBinary" />
       <module name="Leetcode" />
@@ -206,13 +206,13 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="NaryTreeMaxDepthTopDown" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Trees.NaryTreeMaxDepthTopDown" />
+    <configuration name="DominantIndex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArraysAndStrings.DominantIndex" />
       <module name="Leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Trees.*" />
+          <option name="PATTERN" value="ArraysAndStrings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -259,19 +259,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.NaryTreeMaxDepthTopDown" />
       <item itemvalue="Application.ContainsDuplicates" />
       <item itemvalue="Application.ContainsDuplicateII" />
       <item itemvalue="Application.AddBinary" />
       <item itemvalue="Application.ArrayPartitionI" />
+      <item itemvalue="Application.DominantIndex" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DominantIndex" />
         <item itemvalue="Application.ArrayPartitionI" />
         <item itemvalue="Application.AddBinary" />
         <item itemvalue="Application.ContainsDuplicateII" />
         <item itemvalue="Application.ContainsDuplicates" />
-        <item itemvalue="Application.NaryTreeMaxDepthTopDown" />
       </list>
     </recent_temporary>
   </component>
@@ -290,6 +290,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -299,7 +300,7 @@
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="6" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.19699043" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.1997264" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="6" />
@@ -354,13 +355,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Trees/BinaryTreeFromInPostIterative.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="45" column="5" lean-forward="true" selection-start-line="39" selection-start-column="3" selection-end-line="45" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Trees/PopulateNextRightPointerRecursive.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="612">
@@ -708,6 +702,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="54" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/DominantIndex.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="29" column="49" selection-start-line="29" selection-start-column="49" selection-end-line="29" selection-end-column="49" />
         </state>
       </provider>
     </entry>

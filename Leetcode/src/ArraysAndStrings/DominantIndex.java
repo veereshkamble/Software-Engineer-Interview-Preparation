@@ -27,7 +27,7 @@ public class DominantIndex {
     }
 
     public static void main(String[] args) {
-        int[] nums = new int[] {3, 1, 0, 4, 10, 5};
+        int[] nums = new int[] {3, 1, 0, 4, 5, 11};
         DominantIndex dominantIndex = new DominantIndex();
         System.out.println(dominantIndex.dominantIndex(nums));
     }
