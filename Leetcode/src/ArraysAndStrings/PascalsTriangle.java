@@ -22,6 +22,6 @@ public class PascalsTriangle {
 
     public static void  main(String[] args) {
         PascalsTriangle pascalsTriangle = new PascalsTriangle();
-        pascalsTriangle.PascalsTriangle(10);
+        pascalsTriangle.PascalsTriangle(12);
     }
 }
