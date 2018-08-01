@@ -12,11 +12,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="NeedleInHaystack.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="NeedleInHaystack.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/NeedleInHaystack.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="466">
               <caret line="36" column="30" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PascalsIndex.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/PascalsIndex.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="31" lean-forward="true" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+              <folding>
+                <element signature="e#175#184#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -161,18 +173,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.NeedleInHaystack">
-    <configuration name="LongestCommonPrefix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArraysAndStrings.LongestCommonPrefix" />
-      <module name="Leetcode" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ArraysAndStrings.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
+  <component name="RunManager" selected="Application.PascalsIndex">
     <configuration name="MaxConsecutiveOnes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArraysAndStrings.MaxConsecutiveOnes" />
       <module name="Leetcode" />
@@ -208,6 +209,17 @@
     </configuration>
     <configuration name="NeedleInHaystack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArraysAndStrings.NeedleInHaystack" />
+      <module name="Leetcode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ArraysAndStrings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="PascalsIndex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArraysAndStrings.PascalsIndex" />
       <module name="Leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -259,19 +271,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.LongestCommonPrefix" />
       <item itemvalue="Application.MaxConsecutiveOnes" />
       <item itemvalue="Application.MinimumSizeSubarraySum" />
       <item itemvalue="Application.MoveZeroes" />
       <item itemvalue="Application.NeedleInHaystack" />
+      <item itemvalue="Application.PascalsIndex" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PascalsIndex" />
         <item itemvalue="Application.NeedleInHaystack" />
         <item itemvalue="Application.MoveZeroes" />
         <item itemvalue="Application.MinimumSizeSubarraySum" />
         <item itemvalue="Application.MaxConsecutiveOnes" />
-        <item itemvalue="Application.LongestCommonPrefix" />
       </list>
     </recent_temporary>
   </component>
@@ -355,13 +367,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Trees/ValidateBinarySearchTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Trees/PreorderIterativeLeetCode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="618">
@@ -709,6 +714,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="466">
           <caret line="36" column="30" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/PascalsIndex.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="31" lean-forward="true" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+          <folding>
+            <element signature="e#175#184#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
