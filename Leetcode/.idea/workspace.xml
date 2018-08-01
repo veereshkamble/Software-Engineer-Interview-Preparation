@@ -12,11 +12,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MaxConsecutiveOnes.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/MaxConsecutiveOnes.java">
+      <file leaf-file-name="MinimumSizeSubarraySum.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/MinimumSizeSubarraySum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="65" selection-start-line="18" selection-start-column="65" selection-end-line="18" selection-end-column="65" />
+            <state relative-caret-position="338">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
             </state>
           </provider>
         </entry>
@@ -46,7 +46,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Trees/UnivalueSubTrees.java" />
         <option value="$PROJECT_DIR$/src/Trees/BinaryTreeFromInPost.java" />
         <option value="$PROJECT_DIR$/src/Trees/BinaryTreeFromInPostIterative.java" />
         <option value="$PROJECT_DIR$/src/Trees/BinaryTreeFromInPre.java" />
@@ -97,6 +96,7 @@
         <option value="$PROJECT_DIR$/src/ArraysAndStrings/FindDiagonalOrder.java" />
         <option value="$PROJECT_DIR$/src/ArraysAndStrings/LongestCommonPrefix.java" />
         <option value="$PROJECT_DIR$/src/ArraysAndStrings/MaxConsecutiveOnes.java" />
+        <option value="$PROJECT_DIR$/src/ArraysAndStrings/MinimumSizeSubarraySum.java" />
       </list>
     </option>
   </component>
@@ -161,18 +161,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MaxConsecutiveOnes">
-    <configuration name="ArrayPartitionI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArraysAndStrings.ArrayPartitionI" />
-      <module name="Leetcode" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ArraysAndStrings.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
+  <component name="RunManager" selected="Application.MinimumSizeSubarraySum">
     <configuration name="DominantIndex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArraysAndStrings.DominantIndex" />
       <module name="Leetcode" />
@@ -208,6 +197,17 @@
     </configuration>
     <configuration name="MaxConsecutiveOnes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArraysAndStrings.MaxConsecutiveOnes" />
+      <module name="Leetcode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ArraysAndStrings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="MinimumSizeSubarraySum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArraysAndStrings.MinimumSizeSubarraySum" />
       <module name="Leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -259,19 +259,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.ArrayPartitionI" />
       <item itemvalue="Application.DominantIndex" />
       <item itemvalue="Application.FindDiagonalOrder" />
       <item itemvalue="Application.LongestCommonPrefix" />
       <item itemvalue="Application.MaxConsecutiveOnes" />
+      <item itemvalue="Application.MinimumSizeSubarraySum" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MinimumSizeSubarraySum" />
         <item itemvalue="Application.MaxConsecutiveOnes" />
         <item itemvalue="Application.LongestCommonPrefix" />
         <item itemvalue="Application.FindDiagonalOrder" />
         <item itemvalue="Application.DominantIndex" />
-        <item itemvalue="Application.ArrayPartitionI" />
       </list>
     </recent_temporary>
   </component>
@@ -300,17 +300,17 @@
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="6" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.1997264" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.1997264" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18619792" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18619792" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3515732" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3515732" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -351,17 +351,10 @@
           <option name="timeStamp" value="17" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="27" />
+      <option name="time" value="28" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Trees/Codec.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1071">
-          <caret line="63" selection-start-line="63" selection-end-line="63" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Trees/PopulateNextRightPointerII.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
@@ -709,6 +702,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="65" selection-start-line="18" selection-start-column="65" selection-end-line="18" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/MinimumSizeSubarraySum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
         </state>
       </provider>
     </entry>
