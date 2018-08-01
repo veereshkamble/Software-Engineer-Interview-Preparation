@@ -15,7 +15,7 @@ public class ArrayPartitionI {
 
     public static void main(String[] args) {
         ArrayPartitionI partitionI = new ArrayPartitionI();
-        int[] nums = new int[] {1, 2, 3, 4, 5, 6};
+        int[] nums = new int[] {1, 2, 3, 4, 5, 6, 7, 8};
         System.out.println(partitionI.arrayPairSum(nums));
     }
 }
