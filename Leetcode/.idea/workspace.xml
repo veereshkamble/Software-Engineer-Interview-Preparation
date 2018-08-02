@@ -12,38 +12,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="RotateArray.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/RotateArray.java">
+      <file leaf-file-name="ContainsDuplicateII.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/HashTables/ContainsDuplicateII.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-34">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            <state relative-caret-position="272">
+              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RotateArrayOptimized.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/RotateArrayOptimized.java">
+      <file leaf-file-name="ContainsDuplicates.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/HashTables/ContainsDuplicates.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="287">
-              <caret line="30" selection-start-line="30" selection-end-line="30" />
+            <state relative-caret-position="391">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SpiralOrder.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/SpiralOrder.java">
+      <file leaf-file-name="FindDuplicates.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/HashTables/FindDuplicates.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="35" column="47" lean-forward="true" selection-start-line="35" selection-start-column="47" selection-end-line="35" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TwoSumII.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/TwoSumII.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-112">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="408">
+              <caret line="27" column="64" selection-start-line="27" selection-start-column="64" selection-end-line="27" selection-end-column="64" />
+              <folding>
+                <element signature="e#533#542#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -73,7 +67,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Trees/ValidateBinarySearchTree.java" />
         <option value="$PROJECT_DIR$/src/Trees/KthSmallestElementInBST.java" />
         <option value="$PROJECT_DIR$/src/Trees/BinaryTreeInorderTraversal.java" />
         <option value="$PROJECT_DIR$/src/Trees/ValidateBinarySearchTreeIterative.java" />
@@ -124,6 +117,7 @@
         <option value="$PROJECT_DIR$/src/ArraysAndStrings/RemoveElement.java" />
         <option value="$PROJECT_DIR$/src/ArraysAndStrings/ReverseString.java" />
         <option value="$PROJECT_DIR$/src/ArraysAndStrings/ReverseWordsInAString.java" />
+        <option value="$PROJECT_DIR$/src/HashTables/FindDuplicates.java" />
       </list>
     </option>
   </component>
@@ -153,19 +147,7 @@
               <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ArraysAndStrings" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="HashTables" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="LinkedList" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -188,14 +170,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TwoSumII">
-    <configuration name="ReverseWordsInAStringIII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArraysAndStrings.ReverseWordsInAStringIII" />
+  <component name="RunManager" selected="Application.FindDuplicates">
+    <configuration name="FindDuplicates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HashTables.FindDuplicates" />
       <module name="Leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ArraysAndStrings.*" />
+          <option name="PATTERN" value="HashTables.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -286,19 +268,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.ReverseWordsInAStringIII" />
       <item itemvalue="Application.RotateArray" />
       <item itemvalue="Application.RotateArrayOptimized" />
       <item itemvalue="Application.SpiralOrder" />
       <item itemvalue="Application.TwoSumII" />
+      <item itemvalue="Application.FindDuplicates" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FindDuplicates" />
         <item itemvalue="Application.TwoSumII" />
         <item itemvalue="Application.SpiralOrder" />
         <item itemvalue="Application.RotateArrayOptimized" />
         <item itemvalue="Application.RotateArray" />
-        <item itemvalue="Application.ReverseWordsInAStringIII" />
       </list>
     </recent_temporary>
   </component>
@@ -382,13 +364,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Trees/BSTDeleteRecursive.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="74" column="68" selection-start-line="74" selection-start-column="68" selection-end-line="74" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Trees/KthSmallestElementInBST.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="816">
@@ -564,20 +539,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/HashTables/ContainsDuplicates.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/HashTables/ContainsDuplicateII.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="42" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/AddBinary.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -732,6 +693,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/SpiralOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="35" column="47" lean-forward="true" selection-start-line="35" selection-start-column="47" selection-end-line="35" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/TwoSumII.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-112">
@@ -739,10 +707,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/SpiralOrder.java">
+    <entry file="file://$PROJECT_DIR$/src/HashTables/ContainsDuplicateII.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="35" column="47" lean-forward="true" selection-start-line="35" selection-start-column="47" selection-end-line="35" selection-end-column="47" />
+        <state relative-caret-position="272">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HashTables/ContainsDuplicates.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HashTables/FindDuplicates.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="27" column="64" selection-start-line="27" selection-start-column="64" selection-end-line="27" selection-end-column="64" />
+          <folding>
+            <element signature="e#533#542#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

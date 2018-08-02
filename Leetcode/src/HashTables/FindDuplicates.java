@@ -1,5 +1,6 @@
 package HashTables;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Set;
 import java.util.HashSet;
@@ -15,5 +16,15 @@ public class FindDuplicates {
             hashSet.add(key);
         }
         return false;
+    }
+
+    public static void main(String[] args) {
+        List<Integer> keys = new ArrayList<Integer>();
+        keys.add(1);
+        keys.add(3);
+        keys.add(3);
+
+        FindDuplicates findDuplicates = new FindDuplicates();
+        System.out.println(findDuplicates.findDuplicates(keys));
     }
 }
