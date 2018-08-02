@@ -45,10 +45,10 @@ Output: [0, 6] cba, bac
                     if(!hashMap.containsKey(stringS[m])) {
                         break;
                     }
+                    
                     m++;
                     j++;
-                    int count = hashMap.get(stringS[m]);
-                    hashMap.put(stringS[m], count);
+
 
                     if(j == stringP.length) {
                         result[k] = index;
