@@ -22,7 +22,7 @@ Output: [0, 6] cba, bac
         char[] stringS = s.toCharArray();
         char[] stringP = p.toCharArray();
         Map<Character, Integer> hashMap = new HashMap<Character, Integer>();
-        int[] result = new int[stringS.length];
+        List<Integer> result = new ArrayList<Integer>();
 
         for (int i = 0; i < stringP.length; i++) {
             if (hashMap.containsKey(stringP[i])) {
@@ -45,13 +45,13 @@ Output: [0, 6] cba, bac
                     if(!hashMap.containsKey(stringS[m])) {
                         break;
                     }
-                    
+
                     m++;
                     j++;
 
 
                     if(j == stringP.length) {
-                        result[k] = index;
+                        result.add(index);
                         k++;
                     }
                 }
@@ -59,7 +59,12 @@ Output: [0, 6] cba, bac
             }
 
         }
-        return result;
+        int[] resultArray = new int[result.size()];
+        for(int i = 0; i < resultArray.length; i++) {
+            resultArray[i] = result.get(i);
+        }
+
+        return resultArray;
     }
 
     public static void main(String[] args) {
