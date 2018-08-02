@@ -60,7 +60,13 @@ Output: [0, 6] cba, bac
         return result;
     }
 
-    
+    public static void main(String[] args) {
+        PhoneInterview solution = new PhoneInterview();
+        int[] result =  solution.anagrams("cbaebabacd", "abc");
+        for(int i = 0; i < result.length; i++) {
+            System.out.print(result[i] + " ");
+        }
+    }
 }
 
 
