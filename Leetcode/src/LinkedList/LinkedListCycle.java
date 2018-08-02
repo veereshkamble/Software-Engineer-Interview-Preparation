@@ -30,7 +30,7 @@ public class LinkedListCycle {
         node2.next = node3;
         node3.next = node4;
         node4.next = node5;
-        node5.next = node1;
+        //node5.next = node1;
 
         LinkedListCycle linkedListCycle = new LinkedListCycle();
         System.out.println(linkedListCycle.hasCycle(node1));
