@@ -19,7 +19,7 @@ public class TwoSum {
     public static void main(String[] args) {
         int[] nums = new int[] {2, 7, 11, 15};
         TwoSum twoSum = new TwoSum();
-        int[] result = twoSum.twoSum(nums, 17);
+        int[] result = twoSum.twoSum(nums, 198);
 
         for (int i = 0; i < result.length; i++) {
             System.out.print(result[i] + " ");

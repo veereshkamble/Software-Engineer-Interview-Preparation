@@ -45,7 +45,7 @@ public class IntersectionII {
 
     public static void main(String[] args) {
         IntersectionII intersectionII = new IntersectionII();
-        int[] nums1 = new int[] {1};
+        int[] nums1 = new int[] {1, 2, 1, 1, 1};
         int[] nums2 = new int[] {1, 1};
         int[] result = new int[10];
 
