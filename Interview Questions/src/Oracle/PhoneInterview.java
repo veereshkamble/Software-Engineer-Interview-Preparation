@@ -33,7 +33,34 @@ Output: [0, 6] cba, bac
                 hashMap.put(stringP[i], 1);
             }
         }
+
+        int k = 0;
+        for(int i = 0; i < stringS.length; i++) {
+            if(hashMap.containsKey(stringS[i]) && hashMap.get(stringS[i]) != 0) {
+                int index = i;
+                int m = i;
+                m++;
+                int j = 1;
+                while(j < stringP.length) {
+                    if(!hashMap.containsKey(stringS[m])) {
+                        break;
+                    }
+                    m++;
+                    j++;
+
+                    if(j == stringP.length) {
+                        result[k] = index;
+                        k++;
+                    }
+                }
+
+            }
+
+        }
+        return result;
     }
+
+    
 }
 
 
