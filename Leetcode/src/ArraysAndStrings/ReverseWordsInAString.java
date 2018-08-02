@@ -54,7 +54,7 @@ public class ReverseWordsInAString {
 
     public static void main(String[] args) {
         ReverseWordsInAString reverseWordsInAString = new ReverseWordsInAString();
-        String s = "The sky is blue";
+        String s = "Veeresh Jamila";
         System.out.println(reverseWordsInAString.reverseWords(s));
     }
 }

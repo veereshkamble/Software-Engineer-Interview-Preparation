@@ -23,7 +23,7 @@ public class PlusOne {
     }
 
     public static void main(String[] args) {
-        int[] nums = new int[] {9,9,9,9,8};
+        int[] nums = new int[] {7, 9, 8, 7};
         PlusOne plusOne = new PlusOne();
         System.out.println(Arrays.toString(plusOne.plusOne(nums)));
     }

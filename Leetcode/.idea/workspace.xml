@@ -12,32 +12,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="PascalsTriangle.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/PascalsTriangle.java">
+      <file leaf-file-name="RotateArray.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/RotateArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="42" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
+            <state relative-caret-position="-34">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PascalTriangle.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/PascalTriangle.java">
+      <file leaf-file-name="RotateArrayOptimized.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/RotateArrayOptimized.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="46" lean-forward="true" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
-              <folding>
-                <element signature="e#199#214#0" expanded="true" />
-                <element signature="e#264#273#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="287">
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PivotIndex.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/PivotIndex.java">
+      <file leaf-file-name="SpiralOrder.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/SpiralOrder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
+            <state relative-caret-position="289">
+              <caret line="35" column="47" lean-forward="true" selection-start-line="35" selection-start-column="47" selection-end-line="35" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TwoSumII.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/TwoSumII.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-112">
               <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
@@ -68,12 +73,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Trees/TreeLinkNode.java" />
-        <option value="$PROJECT_DIR$/src/Trees/PopulateNextRightPointerRecursive.java" />
-        <option value="$PROJECT_DIR$/src/Trees/PopulateNextRightPointerIterative.java" />
-        <option value="$PROJECT_DIR$/src/Trees/PopulateNextRightPointerII.java" />
-        <option value="$PROJECT_DIR$/src/Trees/LowestCommonAncestor.java" />
-        <option value="$PROJECT_DIR$/src/Trees/Codec.java" />
         <option value="$PROJECT_DIR$/src/Trees/ValidateBinarySearchTree.java" />
         <option value="$PROJECT_DIR$/src/Trees/KthSmallestElementInBST.java" />
         <option value="$PROJECT_DIR$/src/Trees/BinaryTreeInorderTraversal.java" />
@@ -119,6 +118,12 @@
         <option value="$PROJECT_DIR$/src/ArraysAndStrings/NeedleInHaystack.java" />
         <option value="$PROJECT_DIR$/src/ArraysAndStrings/PascalsIndex.java" />
         <option value="$PROJECT_DIR$/src/ArraysAndStrings/PascalsTriangle.java" />
+        <option value="$PROJECT_DIR$/src/ArraysAndStrings/PivotIndex.java" />
+        <option value="$PROJECT_DIR$/src/ArraysAndStrings/PlusOne.java" />
+        <option value="$PROJECT_DIR$/src/ArraysAndStrings/RemoveDuplicatesFromSortedArray.java" />
+        <option value="$PROJECT_DIR$/src/ArraysAndStrings/RemoveElement.java" />
+        <option value="$PROJECT_DIR$/src/ArraysAndStrings/ReverseString.java" />
+        <option value="$PROJECT_DIR$/src/ArraysAndStrings/ReverseWordsInAString.java" />
       </list>
     </option>
   </component>
@@ -183,9 +188,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PivotIndex">
-    <configuration name="NeedleInHaystack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArraysAndStrings.NeedleInHaystack" />
+  <component name="RunManager" selected="Application.TwoSumII">
+    <configuration name="ReverseWordsInAStringIII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArraysAndStrings.ReverseWordsInAStringIII" />
       <module name="Leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -195,8 +200,8 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="PascalTriangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArraysAndStrings.PascalTriangle" />
+    <configuration name="RotateArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArraysAndStrings.RotateArray" />
       <module name="Leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -206,8 +211,8 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="PascalsIndex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArraysAndStrings.PascalsIndex" />
+    <configuration name="RotateArrayOptimized" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArraysAndStrings.RotateArrayOptimized" />
       <module name="Leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -217,8 +222,8 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="PascalsTriangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArraysAndStrings.PascalsTriangle" />
+    <configuration name="SpiralOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArraysAndStrings.SpiralOrder" />
       <module name="Leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -228,8 +233,8 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="PivotIndex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArraysAndStrings.PivotIndex" />
+    <configuration name="TwoSumII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArraysAndStrings.TwoSumII" />
       <module name="Leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -281,19 +286,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.NeedleInHaystack" />
-      <item itemvalue="Application.PascalsIndex" />
-      <item itemvalue="Application.PascalsTriangle" />
-      <item itemvalue="Application.PascalTriangle" />
-      <item itemvalue="Application.PivotIndex" />
+      <item itemvalue="Application.ReverseWordsInAStringIII" />
+      <item itemvalue="Application.RotateArray" />
+      <item itemvalue="Application.RotateArrayOptimized" />
+      <item itemvalue="Application.SpiralOrder" />
+      <item itemvalue="Application.TwoSumII" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PivotIndex" />
-        <item itemvalue="Application.PascalTriangle" />
-        <item itemvalue="Application.PascalsTriangle" />
-        <item itemvalue="Application.PascalsIndex" />
-        <item itemvalue="Application.NeedleInHaystack" />
+        <item itemvalue="Application.TwoSumII" />
+        <item itemvalue="Application.SpiralOrder" />
+        <item itemvalue="Application.RotateArrayOptimized" />
+        <item itemvalue="Application.RotateArray" />
+        <item itemvalue="Application.ReverseWordsInAStringIII" />
       </list>
     </recent_temporary>
   </component>
@@ -373,80 +378,10 @@
           <option name="timeStamp" value="17" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="28" />
+      <option name="time" value="31" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Trees/InorderSuccessorinBST.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="47" column="5" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="47" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Trees/InorderPredecessorinBST.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="47" column="5" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="47" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Trees/InorderSuccessorInBSTRecursive.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="45" column="5" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="45" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Trees/BSTIterator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="54" column="24" lean-forward="true" selection-start-line="54" selection-start-column="24" selection-end-line="54" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Trees/InorderPredecessorInBSTRecursive.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="46" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Trees/BSTSearch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="51" column="5" lean-forward="true" selection-start-line="22" selection-start-column="4" selection-end-line="51" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Trees/BSTSearchRecursive.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="47" column="5" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="47" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Trees/BSTSearchRecursiveLeetCode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="54" column="5" lean-forward="true" selection-start-line="25" selection-start-column="4" selection-end-line="54" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Trees/BSTSearchLeetCode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="45" column="5" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="45" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Trees/BSTInsertRecursive.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Trees/BSTDeleteRecursive.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="434">
@@ -736,8 +671,78 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/PivotIndex.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
+        <state relative-caret-position="442">
+          <caret line="26" column="42" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/PlusOne.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="25" column="42" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/RemoveDuplicatesFromSortedArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="21" lean-forward="true" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/RemoveElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/ReverseString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/ReverseWordsInAString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/ReverseWordsInAStringIII.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-119">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/RotateArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-34">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/RotateArrayOptimized.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/TwoSumII.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-112">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/SpiralOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="35" column="47" lean-forward="true" selection-start-line="35" selection-start-column="47" selection-end-line="35" selection-end-column="47" />
         </state>
       </provider>
     </entry>

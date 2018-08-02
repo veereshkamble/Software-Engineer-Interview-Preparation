@@ -15,7 +15,7 @@ public class RemoveElement {
 
     public static void main(String[] args) {
         int[] nums = new int[] {0,1,2,2,3,0,4,2};
-        int val = 2;
+        int val = 3;
         RemoveElement removeElement = new RemoveElement();
         int len = removeElement.removeElement(nums, val);
         for(int i=0; i<len; i++) {

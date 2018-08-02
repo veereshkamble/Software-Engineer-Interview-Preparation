@@ -19,7 +19,7 @@ public class RemoveDuplicatesFromSortedArray {
 
     public static void main(String[] args) {
         RemoveDuplicatesFromSortedArray removeDuplicatesFromSortedArray = new RemoveDuplicatesFromSortedArray();
-        int[] nums = new int[] {0,0,0,1,1,1,2,3,3,4,4,5,5,5,5,6,6,7};
+        int[] nums = new int[] {0,1,1,1,2,3,3,4,4,5,5,5,5,6,6,7};
         int len = removeDuplicatesFromSortedArray.removeDuplicates(nums);
 
         for(int i = 0; i < len; i++) {
