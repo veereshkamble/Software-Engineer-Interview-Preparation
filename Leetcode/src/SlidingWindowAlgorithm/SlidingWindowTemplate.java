@@ -46,7 +46,7 @@ public class SlidingWindowTemplate {
                 char tempc = s.charAt(begin); //be careful here: choose the character at the begin pointer, not the end pointer
 
                 if(hashMap.containsKey(tempc)) {
-                    hashMap.put(tempc, hashMap.get(tempc) - 1); // plus or minus one
+                    hashMap.put(tempc, hashMap.get(tempc) + 1); // plus or minus one
                     if(hashMap.get(tempc) > 0) {
                         counter++; // modify the counter according to the requirement (different condition)
                     }
@@ -59,5 +59,10 @@ public class SlidingWindowTemplate {
             }
         }
         return result;
+    }
+
+    public static void main(String[] args) {
+        SlidingWindowTemplate slidingWindowTemplate = new SlidingWindowTemplate();
+        System.out.println(slidingWindowTemplate.slidingWindowTemplate("bacababced:", "abc"));
     }
 }
