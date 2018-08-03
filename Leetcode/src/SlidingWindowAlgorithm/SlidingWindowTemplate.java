@@ -17,5 +17,14 @@ public class SlidingWindowTemplate {
         for(char c : t.toCharArray()) {
             hashMap.put(c, hashMap.getOrDefault(c, 0) + 1);
         }
+
+        //maintain a counter to check whether we match the target string
+        int counter = hashMap.size(); // this must be the map size and not the string size because the characters may be duplicate.
+
+        //Maintain two pointers: begin - left pointer of the window; end - right pointer of the window
+        int begin = 0, end = 0;
+
+        //maintain a len variable for the length of the substing which matches the target string
+        int len = Integer.MAX_VALUE;
     }
 }
