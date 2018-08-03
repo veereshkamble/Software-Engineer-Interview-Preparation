@@ -42,4 +42,9 @@ public class MinimumWindowSubstring {
         if(len == Integer.MAX_VALUE) return "";
         return s.substring(head, head+len);
     }
+
+    public static void main(String[] args) {
+        MinimumWindowSubstring minimumWindowSubstring = new MinimumWindowSubstring();
+        System.out.println(minimumWindowSubstring.minWindow("ADOBECODEBANC", "ABC"));
+    }
 }
