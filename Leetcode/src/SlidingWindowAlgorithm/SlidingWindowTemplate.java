@@ -41,6 +41,23 @@ public class SlidingWindowTemplate {
             end++;
 
             //increase the begin pointer to make it valid/invalid again
+            while(counter == 0) { // counter condition: different question may have different condition
+
+                char tempc = s.charAt(begin); //be careful here: choose the character at the begin pointer, not the end pointer
+
+                if(hashMap.containsKey(tempc)) {
+                    hashMap.put(tempc, hashMap.get(tempc) - 1); // plus or minus one
+                    if(hashMap.get(tempc) > 0) {
+                        counter++; // modify the counter according to the requirement (different condition)
+                    }
+                }
+
+                /*save / update(min/max) the result if findn a target
+                result collections or result int value
+                 */
+                begin++;
+            }
         }
+        return result;
     }
 }
