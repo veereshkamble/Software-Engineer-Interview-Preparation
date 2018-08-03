@@ -170,7 +170,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MinimumWindowSubstring">
+  <component name="RunManager" selected="Application.FindAllAnagrams">
+    <configuration name="FindAllAnagrams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SlidingWindowAlgorithm.FindAllAnagrams" />
+      <module name="Leetcode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SlidingWindowAlgorithm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="GroupAnagrams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HashTables.GroupAnagrams" />
       <module name="Leetcode" />
@@ -211,17 +222,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="SlidingWindowAlgorithm.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="ValidSudoku" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HashTables.ValidSudoku" />
-      <module name="Leetcode" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="HashTables.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -269,18 +269,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.GroupAnagrams" />
-      <item itemvalue="Application.ValidSudoku" />
       <item itemvalue="Application.LinkedListCycle" />
       <item itemvalue="Application.SlidingWindowTemplate" />
       <item itemvalue="Application.MinimumWindowSubstring" />
+      <item itemvalue="Application.FindAllAnagrams" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FindAllAnagrams" />
         <item itemvalue="Application.MinimumWindowSubstring" />
         <item itemvalue="Application.SlidingWindowTemplate" />
         <item itemvalue="Application.GroupAnagrams" />
         <item itemvalue="Application.LinkedListCycle" />
-        <item itemvalue="Application.ValidSudoku" />
       </list>
     </recent_temporary>
   </component>

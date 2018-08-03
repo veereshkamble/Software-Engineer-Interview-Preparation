@@ -42,4 +42,11 @@ public class FindAllAnagrams {
         }
         return result;
     }
+
+    public static void main(String[] args) {
+        FindAllAnagrams findAllAnagrams = new FindAllAnagrams();
+        String s = "cbaebabacd";
+        String t = "abc";
+        
+    }
 }
