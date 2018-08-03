@@ -47,6 +47,6 @@ public class FindAllAnagrams {
         FindAllAnagrams findAllAnagrams = new FindAllAnagrams();
         String s = "cbaebabacd";
         String t = "abc";
-        
+        System.out.println(findAllAnagrams.findAnagrams(s,t));
     }
 }
