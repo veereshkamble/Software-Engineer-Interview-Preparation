@@ -26,5 +26,21 @@ public class SlidingWindowTemplate {
 
         //maintain a len variable for the length of the substing which matches the target string
         int len = Integer.MAX_VALUE;
+
+        //loop at the beginning of the source string
+        while(end < s.length()) {
+
+            char c = s.charAt(end);
+
+            if(hashMap.containsKey(c)) {
+                hashMap.put(c, hashMap.get(c) - 1); // plus or minus one
+                if(hashMap.get(c) == 0) {
+                    counter--;
+                }
+            }
+            end++;
+
+            //increase the begin pointer to make it valid/invalid again
+        }
     }
 }
