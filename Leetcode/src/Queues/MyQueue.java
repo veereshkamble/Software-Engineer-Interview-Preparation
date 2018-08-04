@@ -33,4 +33,11 @@ public class MyQueue {
     public int Front() {
         return data.get(p_start);
     }
+
+    //check whether the queue is empty or not
+    public boolean isEmpty() {
+        return p_start >= data.size();
+    }
+
+    
 }
