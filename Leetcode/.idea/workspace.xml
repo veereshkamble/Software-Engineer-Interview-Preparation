@@ -54,17 +54,26 @@
       <file leaf-file-name="LongestSubstringII.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SlidingWindowAlgorithm/LongestSubstringII.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
+            <state relative-caret-position="353">
               <caret line="30" selection-start-line="30" selection-end-line="30" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LongestSubstringIII.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LongestSubstringIII.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SlidingWindowAlgorithm/LongestSubstringIII.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+            <state relative-caret-position="387">
+              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SubstringConcatenation.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/SlidingWindowAlgorithm/SubstringConcatenation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -197,7 +206,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LongestSubstringII">
+  <component name="RunManager" selected="Application.LongestSubstringIII">
     <configuration name="FindAllAnagrams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SlidingWindowAlgorithm.FindAllAnagrams" />
       <module name="Leetcode" />
@@ -231,8 +240,8 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="MinimumWindowSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SlidingWindowAlgorithm.MinimumWindowSubstring" />
+    <configuration name="LongestSubstringIII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SlidingWindowAlgorithm.LongestSubstringIII" />
       <module name="Leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -242,8 +251,8 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="SlidingWindowTemplate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SlidingWindowAlgorithm.SlidingWindowTemplate" />
+    <configuration name="MinimumWindowSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SlidingWindowAlgorithm.MinimumWindowSubstring" />
       <module name="Leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -295,19 +304,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.SlidingWindowTemplate" />
       <item itemvalue="Application.MinimumWindowSubstring" />
       <item itemvalue="Application.FindAllAnagrams" />
       <item itemvalue="Application.LongestSubstring" />
       <item itemvalue="Application.LongestSubstringII" />
+      <item itemvalue="Application.LongestSubstringIII" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LongestSubstringIII" />
         <item itemvalue="Application.LongestSubstringII" />
         <item itemvalue="Application.LongestSubstring" />
         <item itemvalue="Application.FindAllAnagrams" />
         <item itemvalue="Application.MinimumWindowSubstring" />
-        <item itemvalue="Application.SlidingWindowTemplate" />
       </list>
     </recent_temporary>
   </component>
@@ -336,7 +345,7 @@
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="6" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2612859" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2612859" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="6" />
@@ -346,7 +355,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.39124486" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39124486" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -373,13 +382,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/HashTables/SingleNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/HashTables/IsomorphicStrings.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
@@ -727,15 +729,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/SlidingWindowAlgorithm/LongestSubstringII.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
+        <state relative-caret-position="353">
           <caret line="30" selection-start-line="30" selection-end-line="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/SlidingWindowAlgorithm/LongestSubstringIII.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+        <state relative-caret-position="387">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SlidingWindowAlgorithm/SubstringConcatenation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
         </state>
       </provider>
     </entry>

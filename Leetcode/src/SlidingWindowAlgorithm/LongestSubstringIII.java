@@ -25,4 +25,9 @@ public class LongestSubstringIII {
         return len;
 
     }
+
+    public static void main(String[] args) {
+        LongestSubstringIII longestSubstringIII = new LongestSubstringIII();
+        System.out.println(longestSubstringIII.lengthOfLongestSubstringKDistinct("aaaaabedbbbbbcccccdaaaaaaaaaaabbbbbbbbbbccccccd", 3));
+    }
 }
