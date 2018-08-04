@@ -188,7 +188,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LongestSubstring">
+  <component name="RunManager" selected="Application.LongestSubstringII">
     <configuration name="FindAllAnagrams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SlidingWindowAlgorithm.FindAllAnagrams" />
       <module name="Leetcode" />
@@ -200,19 +200,19 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="GroupAnagrams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HashTables.GroupAnagrams" />
+    <configuration name="LongestSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SlidingWindowAlgorithm.LongestSubstring" />
       <module name="Leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="HashTables.*" />
+          <option name="PATTERN" value="SlidingWindowAlgorithm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="LongestSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SlidingWindowAlgorithm.LongestSubstring" />
+    <configuration name="LongestSubstringII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SlidingWindowAlgorithm.LongestSubstringII" />
       <module name="Leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -286,19 +286,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.GroupAnagrams" />
       <item itemvalue="Application.SlidingWindowTemplate" />
       <item itemvalue="Application.MinimumWindowSubstring" />
       <item itemvalue="Application.FindAllAnagrams" />
       <item itemvalue="Application.LongestSubstring" />
+      <item itemvalue="Application.LongestSubstringII" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LongestSubstringII" />
         <item itemvalue="Application.LongestSubstring" />
         <item itemvalue="Application.FindAllAnagrams" />
         <item itemvalue="Application.MinimumWindowSubstring" />
         <item itemvalue="Application.SlidingWindowTemplate" />
-        <item itemvalue="Application.GroupAnagrams" />
       </list>
     </recent_temporary>
   </component>

@@ -24,4 +24,9 @@ public class LongestSubstringII {
         }
         return len;
     }
+
+    public static void main(String[] args) {
+        LongestSubstringII longestSubstringII = new LongestSubstringII();
+        System.out.println(longestSubstringII.lengthOfLongestSubstringTwoDistinct("ccdeedaabbbb"));
+    }
 }
