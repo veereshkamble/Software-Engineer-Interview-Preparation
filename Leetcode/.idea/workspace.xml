@@ -82,7 +82,7 @@
         <entry file="file://$PROJECT_DIR$/src/Queues/MyQueue.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="455">
-              <caret line="38" column="38" selection-start-line="38" selection-start-column="38" selection-end-line="38" selection-end-column="38" />
+              <caret line="41" column="4" selection-start-line="41" selection-start-column="4" selection-end-line="41" selection-end-column="4" />
               <folding>
                 <element signature="e#742#743#0" expanded="true" />
                 <element signature="e#781#782#0" expanded="true" />
@@ -221,18 +221,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SubstringConcatenation">
-    <configuration name="FindAllAnagrams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SlidingWindowAlgorithm.FindAllAnagrams" />
-      <module name="Leetcode" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SlidingWindowAlgorithm.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
+  <component name="RunManager" selected="Application.MyQueue">
     <configuration name="LongestSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SlidingWindowAlgorithm.LongestSubstring" />
       <module name="Leetcode" />
@@ -262,6 +251,17 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="SlidingWindowAlgorithm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="MyQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Queues.MyQueue" />
+      <module name="Leetcode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Queues.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -319,19 +319,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.FindAllAnagrams" />
       <item itemvalue="Application.LongestSubstring" />
       <item itemvalue="Application.LongestSubstringII" />
       <item itemvalue="Application.LongestSubstringIII" />
       <item itemvalue="Application.SubstringConcatenation" />
+      <item itemvalue="Application.MyQueue" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyQueue" />
         <item itemvalue="Application.SubstringConcatenation" />
         <item itemvalue="Application.LongestSubstringIII" />
         <item itemvalue="Application.LongestSubstringII" />
         <item itemvalue="Application.LongestSubstring" />
-        <item itemvalue="Application.FindAllAnagrams" />
       </list>
     </recent_temporary>
   </component>
@@ -759,7 +759,7 @@
     <entry file="file://$PROJECT_DIR$/src/Queues/MyQueue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="455">
-          <caret line="38" column="38" selection-start-line="38" selection-start-column="38" selection-end-line="38" selection-end-column="38" />
+          <caret line="41" column="4" selection-start-line="41" selection-start-column="4" selection-end-line="41" selection-end-column="4" />
           <folding>
             <element signature="e#742#743#0" expanded="true" />
             <element signature="e#781#782#0" expanded="true" />
