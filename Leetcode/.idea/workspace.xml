@@ -81,8 +81,12 @@
       <file leaf-file-name="MyQueue.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Queues/MyQueue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+            <state relative-caret-position="306">
+              <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+              <folding>
+                <element signature="e#402#403#0" expanded="true" />
+                <element signature="e#420#421#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -752,8 +756,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Queues/MyQueue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+        <state relative-caret-position="306">
+          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+          <folding>
+            <element signature="e#402#403#0" expanded="true" />
+            <element signature="e#420#421#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
