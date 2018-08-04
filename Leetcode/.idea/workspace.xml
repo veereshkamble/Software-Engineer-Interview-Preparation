@@ -179,7 +179,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FindAllAnagrams">
+  <component name="RunManager" selected="Application.LongestSubstring">
     <configuration name="FindAllAnagrams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SlidingWindowAlgorithm.FindAllAnagrams" />
       <module name="Leetcode" />
@@ -202,13 +202,13 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="LinkedListCycle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LinkedList.LinkedListCycle" />
+    <configuration name="LongestSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SlidingWindowAlgorithm.LongestSubstring" />
       <module name="Leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LinkedList.*" />
+          <option name="PATTERN" value="SlidingWindowAlgorithm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -278,18 +278,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.GroupAnagrams" />
-      <item itemvalue="Application.LinkedListCycle" />
       <item itemvalue="Application.SlidingWindowTemplate" />
       <item itemvalue="Application.MinimumWindowSubstring" />
       <item itemvalue="Application.FindAllAnagrams" />
+      <item itemvalue="Application.LongestSubstring" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LongestSubstring" />
         <item itemvalue="Application.FindAllAnagrams" />
         <item itemvalue="Application.MinimumWindowSubstring" />
         <item itemvalue="Application.SlidingWindowTemplate" />
         <item itemvalue="Application.GroupAnagrams" />
-        <item itemvalue="Application.LinkedListCycle" />
       </list>
     </recent_temporary>
   </component>
