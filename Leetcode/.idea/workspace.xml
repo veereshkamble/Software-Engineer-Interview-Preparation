@@ -206,7 +206,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LongestSubstringIII">
+  <component name="RunManager" selected="Application.SubstringConcatenation">
     <configuration name="FindAllAnagrams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SlidingWindowAlgorithm.FindAllAnagrams" />
       <module name="Leetcode" />
@@ -251,8 +251,8 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="MinimumWindowSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SlidingWindowAlgorithm.MinimumWindowSubstring" />
+    <configuration name="SubstringConcatenation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SlidingWindowAlgorithm.SubstringConcatenation" />
       <module name="Leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -304,19 +304,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.MinimumWindowSubstring" />
       <item itemvalue="Application.FindAllAnagrams" />
       <item itemvalue="Application.LongestSubstring" />
       <item itemvalue="Application.LongestSubstringII" />
       <item itemvalue="Application.LongestSubstringIII" />
+      <item itemvalue="Application.SubstringConcatenation" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SubstringConcatenation" />
         <item itemvalue="Application.LongestSubstringIII" />
         <item itemvalue="Application.LongestSubstringII" />
         <item itemvalue="Application.LongestSubstring" />
         <item itemvalue="Application.FindAllAnagrams" />
-        <item itemvalue="Application.MinimumWindowSubstring" />
       </list>
     </recent_temporary>
   </component>

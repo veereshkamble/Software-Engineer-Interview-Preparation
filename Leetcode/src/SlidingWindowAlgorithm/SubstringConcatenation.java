@@ -52,4 +52,9 @@ public class SubstringConcatenation {
         }
         return res;
     }
+
+    public static void main(String[] args) {
+        SubstringConcatenation substringConcatenation = new SubstringConcatenation();
+        System.out.println(substringConcatenation.findSubstring("barfoothefoobarman",new String[] {"foo","bar"}));
+    }
 }
