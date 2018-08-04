@@ -29,5 +29,8 @@ public class MyQueue {
         return true;
     }
 
-    
+    //Get an element from the queue
+    public int Front() {
+        return data.get(p_start);
+    }
 }
