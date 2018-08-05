@@ -1,7 +1,6 @@
 package Queues;
 
 public class MyCircularQueue {
-
     int[] data;
     int front;
     int rear;
@@ -14,5 +13,6 @@ public class MyCircularQueue {
         rear = -1;
         size = k;
     }
+
 
 }
