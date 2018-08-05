@@ -251,7 +251,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.WallsAndGates">
+  <component name="RunManager" selected="Application.WallsAndGatesRecursive">
     <configuration name="MovingAverage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Queues.MovingAverage" />
       <module name="Leetcode" />
@@ -285,19 +285,19 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="SubstringConcatenation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SlidingWindowAlgorithm.SubstringConcatenation" />
+    <configuration name="WallsAndGates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Queues.WallsAndGates" />
       <module name="Leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SlidingWindowAlgorithm.*" />
+          <option name="PATTERN" value="Queues.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="WallsAndGates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Queues.WallsAndGates" />
+    <configuration name="WallsAndGatesRecursive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Queues.WallsAndGatesRecursive" />
       <module name="Leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -349,19 +349,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.SubstringConcatenation" />
       <item itemvalue="Application.MyQueue" />
       <item itemvalue="Application.QueueUsage" />
       <item itemvalue="Application.MovingAverage" />
       <item itemvalue="Application.WallsAndGates" />
+      <item itemvalue="Application.WallsAndGatesRecursive" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WallsAndGatesRecursive" />
         <item itemvalue="Application.WallsAndGates" />
         <item itemvalue="Application.MovingAverage" />
         <item itemvalue="Application.QueueUsage" />
         <item itemvalue="Application.MyQueue" />
-        <item itemvalue="Application.SubstringConcatenation" />
       </list>
     </recent_temporary>
   </component>

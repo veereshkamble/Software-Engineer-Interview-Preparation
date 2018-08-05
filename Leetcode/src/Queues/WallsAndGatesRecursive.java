@@ -17,5 +17,19 @@ public class WallsAndGatesRecursive {
         dfs(rooms, i, j + 1, d + 1);
     }
 
-    
+    public static void main(String[] args) {
+        WallsAndGatesRecursive wallsAndGatesRecursive = new WallsAndGatesRecursive();
+        int[][] rooms = new int[][] {{Integer.MAX_VALUE, -1, 0, Integer.MAX_VALUE},
+                {Integer.MAX_VALUE, Integer.MAX_VALUE, Integer.MAX_VALUE, -1},
+                {Integer.MAX_VALUE, -1, Integer.MAX_VALUE, -1},
+                {0, -1, Integer.MAX_VALUE, Integer.MAX_VALUE}};
+        wallsAndGatesRecursive.wallsAndGates(rooms);
+
+        for(int i = 0; i < rooms.length; i++) {
+            for(int j = 0; j < rooms[0].length; j++) {
+                System.out.print(rooms[i][j] + "  ");
+            }
+            System.out.println();
+        }
+    }
 }
