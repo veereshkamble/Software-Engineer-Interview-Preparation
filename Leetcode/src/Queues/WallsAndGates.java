@@ -46,4 +46,14 @@ public class WallsAndGates {
 
         }
     }
+
+    public static void main(String[] args) {
+        WallsAndGates wallsAndGates = new WallsAndGates();
+        int[][] rooms = new int[][] {{Integer.MAX_VALUE, -1, 0, Integer.MAX_VALUE},
+                {Integer.MAX_VALUE, Integer.MAX_VALUE, Integer.MAX_VALUE, -1},
+                {Integer.MAX_VALUE, -1, Integer.MAX_VALUE, -1},
+                {0, -1, Integer.MAX_VALUE, Integer.MAX_VALUE}};
+        wallsAndGates.wallsAndGates(rooms);
+        
+    }
 }
