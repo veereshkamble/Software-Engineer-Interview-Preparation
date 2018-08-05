@@ -29,4 +29,11 @@ public class NumberOfIslands {
         DFSMarking(grid, i, j-1);
         DFSMarking(grid, i, j+1);
     }
+
+    public static void main(String[] args) {
+        NumberOfIslands numberOfIslands = new NumberOfIslands();
+        char[][] grid = new char[][] {{'1','1','0','0','0'},
+                                      {'1','1','0','1','0'},
+                                      {   }}
+    }
 }
