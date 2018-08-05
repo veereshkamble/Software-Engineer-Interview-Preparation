@@ -42,6 +42,22 @@ public class MyCircularQueue {
 
     }
 
+    /** Get the front item from the queue. */
+    public int Front() {
+        if (isEmpty() == true) {
+            return -1;
+        }
+        return data[front];
+    }
+
+    /** Get the last item from the queue. */
+    public int Rear() {
+        if (isEmpty() == true) {
+            return -1;
+        }
+        return data[rear];
+    }
+
 
 
 }
