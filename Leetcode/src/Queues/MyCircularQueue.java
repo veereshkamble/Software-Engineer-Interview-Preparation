@@ -27,5 +27,21 @@ public class MyCircularQueue {
         return true;
     }
 
+    /** Delete an element from the circular queue. Return true if the operation is successful. */
+    public boolean deQueue() {
+        if (isEmpty() == true) {
+            return false;
+        }
+        if (front == rear) {
+            front = -1;
+            rear = -1;
+            return true;
+        }
+        front = (front + 1) % size;
+        return true;
+
+    }
+
+
 
 }

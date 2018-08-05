@@ -78,10 +78,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyQueue.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MyQueue.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Queues/MyQueue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="455">
+            <state relative-caret-position="952">
               <caret line="56" column="5" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
               <folding>
                 <element signature="e#742#743#0" expanded="true" />
@@ -89,6 +89,15 @@
                 <element signature="e#864#865#0" expanded="true" />
                 <element signature="e#901#902#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyCircularQueue.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Queues/MyCircularQueue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="455">
+              <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -118,7 +127,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Trees/KthLargestElementInAStream.java" />
         <option value="$PROJECT_DIR$/src/Trees/LowestCommonAncestorRecursive.java" />
         <option value="$PROJECT_DIR$/src/Trees/ContainsDuplicatesIII.java" />
         <option value="$PROJECT_DIR$/src/Trees/BalancedBinaryTree.java" />
@@ -169,6 +177,7 @@
         <option value="$PROJECT_DIR$/src/SlidingWindowAlgorithm/LongestSubstringIII.java" />
         <option value="$PROJECT_DIR$/src/SlidingWindowAlgorithm/SubstringConcatenation.java" />
         <option value="$PROJECT_DIR$/src/Queues/MyQueue.java" />
+        <option value="$PROJECT_DIR$/src/Queues/MyCircularQueue.java" />
       </list>
     </option>
   </component>
@@ -360,12 +369,12 @@
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="6" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2612859" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2612859" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18619792" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18619792" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
@@ -397,13 +406,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/HashTables/IntersectionII.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="53" selection-start-line="53" selection-end-line="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/HashTables/GroupShiftedStrings.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -758,7 +760,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Queues/MyQueue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
+        <state relative-caret-position="952">
           <caret line="56" column="5" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
           <folding>
             <element signature="e#742#743#0" expanded="true" />
@@ -766,6 +768,13 @@
             <element signature="e#864#865#0" expanded="true" />
             <element signature="e#901#902#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Queues/MyCircularQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
         </state>
       </provider>
     </entry>
