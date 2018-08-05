@@ -12,18 +12,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SlidingWindowTemplate.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/SlidingWindowAlgorithm/SlidingWindowTemplate.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="98">
-              <caret line="48" column="59" selection-start-line="48" selection-start-column="59" selection-end-line="48" selection-end-column="59" />
-              <folding>
-                <element signature="e#609#629#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="MinimumWindowSubstring.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SlidingWindowAlgorithm/MinimumWindowSubstring.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -108,11 +96,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="QueueUsage.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="QueueUsage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Queues/QueueUsage.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
               <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MovingAverage.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Queues/MovingAverage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="455">
+              <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -142,7 +142,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Trees/ContainsDuplicatesIII.java" />
         <option value="$PROJECT_DIR$/src/Trees/BalancedBinaryTree.java" />
         <option value="$PROJECT_DIR$/src/Trees/ConvertSortedArrayToBST.java" />
         <option value="$PROJECT_DIR$/src/Trees/NaryNode.java" />
@@ -193,6 +192,7 @@
         <option value="$PROJECT_DIR$/src/Queues/MyQueue.java" />
         <option value="$PROJECT_DIR$/src/Queues/MyCircularQueue.java" />
         <option value="$PROJECT_DIR$/src/Queues/QueueUsage.java" />
+        <option value="$PROJECT_DIR$/src/Queues/MovingAverage.java" />
       </list>
     </option>
   </component>
@@ -245,9 +245,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.QueueUsage">
-    <configuration name="LongestSubstringII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SlidingWindowAlgorithm.LongestSubstringII" />
+  <component name="RunManager" selected="Application.MovingAverage">
+    <configuration name="LongestSubstringIII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SlidingWindowAlgorithm.LongestSubstringIII" />
       <module name="Leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -257,13 +257,13 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="LongestSubstringIII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SlidingWindowAlgorithm.LongestSubstringIII" />
+    <configuration name="MovingAverage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Queues.MovingAverage" />
       <module name="Leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SlidingWindowAlgorithm.*" />
+          <option name="PATTERN" value="Queues.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -343,19 +343,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.LongestSubstringII" />
       <item itemvalue="Application.LongestSubstringIII" />
       <item itemvalue="Application.SubstringConcatenation" />
       <item itemvalue="Application.MyQueue" />
       <item itemvalue="Application.QueueUsage" />
+      <item itemvalue="Application.MovingAverage" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MovingAverage" />
         <item itemvalue="Application.QueueUsage" />
         <item itemvalue="Application.MyQueue" />
         <item itemvalue="Application.SubstringConcatenation" />
         <item itemvalue="Application.LongestSubstringIII" />
-        <item itemvalue="Application.LongestSubstringII" />
       </list>
     </recent_temporary>
   </component>
@@ -421,13 +421,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/HashTables/ValidSudoku.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="48" column="40" selection-start-line="48" selection-start-column="40" selection-end-line="48" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/HashTables/GroupShiftedStringsLeetCode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-204">
@@ -796,6 +789,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Queues/MovingAverage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
