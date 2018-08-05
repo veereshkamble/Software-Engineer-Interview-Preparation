@@ -31,10 +31,19 @@ public class WallsAndGates {
 
             if(row < rooms.length - 1 && rooms[row+1][col] == Integer.MAX_VALUE) {
                 rooms[row+1][col] = rooms[row][col] + 1;
-                ((LinkedList<int[]>) queue).add(new int[] {row+1, col});
+                queue.add(new int[] {row+1, col});
             }
 
-            
+            if(col > 0 && rooms[row][col-1] == Integer.MAX_VALUE) {
+                rooms[row][col-1] = rooms[row][col] + 1;
+                queue.add(new int[] {row, col-1});
+            }
+
+            if(col < rooms.length - 1 && rooms[row][col+1] == Integer.MAX_VALUE) {
+                rooms[row][col+1] = rooms[row][col] + 1;
+                queue.add(new int[] {row, col+1});
+            }
+
         }
     }
 }
