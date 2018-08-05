@@ -96,8 +96,14 @@
       <file leaf-file-name="MyCircularQueue.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Queues/MyCircularQueue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="455">
-              <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+            <state relative-caret-position="404">
+              <caret line="68" column="5" selection-start-line="68" selection-start-column="5" selection-end-line="68" selection-end-column="5" />
+              <folding>
+                <element signature="e#1486#1487#0" expanded="true" />
+                <element signature="e#1520#1521#0" expanded="true" />
+                <element signature="e#1612#1613#0" expanded="true" />
+                <element signature="e#1663#1664#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -230,18 +236,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MyQueue">
-    <configuration name="LongestSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SlidingWindowAlgorithm.LongestSubstring" />
-      <module name="Leetcode" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SlidingWindowAlgorithm.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
+  <component name="RunManager" selected="Application.QueueUsage">
     <configuration name="LongestSubstringII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SlidingWindowAlgorithm.LongestSubstringII" />
       <module name="Leetcode" />
@@ -266,6 +261,17 @@
     </configuration>
     <configuration name="MyQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Queues.MyQueue" />
+      <module name="Leetcode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Queues.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="QueueUsage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Queues.QueueUsage" />
       <module name="Leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -328,19 +334,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.LongestSubstring" />
       <item itemvalue="Application.LongestSubstringII" />
       <item itemvalue="Application.LongestSubstringIII" />
       <item itemvalue="Application.SubstringConcatenation" />
       <item itemvalue="Application.MyQueue" />
+      <item itemvalue="Application.QueueUsage" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.QueueUsage" />
         <item itemvalue="Application.MyQueue" />
         <item itemvalue="Application.SubstringConcatenation" />
         <item itemvalue="Application.LongestSubstringIII" />
         <item itemvalue="Application.LongestSubstringII" />
-        <item itemvalue="Application.LongestSubstring" />
       </list>
     </recent_temporary>
   </component>
@@ -773,8 +779,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Queues/MyCircularQueue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+        <state relative-caret-position="404">
+          <caret line="68" column="5" selection-start-line="68" selection-start-column="5" selection-end-line="68" selection-end-column="5" />
+          <folding>
+            <element signature="e#1486#1487#0" expanded="true" />
+            <element signature="e#1520#1521#0" expanded="true" />
+            <element signature="e#1612#1613#0" expanded="true" />
+            <element signature="e#1663#1664#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
