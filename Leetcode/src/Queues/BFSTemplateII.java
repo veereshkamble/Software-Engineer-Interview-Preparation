@@ -1,8 +1,7 @@
 /*
 package Queues;
 
-
-public class BFSTemplateI {
+public class BFSTemplateII {
 
     */
 /**
@@ -11,9 +10,11 @@ public class BFSTemplateI {
 
     int BFS(Node root, Node target) {
         Queue<Node> queue;  // store all nodes which are waiting to be processed
+        Set<Node> used;     // store all the used nodes
         int step = 0;       // number of steps neeeded from root to current node
         // initialize
         add root to queue;
+        add root to used;
         // BFS
         while (queue is not empty) {
             step = step + 1;
@@ -23,7 +24,10 @@ public class BFSTemplateI {
                 Node cur = the first node in queue;
                 return step if cur is target;
                 for (Node next : the neighbors of cur) {
-                    add next to queue;
+                    if (next is not in used) {
+                        add next to queue;
+                        add next to used;
+                    }
                 }
                 remove the first node from queue;
             }
