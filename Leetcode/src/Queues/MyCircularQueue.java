@@ -14,5 +14,18 @@ public class MyCircularQueue {
         size = k;
     }
 
+    /** Insert an element into the circular queue. Return true if the operation is successful. */
+    public boolean enQueue(int value) {
+        if (isFull() == true) {
+            return false;
+        }
+        if (isEmpty() == true) {
+            front = 0;
+        }
+        rear = (rear + 1) % size;
+        data[rear] = value;
+        return true;
+    }
+
 
 }
