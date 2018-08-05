@@ -251,18 +251,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MovingAverage">
-    <configuration name="LongestSubstringIII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SlidingWindowAlgorithm.LongestSubstringIII" />
-      <module name="Leetcode" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SlidingWindowAlgorithm.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
+  <component name="RunManager" selected="Application.WallsAndGates">
     <configuration name="MovingAverage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Queues.MovingAverage" />
       <module name="Leetcode" />
@@ -303,6 +292,17 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="SlidingWindowAlgorithm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="WallsAndGates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Queues.WallsAndGates" />
+      <module name="Leetcode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Queues.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -349,19 +349,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.LongestSubstringIII" />
       <item itemvalue="Application.SubstringConcatenation" />
       <item itemvalue="Application.MyQueue" />
       <item itemvalue="Application.QueueUsage" />
       <item itemvalue="Application.MovingAverage" />
+      <item itemvalue="Application.WallsAndGates" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WallsAndGates" />
         <item itemvalue="Application.MovingAverage" />
         <item itemvalue="Application.QueueUsage" />
         <item itemvalue="Application.MyQueue" />
         <item itemvalue="Application.SubstringConcatenation" />
-        <item itemvalue="Application.LongestSubstringIII" />
       </list>
     </recent_temporary>
   </component>

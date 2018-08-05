@@ -54,6 +54,12 @@ public class WallsAndGates {
                 {Integer.MAX_VALUE, -1, Integer.MAX_VALUE, -1},
                 {0, -1, Integer.MAX_VALUE, Integer.MAX_VALUE}};
         wallsAndGates.wallsAndGates(rooms);
-        
+
+        for(int i = 0; i < rooms.length; i++) {
+            for(int j = 0; j < rooms[0].length; j++) {
+                System.out.print(rooms[i][j] + "  ");
+            }
+            System.out.println();
+        }
     }
 }
