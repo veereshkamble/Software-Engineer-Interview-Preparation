@@ -58,6 +58,15 @@ public class MyCircularQueue {
         return data[rear];
     }
 
+    /** Checks whether the circular queue is empty or not. */
+    public boolean isEmpty() {
+        return front == -1;
+    }
+
+    /** Checks whether the circular queue is full or not. */
+    public boolean isFull() {
+        return ((rear + 1) % size) == front;
+    }
 
 
 }
