@@ -11,5 +11,10 @@ public class MyStack {
         data = new ArrayList<>();
     }
 
+    //Insert an element into the stack
+    public void push(int x) {
+        data.add(x);
+    }
+
     
 }
