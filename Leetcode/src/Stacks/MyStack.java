@@ -15,6 +15,15 @@ public class MyStack {
     public void push(int x) {
         data.add(x);
     }
+    //Check if the stack is empty
+    public boolean isEmpty() {
+        return data.isEmpty();
+    }
+
+    //get an item from the top of the stack
+    public int top() {
+        return data.get(data.size() - 1);
+    }
 
     
 }
