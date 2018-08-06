@@ -32,11 +32,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StackUsage.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="StackUsage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Stacks/StackUsage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+            <state relative-caret-position="455">
+              <caret line="29" column="72" selection-start-line="29" selection-start-column="72" selection-end-line="29" selection-end-column="72" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MinStack.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Stacks/MinStack.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -66,7 +75,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Trees/NaryTreeMaxDepthBottomUp.java" />
         <option value="$PROJECT_DIR$/src/Trees/NaryTreeMaxDepthTopDown.java" />
         <option value="$PROJECT_DIR$/src/HashTables/ContainsDuplicates.java" />
         <option value="$PROJECT_DIR$/src/HashTables/ContainsDuplicateII.java" />
@@ -117,6 +125,7 @@
         <option value="$PROJECT_DIR$/src/Queues/PerfectSquares.java" />
         <option value="$PROJECT_DIR$/src/Stacks/MyStack.java" />
         <option value="$PROJECT_DIR$/src/Stacks/StackUsage.java" />
+        <option value="$PROJECT_DIR$/src/Stacks/MinStack.java" />
       </list>
     </option>
   </component>
@@ -169,7 +178,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MyStack">
+  <component name="RunManager" selected="Application.StackUsage">
     <configuration name="MyStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Stacks.MyStack" />
       <module name="Leetcode" />
@@ -214,13 +223,13 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="WallsAndGatesRecursive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Queues.WallsAndGatesRecursive" />
+    <configuration name="StackUsage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Stacks.StackUsage" />
       <module name="Leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Queues.*" />
+          <option name="PATTERN" value="Stacks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -267,19 +276,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.WallsAndGatesRecursive" />
       <item itemvalue="Application.NumberOfIslands" />
       <item itemvalue="Application.OpenTheLock" />
       <item itemvalue="Application.PerfectSquares" />
       <item itemvalue="Application.MyStack" />
+      <item itemvalue="Application.StackUsage" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StackUsage" />
         <item itemvalue="Application.MyStack" />
         <item itemvalue="Application.PerfectSquares" />
         <item itemvalue="Application.OpenTheLock" />
         <item itemvalue="Application.NumberOfIslands" />
-        <item itemvalue="Application.WallsAndGatesRecursive" />
       </list>
     </recent_temporary>
   </component>
@@ -345,13 +354,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/LinkedList/LinkedListIntersectionCTCI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/ArrayPartitionI.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -733,8 +735,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Stacks/StackUsage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+        <state relative-caret-position="455">
+          <caret line="29" column="72" selection-start-line="29" selection-start-column="72" selection-end-line="29" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Stacks/MinStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
         </state>
       </provider>
     </entry>
