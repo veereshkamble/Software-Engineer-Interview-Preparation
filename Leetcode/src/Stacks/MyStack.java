@@ -25,5 +25,11 @@ public class MyStack {
         return data.get(data.size() - 1);
     }
 
-    
+    public boolean pop() {
+        if(isEmpty()) {
+            return false;
+        }
+        data.remove(data.size() - 1);
+        return true;
+    }
 }
