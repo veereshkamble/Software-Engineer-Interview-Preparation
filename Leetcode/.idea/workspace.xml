@@ -184,9 +184,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MinStack">
+  <component name="RunManager" selected="Application.MinStackII">
     <configuration name="MinStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Stacks.MinStack" />
+      <module name="Leetcode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Stacks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="MinStackII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Stacks.MinStackII" />
       <module name="Leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -203,17 +214,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Stacks.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="OpenTheLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Queues.OpenTheLock" />
-      <module name="Leetcode" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Queues.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -282,19 +282,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.OpenTheLock" />
       <item itemvalue="Application.PerfectSquares" />
       <item itemvalue="Application.MyStack" />
       <item itemvalue="Application.StackUsage" />
       <item itemvalue="Application.MinStack" />
+      <item itemvalue="Application.MinStackII" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MinStackII" />
         <item itemvalue="Application.MinStack" />
         <item itemvalue="Application.StackUsage" />
         <item itemvalue="Application.MyStack" />
         <item itemvalue="Application.PerfectSquares" />
-        <item itemvalue="Application.OpenTheLock" />
       </list>
     </recent_temporary>
   </component>
