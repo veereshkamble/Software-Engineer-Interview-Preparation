@@ -76,9 +76,10 @@
       <file leaf-file-name="ValidParenthesis.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Stacks/ValidParenthesis.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+            <state relative-caret-position="455">
+              <caret line="31" column="79" selection-start-line="31" selection-start-column="79" selection-end-line="31" selection-end-column="79" />
               <folding>
+                <element signature="imports" expanded="true" />
                 <element signature="e#137#148#0" expanded="true" />
               </folding>
             </state>
@@ -213,7 +214,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MinStackII">
+  <component name="RunManager" selected="Application.ValidParenthesis">
     <configuration name="MinStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Stacks.MinStack" />
       <module name="Leetcode" />
@@ -247,19 +248,19 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="PerfectSquares" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Queues.PerfectSquares" />
+    <configuration name="StackUsage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Stacks.StackUsage" />
       <module name="Leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Queues.*" />
+          <option name="PATTERN" value="Stacks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="StackUsage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Stacks.StackUsage" />
+    <configuration name="ValidParenthesis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Stacks.ValidParenthesis" />
       <module name="Leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -311,19 +312,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.PerfectSquares" />
       <item itemvalue="Application.MyStack" />
       <item itemvalue="Application.StackUsage" />
       <item itemvalue="Application.MinStack" />
       <item itemvalue="Application.MinStackII" />
+      <item itemvalue="Application.ValidParenthesis" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ValidParenthesis" />
         <item itemvalue="Application.MinStackII" />
         <item itemvalue="Application.MinStack" />
         <item itemvalue="Application.StackUsage" />
         <item itemvalue="Application.MyStack" />
-        <item itemvalue="Application.PerfectSquares" />
       </list>
     </recent_temporary>
   </component>
@@ -791,9 +792,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Stacks/ValidParenthesis.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+        <state relative-caret-position="455">
+          <caret line="31" column="79" selection-start-line="31" selection-start-column="79" selection-end-line="31" selection-end-column="79" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="e#137#148#0" expanded="true" />
           </folding>
         </state>
