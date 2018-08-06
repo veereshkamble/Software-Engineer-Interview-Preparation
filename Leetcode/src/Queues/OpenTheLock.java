@@ -36,8 +36,16 @@ public class OpenTheLock {
                         visited.add(s1);
                     }
 
+                    if(!visited.contains(s2) && !deads.contains(s2)) {
+                        queue.offer(s2);
+                        visited.add(s2);
+                    }
+
                 }
+                size--;
             }
+            level++;
         }
+        return -1;
     }
 }
