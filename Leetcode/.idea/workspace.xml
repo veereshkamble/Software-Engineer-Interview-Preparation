@@ -96,8 +96,8 @@
       <file leaf-file-name="OpenTheLock.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Queues/OpenTheLock.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="455">
-              <caret line="34" column="24" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
+            <state relative-caret-position="438">
+              <caret line="54" column="67" selection-start-line="54" selection-start-column="67" selection-end-line="54" selection-end-column="67" />
             </state>
           </provider>
         </entry>
@@ -251,7 +251,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.NumberOfIslands">
+  <component name="RunManager" selected="Application.OpenTheLock">
     <configuration name="MovingAverage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Queues.MovingAverage" />
       <module name="Leetcode" />
@@ -274,8 +274,8 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="QueueUsage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Queues.QueueUsage" />
+    <configuration name="OpenTheLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Queues.OpenTheLock" />
       <module name="Leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -349,19 +349,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.QueueUsage" />
       <item itemvalue="Application.MovingAverage" />
       <item itemvalue="Application.WallsAndGates" />
       <item itemvalue="Application.WallsAndGatesRecursive" />
       <item itemvalue="Application.NumberOfIslands" />
+      <item itemvalue="Application.OpenTheLock" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OpenTheLock" />
         <item itemvalue="Application.NumberOfIslands" />
         <item itemvalue="Application.WallsAndGatesRecursive" />
         <item itemvalue="Application.WallsAndGates" />
         <item itemvalue="Application.MovingAverage" />
-        <item itemvalue="Application.QueueUsage" />
       </list>
     </recent_temporary>
   </component>
@@ -809,8 +809,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Queues/OpenTheLock.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="34" column="24" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
+        <state relative-caret-position="438">
+          <caret line="54" column="67" selection-start-line="54" selection-start-column="67" selection-end-line="54" selection-end-column="67" />
         </state>
       </provider>
     </entry>
