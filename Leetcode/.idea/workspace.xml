@@ -260,7 +260,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PerfectSquares">
+  <component name="RunManager" selected="Application.MyStack">
+    <configuration name="MyStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Stacks.MyStack" />
+      <module name="Leetcode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Stacks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="NumberOfIslands" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Queues.NumberOfIslands" />
       <module name="Leetcode" />
@@ -285,17 +296,6 @@
     </configuration>
     <configuration name="PerfectSquares" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Queues.PerfectSquares" />
-      <module name="Leetcode" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Queues.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="WallsAndGates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Queues.WallsAndGates" />
       <module name="Leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -358,19 +358,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.WallsAndGates" />
       <item itemvalue="Application.WallsAndGatesRecursive" />
       <item itemvalue="Application.NumberOfIslands" />
       <item itemvalue="Application.OpenTheLock" />
       <item itemvalue="Application.PerfectSquares" />
+      <item itemvalue="Application.MyStack" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyStack" />
         <item itemvalue="Application.PerfectSquares" />
         <item itemvalue="Application.OpenTheLock" />
         <item itemvalue="Application.NumberOfIslands" />
         <item itemvalue="Application.WallsAndGatesRecursive" />
-        <item itemvalue="Application.WallsAndGates" />
       </list>
     </recent_temporary>
   </component>
