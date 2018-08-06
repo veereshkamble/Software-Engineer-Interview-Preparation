@@ -96,8 +96,8 @@
       <file leaf-file-name="NumberOfIslands.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Queues/NumberOfIslands.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="455">
-              <caret line="36" column="38" selection-start-line="36" selection-start-column="38" selection-end-line="36" selection-end-column="38" />
+            <state relative-caret-position="302">
+              <caret line="37" column="49" selection-start-line="37" selection-start-column="49" selection-end-line="37" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -251,7 +251,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.WallsAndGatesRecursive">
+  <component name="RunManager" selected="Application.NumberOfIslands">
     <configuration name="MovingAverage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Queues.MovingAverage" />
       <module name="Leetcode" />
@@ -263,8 +263,8 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="MyQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Queues.MyQueue" />
+    <configuration name="NumberOfIslands" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Queues.NumberOfIslands" />
       <module name="Leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -349,19 +349,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.MyQueue" />
       <item itemvalue="Application.QueueUsage" />
       <item itemvalue="Application.MovingAverage" />
       <item itemvalue="Application.WallsAndGates" />
       <item itemvalue="Application.WallsAndGatesRecursive" />
+      <item itemvalue="Application.NumberOfIslands" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NumberOfIslands" />
         <item itemvalue="Application.WallsAndGatesRecursive" />
         <item itemvalue="Application.WallsAndGates" />
         <item itemvalue="Application.MovingAverage" />
         <item itemvalue="Application.QueueUsage" />
-        <item itemvalue="Application.MyQueue" />
       </list>
     </recent_temporary>
   </component>
@@ -809,8 +809,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Queues/NumberOfIslands.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="36" column="38" selection-start-line="36" selection-start-column="38" selection-end-line="36" selection-end-column="38" />
+        <state relative-caret-position="302">
+          <caret line="37" column="49" selection-start-line="37" selection-start-column="49" selection-end-line="37" selection-end-column="49" />
         </state>
       </provider>
     </entry>
