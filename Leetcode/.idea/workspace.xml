@@ -12,15 +12,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SubstringConcatenation.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/SlidingWindowAlgorithm/SubstringConcatenation.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="57" column="71" selection-start-line="57" selection-start-column="71" selection-end-line="57" selection-end-column="71" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="MyQueue.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Queues/MyQueue.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -93,11 +84,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NumberOfIslands.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="NumberOfIslands.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Queues/NumberOfIslands.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="302">
               <caret line="37" column="49" selection-start-line="37" selection-start-column="49" selection-end-line="37" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OpenTheLock.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Queues/OpenTheLock.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="455">
+              <caret line="34" column="24" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -148,7 +148,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Trees/NaryTreePreorderRecursive.java" />
         <option value="$PROJECT_DIR$/src/Trees/NaryTreePostorderRecursive.java" />
         <option value="$PROJECT_DIR$/src/Trees/NaryInorderIterative.java" />
         <option value="$PROJECT_DIR$/src/Trees/NaryTreeLevelorderIterative.java" />
@@ -199,6 +198,7 @@
         <option value="$PROJECT_DIR$/src/Queues/WallsAndGates.java" />
         <option value="$PROJECT_DIR$/src/Queues/WallsAndGatesRecursive.java" />
         <option value="$PROJECT_DIR$/src/Queues/NumberOfIslands.java" />
+        <option value="$PROJECT_DIR$/src/Queues/OpenTheLock.java" />
       </list>
     </option>
   </component>
@@ -427,13 +427,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/LinkedList/LinkedListCycleII.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/LinkedList/LinkedListIntersection.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -811,6 +804,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="302">
           <caret line="37" column="49" selection-start-line="37" selection-start-column="49" selection-end-line="37" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Queues/OpenTheLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="34" column="24" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
         </state>
       </provider>
     </entry>
