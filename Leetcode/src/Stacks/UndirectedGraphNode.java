@@ -9,7 +9,7 @@ public class UndirectedGraphNode {
     List<UndirectedGraphNode> neighbors;
 
     public UndirectedGraphNode(int value) {
-        label = value;
-        neighbors = new ArrayList<UndirectedGraphNode>();
+        this.label = value;
+        this.neighbors = new ArrayList<UndirectedGraphNode>();
     }
 }
