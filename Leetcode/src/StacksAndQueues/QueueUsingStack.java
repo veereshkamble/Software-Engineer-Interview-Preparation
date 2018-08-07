@@ -38,6 +38,15 @@ public class QueueUsingStack {
         public boolean empty() {
             return input.isEmpty() && output.isEmpty();
         }
+
+        public static void main(String[] args) {
+            QueueUsingStack queueUsingStack = new QueueUsingStack();
+            queueUsingStack.push(1);
+            queueUsingStack.push(2);
+            System.out.println(queueUsingStack.peek());
+            System.out.println(queueUsingStack.pop());
+            System.out.println(queueUsingStack.peek());
+        }
     }
 
 /**

@@ -155,20 +155,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TargetSumDP">
+  <component name="RunManager" selected="Application.QueueUsingStack">
     <configuration name="CloneGraphBFS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Stacks.CloneGraphBFS" />
-      <module name="Leetcode" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Stacks.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="DailyTemperatures" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Stacks.DailyTemperatures" />
       <module name="Leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -185,6 +174,17 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Stacks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="QueueUsingStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StacksAndQueues.QueueUsingStack" />
+      <module name="Leetcode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="StacksAndQueues.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -253,19 +253,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.DailyTemperatures" />
       <item itemvalue="Application.ReversePolishNotation" />
       <item itemvalue="Application.NumberOfIslands" />
       <item itemvalue="Application.TargetSumDP" />
       <item itemvalue="Application.CloneGraphBFS" />
+      <item itemvalue="Application.QueueUsingStack" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.QueueUsingStack" />
         <item itemvalue="Application.TargetSumDP" />
         <item itemvalue="Application.CloneGraphBFS" />
         <item itemvalue="Application.NumberOfIslands" />
         <item itemvalue="Application.ReversePolishNotation" />
-        <item itemvalue="Application.DailyTemperatures" />
       </list>
     </recent_temporary>
   </component>
