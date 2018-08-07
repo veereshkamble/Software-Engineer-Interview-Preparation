@@ -19,7 +19,7 @@ public class TargetSumDP {
     }
 
     public static void main(String[] args) {
-        int[] nums = new int[] {1, 1, 1, 1, 1};
+        int[] nums = new int[] {1, 4, 3, 5, 8};
         int target = 3;
         TargetSumDP targetSumDP = new TargetSumDP();
         System.out.println(targetSumDP.findTargetSumWays(nums,target));
