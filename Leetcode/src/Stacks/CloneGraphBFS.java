@@ -28,4 +28,20 @@ public class CloneGraphBFS {
             return newNode;
         }
 
+        public static void main(String[] args) {
+            UndirectedGraphNode node1 = new UndirectedGraphNode(1);
+            UndirectedGraphNode node2 = new UndirectedGraphNode(2);
+            UndirectedGraphNode node3 = new UndirectedGraphNode( 3);
+
+            node1.neighbors.add(node2);
+            node1.neighbors.add(node3);
+
+            node2.neighbors.add(node2);
+
+            node3.neighbors.add(node3);
+            CloneGraphBFS cloneGraphBFS = new CloneGraphBFS();
+            System.out.println(cloneGraphBFS.cloneGraph(node1).label);
+
+        }
+
 }

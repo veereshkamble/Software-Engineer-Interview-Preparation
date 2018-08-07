@@ -58,11 +58,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CloneGraphBFS.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CloneGraphBFS.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Stacks/CloneGraphBFS.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
+            <state relative-caret-position="357">
+              <caret line="42" column="64" selection-start-line="42" selection-start-column="64" selection-end-line="42" selection-end-column="64" />
             </state>
           </provider>
         </entry>
@@ -88,7 +88,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DFSTemplateI.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DFSTemplateI.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Stacks/DFSTemplateI.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
@@ -192,11 +192,11 @@
         <option value="$PROJECT_DIR$/src/Stacks/NumberOfIslands.java" />
         <option value="$PROJECT_DIR$/src/Stacks/CloneGraph.java" />
         <option value="$PROJECT_DIR$/src/Stacks/UndirectedGraphNode.java" />
-        <option value="$PROJECT_DIR$/src/Stacks/CloneGraphBFS.java" />
         <option value="$PROJECT_DIR$/src/Queues/PerfectSquaresDP.java" />
         <option value="$PROJECT_DIR$/src/Stacks/TargetSumDP.java" />
         <option value="$PROJECT_DIR$/src/Stacks/DFSTemplateII.java" />
         <option value="$PROJECT_DIR$/src/Stacks/DFSTemplateI.java" />
+        <option value="$PROJECT_DIR$/src/Stacks/CloneGraphBFS.java" />
       </list>
     </option>
   </component>
@@ -249,7 +249,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TargetSumDP">
+  <component name="RunManager" selected="Application.CloneGraphBFS">
+    <configuration name="CloneGraphBFS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Stacks.CloneGraphBFS" />
+      <module name="Leetcode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Stacks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="DailyTemperatures" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Stacks.DailyTemperatures" />
       <module name="Leetcode" />
@@ -285,17 +296,6 @@
     </configuration>
     <configuration name="TargetSumDP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Stacks.TargetSumDP" />
-      <module name="Leetcode" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Stacks.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="ValidParenthesis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Stacks.ValidParenthesis" />
       <module name="Leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -347,19 +347,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.ValidParenthesis" />
       <item itemvalue="Application.DailyTemperatures" />
       <item itemvalue="Application.ReversePolishNotation" />
       <item itemvalue="Application.NumberOfIslands" />
       <item itemvalue="Application.TargetSumDP" />
+      <item itemvalue="Application.CloneGraphBFS" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CloneGraphBFS" />
         <item itemvalue="Application.TargetSumDP" />
         <item itemvalue="Application.NumberOfIslands" />
         <item itemvalue="Application.ReversePolishNotation" />
         <item itemvalue="Application.DailyTemperatures" />
-        <item itemvalue="Application.ValidParenthesis" />
       </list>
     </recent_temporary>
   </component>
@@ -824,13 +824,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Stacks/CloneGraphBFS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Stacks/TargetSumDP.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -855,6 +848,13 @@
           <folding>
             <element signature="e#0#375#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Stacks/CloneGraphBFS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="42" column="64" selection-start-line="42" selection-start-column="64" selection-end-line="42" selection-end-column="64" />
         </state>
       </provider>
     </entry>
