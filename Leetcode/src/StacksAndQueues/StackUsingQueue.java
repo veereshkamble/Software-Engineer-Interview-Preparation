@@ -33,6 +33,16 @@ class StackUsingQueue {
     public boolean empty() {
         return queue.isEmpty();
     }
+
+    public static void main(String[] args) {
+        StackUsingQueue stackUsingQueue = new StackUsingQueue();
+
+        stackUsingQueue.push(1);
+        stackUsingQueue.push(2);
+        System.out.println(stackUsingQueue.top());
+        System.out.println(stackUsingQueue.pop());
+        System.out.println(stackUsingQueue.top());
+    }
 }
 
 /**

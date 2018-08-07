@@ -30,8 +30,8 @@
       <file leaf-file-name="StackUsingQueue.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/StacksAndQueues/StackUsingQueue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-119">
-              <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+            <state relative-caret-position="455">
+              <caret line="43" column="47" lean-forward="true" selection-start-line="43" selection-start-column="47" selection-end-line="43" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#134#135#0" expanded="true" />
@@ -175,7 +175,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.QueueUsingStack">
+  <component name="RunManager" selected="Application.StackUsingQueue">
     <configuration name="CloneGraphBFS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Stacks.CloneGraphBFS" />
       <module name="Leetcode" />
@@ -209,13 +209,13 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="ReversePolishNotation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Stacks.ReversePolishNotation" />
+    <configuration name="StackUsingQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StacksAndQueues.StackUsingQueue" />
       <module name="Leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Stacks.*" />
+          <option name="PATTERN" value="StacksAndQueues.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -273,19 +273,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.ReversePolishNotation" />
       <item itemvalue="Application.NumberOfIslands" />
       <item itemvalue="Application.TargetSumDP" />
       <item itemvalue="Application.CloneGraphBFS" />
       <item itemvalue="Application.QueueUsingStack" />
+      <item itemvalue="Application.StackUsingQueue" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StackUsingQueue" />
         <item itemvalue="Application.QueueUsingStack" />
         <item itemvalue="Application.TargetSumDP" />
         <item itemvalue="Application.CloneGraphBFS" />
         <item itemvalue="Application.NumberOfIslands" />
-        <item itemvalue="Application.ReversePolishNotation" />
       </list>
     </recent_temporary>
   </component>
@@ -782,8 +782,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/StacksAndQueues/StackUsingQueue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-119">
-          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+        <state relative-caret-position="455">
+          <caret line="43" column="47" lean-forward="true" selection-start-line="43" selection-start-column="47" selection-end-line="43" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#134#135#0" expanded="true" />
