@@ -27,10 +27,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StackUsingQueue.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="StackUsingQueue.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/StacksAndQueues/StackUsingQueue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="455">
+            <state relative-caret-position="221">
               <caret line="43" column="47" lean-forward="true" selection-start-line="43" selection-start-column="47" selection-end-line="43" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -42,6 +42,19 @@
                 <element signature="e#607#608#0" expanded="true" />
                 <element signature="e#684#685#0" expanded="true" />
                 <element signature="e#722#723#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DecodeString.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/StacksAndQueues/DecodeString.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="455">
+              <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
+              <folding>
+                <element signature="e#141#150#0" expanded="true" />
+                <element signature="e#222#230#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -72,7 +85,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/ArraysAndStrings/RemoveElement.java" />
         <option value="$PROJECT_DIR$/src/ArraysAndStrings/ReverseString.java" />
         <option value="$PROJECT_DIR$/src/ArraysAndStrings/ReverseWordsInAString.java" />
         <option value="$PROJECT_DIR$/src/HashTables/FindDuplicates.java" />
@@ -123,6 +135,7 @@
         <option value="$PROJECT_DIR$/src/Stacks/BinaryTreeInorderTraversal.java" />
         <option value="$PROJECT_DIR$/src/StacksAndQueues/QueueUsingStack.java" />
         <option value="$PROJECT_DIR$/src/StacksAndQueues/StackUsingQueue.java" />
+        <option value="$PROJECT_DIR$/src/StacksAndQueues/DecodeString.java" />
       </list>
     </option>
   </component>
@@ -314,12 +327,12 @@
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="6" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2612859" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2612859" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18619792" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18619792" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
@@ -351,13 +364,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/SpiralOrder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="35" column="47" lean-forward="true" selection-start-line="35" selection-start-column="47" selection-end-line="35" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/TwoSumII.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-112">
@@ -782,7 +788,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/StacksAndQueues/StackUsingQueue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
+        <state relative-caret-position="221">
           <caret line="43" column="47" lean-forward="true" selection-start-line="43" selection-start-column="47" selection-end-line="43" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -794,6 +800,17 @@
             <element signature="e#607#608#0" expanded="true" />
             <element signature="e#684#685#0" expanded="true" />
             <element signature="e#722#723#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/StacksAndQueues/DecodeString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
+          <folding>
+            <element signature="e#141#150#0" expanded="true" />
+            <element signature="e#222#230#0" expanded="true" />
           </folding>
         </state>
       </provider>
