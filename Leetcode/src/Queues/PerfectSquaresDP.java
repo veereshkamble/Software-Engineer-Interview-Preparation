@@ -1,6 +1,6 @@
 package Queues;
 
-public class PerfectSquares {
+public class PerfectSquaresDP {
 
     public int numSquares(int n) {
         int[] DP = new int[n + 1];
@@ -17,7 +17,7 @@ public class PerfectSquares {
     }
 
     public static void main(String[] args) {
-        PerfectSquares perfectSquares = new PerfectSquares();
+        PerfectSquaresDP perfectSquares = new PerfectSquaresDP();
         System.out.println(perfectSquares.numSquares(12));
     }
 }
