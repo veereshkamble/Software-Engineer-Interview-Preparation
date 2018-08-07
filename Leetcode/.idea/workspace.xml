@@ -76,7 +76,7 @@
       <file leaf-file-name="ValidParenthesis.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Stacks/ValidParenthesis.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
+            <state relative-caret-position="268">
               <caret line="20" column="83" selection-start-line="20" selection-start-column="83" selection-end-line="20" selection-end-column="83" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -101,8 +101,11 @@
       <file leaf-file-name="ReversePolishNotation.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Stacks/ReversePolishNotation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="36" lean-forward="true" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
+            <state relative-caret-position="353">
+              <caret line="38" column="5" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="38" selection-end-column="5" />
+              <folding>
+                <element signature="e#138#147#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -132,7 +135,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/ArraysAndStrings/AddBinary.java" />
         <option value="$PROJECT_DIR$/src/ArraysAndStrings/ArrayPartitionI.java" />
         <option value="$PROJECT_DIR$/src/ArraysAndStrings/DominantIndex.java" />
         <option value="$PROJECT_DIR$/src/ArraysAndStrings/FindDiagonalOrder.java" />
@@ -183,6 +185,7 @@
         <option value="$PROJECT_DIR$/src/Stacks/MinStackII.java" />
         <option value="$PROJECT_DIR$/src/Stacks/ValidParenthesis.java" />
         <option value="$PROJECT_DIR$/src/Stacks/DailyTemperatures.java" />
+        <option value="$PROJECT_DIR$/src/Stacks/ReversePolishNotation.java" />
       </list>
     </option>
   </component>
@@ -797,17 +800,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Stacks/ValidParenthesis.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="20" column="83" selection-start-line="20" selection-start-column="83" selection-end-line="20" selection-end-column="83" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#137#148#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Stacks/DailyTemperatures.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -818,10 +810,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Stacks/ValidParenthesis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="20" column="83" selection-start-line="20" selection-start-column="83" selection-end-line="20" selection-end-column="83" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#137#148#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Stacks/ReversePolishNotation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="36" lean-forward="true" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
+        <state relative-caret-position="353">
+          <caret line="38" column="5" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="38" selection-end-column="5" />
+          <folding>
+            <element signature="e#138#147#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
