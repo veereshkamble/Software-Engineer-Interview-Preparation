@@ -51,7 +51,7 @@
         <entry file="file://$PROJECT_DIR$/src/StacksAndQueues/DecodeString.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="455">
-              <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
+              <caret line="41" column="67" selection-start-line="41" selection-start-column="67" selection-end-line="41" selection-end-column="67" />
               <folding>
                 <element signature="e#141#150#0" expanded="true" />
                 <element signature="e#222#230#0" expanded="true" />
@@ -188,7 +188,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.StackUsingQueue">
+  <component name="RunManager" selected="Application.DecodeString">
     <configuration name="CloneGraphBFS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Stacks.CloneGraphBFS" />
       <module name="Leetcode" />
@@ -200,13 +200,13 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="NumberOfIslands" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Stacks.NumberOfIslands" />
+    <configuration name="DecodeString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StacksAndQueues.DecodeString" />
       <module name="Leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Stacks.*" />
+          <option name="PATTERN" value="StacksAndQueues.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -286,19 +286,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.NumberOfIslands" />
       <item itemvalue="Application.TargetSumDP" />
       <item itemvalue="Application.CloneGraphBFS" />
       <item itemvalue="Application.QueueUsingStack" />
       <item itemvalue="Application.StackUsingQueue" />
+      <item itemvalue="Application.DecodeString" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DecodeString" />
         <item itemvalue="Application.StackUsingQueue" />
         <item itemvalue="Application.QueueUsingStack" />
         <item itemvalue="Application.TargetSumDP" />
         <item itemvalue="Application.CloneGraphBFS" />
-        <item itemvalue="Application.NumberOfIslands" />
       </list>
     </recent_temporary>
   </component>
@@ -807,7 +807,7 @@
     <entry file="file://$PROJECT_DIR$/src/StacksAndQueues/DecodeString.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="455">
-          <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
+          <caret line="41" column="67" selection-start-line="41" selection-start-column="67" selection-end-line="41" selection-end-column="67" />
           <folding>
             <element signature="e#141#150#0" expanded="true" />
             <element signature="e#222#230#0" expanded="true" />

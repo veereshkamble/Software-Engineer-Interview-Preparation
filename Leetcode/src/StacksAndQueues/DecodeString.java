@@ -7,7 +7,7 @@ public class DecodeString {
     public String decodeString(String s) {
         Stack<Integer> numStack = new Stack<Integer>();
         Stack<String> charStack = new Stack<String>();
-
+        charStack.push("");
         int i = 0;
         while(i < s.length()) {
             char ch = s.charAt(i);
@@ -35,5 +35,10 @@ public class DecodeString {
             i = i + 1;
         }
         return charStack.pop();
+    }
+
+    public static void main(String[] args) {
+        DecodeString decodeString = new DecodeString();
+        System.out.println(decodeString.decodeString("3[a]2[bc]"));
     }
 }
