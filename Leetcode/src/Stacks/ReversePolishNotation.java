@@ -37,4 +37,10 @@ public class ReversePolishNotation {
         }
         return stack.pop();
     }
+
+    public static void main(String[] args) {
+        ReversePolishNotation reversePolishNotation = new ReversePolishNotation();
+        String[] tokens = new String[] {"2", "1", "+", "3", "*"};
+        System.out.println(reversePolishNotation.evalRPN(tokens));
+    }
 }
