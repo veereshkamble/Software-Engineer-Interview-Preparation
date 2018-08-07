@@ -25,4 +25,20 @@ public class CloneGraphDFS {
             return clone;
         }
 
+    public static void main(String[] args) {
+        UndirectedGraphNode node1 = new UndirectedGraphNode(1);
+        UndirectedGraphNode node2 = new UndirectedGraphNode(2);
+        UndirectedGraphNode node3 = new UndirectedGraphNode( 3);
+
+        node1.neighbors.add(node2);
+        node1.neighbors.add(node3);
+
+        node2.neighbors.add(node2);
+
+        node3.neighbors.add(node3);
+        CloneGraphDFS cloneGraphDFS = new CloneGraphDFS();
+        System.out.println(cloneGraphDFS.cloneGraph(node1).label);
+
+    }
+
 }
