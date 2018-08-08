@@ -21,11 +21,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TrieNodeArray.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TrieNodeArray.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Tries/TrieNodeArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+            <state relative-caret-position="221">
+              <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TrieNodeHashMap.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Tries/TrieNodeHashMap.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -55,7 +67,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/HashTables/HappyNumber.java" />
         <option value="$PROJECT_DIR$/src/HashTables/HappyNumberLeetCode.java" />
         <option value="$PROJECT_DIR$/src/HashTables/TwoSum.java" />
         <option value="$PROJECT_DIR$/src/HashTables/IsomorphicStrings.java" />
@@ -106,6 +117,7 @@
         <option value="$PROJECT_DIR$/src/StacksAndQueues/Matrix01DP.java" />
         <option value="$PROJECT_DIR$/src/StacksAndQueues/KeysInRoom.java" />
         <option value="$PROJECT_DIR$/src/Tries/TrieNodeArray.java" />
+        <option value="$PROJECT_DIR$/src/Tries/TrieNodeHashMap.java" />
       </list>
     </option>
   </component>
@@ -334,13 +346,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/HashTables/FindDuplicates.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="27" column="64" selection-start-line="27" selection-start-column="64" selection-end-line="27" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/HashTables/FindDuplicateSubtrees.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -785,8 +790,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Tries/TrieNodeArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        <state relative-caret-position="221">
+          <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tries/TrieNodeHashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
