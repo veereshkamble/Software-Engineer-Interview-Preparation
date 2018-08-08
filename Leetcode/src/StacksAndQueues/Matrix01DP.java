@@ -35,4 +35,20 @@ public class Matrix01DP {
 
         return dis;
     }
+
+    public static void main(String[] args) {
+       Matrix01DP matrix01DP = new Matrix01DP();
+        int[][] matrix = new int[][] {{0, 0, 0},
+                {0, 1, 0},
+                {1, 1, 1}};
+
+        int[][] result = matrix01DP.updateMatrix(matrix);
+
+        for(int i = 0; i < result.length; i++) {
+            for(int j = 0; j < result[0].length; j++) {
+                System.out.print(result[i][j] + " ");
+            }
+            System.out.println();
+        }
+    }
 }
