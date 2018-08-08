@@ -8,12 +8,12 @@ public class KeysInRoom {
 
     HashSet<Integer> enteredRooms = new HashSet<Integer>();
 
-    public boolean canVisitAllRooms(List<List<Integer>> rooms) {
+    public boolean canVisitAllRooms(List<ArrayList<Integer>> rooms) {
         enterRoom(0, rooms);
         return enteredRooms.size() == rooms.size();
     }
 
-    public void enterRoom(int roomId, List<List<Integer>> rooms) {
+    public void enterRoom(int roomId, List<ArrayList<Integer>> rooms) {
         enteredRooms.add(roomId);
         List<Integer> keysInRoom = rooms.get(roomId);
         for(int key : keysInRoom) {
@@ -36,6 +36,11 @@ public class KeysInRoom {
         room1.add(2);
         room2.add(3);
 
-        
+        rooms.add(new ArrayList<>(room0));
+        rooms.add(new ArrayList<>(room1));
+        rooms.add(new ArrayList<>(room2));
+        rooms.add(new ArrayList<>(room3));
+
+        System.out.println(keysInRoom.canVisitAllRooms(rooms));
     }
 }
