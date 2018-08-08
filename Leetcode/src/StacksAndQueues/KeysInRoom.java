@@ -23,5 +23,19 @@ public class KeysInRoom {
         }
     }
 
-    
+    public static void main(String[] args) {
+        KeysInRoom keysInRoom = new KeysInRoom();
+        List<Integer> room0 = new ArrayList<>();
+        List<Integer> room1 = new ArrayList<>();
+        List<Integer> room2 = new ArrayList<>();
+        List<Integer> room3 = new ArrayList<>();
+
+        List<ArrayList<Integer>> rooms = new ArrayList<ArrayList<Integer>>();
+
+        room0.add(1);
+        room1.add(2);
+        room2.add(3);
+
+        
+    }
 }
