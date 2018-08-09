@@ -2,14 +2,23 @@ package Tries;
 
 class Trie {
 
+    private TrieNode root;
     /** Initialize your data structure here. */
     public Trie() {
-
+        root = new TrieNode();
     }
 
     /** Inserts a word into the trie. */
     public void insert(String word) {
-
+        TrieNode cur = root;
+        for(int i = 0; i < word.length(); i++) {
+            char c = word.charAt(i);
+            if(cur.childrenMap.get(c) == null) {
+                cur.childrenMap.put(c, new TrieNode());
+            }
+            cur = cur.childrenMap.get(c);
+        }
+        cur.isWord = true;
     }
 
     /** Returns if the word is in the trie. */
