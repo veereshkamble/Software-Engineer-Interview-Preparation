@@ -13,6 +13,7 @@ public class ReplaceWords {
 
     public TrieNode buildTrie(List<String> dict) {
         TrieNode root = new TrieNode();
+
         for(String rootWord : dict) {
             TrieNode cur = root;
             for(int i = 0 ; i < rootWord.length(); i++) {
@@ -33,7 +34,7 @@ public class ReplaceWords {
             sb.append(getShortestReplacement(token, root));
             sb.append(" ");
         }
-        return sb.toString();
+        return sb.substring(0, sb.length() - 1);
     }
 
     public String getShortestReplacement(String token, TrieNode root) {
@@ -56,6 +57,9 @@ public class ReplaceWords {
     public static void main(String[] args) {
         ReplaceWords replaceWords = new ReplaceWords();
         List<String> dict = new ArrayList<String>();
+        dict.add("cat");
+        dict.add("rat");
+        dict.add("bat");
         String sentence = "the cattle was rattled by the battery";
 
         System.out.println(replaceWords.replaceWords(dict, sentence));
