@@ -1,5 +1,6 @@
 package Tries;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class ReplaceWords {
@@ -50,5 +51,13 @@ public class ReplaceWords {
             }
         }
         return token;
+    }
+
+    public static void main(String[] args) {
+        ReplaceWords replaceWords = new ReplaceWords();
+        List<String> dict = new ArrayList<String>();
+        String sentence = "the cattle was rattled by the battery";
+
+        System.out.println(replaceWords.replaceWords(dict, sentence));
     }
 }
