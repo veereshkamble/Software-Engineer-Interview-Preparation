@@ -76,15 +76,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MapSum.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MapSum.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Tries/MapSum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="438">
-              <caret line="35" column="24" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
+            <state relative-caret-position="782">
+              <caret line="49" column="45" selection-start-line="49" selection-start-column="45" selection-end-line="49" selection-end-column="45" />
               <folding>
                 <element signature="e#102#103#0" expanded="true" />
                 <element signature="e#123#124#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReplaceWords.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Tries/ReplaceWords.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -114,7 +123,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/HashTables/ValidSudoku.java" />
         <option value="$PROJECT_DIR$/src/LinkedList/LinkedListCycle.java" />
         <option value="$PROJECT_DIR$/src/LinkedList/ReverseLinkedList.java" />
         <option value="$PROJECT_DIR$/src/SlidingWindowAlgorithm/SlidingWindowTemplate.java" />
@@ -165,6 +173,7 @@
         <option value="$PROJECT_DIR$/src/Tries/TrieNodeArray.java" />
         <option value="$PROJECT_DIR$/src/Tries/TrieNode.java" />
         <option value="$PROJECT_DIR$/src/Tries/MapSum.java" />
+        <option value="$PROJECT_DIR$/src/Tries/ReplaceWords.java" />
       </list>
     </option>
   </component>
@@ -217,18 +226,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Trie">
-    <configuration name="DecodeString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StacksAndQueues.DecodeString" />
-      <module name="Leetcode" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="StacksAndQueues.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
+  <component name="RunManager" selected="Application.MapSum">
     <configuration name="FloodFill" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="StacksAndQueues.FloodFill" />
       <module name="Leetcode" />
@@ -247,6 +245,17 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="StacksAndQueues.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="MapSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tries.MapSum" />
+      <module name="Leetcode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tries.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -315,19 +324,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.DecodeString" />
       <item itemvalue="Application.FloodFill" />
       <item itemvalue="Application.Matrix01DP" />
       <item itemvalue="Application.KeysInRoom" />
       <item itemvalue="Application.Trie" />
+      <item itemvalue="Application.MapSum" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MapSum" />
         <item itemvalue="Application.Trie" />
         <item itemvalue="Application.KeysInRoom" />
         <item itemvalue="Application.Matrix01DP" />
         <item itemvalue="Application.FloodFill" />
-        <item itemvalue="Application.DecodeString" />
       </list>
     </recent_temporary>
   </component>
@@ -393,16 +402,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/SlidingWindowAlgorithm/SlidingWindowTemplate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="48" column="59" selection-start-line="48" selection-start-column="59" selection-end-line="48" selection-end-column="59" />
-          <folding>
-            <element signature="e#609#629#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/SlidingWindowAlgorithm/FindAllAnagrams.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="683">
@@ -842,6 +841,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tries/MapSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="49" column="45" selection-start-line="49" selection-start-column="45" selection-end-line="49" selection-end-column="45" />
+          <folding>
+            <element signature="e#102#103#0" expanded="true" />
+            <element signature="e#123#124#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Tries/TrieNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -852,14 +862,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tries/MapSum.java">
+    <entry file="file://$PROJECT_DIR$/src/Tries/ReplaceWords.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
-          <caret line="35" column="24" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
-          <folding>
-            <element signature="e#102#103#0" expanded="true" />
-            <element signature="e#123#124#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="136">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
         </state>
       </provider>
     </entry>

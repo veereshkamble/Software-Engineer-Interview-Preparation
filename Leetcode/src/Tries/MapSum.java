@@ -43,4 +43,12 @@ public class MapSum {
         }
         return sum + root.val;
     }
+
+    public static void main(String[] args) {
+        MapSum mapSum = new MapSum();
+        mapSum.insert("apple", 5);
+        System.out.println(mapSum.sum("ap"));
+        mapSum.insert("app", 3);
+        System.out.println(mapSum.sum("ap"));
+    }
 }
