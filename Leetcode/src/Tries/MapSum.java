@@ -24,7 +24,23 @@ public class MapSum {
         cur.val = val;
     }
 
-    
+    public int sum(String prefix) {
+        TrieNode cur = root;
+        for(char c : prefix.toCharArray()) {
+            TrieNode next = cur.childrenMap.get(c);
+            if(next == null) {
+                return 0;
+            }
+            cur = next;
+        }
+        return dfs(cur);
+    }
 
-
+    public int dfs(TrieNode root) {
+        int sum = 0;
+        for(char c : root.childrenMap.keySet()) {
+            sum += dfs(root.childrenMap.get(c));
+        }
+        return sum + root.val;
+    }
 }
