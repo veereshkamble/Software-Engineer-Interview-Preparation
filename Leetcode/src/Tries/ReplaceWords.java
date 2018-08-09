@@ -60,7 +60,9 @@ public class ReplaceWords {
         dict.add("cat");
         dict.add("rat");
         dict.add("bat");
-        String sentence = "the cattle was rattled by the battery";
+        dict.add("bad");
+        dict.add("ra");
+        String sentence = "the cattle was rattled by the battery and badminton";
 
         System.out.println(replaceWords.replaceWords(dict, sentence));
     }
