@@ -14,6 +14,7 @@ class Trie {
         for(int i = 0; i < word.length(); i++) {
             char c = word.charAt(i);
             if(cur.childrenMap.get(c) == null) {
+                //insert new node if the path does not exist
                 cur.childrenMap.put(c, new TrieNode());
             }
             cur = cur.childrenMap.get(c);
@@ -23,7 +24,15 @@ class Trie {
 
     /** Returns if the word is in the trie. */
     public boolean search(String word) {
-
+        TrieNode cur = root;
+        for(int i = 0; i < word.length(); i++) {
+            char c = word.charAt(i);
+            if(cur.childrenMap.get(c) == null) {
+                return false;
+            }
+            cur = cur.childrenMap.get(c);
+        }
+        return cur.isWord;
     }
 
     /** Returns if there is any word in the trie that starts with the given prefix. */
