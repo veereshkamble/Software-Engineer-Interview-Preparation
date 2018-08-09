@@ -30,7 +30,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TrieNodeHashMap.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TrieNodeHashMap.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Tries/TrieNodeHashMap.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
@@ -38,6 +38,24 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Trie.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Tries/Trie.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="31" column="3" selection-start-line="31" selection-start-column="3" selection-end-line="31" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TrieNode.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Tries/TrieNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -67,8 +85,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/HashTables/HappyNumberLeetCode.java" />
-        <option value="$PROJECT_DIR$/src/HashTables/TwoSum.java" />
         <option value="$PROJECT_DIR$/src/HashTables/IsomorphicStrings.java" />
         <option value="$PROJECT_DIR$/src/HashTables/IntersectionII.java" />
         <option value="$PROJECT_DIR$/src/HashTables/ValidSudoku.java" />
@@ -118,6 +134,8 @@
         <option value="$PROJECT_DIR$/src/StacksAndQueues/KeysInRoom.java" />
         <option value="$PROJECT_DIR$/src/Tries/TrieNodeArray.java" />
         <option value="$PROJECT_DIR$/src/Tries/TrieNodeHashMap.java" />
+        <option value="$PROJECT_DIR$/src/Tries/Trie.java" />
+        <option value="$PROJECT_DIR$/src/Tries/TrieNode.java" />
       </list>
     </option>
   </component>
@@ -346,20 +364,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/HashTables/FindDuplicateSubtrees.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/HashTables/FIndRestaturant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="51" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/HashTables/FirstUniqueCharacter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
@@ -802,6 +806,20 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tries/Trie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="3" selection-start-line="31" selection-start-column="3" selection-end-line="31" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tries/TrieNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
         </state>
       </provider>
     </entry>
