@@ -5,5 +5,12 @@ import java.util.Map;
 
 public class TrieNode {
     public boolean isWord;
-    public Map<Character, TrieNode> childrenMap = new HashMap<>();
+    public int val;
+    public Map<Character, TrieNode> childrenMap;
+
+    public TrieNode() {
+        childrenMap = new HashMap<>();
+        isWord = false;
+        val = 0;
+    }
 }
