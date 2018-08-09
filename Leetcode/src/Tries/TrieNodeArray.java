@@ -1,14 +1,12 @@
 package Tries;
 
 public class TrieNodeArray {
-    // change this value to adapt to different cases
-    public static final int N = 26;
-    public TrieNodeArray[] children = new TrieNodeArray[N];
-
-    // you might need some extra values according to different cases
+    public char val;
+    public boolean isWord;
+    public TrieNodeArray[] children = new TrieNodeArray[26];
+    public TrieNodeArray() {}
+    TrieNodeArray(char c){
+        TrieNodeArray node = new TrieNodeArray();
+        node.val = c;
+    }
 }
-
-/** Usage:
- *  Initialization: TrieNode root = new TrieNode();
- *  Return a specific child node with char c: root.children[c - 'a']
- */
