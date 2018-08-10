@@ -28,24 +28,30 @@ class WordDictionary {
 
     public boolean match(String word, int start, TrieNode cur) {
         if(start == word.length()) {
-            if(cur.isWord == true) {
+            if (cur.isWord == true) {
                 return true;
             } else {
                 return false;
             }
+        }
 
-            char c = word.charAt(start);
+        char c = word.charAt(start);
 
-            if(c != '.') {
-                if(cur.childrenMap.get(c) == null) {
+        if(c != '.') {
+            if(cur.childrenMap.get(c) == null) {
                     return false;
                 } else {
                     return match(word, start+1, cur.childrenMap.get(c));
                 }
             } else {
-                
+                for(char cc : cur.childrenMap.keySet()) {
+                    if(match(word, start+1, cur.childrenMap.get(cc))) {
+                        return true;
+                    }
+                }
             }
-        }
+
+        return false;
     }
 }
 
