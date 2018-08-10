@@ -30,4 +30,25 @@ public class WordSearchII {
         }
         return root;
     }
+
+    public void dfs (char[][] board, int i, int j, TrieNode curNode, List<String> result) {
+        char c = board[i][j];
+
+        if( c == '#' || curNode.childrenMap.get(c) == null) {
+            return;
+        }
+
+        curNode = curNode.childrenMap.get(c);
+        if(curNode.word != null) {
+            result.add(curNode.word);
+            curNode.word = null;
+        }
+
+        board[i][j] = '#';
+        if(i > 0) dfs(board, i-1, j, curNode, result);
+        if(i < board.length - 1) dfs(board, i+1, j, curNode, result);
+        if(j > 0) dfs(board, i, j-1, curNode, result);
+        if(j < board.length - 1) dfs(board, i , j+1, curNode, result);
+        board[i][j] = c;
+    }
 }
