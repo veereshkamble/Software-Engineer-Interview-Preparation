@@ -56,4 +56,39 @@ public class AutoCompleteSystem {
         return res;
     }
 
+    public static void main(String[] args) {
+        String[] sentences = new String[] {"i love you", "island", "ironman", "i love leetcode"};
+        int[] times = new int[] {5, 3, 2, 2};
+        AutoCompleteSystem autoCompleteSystem = new AutoCompleteSystem(sentences, times);
+
+        List<String> result;
+        result = autoCompleteSystem.input('i');
+        for(String str : result) {
+            System.out.print(str + "   ");
+        }
+        System.out.println();
+
+        result = autoCompleteSystem.input(' ');
+        for(String str : result) {
+            System.out.print(str + "   ");
+        }
+        System.out.println();
+
+        result = autoCompleteSystem.input('a');
+        for(String str : result) {
+            System.out.print(str + "   ");
+        }
+        System.out.println();
+
+
+
+        result = autoCompleteSystem.input('s');
+        for(String str : result) {
+            System.out.print(str + "   ");
+        }
+        System.out.println();
+
+
+
+    }
 }
