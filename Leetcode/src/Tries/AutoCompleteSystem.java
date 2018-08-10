@@ -1,18 +1,22 @@
 package Tries;
 
+import java.util.ArrayList;
+import java.util.List;
+import java.util.PriorityQueue;
+
 public class AutoCompleteSystem {
     TrieNode root;
     String prefix;
 
     public AutoCompleteSystem(String[] sentences, int[] times) {
         root = new TrieNode();
-        prefix = " ";
+        prefix = "";
         for(int i = 0; i < sentences.length; i++) {
             buildTrie(sentences[i], times[i]);
         }
     }
 
-    private void add(String s, int count) {
+    private void buildTrie(String s, int count) {
         TrieNode curr = root;
         for (char c : s.toCharArray()) {
             if (curr.childrenMap.get(c) == null) {
@@ -22,6 +26,34 @@ public class AutoCompleteSystem {
             curr.counts.put(s, curr.counts.getOrDefault(s, 0) + count);
         }
         curr.isWord = true;
+    }
+
+    public List<String> input(char c) {
+        if (c == '#') {
+            buildTrie(prefix, 1);
+            prefix = "";
+            return new ArrayList<String>();
+        }
+
+        prefix = prefix + c;
+        TrieNode curr = root;
+        for (char cc : prefix.toCharArray()) {
+            if (curr.childrenMap.get(cc) == null) {
+                return new ArrayList<String>();
+            }
+            curr = curr.childrenMap.get(cc);
+        }
+
+        PriorityQueue<Pair> pq = new PriorityQueue<>((a, b) -> (a.c == b.c ? a.s.compareTo(b.s) : b.c - a.c));
+        for (String s : curr.counts.keySet()) {
+            pq.add(new Pair(s, curr.counts.get(s)));
+        }
+
+        List<String> res = new ArrayList<String>();
+        for (int i = 0; i < 3 && !pq.isEmpty(); i++) {
+            res.add(pq.poll().s);
+        }
+        return res;
     }
 
 }
