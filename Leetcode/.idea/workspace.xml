@@ -24,11 +24,25 @@
       <file leaf-file-name="Trie.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Tries/Trie.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
+            <state relative-caret-position="272">
               <caret line="16" column="60" lean-forward="true" selection-start-line="16" selection-start-column="60" selection-end-line="16" selection-end-column="60" />
               <folding>
                 <element signature="e#123#124#0" expanded="true" />
                 <element signature="e#160#161#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TrieNodeXOR.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Tries/TrieNodeXOR.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="58" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="58" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#140#141#0" expanded="true" />
+                <element signature="e#182#183#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -47,22 +61,9 @@
         <entry file="file://$PROJECT_DIR$/src/Tries/TrieNode.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="289">
-              <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+              <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ReplaceWords.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Tries/ReplaceWords.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1071">
-              <caret line="63" column="23" selection-start-line="63" selection-start-column="23" selection-end-line="63" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1802#1810#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -94,15 +95,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WordSearchII.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="WordSearchII.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Tries/WordSearchII.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="426">
-              <caret line="51" column="24" selection-start-line="51" selection-start-column="24" selection-end-line="51" selection-end-column="24" />
+            <state relative-caret-position="562">
+              <caret line="55" column="63" lean-forward="true" selection-start-line="55" selection-start-column="63" selection-end-line="55" selection-end-column="63" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#208#216#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MaximumXOR.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Tries/MaximumXOR.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -115,15 +125,6 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Pair.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Tries/Pair.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -153,8 +154,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/SlidingWindowAlgorithm/FindAllAnagrams.java" />
-        <option value="$PROJECT_DIR$/src/SlidingWindowAlgorithm/LongestSubstring.java" />
         <option value="$PROJECT_DIR$/src/SlidingWindowAlgorithm/LongestSubstringII.java" />
         <option value="$PROJECT_DIR$/src/SlidingWindowAlgorithm/LongestSubstringIII.java" />
         <option value="$PROJECT_DIR$/src/SlidingWindowAlgorithm/SubstringConcatenation.java" />
@@ -204,6 +203,8 @@
         <option value="$PROJECT_DIR$/src/Tries/WordDictionary.java" />
         <option value="$PROJECT_DIR$/src/Tries/TrieNode.java" />
         <option value="$PROJECT_DIR$/src/Tries/WordSearchII.java" />
+        <option value="$PROJECT_DIR$/src/Tries/TrieNodeXOR.java" />
+        <option value="$PROJECT_DIR$/src/Tries/MaximumXOR.java" />
       </list>
     </option>
   </component>
@@ -256,7 +257,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.WordDictionary">
+  <component name="RunManager" selected="Application.WordSearchII">
     <configuration name="AutoCompleteSystem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Tries.AutoCompleteSystem" />
       <module name="Leetcode" />
@@ -290,8 +291,8 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Trie" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tries.Trie" />
+    <configuration name="WordDictionary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tries.WordDictionary" />
       <module name="Leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -301,8 +302,8 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="WordDictionary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tries.WordDictionary" />
+    <configuration name="WordSearchII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tries.WordSearchII" />
       <module name="Leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -354,19 +355,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.Trie" />
       <item itemvalue="Application.MapSum" />
       <item itemvalue="Application.ReplaceWords" />
       <item itemvalue="Application.AutoCompleteSystem" />
       <item itemvalue="Application.WordDictionary" />
+      <item itemvalue="Application.WordSearchII" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WordSearchII" />
         <item itemvalue="Application.WordDictionary" />
         <item itemvalue="Application.AutoCompleteSystem" />
         <item itemvalue="Application.MapSum" />
         <item itemvalue="Application.ReplaceWords" />
-        <item itemvalue="Application.Trie" />
       </list>
     </recent_temporary>
   </component>
@@ -395,7 +396,7 @@
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="6" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3009576" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2106703" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="6" />
@@ -438,20 +439,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/SlidingWindowAlgorithm/LongestSubstringIII.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SlidingWindowAlgorithm/SubstringConcatenation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="57" column="71" selection-start-line="57" selection-start-column="71" selection-end-line="57" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Queues/QueueUsage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -867,17 +854,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tries/Trie.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="16" column="60" lean-forward="true" selection-start-line="16" selection-start-column="60" selection-end-line="16" selection-end-column="60" />
-          <folding>
-            <element signature="e#123#124#0" expanded="true" />
-            <element signature="e#160#161#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Tries/AutoCompleteSystem.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2670">
@@ -903,7 +879,7 @@
     <entry file="file://$PROJECT_DIR$/src/Tries/TrieNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
-          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -912,12 +888,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Tries/WordSearchII.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="426">
-          <caret line="51" column="24" selection-start-line="51" selection-start-column="24" selection-end-line="51" selection-end-column="24" />
+        <state relative-caret-position="562">
+          <caret line="55" column="63" lean-forward="true" selection-start-line="55" selection-start-column="63" selection-end-line="55" selection-end-column="63" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#208#216#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tries/Trie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="60" lean-forward="true" selection-start-line="16" selection-start-column="60" selection-end-line="16" selection-end-column="60" />
+          <folding>
+            <element signature="e#123#124#0" expanded="true" />
+            <element signature="e#160#161#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tries/TrieNodeXOR.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="58" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#140#141#0" expanded="true" />
+            <element signature="e#182#183#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tries/MaximumXOR.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
         </state>
       </provider>
     </entry>

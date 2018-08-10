@@ -51,4 +51,16 @@ public class WordSearchII {
         if(j < board.length - 1) dfs(board, i , j+1, curNode, result);
         board[i][j] = c;
     }
+
+    public static  void main(String[] args) {
+        String[] words = new String[] {"dev", "is", "bakchod", "and", "chutiya", "pendejo"};
+        char[][] board = new char[][] {{'d','e','v','i','a'},
+                                        {'e','t','a','s','n'},
+                                        {'b','a','k','c','d'},
+                                        {'i','t','u','h','g'},
+                                        {'y','a','d','o','w'}};
+
+        WordSearchII wordSearchII = new WordSearchII();
+        System.out.println(wordSearchII.findWords(board, words));
+    }
 }

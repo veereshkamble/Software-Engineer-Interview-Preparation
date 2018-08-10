@@ -15,6 +15,6 @@ public class TrieNode {
         counts = new HashMap<>();
         isWord = false;
         val = 0;
-        word = "";
+        word = null;
     }
 }
