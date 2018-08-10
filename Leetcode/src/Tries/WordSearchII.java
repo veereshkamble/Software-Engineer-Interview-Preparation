@@ -13,5 +13,21 @@ public class WordSearchII {
                 dfs(board, i, j, root, result);
             }
         }
+        return result;
+    }
+
+    public TrieNode buildTrie(String[] words) {
+        TrieNode root = new TrieNode();
+        for(String s : words) {
+            TrieNode cur = root;
+            for(char c : s.toCharArray()) {
+                if(cur.childrenMap.get(c) == null) {
+                    cur.childrenMap.put(c, new TrieNode());
+                }
+                cur = cur.childrenMap.get(c);
+            }
+            cur.word = s;
+        }
+        return root;
     }
 }
