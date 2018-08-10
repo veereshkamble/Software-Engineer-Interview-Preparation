@@ -26,7 +26,27 @@ class WordDictionary {
         return match(word, 0, cur);
     }
 
-    
+    public boolean match(String word, int start, TrieNode cur) {
+        if(start == word.length()) {
+            if(cur.isWord == true) {
+                return true;
+            } else {
+                return false;
+            }
+
+            char c = word.charAt(start);
+
+            if(c != '.') {
+                if(cur.childrenMap.get(c) == null) {
+                    return false;
+                } else {
+                    return match(word, start+1, cur.childrenMap.get(c));
+                }
+            } else {
+                
+            }
+        }
+    }
 }
 
 /**
