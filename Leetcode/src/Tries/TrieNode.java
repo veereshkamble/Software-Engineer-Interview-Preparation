@@ -7,9 +7,11 @@ public class TrieNode {
     public boolean isWord;
     public int val;
     public Map<Character, TrieNode> childrenMap;
+    public Map<String, Integer> counts;
 
     public TrieNode() {
         childrenMap = new HashMap<>();
+        counts = new HashMap<>();
         isWord = false;
         val = 0;
     }
