@@ -85,14 +85,36 @@ public class AutoCompleteSystem {
 
 
 
-        result = autoCompleteSystem.input('s');
+        result = autoCompleteSystem.input('m');
         System.out.print("Suggestion: ");
         for(String str : result) {
             System.out.print(str + "   ");
         }
         System.out.println();
 
+        result = autoCompleteSystem.input('#');
 
+
+        result = autoCompleteSystem.input('i');
+        System.out.print("Suggestion: ");
+        for(String str : result) {
+            System.out.print(str + "   ");
+        }
+        System.out.println();
+
+        result = autoCompleteSystem.input(' ');
+        System.out.print("Suggestion: ");
+        for(String str : result) {
+            System.out.print(str + "   ");
+        }
+        System.out.println();
+
+        result = autoCompleteSystem.input('a');
+        System.out.print("Suggestion: ");
+        for(String str : result) {
+            System.out.print(str + "   ");
+        }
+        System.out.println();
 
     }
 }
