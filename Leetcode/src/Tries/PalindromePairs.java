@@ -19,5 +19,19 @@ public class PalindromePairs {
         return result;
     }
 
-    
+    public void buildTrie(TrieNode root, String word, int index) {
+        TrieNode cur = root;
+        for(int i = word.length() - 1; i >=0; i++) {
+            char c = word.charAt(i);
+            if(cur.childrenMap.get(c) == null) {
+                cur.childrenMap.put(c, new TrieNode());
+            }
+            if(isPlaindrome(word, 0, i)) {
+                cur.list.add(index);
+            }
+            cur = cur.childrenMap.get(c);
+        }
+        cur.list.add(index);
+        cur.index = index;
+    }
 }
