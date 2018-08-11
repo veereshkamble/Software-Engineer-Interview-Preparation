@@ -1,5 +1,8 @@
 package Tries;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class WordSquares {
 
     class TrieSquares {
@@ -19,8 +22,21 @@ public class WordSquares {
             }
         }
 
-        
+        List<String> findByPrefix(String prefix) {
+            List<String> ans = new ArrayList<>();
+            TrieNode cur = root;
+            for (char ch : prefix.toCharArray()) {
+                if(cur.childrenMap.get(ch) == null) {
+                    return ans;
+                }
+                cur = cur.childrenMap.get(ch);
+            }
+            ans.addAll(cur.startWith);
+            return ans;
+        }
     }
+
+    
 
 
 }
