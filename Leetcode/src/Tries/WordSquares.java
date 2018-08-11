@@ -36,7 +36,40 @@ public class WordSquares {
         }
     }
 
+    public List<List<String>> wordSquares(String[] words) {
+        List<List<String>> ans = new ArrayList<>();
+        if(words == null || words.length == 0) {
+            return ans;
+        }
+        int len = words[0].length();
+        TrieSquares trieSquares = new TrieSquares(words);
+        List<String> ansBuilder = new ArrayList<>();
+        for(String word : words) {
+            ansBuilder.add(word);
+            search(len, trieSquares, ans, ansBuilder);
+            ansBuilder.remove(ansBuilder.size() - 1);
+        }
+        return ans;
+    }
+
+    public void search(int len, TrieSquares trieSquares, List<List<String>> ans, List<String> ansBuilder) {
+        if(ansBuilder.size() == len) {
+            ans.add(new ArrayList<>(ansBuilder));
+            return;
+        }
+
+        int idx = ansBuilder.size();
+        StringBuilder prefixBuilder = new StringBuilder();
+        for(String s : ansBuilder) {
+            prefixBuilder.append(s.charAt(idx));
+        }
+        List<String> startWith = trieSquares.findByPrefix(prefixBuilder.toString());
+        for(String sw : startWith) {
+            ansBuilder.add(sw);
+            search(len, trieSquares, ans, ansBuilder);
+            ansBuilder.remove(ansBuilder.size()-1);
+        }
+    }
+
     
-
-
 }
