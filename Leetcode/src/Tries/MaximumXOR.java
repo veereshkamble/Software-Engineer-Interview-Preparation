@@ -1,38 +1,23 @@
 package Tries;
+import  java.util.*;
 
 public class MaximumXOR {
 
     public int findMaximumXOR(int[] nums) {
-        if(nums == null || nums.length == 0) {
-            return 0;
-        }
-
-        TrieNodeXOR root = new TrieNodeXOR();
-        for(int num: nums) {
-            TrieNodeXOR curNode = root;
-            for(int i = 31; i >= 0; i--) {
-                int curBit = (num >>> i) & 1;
-                if(curNode.childrenMap.get(curBit) == null) {
-                    curNode.childrenMap.put(curBit, new TrieNodeXOR());
-                }
-                curNode = curNode.childrenMap.get(curBit);
+        int max = 0, mask = 0;
+        for(int i = 31; i >= 0; i--){
+            mask = mask | (1 << i);
+            Set<Integer> set = new HashSet<>();
+            for(int num : nums){
+                set.add(num & mask);
             }
-        }
-
-        int max = Integer.MIN_VALUE;
-        for (int num : nums) {
-            TrieNodeXOR curNode = root;
-            int curSum = 0;
-            for(int i = 31; i >= 0; i--) {
-                int curBit = (num >>> i) & 1;
-                if(curNode.childrenMap.get(curBit) != null) {
-                    curSum += (1 << i);
-                    curNode = curNode.childrenMap.get(curBit);
-                } else {
-                    curNode = curNode.childrenMap.get(curBit);
+            int tmp = max | (1 << i);
+            for(int prefix : set){
+                if(set.contains(tmp ^ prefix)) {
+                    max = tmp;
+                    break;
                 }
             }
-            max = Math.max(curSum, max);
         }
         return max;
     }
@@ -40,6 +25,6 @@ public class MaximumXOR {
     public static void main(String[] args) {
         MaximumXOR maximumXOR = new MaximumXOR();
         int[] nums = new int[] {3, 10 ,5, 25, 2, 8};
-        System.out.println(maximumXOR.findMaximumXOR(nums))
+        System.out.println(maximumXOR.findMaximumXOR(nums));
     }
 }
