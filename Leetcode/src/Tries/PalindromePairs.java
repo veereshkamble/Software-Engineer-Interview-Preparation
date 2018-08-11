@@ -63,4 +63,17 @@ public class PalindromePairs {
             result.add(Arrays.asList(i, j));
         }
     }
+
+    public static void main(String[] args) {
+        String[] words = new String[] {"abcd", "dcba", "lls", "s", "sssll"};
+        PalindromePairs palindromePairs = new PalindromePairs();
+        List<List<Integer>> result = palindromePairs.palindromePairs(words);
+
+        for(List<Integer> list : result) {
+            for(int i : list) {
+                System.out.print(list.get(i) + " ");
+            }
+            System.out.println();
+        }
+    }
 }
