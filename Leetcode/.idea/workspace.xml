@@ -124,7 +124,7 @@
         <entry file="file://$PROJECT_DIR$/src/Tries/WordSquares.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="379">
-              <caret line="68" column="54" selection-start-line="68" selection-start-column="54" selection-end-line="68" selection-end-column="54" />
+              <caret line="82" column="33" selection-start-line="82" selection-start-column="33" selection-end-line="82" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -260,18 +260,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PalindromePairs">
-    <configuration name="AutoCompleteSystem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tries.AutoCompleteSystem" />
-      <module name="Leetcode" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Tries.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
+  <component name="RunManager" selected="Application.WordSquares">
     <configuration name="MaximumXOR" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Tries.MaximumXOR" />
       <module name="Leetcode" />
@@ -307,6 +296,17 @@
     </configuration>
     <configuration name="WordSearchII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Tries.WordSearchII" />
+      <module name="Leetcode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tries.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="WordSquares" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tries.WordSquares" />
       <module name="Leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -358,19 +358,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.AutoCompleteSystem" />
       <item itemvalue="Application.WordDictionary" />
       <item itemvalue="Application.WordSearchII" />
       <item itemvalue="Application.MaximumXOR" />
       <item itemvalue="Application.PalindromePairs" />
+      <item itemvalue="Application.WordSquares" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WordSquares" />
         <item itemvalue="Application.PalindromePairs" />
         <item itemvalue="Application.MaximumXOR" />
         <item itemvalue="Application.WordSearchII" />
         <item itemvalue="Application.WordDictionary" />
-        <item itemvalue="Application.AutoCompleteSystem" />
       </list>
     </recent_temporary>
   </component>
@@ -931,7 +931,7 @@
     <entry file="file://$PROJECT_DIR$/src/Tries/WordSquares.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="379">
-          <caret line="68" column="54" selection-start-line="68" selection-start-column="54" selection-end-line="68" selection-end-column="54" />
+          <caret line="82" column="33" selection-start-line="82" selection-start-column="33" selection-end-line="82" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

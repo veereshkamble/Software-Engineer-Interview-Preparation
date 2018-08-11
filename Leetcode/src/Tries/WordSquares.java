@@ -71,5 +71,15 @@ public class WordSquares {
         }
     }
 
-    
+    public static  void main(String[] args) {
+        WordSquares wordSquares = new WordSquares();
+        String[] words = new String[] {"ball", "area", "lead", "lady"};
+        List<List<String>> result = wordSquares.wordSquares(words);
+
+        for(List<String> list : result) {
+            for(String word : list) {
+                System.out.println(word + "  ");
+            }
+        }
+    }
 }
