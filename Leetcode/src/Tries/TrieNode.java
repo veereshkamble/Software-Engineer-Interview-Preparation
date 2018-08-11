@@ -13,6 +13,7 @@ public class TrieNode {
     public Map<Character, TrieNode> childrenMap;
     public Map<String, Integer> counts;
     public List<Integer> list;
+    List<String> startWith;
 
     public TrieNode() {
         childrenMap = new HashMap<>();
@@ -22,5 +23,6 @@ public class TrieNode {
         word = null;
         index = -1;
         list = new ArrayList<>();
+        startWith = new ArrayList<>();
     }
 }
