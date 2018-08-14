@@ -73,7 +73,7 @@ public class WordSquares {
 
     public static  void main(String[] args) {
         WordSquares wordSquares = new WordSquares();
-        String[] words = new String[] {"area", "lead", "wall", "lady", "ball"};
+        String[] words = new String[] {"area", "lead", "wall", "lady", "ball" };
         List<List<String>> result = wordSquares.wordSquares(words);
 
         for(List<String> list : result) {
