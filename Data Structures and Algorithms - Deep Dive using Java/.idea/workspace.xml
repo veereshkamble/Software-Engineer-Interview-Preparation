@@ -51,8 +51,8 @@
       <file leaf-file-name="ShellSort.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/interviewprep/sortingalgorithms/ShellSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+            <state relative-caret-position="306">
+              <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -73,6 +73,7 @@
         <option value="$PROJECT_DIR$/src/com/interviewprep/sortingalgorithms/BubbleSort.java" />
         <option value="$PROJECT_DIR$/src/com/interviewprep/sortingalgorithms/SelectionSort.java" />
         <option value="$PROJECT_DIR$/src/com/interviewprep/sortingalgorithms/InsertionSort.java" />
+        <option value="$PROJECT_DIR$/src/com/interviewprep/sortingalgorithms/ShellSort.java" />
       </list>
     </option>
   </component>
@@ -132,7 +133,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.InsertionSort">
+  <component name="RunManager" selected="Application.ShellSort">
     <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.interviewprep.sortingalgorithms.BubbleSort" />
       <module name="Data Structures and Algorithms - Deep Dive using Java" />
@@ -168,6 +169,17 @@
     </configuration>
     <configuration name="SelectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.interviewprep.sortingalgorithms.SelectionSort" />
+      <module name="Data Structures and Algorithms - Deep Dive using Java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.interviewprep.sortingalgorithms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="ShellSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.interviewprep.sortingalgorithms.ShellSort" />
       <module name="Data Structures and Algorithms - Deep Dive using Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -223,9 +235,11 @@
       <item itemvalue="Application.BubbleSort" />
       <item itemvalue="Application.SelectionSort" />
       <item itemvalue="Application.InsertionSort" />
+      <item itemvalue="Application.ShellSort" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ShellSort" />
         <item itemvalue="Application.InsertionSort" />
         <item itemvalue="Application.SelectionSort" />
         <item itemvalue="Application.BubbleSort" />
@@ -319,8 +333,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/interviewprep/sortingalgorithms/ShellSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        <state relative-caret-position="306">
+          <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
         </state>
       </provider>
     </entry>
