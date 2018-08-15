@@ -14,7 +14,18 @@ public class Main {
         intArray[6] = -22;
 
         for(int i = 0; i < intArray.length; i++) {
-            System.out.println(intArray[i]);
+            System.out.print(intArray[i] + " ");
         }
+        System.out.println();
+
+        int index = -1;
+        for(int i = 0; i < intArray.length; i++) {
+            if(intArray[i] == 7) {
+                index = i;
+                break;
+            }
+        }
+        System.out.println("Index = " + index);
+
     }
 }
