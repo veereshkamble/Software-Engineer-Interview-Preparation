@@ -18,6 +18,10 @@ public class RadixSort {
         }
     }
 
+    public static int getDigit(int position, int value, int radix) {
+        return value / (int) Math.pow(10, position) % radix;
+    }
+
     public static void main(String[] args) {
         int[] radixSort = {4725, 4586, 1330, 8792, 1594, 5729 };
 
