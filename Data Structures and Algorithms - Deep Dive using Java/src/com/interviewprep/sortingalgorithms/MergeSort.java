@@ -22,7 +22,7 @@ public class MergeSort {
 
         int i = start;
         int j = mid;
-        int tempIndex = 0;
+        int tempIndex  = 0;
 
         int[] temp = new int[end - start];
         while(i < mid && j < end) {
