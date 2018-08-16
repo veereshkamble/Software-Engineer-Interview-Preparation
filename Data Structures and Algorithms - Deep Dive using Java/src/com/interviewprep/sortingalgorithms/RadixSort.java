@@ -8,6 +8,16 @@ public class RadixSort {
         }
     }
 
+    public static void radixSingleSort(int[] input, int position, int radix) {
+        int numItems = input.length;
+
+        int[] countArray = new int[radix];
+
+        for(int value : input) {
+            countArray[getDigit(position, value, radix)]++;
+        }
+    }
+
     public static void main(String[] args) {
         int[] radixSort = {4725, 4586, 1330, 8792, 1594, 5729 };
 
