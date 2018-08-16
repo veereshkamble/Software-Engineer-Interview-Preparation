@@ -26,6 +26,10 @@ public class RadixSortStable {
         for(int tempIndex = numItems - 1; tempIndex >= 0; tempIndex--) {
             temp[--countArray[getDigit(position, input[tempIndex], radix)]] = input[tempIndex];
         }
+
+        for(int tempIndex = 0; tempIndex <= numItems; tempIndex++) {
+            input[tempIndex] = temp[tempIndex];
+        }
     }
 
     public static int getDigit(int position, int value, int radix) {
