@@ -191,7 +191,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.QuickSort">
+  <component name="RunManager" selected="Application.CountingSort">
+    <configuration name="CountingSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.interviewprep.sortingalgorithms.CountingSort" />
+      <module name="Data Structures and Algorithms - Deep Dive using Java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.interviewprep.sortingalgorithms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="FactorialIterative" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.interviewprep.recursion.FactorialIterative" />
       <module name="Data Structures and Algorithms - Deep Dive using Java" />
@@ -227,17 +238,6 @@
     </configuration>
     <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.interviewprep.sortingalgorithms.QuickSort" />
-      <module name="Data Structures and Algorithms - Deep Dive using Java" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.interviewprep.sortingalgorithms.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="ShellSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.interviewprep.sortingalgorithms.ShellSort" />
       <module name="Data Structures and Algorithms - Deep Dive using Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -289,19 +289,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.ShellSort" />
       <item itemvalue="Application.FactorialIterative" />
       <item itemvalue="Application.FactorialRecursive" />
       <item itemvalue="Application.MergeSort" />
       <item itemvalue="Application.QuickSort" />
+      <item itemvalue="Application.CountingSort" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CountingSort" />
         <item itemvalue="Application.QuickSort" />
         <item itemvalue="Application.MergeSort" />
         <item itemvalue="Application.FactorialRecursive" />
         <item itemvalue="Application.FactorialIterative" />
-        <item itemvalue="Application.ShellSort" />
       </list>
     </recent_temporary>
   </component>
