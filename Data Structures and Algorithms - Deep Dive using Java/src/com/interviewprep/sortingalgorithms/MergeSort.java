@@ -21,11 +21,11 @@ public class MergeSort {
         }
 
         int i = start;
-        int j = end;
+        int j = mid;
         int tempIndex = 0;
 
         int[] temp = new int[end - start];
-        while(i < end && j < end) {
+        while(i < mid && j < end) {
             temp[tempIndex++] = input[i] <= input[j] ? input[i++] : input[j++];
         }
 
@@ -38,8 +38,10 @@ public class MergeSort {
     public static void main(String[] args) {
         int[] intArray = {20, 35, -15, 7, 55, 1, -22};
 
+        mergeSort(intArray, 0, intArray.length);
+
         for(int i = 0; i < intArray.length; i++) {
-            System.out.println(intArray[i]);
+            System.out.print(intArray[i] + " " );
         }
     }
 }
