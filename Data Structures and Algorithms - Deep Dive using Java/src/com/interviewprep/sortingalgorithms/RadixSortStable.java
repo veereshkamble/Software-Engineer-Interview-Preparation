@@ -33,14 +33,16 @@ public class RadixSortStable {
     }
 
     public static int getDigit(int position, int value, int radix) {
-        return value / (int) Math.pow(10, position) % radix;
+        return value / (int) Math.pow(radix, position) % radix;
     }
 
     public static void main(String[] args) {
-        int[] radixSort = {4725, 4586, 1330, 8792, 1594, 5729 };
+        int[] radixArray = {4725, 4586, 1330, 8792, 1594, 5729 };
 
-        for(int i = 0; i < radixSort.length; i++) {
-            System.out.print(radixSort[i] + " ");
+        radixSort(radixArray, 10, 4);
+
+        for(int i = 0; i < radixArray.length; i++) {
+            System.out.print(radixArray[i] + " ");
         }
     }
 }
