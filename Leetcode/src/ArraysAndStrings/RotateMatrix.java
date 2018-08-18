@@ -15,6 +15,10 @@ public class RotateMatrix {
 
             for(int i = first; i < last; i++) {
                 int offset = i - first;
+
+                //save top
+                int top = matrix[first][i];
+
                 
             }
         }
