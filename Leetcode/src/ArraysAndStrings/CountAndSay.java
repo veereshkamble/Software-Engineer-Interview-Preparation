@@ -22,10 +22,14 @@ public class CountAndSay {
                 else count++;
             }
             curr.append(count).append(say);
-        }
+            System.out.println(curr.toString());
+                   }
         return curr.toString();
 
     }
 
-    
+    public static void main(String[] args) {
+        CountAndSay countAndSay = new CountAndSay();
+        System.out.println(countAndSay.countAndSay(7));
+    }
 }
