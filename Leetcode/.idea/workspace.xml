@@ -249,7 +249,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.RotateMatrix">
+  <component name="RunManager" selected="Application.ReverseInteger">
     <configuration name="BuyAndSellStockII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArraysAndStrings.BuyAndSellStockII" />
       <module name="Leetcode" />
@@ -261,8 +261,8 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="MaximumXOR" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tries.MaximumXOR" />
+    <configuration name="PalindromePairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tries.PalindromePairs" />
       <module name="Leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -272,13 +272,13 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="PalindromePairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tries.PalindromePairs" />
+    <configuration name="ReverseInteger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArraysAndStrings.ReverseInteger" />
       <module name="Leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Tries.*" />
+          <option name="PATTERN" value="ArraysAndStrings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -347,19 +347,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.MaximumXOR" />
       <item itemvalue="Application.PalindromePairs" />
       <item itemvalue="Application.WordSquares" />
       <item itemvalue="Application.BuyAndSellStockII" />
       <item itemvalue="Application.RotateMatrix" />
+      <item itemvalue="Application.ReverseInteger" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReverseInteger" />
         <item itemvalue="Application.RotateMatrix" />
         <item itemvalue="Application.BuyAndSellStockII" />
         <item itemvalue="Application.WordSquares" />
         <item itemvalue="Application.PalindromePairs" />
-        <item itemvalue="Application.MaximumXOR" />
       </list>
     </recent_temporary>
   </component>

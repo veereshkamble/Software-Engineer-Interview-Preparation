@@ -18,4 +18,9 @@ public class ReverseInteger {
 
         return result;
     }
+
+    public static  void main(String[] args) {
+        ReverseInteger reverseInteger = new ReverseInteger();
+        System.out.println(reverseInteger.reverse(731));
+    }
 }
