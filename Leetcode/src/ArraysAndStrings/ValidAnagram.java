@@ -17,4 +17,9 @@ public class ValidAnagram {
         }
         return true;
     }
+
+    public static void main(String[] args) {
+        ValidAnagram validAnagram = new ValidAnagram();
+        System.out.println(validAnagram.isAnagram("ronaldo", "ornalod"));
+    }
 }
