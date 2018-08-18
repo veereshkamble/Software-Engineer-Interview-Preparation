@@ -35,6 +35,6 @@ public class StringtoInteger {
 
         StringtoInteger stringtoInteger = new StringtoInteger();
         System.out.println(stringtoInteger.myAtoi("   -42"));
-        
+
     }
 }
