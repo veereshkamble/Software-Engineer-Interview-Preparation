@@ -19,9 +19,20 @@ public class RotateMatrix {
                 //save top
                 int top = matrix[first][i];
 
-                
+                //left -> top
+                matrix[first][i] = matrix[last-offset][last];
+
+                //bottom -> left
+                matrix[last-offset][last] = matrix[last][last - offset];
+
+                //right -> bottom
+                matrix[last][last - offset] = matrix[i][last];
+
+                //top -> right
+                matrix[i][last] = top;
             }
         }
+        return true;
 
     }
 
