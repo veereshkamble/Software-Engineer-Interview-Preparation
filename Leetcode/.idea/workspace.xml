@@ -49,18 +49,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WordSearchII.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Tries/WordSearchII.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="918">
-              <caret line="55" column="63" selection-start-line="55" selection-start-column="63" selection-end-line="55" selection-end-column="63" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="MaximumXOR.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Tries/MaximumXOR.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -112,11 +100,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ReverseInteger.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ReverseInteger.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/ReverseInteger.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+            <state relative-caret-position="391">
+              <caret line="23" column="56" selection-start-line="23" selection-start-column="56" selection-end-line="23" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ValidAnagram.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/ValidAnagram.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -146,7 +143,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Queues/QueueUsage.java" />
         <option value="$PROJECT_DIR$/src/Queues/MovingAverage.java" />
         <option value="$PROJECT_DIR$/src/Queues/BFSTemplateI.java" />
         <option value="$PROJECT_DIR$/src/Queues/BFSTemplateII.java" />
@@ -197,6 +193,7 @@
         <option value="$PROJECT_DIR$/src/ArraysAndStrings/BuyAndSellStockII.java" />
         <option value="$PROJECT_DIR$/src/ArraysAndStrings/RotateMatrix.java" />
         <option value="$PROJECT_DIR$/src/ArraysAndStrings/ReverseInteger.java" />
+        <option value="$PROJECT_DIR$/src/ArraysAndStrings/ValidAnagram.java" />
       </list>
     </option>
   </component>
@@ -433,13 +430,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Queues/OpenTheLock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="51" selection-start-line="51" selection-end-line="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Queues/MovingAverage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="353">
@@ -802,8 +792,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/ReverseInteger.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+        <state relative-caret-position="391">
+          <caret line="23" column="56" selection-start-line="23" selection-start-column="56" selection-end-line="23" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/ValidAnagram.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
         </state>
       </provider>
     </entry>
