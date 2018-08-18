@@ -253,7 +253,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BuyAndSellStockII">
+  <component name="RunManager" selected="Application.RotateMatrix">
     <configuration name="BuyAndSellStockII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArraysAndStrings.BuyAndSellStockII" />
       <module name="Leetcode" />
@@ -287,13 +287,13 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="WordSearchII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tries.WordSearchII" />
+    <configuration name="RotateMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArraysAndStrings.RotateMatrix" />
       <module name="Leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Tries.*" />
+          <option name="PATTERN" value="ArraysAndStrings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -351,19 +351,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.WordSearchII" />
       <item itemvalue="Application.MaximumXOR" />
       <item itemvalue="Application.PalindromePairs" />
       <item itemvalue="Application.WordSquares" />
       <item itemvalue="Application.BuyAndSellStockII" />
+      <item itemvalue="Application.RotateMatrix" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RotateMatrix" />
         <item itemvalue="Application.BuyAndSellStockII" />
         <item itemvalue="Application.WordSquares" />
         <item itemvalue="Application.PalindromePairs" />
         <item itemvalue="Application.MaximumXOR" />
-        <item itemvalue="Application.WordSearchII" />
       </list>
     </recent_temporary>
   </component>
