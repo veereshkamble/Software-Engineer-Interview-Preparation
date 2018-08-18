@@ -243,18 +243,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ValidPalindrome">
-    <configuration name="BuyAndSellStockII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArraysAndStrings.BuyAndSellStockII" />
-      <module name="Leetcode" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ArraysAndStrings.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
+  <component name="RunManager" selected="Application.StringtoInteger">
     <configuration name="ReverseInteger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArraysAndStrings.ReverseInteger" />
       <module name="Leetcode" />
@@ -268,6 +257,17 @@
     </configuration>
     <configuration name="RotateMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArraysAndStrings.RotateMatrix" />
+      <module name="Leetcode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ArraysAndStrings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="StringtoInteger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArraysAndStrings.StringtoInteger" />
       <module name="Leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -341,19 +341,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.BuyAndSellStockII" />
       <item itemvalue="Application.RotateMatrix" />
       <item itemvalue="Application.ReverseInteger" />
       <item itemvalue="Application.ValidAnagram" />
       <item itemvalue="Application.ValidPalindrome" />
+      <item itemvalue="Application.StringtoInteger" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StringtoInteger" />
         <item itemvalue="Application.ValidPalindrome" />
         <item itemvalue="Application.ValidAnagram" />
         <item itemvalue="Application.ReverseInteger" />
         <item itemvalue="Application.RotateMatrix" />
-        <item itemvalue="Application.BuyAndSellStockII" />
       </list>
     </recent_temporary>
   </component>

@@ -30,4 +30,9 @@ public class StringtoInteger {
         }
         return total * sign;
     }
+
+    public static void main(String[] args) {
+        StringtoInteger stringtoInteger = new StringtoInteger();
+        System.out.println(stringtoInteger.myAtoi("   -42"));
+    }
 }
