@@ -20,10 +20,10 @@ public class RotateMatrix {
                 int top = matrix[first][i];
 
                 //left -> top
-                matrix[first][i] = matrix[last-offset][last];
+                matrix[first][i] = matrix[last-offset][first];
 
                 //bottom -> left
-                matrix[last-offset][last] = matrix[last][last - offset];
+                matrix[last-offset][first] = matrix[last][last - offset];
 
                 //right -> bottom
                 matrix[last][last - offset] = matrix[i][last];
@@ -46,7 +46,7 @@ public class RotateMatrix {
 
         for(int i = 0; i < matrix.length; i++) {
             for(int j = 0; j < matrix[0].length; j++) {
-                System.out.print(matrix[i][j]);
+                System.out.print(matrix[i][j] + " ");
             }
             System.out.println();
         }
