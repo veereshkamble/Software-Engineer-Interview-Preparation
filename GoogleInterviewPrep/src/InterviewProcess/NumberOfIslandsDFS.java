@@ -39,10 +39,10 @@ public class NumberOfIslandsDFS {
 
     public static void main(String[] args) {
         NumberOfIslandsDFS numberOfIslandsDFS = new NumberOfIslandsDFS();
-        char[][] grid = new char[][] {{1,1,0,0,0},
-                {1,1,0,0,0},
-                {0,0,1,0,0},
-                {0,0,0,1,1}};
+        char[][] grid = new char[][] {{'1','1','0','0','0'},
+                                        {'1','1','0','0','1'},
+                                          {'0','0','1','0','0'},
+                                             {'1','0','0','1','1'}};
 
         System.out.println(numberOfIslandsDFS.numIslands(grid));
     }
