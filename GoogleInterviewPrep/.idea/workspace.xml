@@ -96,7 +96,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.NumberOfIslandsBFS">
+    <configuration name="NumberOfIslandsBFS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InterviewProcess.NumberOfIslandsBFS" />
+      <module name="GoogleInterviewPrep" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="InterviewProcess.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="NumberOfIslandsDFS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="InterviewProcess.NumberOfIslandsDFS" />
       <module name="GoogleInterviewPrep" />
@@ -149,8 +160,13 @@
       <properties />
       <listeners />
     </configuration>
+    <list>
+      <item itemvalue="Application.NumberOfIslandsDFS" />
+      <item itemvalue="Application.NumberOfIslandsBFS" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NumberOfIslandsBFS" />
         <item itemvalue="Application.NumberOfIslandsDFS" />
       </list>
     </recent_temporary>

@@ -1,4 +1,5 @@
 package InterviewProcess;
+import java.util.*;
 
 public class NumberOfIslandsBFS {
 
@@ -44,5 +45,15 @@ public class NumberOfIslandsBFS {
         }
 
         return num_islands;
+    }
+
+    public static void main(String[] args) {
+        NumberOfIslandsBFS numberOfIslandsBFS = new NumberOfIslandsBFS();
+        char[][] grid = new char[][] {{'1','1','0','0','0'},
+                {'1','1','0','0','1'},
+                {'0','0','1','0','0'},
+                {'1','0','0','1','1'}};
+
+        System.out.println(numberOfIslandsBFS.numIslands(grid));
     }
 }
