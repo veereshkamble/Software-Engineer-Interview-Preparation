@@ -34,4 +34,9 @@ public class RepeatedStringMatch {
     {
         return getSet(A).containsAll(getSet(B));
     }
+
+    public static void main(String[] args) {
+        RepeatedStringMatch repeatedStringMatch = new RepeatedStringMatch();
+        System.out.println(repeatedStringMatch.repeatedStringMatch("abcd", "cdabcdab"));
+    }
 }
