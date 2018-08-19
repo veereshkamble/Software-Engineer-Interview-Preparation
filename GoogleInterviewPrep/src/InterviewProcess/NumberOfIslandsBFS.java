@@ -17,27 +17,28 @@ public class NumberOfIslandsBFS {
                 if (grid[r][c] == '1') {
                     ++num_islands;
                     grid[r][c] = '0'; // mark as visited
-                    Queue<Integer> neighbors = new LinkedList<>();
-                    neighbors.add(r * nc + c);
+                    //Queue<Integer> neighbors = new LinkedList<>();
+                    Queue<int[]> neighbors = new LinkedList<>();
+                    neighbors.add(new int[] {r,c});
                     while (!neighbors.isEmpty()) {
-                        int id = neighbors.remove();
-                        int row = id / nc;
-                        int col = id % nc;
+                        int[] id = neighbors.remove();
+                        int row = id[0];
+                        int col = id[1];
                         if (row - 1 >= 0 && grid[row-1][col] == '1') {
-                            neighbors.add((row-1) * nc + col);
+                            neighbors.add(new int[] {row-1, col});
                             grid[row-1][col] = '0';
                         }
                         if (row + 1 < nr && grid[row+1][col] == '1') {
-                            neighbors.add((row+1) * nc + col);
+                            neighbors.add(new int[] {row+1, col});
                             grid[row+1][col] = '0';
                         }
                         if (col - 1 >= 0 && grid[row][col-1] == '1') {
-                            neighbors.add(row * nc + col-1);
+                            neighbors.add(new int[] {row, col-1});
                             grid[row][col-1] = '0';
                         }
                         if (col + 1 < nc && grid[row][col+1] == '1') {
-                            neighbors.add(row * nc + col+1);
                             grid[row][col+1] = '0';
+                            neighbors.add(new int[] {row, col+1});
                         }
                     }
                 }
