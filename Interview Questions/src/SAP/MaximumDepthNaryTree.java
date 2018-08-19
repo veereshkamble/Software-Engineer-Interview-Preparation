@@ -25,4 +25,9 @@ public class MaximumDepthNaryTree {
         }
         return max + 1;
     }
+
+    public static void main(String[] args) {
+        MaximumDepthNaryTree maximumDepthNaryTree = new MaximumDepthNaryTree();
+        
+    }
 }
