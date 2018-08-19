@@ -21,5 +21,9 @@ public class TargetIndex {
         return low;
     }
 
-    
+    public static void main(String[] args) {
+        TargetIndex targetIndex = new TargetIndex();
+        int[] nums = new int[] {1, 3, 5, 6};
+        System.out.println(targetIndex.searchInsert(nums, 2));
+    }
 }
