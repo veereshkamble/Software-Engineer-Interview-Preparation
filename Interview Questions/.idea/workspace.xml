@@ -114,7 +114,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TargetIndex">
+  <component name="RunManager" selected="Application.MoveZeroes">
+    <configuration name="MoveZeroes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SAP.MoveZeroes" />
+      <module name="Interview Questions" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SAP.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="PhoneInterview" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Oracle.PhoneInterview" />
       <module name="Interview Questions" />
@@ -144,17 +155,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="WealthFront.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="SpreadSheetNotationConversion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Grammarly.SpreadSheetNotationConversion" />
-      <module name="Interview Questions" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Grammarly.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -212,19 +212,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.SpreadSheetNotationConversion" />
       <item itemvalue="Application.SmallestPositiveInteger" />
       <item itemvalue="Application.RockPaperScissors" />
       <item itemvalue="Application.PhoneInterview" />
       <item itemvalue="Application.TargetIndex" />
+      <item itemvalue="Application.MoveZeroes" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MoveZeroes" />
         <item itemvalue="Application.TargetIndex" />
         <item itemvalue="Application.PhoneInterview" />
         <item itemvalue="Application.RockPaperScissors" />
         <item itemvalue="Application.SmallestPositiveInteger" />
-        <item itemvalue="Application.SpreadSheetNotationConversion" />
       </list>
     </recent_temporary>
   </component>

@@ -16,4 +16,14 @@ public class MoveZeroes {
             index++;
         }
     }
+
+    public static void main(String[] args) {
+        int[] nums = {0, 7, 9, 0, 10, 11};
+        MoveZeroes moveZeroes = new MoveZeroes();
+        moveZeroes.moveZeroes(nums);
+
+        for(int  i = 0; i < nums.length; i++) {
+            System.out.print(nums[i] + " ");
+        }
+    }
 }
