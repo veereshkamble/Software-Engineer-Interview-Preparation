@@ -24,11 +24,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TargetIndex.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TargetIndex.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SAP/TargetIndex.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
+            <state relative-caret-position="459">
+              <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MoveZeroes.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/SAP/MoveZeroes.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -52,6 +61,7 @@
         <option value="$PROJECT_DIR$/src/WealthFront/Stock.java" />
         <option value="$PROJECT_DIR$/src/Oracle/PhoneInterview.java" />
         <option value="$PROJECT_DIR$/src/SAP/TargetIndex.java" />
+        <option value="$PROJECT_DIR$/src/SAP/MoveZeroes.java" />
       </list>
     </option>
   </component>
@@ -421,8 +431,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/SAP/TargetIndex.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
+        <state relative-caret-position="459">
+          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SAP/MoveZeroes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
         </state>
       </provider>
     </entry>
