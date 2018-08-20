@@ -5,7 +5,7 @@ import java.util.TreeSet;
 public class LongestIncreasingSubsequence {
 
     //Approach #1 Brute Force : time Limit Exceeded
-    public int lengthOfLIS(int[] nums) {
+    /*public int lengthOfLIS(int[] nums) {
         return lengthofLIS(nums, Integer.MIN_VALUE, 0);
     }
 
@@ -19,5 +19,26 @@ public class LongestIncreasingSubsequence {
         }
         int nottaken = lengthofLIS(nums, prev, curpos + 1);
         return Math.max(taken, nottaken);
+    }*/
+
+    //Approach 2: Dynammic Programming Time;
+    public int lengthOfLIS(int[] nums) {
+        if (nums.length == 0) {
+            return 0;
+        }
+        int[] dp = new int[nums.length];
+        dp[0] = 1;
+        int maxans = 1;
+        for (int i = 1; i < dp.length; i++) {
+            int maxval = 0;
+            for (int j = 0; j < i; j++) {
+                if (nums[i] > nums[j]) {
+                    maxval = Math.max(maxval, dp[j]);
+                }
+            }
+            dp[i] = maxval + 1;
+            maxans = Math.max(maxans, dp[i]);
+        }
+        return maxans;
     }
 }
