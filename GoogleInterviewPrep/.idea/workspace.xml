@@ -63,11 +63,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RussinaDoll.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="RussinaDoll.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/InterviewProcess/RussinaDoll.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+            <state relative-caret-position="289">
+              <caret line="32" column="71" selection-start-line="32" selection-start-column="71" selection-end-line="32" selection-end-column="71" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NextClosestTimeDFS.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/InterviewProcess/NextClosestTimeDFS.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="45" column="4" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -103,6 +112,7 @@
         <option value="$PROJECT_DIR$/src/InterviewProcess/KEmtpySlots.java" />
         <option value="$PROJECT_DIR$/src/InterviewProcess/LongestIncreasingSubsequence.java" />
         <option value="$PROJECT_DIR$/src/InterviewProcess/RussinaDoll.java" />
+        <option value="$PROJECT_DIR$/src/InterviewProcess/NextClosestTimeDFS.java" />
       </list>
     </option>
   </component>
@@ -295,11 +305,11 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32968536" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.27906978" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -458,8 +468,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/InterviewProcess/RussinaDoll.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+        <state relative-caret-position="289">
+          <caret line="32" column="71" selection-start-line="32" selection-start-column="71" selection-end-line="32" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/InterviewProcess/NextClosestTimeDFS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="45" column="4" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="4" />
         </state>
       </provider>
     </entry>
