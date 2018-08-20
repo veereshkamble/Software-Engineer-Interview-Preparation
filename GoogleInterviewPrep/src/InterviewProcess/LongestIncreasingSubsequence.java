@@ -59,4 +59,10 @@ public class LongestIncreasingSubsequence {
         }
         return len;
     }
+
+    public static void main(String[] args) {
+        LongestIncreasingSubsequence longestIncreasingSubsequence = new LongestIncreasingSubsequence();
+        int[] nums = new int[] {10, 9, 2, 5, 3, 7, 101, 18};
+        System.out.println(longestIncreasingSubsequence.lengthOfLIS(nums));
+    }
 }
