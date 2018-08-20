@@ -1,5 +1,7 @@
 package InterviewProcess;
 
+import java.util.TreeSet;
+
 public class KEmtpySlots {
 
     public int kEmptySlots(int[] flowers, int k) {
@@ -18,5 +20,12 @@ public class KEmtpySlots {
         }
 
         return -1;
+    }
+
+    public static void main(String[] args) {
+        KEmtpySlots kEmtpySlots = new KEmtpySlots();
+        int[] flowers = new int[] {1, 3, 2, 7};
+        int k = 3;
+        System.out.println(kEmtpySlots.kEmptySlots(flowers, k));
     }
 }

@@ -54,11 +54,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="KEmtpySlots.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="KEmtpySlots.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/InterviewProcess/KEmtpySlots.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+            <state relative-caret-position="225">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LongestIncreasingSubsequence.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/InterviewProcess/LongestIncreasingSubsequence.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="55">
+              <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -80,6 +89,7 @@
         <option value="$PROJECT_DIR$/src/InterviewProcess/IntersectionOfTwoArraysII.java" />
         <option value="$PROJECT_DIR$/src/InterviewProcess/RepeatedStringMatch.java" />
         <option value="$PROJECT_DIR$/src/InterviewProcess/KEmtpySlots.java" />
+        <option value="$PROJECT_DIR$/src/InterviewProcess/LongestIncreasingSubsequence.java" />
       </list>
     </option>
   </component>
@@ -132,9 +142,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.RepeatedStringMatch">
+  <component name="RunManager" selected="Application.KEmtpySlots">
     <configuration name="IntersectionOfTwoArraysII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="InterviewProcess.IntersectionOfTwoArraysII" />
+      <module name="GoogleInterviewPrep" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="InterviewProcess.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="KEmtpySlots" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InterviewProcess.KEmtpySlots" />
       <module name="GoogleInterviewPrep" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -223,9 +244,11 @@
       <item itemvalue="Application.NumberOfIslandsBFS" />
       <item itemvalue="Application.IntersectionOfTwoArraysII" />
       <item itemvalue="Application.RepeatedStringMatch" />
+      <item itemvalue="Application.KEmtpySlots" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.KEmtpySlots" />
         <item itemvalue="Application.RepeatedStringMatch" />
         <item itemvalue="Application.IntersectionOfTwoArraysII" />
         <item itemvalue="Application.NumberOfIslandsBFS" />
@@ -259,7 +282,7 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32968536" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32968536" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -269,7 +292,7 @@
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.43638852" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.43638852" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -283,7 +306,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="3" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -358,8 +381,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/InterviewProcess/KEmtpySlots.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        <state relative-caret-position="225">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/InterviewProcess/LongestIncreasingSubsequence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="55">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
         </state>
       </provider>
     </entry>
