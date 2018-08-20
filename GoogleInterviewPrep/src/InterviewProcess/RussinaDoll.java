@@ -30,7 +30,7 @@ public class RussinaDoll {
     }
 
     public static void main(String[] args) {
-        int[][] envelopes = new int[][] {{5,4},{6,4},{6,7},{2,3}};
+        int[][] envelopes = new int[][] {{5,4},{6,4},{6,7},{2,3}, {1,1}};
         RussinaDoll russinaDoll = new RussinaDoll();
         System.out.println(russinaDoll.maxEnvelopes(envelopes));
     }
