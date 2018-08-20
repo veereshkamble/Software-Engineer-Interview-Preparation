@@ -1,5 +1,10 @@
 package InterviewProcess;
 
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
+
 public class NextClosestTimeDFS {
 
     int diff = Integer.MAX_VALUE;
@@ -43,5 +48,8 @@ public class NextClosestTimeDFS {
         }
     }
 
-    
+    public static void main(String[] args) {
+        NextClosestTimeDFS nextClosestTimeDFS = new NextClosestTimeDFS();
+        System.out.println(nextClosestTimeDFS.nextClosestTime("19:34"));
+    }
 }
