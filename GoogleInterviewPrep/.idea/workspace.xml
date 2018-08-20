@@ -54,11 +54,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="KEmtpySlots.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="KEmtpySlots.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/InterviewProcess/KEmtpySlots.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="437">
               <caret line="29" selection-start-line="29" selection-end-line="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RussinaDoll.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/InterviewProcess/RussinaDoll.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -93,6 +102,7 @@
         <option value="$PROJECT_DIR$/src/InterviewProcess/RepeatedStringMatch.java" />
         <option value="$PROJECT_DIR$/src/InterviewProcess/KEmtpySlots.java" />
         <option value="$PROJECT_DIR$/src/InterviewProcess/LongestIncreasingSubsequence.java" />
+        <option value="$PROJECT_DIR$/src/InterviewProcess/RussinaDoll.java" />
       </list>
     </option>
   </component>
@@ -145,7 +155,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LongestIncreasingSubsequence">
+  <component name="RunManager" selected="Application.RussinaDoll">
     <configuration name="IntersectionOfTwoArraysII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="InterviewProcess.IntersectionOfTwoArraysII" />
       <module name="GoogleInterviewPrep" />
@@ -179,8 +189,8 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="NumberOfIslandsBFS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InterviewProcess.NumberOfIslandsBFS" />
+    <configuration name="RepeatedStringMatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InterviewProcess.RepeatedStringMatch" />
       <module name="GoogleInterviewPrep" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -190,8 +200,8 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="RepeatedStringMatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InterviewProcess.RepeatedStringMatch" />
+    <configuration name="RussinaDoll" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InterviewProcess.RussinaDoll" />
       <module name="GoogleInterviewPrep" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -243,19 +253,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.NumberOfIslandsBFS" />
       <item itemvalue="Application.IntersectionOfTwoArraysII" />
       <item itemvalue="Application.RepeatedStringMatch" />
       <item itemvalue="Application.KEmtpySlots" />
       <item itemvalue="Application.LongestIncreasingSubsequence" />
+      <item itemvalue="Application.RussinaDoll" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RussinaDoll" />
         <item itemvalue="Application.LongestIncreasingSubsequence" />
         <item itemvalue="Application.KEmtpySlots" />
         <item itemvalue="Application.RepeatedStringMatch" />
         <item itemvalue="Application.IntersectionOfTwoArraysII" />
-        <item itemvalue="Application.NumberOfIslandsBFS" />
       </list>
     </recent_temporary>
   </component>
@@ -278,14 +288,14 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32968536" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32968536" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32968536" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -295,7 +305,7 @@
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.35567716" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.35567716" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -443,6 +453,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
           <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/InterviewProcess/RussinaDoll.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
         </state>
       </provider>
     </entry>
