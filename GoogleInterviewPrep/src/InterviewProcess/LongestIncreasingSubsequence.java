@@ -1,6 +1,8 @@
 package InterviewProcess;
 
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 import java.util.TreeSet;
 
 public class LongestIncreasingSubsequence {
@@ -60,9 +62,44 @@ public class LongestIncreasingSubsequence {
         return len;
     }
 
+    //Aproach 4: ArrayList approach
+    public int lengthOfLISList(int[] nums)
+    {
+        List<Integer> sequence = new ArrayList();
+        for(int n : nums) update(sequence, n);
+
+        return sequence.size();
+    }
+
+    private void update(List<Integer> seq, int n)
+    {
+        if(seq.isEmpty() || seq.get(seq.size() - 1) < n){
+            seq.add(n);
+        }
+        else
+        {
+            seq.set(findFirstLargeEqual(seq, n), n);
+        }
+    }
+
+    private int findFirstLargeEqual(List<Integer> seq, int target)
+    {
+        int lo = 0;
+        int hi = seq.size() - 1;
+        while(lo < hi)
+        {
+            int mid = lo + (hi - lo) / 2;
+            if(seq.get(mid) < target) lo = mid + 1;
+            else hi = mid;
+        }
+
+        return lo;
+    }
+
     public static void main(String[] args) {
         LongestIncreasingSubsequence longestIncreasingSubsequence = new LongestIncreasingSubsequence();
         int[] nums = new int[] {10, 9, 2, 5, 3, 7, 101, 18};
         System.out.println(longestIncreasingSubsequence.lengthOfLIS(nums));
+        System.out.println(longestIncreasingSubsequence.lengthOfLISList(nums));
     }
 }
