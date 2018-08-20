@@ -22,7 +22,7 @@ public class LongestIncreasingSubsequence {
     }*/
 
     //Approach 2: Dynammic Programming Time;
-    public int lengthOfLIS(int[] nums) {
+    /*public int lengthOfLIS(int[] nums) {
         if (nums.length == 0) {
             return 0;
         }
@@ -40,5 +40,7 @@ public class LongestIncreasingSubsequence {
             maxans = Math.max(maxans, dp[i]);
         }
         return maxans;
-    }
+    }*/
+
+    
 }
