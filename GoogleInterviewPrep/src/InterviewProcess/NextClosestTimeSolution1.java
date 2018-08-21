@@ -48,4 +48,9 @@ public class NextClosestTimeSolution1 {
     public boolean contains(int hour, int minu, Set<Integer> set) {
         return set.contains(hour / 10) && set.contains(hour % 10) && set.contains(minu / 10) && set.contains(minu % 10);
     }
+
+    public static void main(String[] args) {
+        NextClosestTimeSolution1 nextClosestTimeSolution1 = new NextClosestTimeSolution1();
+        System.out.println(nextClosestTimeSolution1.nextClosestTime("19:34"));
+    }
 }
