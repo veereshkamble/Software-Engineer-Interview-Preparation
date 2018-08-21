@@ -19,5 +19,8 @@ public class LicenseKeyFormatting {
         return sb.toString();
     }
 
-    
+    public static void main(String[] args) {
+        LicenseKeyFormatting licenseKeyFormatting = new LicenseKeyFormatting();
+        System.out.println(licenseKeyFormatting.licenseKeyFormatting("5F3Z-2e-9-w", 2));
+    }
 }
