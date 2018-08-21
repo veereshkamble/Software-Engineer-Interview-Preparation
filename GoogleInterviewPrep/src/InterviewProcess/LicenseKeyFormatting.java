@@ -21,6 +21,6 @@ public class LicenseKeyFormatting {
 
     public static void main(String[] args) {
         LicenseKeyFormatting licenseKeyFormatting = new LicenseKeyFormatting();
-        System.out.println(licenseKeyFormatting.licenseKeyFormatting("5F3Z-2e-9-w", 2));
+        System.out.println(licenseKeyFormatting.licenseKeyFormatting("5F3Z-2e-9-w", 5));
     }
 }
