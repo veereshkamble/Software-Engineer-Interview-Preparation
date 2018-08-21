@@ -12,11 +12,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AddBinary.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AddBinary.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/AddBinary.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
               <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SpiralOrder.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/SpiralOrder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="544">
+              <caret line="56" column="5" lean-forward="true" selection-start-line="52" selection-start-column="4" selection-end-line="56" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PlusOne.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/PlusOne.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="29" column="1" lean-forward="true" selection-start-line="6" selection-end-line="29" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -333,20 +351,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Stacks/MinStackII.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Stacks/DailyTemperatures.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="46" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Stacks/ValidParenthesis.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="268">
@@ -691,6 +695,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/SpiralOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="56" column="5" lean-forward="true" selection-start-line="52" selection-start-column="4" selection-end-line="56" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/PlusOne.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="29" column="1" lean-forward="true" selection-start-line="6" selection-end-line="29" selection-end-column="1" />
         </state>
       </provider>
     </entry>
