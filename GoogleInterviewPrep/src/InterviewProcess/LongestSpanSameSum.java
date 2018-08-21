@@ -63,4 +63,11 @@ public class LongestSpanSameSum {
         }
         return maxLen;
     }
+
+    // Driver method to test the above function
+    public static void main(String[] args)
+    {
+        System.out.print("Length of the longest common span with same sum is ");
+        System.out.println(longestCommonSum(arr1.length));
+    }
 }

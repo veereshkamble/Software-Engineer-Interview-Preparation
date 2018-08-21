@@ -128,9 +128,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.NextClosestTimeDFS">
-    <configuration name="KEmtpySlots" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InterviewProcess.KEmtpySlots" />
+  <component name="RunManager" selected="Application.LongestSpanSameSum">
+    <configuration name="LongestIncreasingSubsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InterviewProcess.LongestIncreasingSubsequence" />
       <module name="GoogleInterviewPrep" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -140,8 +140,8 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="LongestIncreasingSubsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InterviewProcess.LongestIncreasingSubsequence" />
+    <configuration name="LongestSpanSameSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InterviewProcess.LongestSpanSameSum" />
       <module name="GoogleInterviewPrep" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -226,19 +226,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.KEmtpySlots" />
       <item itemvalue="Application.LongestIncreasingSubsequence" />
       <item itemvalue="Application.RussinaDoll" />
       <item itemvalue="Application.NextClosestTimeDFS" />
       <item itemvalue="Application.NextClosestTimeSolution1" />
+      <item itemvalue="Application.LongestSpanSameSum" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LongestSpanSameSum" />
         <item itemvalue="Application.NextClosestTimeDFS" />
         <item itemvalue="Application.NextClosestTimeSolution1" />
         <item itemvalue="Application.RussinaDoll" />
         <item itemvalue="Application.LongestIncreasingSubsequence" />
-        <item itemvalue="Application.KEmtpySlots" />
       </list>
     </recent_temporary>
   </component>
