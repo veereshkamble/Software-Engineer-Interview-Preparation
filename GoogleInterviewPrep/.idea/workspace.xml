@@ -162,7 +162,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.NextClosestTimeDFS">
+  <component name="RunManager" selected="Application.SpiralMatrix">
     <configuration name="LicenseKeyFormatting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="InterviewProcess.LicenseKeyFormatting" />
       <module name="GoogleInterviewPrep" />
@@ -207,13 +207,13 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="NextClosestTimeSolution1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InterviewProcess.NextClosestTimeSolution1" />
+    <configuration name="SpiralMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArraysAndStrings.SpiralMatrix" />
       <module name="GoogleInterviewPrep" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="InterviewProcess.*" />
+          <option name="PATTERN" value="ArraysAndStrings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -261,18 +261,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.NextClosestTimeDFS" />
-      <item itemvalue="Application.NextClosestTimeSolution1" />
       <item itemvalue="Application.LongestSpanSameSum" />
       <item itemvalue="Application.LongestUnivaluePath" />
       <item itemvalue="Application.LicenseKeyFormatting" />
+      <item itemvalue="Application.SpiralMatrix" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SpiralMatrix" />
         <item itemvalue="Application.NextClosestTimeDFS" />
         <item itemvalue="Application.LicenseKeyFormatting" />
         <item itemvalue="Application.LongestUnivaluePath" />
         <item itemvalue="Application.LongestSpanSameSum" />
-        <item itemvalue="Application.NextClosestTimeSolution1" />
       </list>
     </recent_temporary>
   </component>
