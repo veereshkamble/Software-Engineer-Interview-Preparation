@@ -50,6 +50,6 @@ public class NextClosestTimeDFS {
 
     public static void main(String[] args) {
         NextClosestTimeDFS nextClosestTimeDFS = new NextClosestTimeDFS();
-        System.out.println(nextClosestTimeDFS.nextClosestTime("19:34"));
+        System.out.println(nextClosestTimeDFS.nextClosestTime("23:59"));
     }
 }

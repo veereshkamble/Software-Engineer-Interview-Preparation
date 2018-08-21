@@ -148,7 +148,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LicenseKeyFormatting">
+  <component name="RunManager" selected="Application.NextClosestTimeDFS">
     <configuration name="LicenseKeyFormatting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="InterviewProcess.LicenseKeyFormatting" />
       <module name="GoogleInterviewPrep" />
@@ -254,10 +254,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NextClosestTimeDFS" />
         <item itemvalue="Application.LicenseKeyFormatting" />
         <item itemvalue="Application.LongestUnivaluePath" />
         <item itemvalue="Application.LongestSpanSameSum" />
-        <item itemvalue="Application.NextClosestTimeDFS" />
         <item itemvalue="Application.NextClosestTimeSolution1" />
       </list>
     </recent_temporary>
