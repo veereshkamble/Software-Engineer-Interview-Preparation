@@ -5,13 +5,21 @@ public class LongestSubstring {
 
     public int lengthOfLongestSubstring(String s) {
         Map<Character, Integer> map = new HashMap<>();
-        int begin = 0, end = 0, counter = 0, d = 0;
+        int begin = 0, end = 0, counter = 0, len = 0;
 
         while (end < s.length()) {
             // > 0 means repeating character
             //if(map[s.charAt(end++)]-- > 0) counter++;
             char c = s.charAt(end);
-            map.put(c, map.getOrDefault(c, 0) + 1);
+            //map.put(c, map.getOrDefault(c, 0) + 1);
+            if(map.containsKey(c)) {
+                int count = map.get(c);
+                count++;
+                map.put(c, count);
+            } else {
+                map.put(c, 1);
+            }
+
             if(map.get(c) > 1) counter++;
             end++;
 
@@ -22,13 +30,13 @@ public class LongestSubstring {
                 map.put(charTemp, map.get(charTemp)-1);
                 begin++;
             }
-            d = Math.max(d, end - begin);
+            len = Math.max(len, end - begin);
         }
-        return d;
+        return len;
     }
 
     public static void main(String[] args) {
         LongestSubstring longestSubstring = new LongestSubstring();
-        System.out.println(longestSubstring.lengthOfLongestSubstring("abcdabcbb"));
+        System.out.println(longestSubstring.lengthOfLongestSubstring("abcdabdcebb"));
     }
 }
