@@ -2,6 +2,12 @@ package InterviewProcess;
 
 public class LongestUnivaluePath {
 
+    public class TreeNode {
+        int val;
+        TreeNode left;
+        TreeNode right;
+        TreeNode(int x) { val = x; }
+    }
     
     int len = 0;
     public int longestUnivaluePath(TreeNode root) {
