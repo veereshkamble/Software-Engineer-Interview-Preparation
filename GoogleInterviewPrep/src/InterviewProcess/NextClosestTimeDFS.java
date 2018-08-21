@@ -12,7 +12,7 @@ public class NextClosestTimeDFS {
 
     public String nextClosestTime(String time) {
         Set<Integer> set = new HashSet<>();
-        
+
         set.add(Integer.parseInt(time.substring(0, 1)));
         set.add(Integer.parseInt(time.substring(1, 2)));
         set.add(Integer.parseInt(time.substring(3, 4)));
