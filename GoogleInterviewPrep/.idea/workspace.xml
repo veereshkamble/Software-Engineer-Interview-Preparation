@@ -24,7 +24,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SpiralMatrix.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SpiralMatrix.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/SpiralMatrix.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="289">
@@ -33,6 +33,15 @@
                 <element signature="imports" expanded="true" />
                 <element signature="e#152#161#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PlusOne.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/PlusOne.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -110,6 +119,7 @@
         <option value="$PROJECT_DIR$/src/InterviewProcess/LicenseKeyFormatting.java" />
         <option value="$PROJECT_DIR$/src/InterviewProcess/NextClosestTimeDFS.java" />
         <option value="$PROJECT_DIR$/src/ArraysAndStrings/SpiralMatrix.java" />
+        <option value="$PROJECT_DIR$/src/ArraysAndStrings/PlusOne.java" />
       </list>
     </option>
   </component>
@@ -648,6 +658,13 @@
             <element signature="imports" expanded="true" />
             <element signature="e#152#161#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/PlusOne.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
         </state>
       </provider>
     </entry>
