@@ -20,11 +20,20 @@ public class BoldTag {
                 continue;
             }
             int j = i;
-            while (j < s.length() && bold[j]) j++;
+            while (j < s.length() && bold[j]) {
+                j++;
+            }
             result.append("<b>" + s.substring(i, j) + "</b>");
             i = j - 1;
         }
 
         return result.toString();
+    }
+
+    public static void main(String args[]) {
+        String s = "abcxyz123";
+        String[] dict = new String[] {"abc", "123"};
+        BoldTag boldTag = new BoldTag();
+        System.out.println(boldTag.addBoldTag(s, dict));
     }
 }
