@@ -27,5 +27,8 @@ public class ValidParenthesis {
         return stack.isEmpty();
     }
 
-
+    public static void main(String[] args) {
+        ValidParenthesis validParenthesis = new ValidParenthesis();
+        System.out.println(validParenthesis.isValidString("(){}[](({}[{}]))"));
+    }
 }
