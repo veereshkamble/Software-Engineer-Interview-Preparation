@@ -75,11 +75,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ValidParenthesis.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ValidParenthesis.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Stacks/ValidParenthesis.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="289">
               <caret line="19" column="28" lean-forward="true" selection-end-line="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Intersection.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/HashTables/Intersection.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="13" selection-end-line="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IntersectionII.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/HashTables/IntersectionII.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -192,13 +210,7 @@
               <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ArraysAndStrings" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Stacks" type="462c0819:PsiDirectoryNode" />
+              <item name="HashTables" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -408,20 +420,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Queues/NumberOfIslands.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="46" column="9" lean-forward="true" selection-start-line="32" selection-start-column="3" selection-end-line="46" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Queues/PerfectSquaresDP.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Stacks/CloneGraphBFS.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -766,6 +764,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="19" column="28" lean-forward="true" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HashTables/IntersectionII.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HashTables/Intersection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="13" selection-end-line="42" />
         </state>
       </provider>
     </entry>

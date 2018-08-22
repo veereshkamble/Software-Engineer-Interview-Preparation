@@ -82,11 +82,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ValidPalindrome.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ValidPalindrome.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/ValidPalindrome.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="345">
               <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ValidParenthesis.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/ValidParenthesis.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="379">
+              <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -144,6 +153,7 @@
         <option value="$PROJECT_DIR$/src/ArraysAndStrings/GameOgLifeInPlace.java" />
         <option value="$PROJECT_DIR$/src/ArraysAndStrings/ValidPalindrome.java" />
         <option value="$PROJECT_DIR$/src/ArraysAndStrings/ValidParanthesis.java" />
+        <option value="$PROJECT_DIR$/src/ArraysAndStrings/ValidParenthesis.java" />
       </list>
     </option>
   </component>
@@ -732,6 +742,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/ValidParenthesis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
         </state>
       </provider>
     </entry>
