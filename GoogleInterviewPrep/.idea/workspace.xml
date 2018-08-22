@@ -201,9 +201,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.GameOfLife">
+  <component name="RunManager" selected="Application.FirstUniqueCharacterInAString">
     <configuration name="BoldTag" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArraysAndStrings.BoldTag" />
+      <module name="GoogleInterviewPrep" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ArraysAndStrings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="FirstUniqueCharacterInAString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArraysAndStrings.FirstUniqueCharacterInAString" />
       <module name="GoogleInterviewPrep" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -226,17 +237,6 @@
     </configuration>
     <configuration name="PlusOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArraysAndStrings.PlusOne" />
-      <module name="GoogleInterviewPrep" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ArraysAndStrings.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="SpiralMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArraysAndStrings.SpiralMatrix" />
       <module name="GoogleInterviewPrep" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -299,19 +299,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.SpiralMatrix" />
       <item itemvalue="Application.PlusOne" />
       <item itemvalue="Application.TrapWater" />
       <item itemvalue="Application.BoldTag" />
       <item itemvalue="Application.GameOfLife" />
+      <item itemvalue="Application.FirstUniqueCharacterInAString" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FirstUniqueCharacterInAString" />
         <item itemvalue="Application.GameOfLife" />
         <item itemvalue="Application.BoldTag" />
         <item itemvalue="Application.TrapWater" />
         <item itemvalue="Application.PlusOne" />
-        <item itemvalue="Application.SpiralMatrix" />
       </list>
     </recent_temporary>
   </component>

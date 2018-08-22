@@ -24,4 +24,9 @@ public class FirstUniqueCharacterInAString {
         }
         return -1;
     }
+
+    public static void main(String[] args) {
+        FirstUniqueCharacterInAString firstUniqueCharacterInAString = new FirstUniqueCharacterInAString();
+        System.out.println(firstUniqueCharacterInAString.firstUniqChar("loveleetcode"));
+    }
 }
