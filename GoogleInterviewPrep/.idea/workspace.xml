@@ -206,7 +206,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FirstUniqueCharacterInAString">
+  <component name="RunManager" selected="Application.MoveZeroes">
     <configuration name="BoldTag" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArraysAndStrings.BoldTag" />
       <module name="GoogleInterviewPrep" />
@@ -240,8 +240,8 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="PlusOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArraysAndStrings.PlusOne" />
+    <configuration name="MoveZeroes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArraysAndStrings.MoveZeroes" />
       <module name="GoogleInterviewPrep" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -304,19 +304,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.PlusOne" />
       <item itemvalue="Application.TrapWater" />
       <item itemvalue="Application.BoldTag" />
       <item itemvalue="Application.GameOfLife" />
       <item itemvalue="Application.FirstUniqueCharacterInAString" />
+      <item itemvalue="Application.MoveZeroes" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MoveZeroes" />
         <item itemvalue="Application.FirstUniqueCharacterInAString" />
         <item itemvalue="Application.GameOfLife" />
         <item itemvalue="Application.BoldTag" />
         <item itemvalue="Application.TrapWater" />
-        <item itemvalue="Application.PlusOne" />
       </list>
     </recent_temporary>
   </component>
