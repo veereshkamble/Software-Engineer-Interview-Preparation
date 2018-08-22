@@ -195,7 +195,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MoveZeroes">
+  <component name="RunManager" selected="Application.RemoveDuplicates">
     <configuration name="BoldTag" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArraysAndStrings.BoldTag" />
       <module name="GoogleInterviewPrep" />
@@ -240,8 +240,8 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="TrapWater" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArraysAndStrings.TrapWater" />
+    <configuration name="RemoveDuplicates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArraysAndStrings.RemoveDuplicates" />
       <module name="GoogleInterviewPrep" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -293,19 +293,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.TrapWater" />
       <item itemvalue="Application.BoldTag" />
       <item itemvalue="Application.GameOfLife" />
       <item itemvalue="Application.FirstUniqueCharacterInAString" />
       <item itemvalue="Application.MoveZeroes" />
+      <item itemvalue="Application.RemoveDuplicates" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RemoveDuplicates" />
         <item itemvalue="Application.MoveZeroes" />
         <item itemvalue="Application.FirstUniqueCharacterInAString" />
         <item itemvalue="Application.GameOfLife" />
         <item itemvalue="Application.BoldTag" />
-        <item itemvalue="Application.TrapWater" />
       </list>
     </recent_temporary>
   </component>
