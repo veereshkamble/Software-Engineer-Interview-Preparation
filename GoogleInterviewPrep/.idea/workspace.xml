@@ -73,11 +73,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GameOgLifeInPlace.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GameOgLifeInPlace.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/GameOgLifeInPlace.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="663">
               <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ValidPalindrome.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/ValidPalindrome.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -99,24 +108,6 @@
                 <element signature="e#121412#121413#0" expanded="true" />
                 <element signature="e#121466#121467#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LongestUnivaluePath.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/InterviewProcess/LongestUnivaluePath.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-165">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LicenseKeyFormatting.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/InterviewProcess/LicenseKeyFormatting.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="85" selection-start-line="23" selection-start-column="85" selection-end-line="23" selection-end-column="85" />
             </state>
           </provider>
         </entry>
@@ -151,6 +142,8 @@
         <option value="$PROJECT_DIR$/src/ArraysAndStrings/BoldTag.java" />
         <option value="$PROJECT_DIR$/src/ArraysAndStrings/GameOfLife.java" />
         <option value="$PROJECT_DIR$/src/ArraysAndStrings/GameOgLifeInPlace.java" />
+        <option value="$PROJECT_DIR$/src/ArraysAndStrings/ValidPalindrome.java" />
+        <option value="$PROJECT_DIR$/src/ArraysAndStrings/ValidParanthesis.java" />
       </list>
     </option>
   </component>
@@ -347,13 +340,13 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17057292" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17057292" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3652531" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.3652531" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -725,6 +718,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="663">
           <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/ValidParanthesis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="24" selection-start-column="24" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/ValidPalindrome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
         </state>
       </provider>
     </entry>
