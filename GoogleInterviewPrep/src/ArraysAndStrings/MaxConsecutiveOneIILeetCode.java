@@ -18,4 +18,9 @@ public class MaxConsecutiveOneIILeetCode {
         }
         return max;
     }
+
+    public static void main(String[] args) {
+       MaxConsecutiveOneIILeetCode maxConsecutiveOneIILeetCode = new MaxConsecutiveOneIILeetCode();
+        System.out.println(maxConsecutiveOneIILeetCode.findMaxConsecutiveOnes(new int[] {1, 1, 1, 0, 1, 1, 0, 1, 1, 1, 1, 1, 1}));
+    }
 }

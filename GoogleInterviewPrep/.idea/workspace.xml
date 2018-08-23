@@ -206,7 +206,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MaxConsecutiveOnes">
+  <component name="RunManager" selected="Application.MaxConsecutiveOneIILeetCode">
+    <configuration name="MaxConsecutiveOneIILeetCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArraysAndStrings.MaxConsecutiveOneIILeetCode" />
+      <module name="GoogleInterviewPrep" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ArraysAndStrings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="MaxConsecutiveOnes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArraysAndStrings.MaxConsecutiveOnes" />
       <module name="GoogleInterviewPrep" />
@@ -220,17 +231,6 @@
     </configuration>
     <configuration name="MaxConsecutiveOnesII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArraysAndStrings.MaxConsecutiveOnesII" />
-      <module name="GoogleInterviewPrep" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ArraysAndStrings.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="MoveZeroes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArraysAndStrings.MoveZeroes" />
       <module name="GoogleInterviewPrep" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -304,19 +304,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.MoveZeroes" />
       <item itemvalue="Application.RemoveDuplicates" />
       <item itemvalue="Application.OneEditDistance" />
       <item itemvalue="Application.MaxConsecutiveOnesII" />
       <item itemvalue="Application.MaxConsecutiveOnes" />
+      <item itemvalue="Application.MaxConsecutiveOneIILeetCode" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaxConsecutiveOneIILeetCode" />
         <item itemvalue="Application.MaxConsecutiveOnes" />
         <item itemvalue="Application.MaxConsecutiveOnesII" />
         <item itemvalue="Application.OneEditDistance" />
         <item itemvalue="Application.RemoveDuplicates" />
-        <item itemvalue="Application.MoveZeroes" />
       </list>
     </recent_temporary>
   </component>
