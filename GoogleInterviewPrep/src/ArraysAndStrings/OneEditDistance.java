@@ -13,5 +13,17 @@ public class OneEditDistance {
         return false;
     }
 
-   
+    public boolean isOneEditReplace(String string1, String string2) {
+        boolean foundDifference = false;
+        for(int i = 0; i < string1.length(); i++) {
+            if(string1.charAt(i) != string2.charAt(i)) {
+                if(foundDifference) {
+                    return false;
+                }
+            }
+        }
+        return true;
+    }
+
+    
 }
