@@ -42,4 +42,11 @@ public class OneEditDistance {
         }
         return true;
     }
+
+    public static void main(String[] args) {
+        String string1 = "bale";
+        String string2 = "baaale";
+        OneEditDistance oneEditDistance = new OneEditDistance();
+        System.out.println(oneEditDistance.isOneEditDistance(string1, string2));
+    }
 }
