@@ -25,5 +25,21 @@ public class OneEditDistance {
         return true;
     }
 
-    
+    public boolean isOneEditInsert(String string1, String string2) {
+        int index1 = 0;
+        int index2 = 0;
+
+        while(index1 < string1.length() && index2 < string2.length()) {
+            if(string1.charAt(index1) != string2.charAt(index2)) {
+                if(index1 != index2) {
+                    return false;
+                }
+                index1++;
+            } else {
+                index1++;
+                index2++;
+            }
+        }
+        return true;
+    }
 }
