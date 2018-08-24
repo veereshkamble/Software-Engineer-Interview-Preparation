@@ -26,6 +26,8 @@ public class ImageSmoother {
                 count++;
             }
         }
+        System.out.print(sum +  " " + count);
+        System.out.println();
         return sum / count;
     }
 
