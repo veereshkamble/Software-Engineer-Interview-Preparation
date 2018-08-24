@@ -102,8 +102,8 @@
       <file leaf-file-name="FirstMissingPositive.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/FirstMissingPositive.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+            <state relative-caret-position="248">
+              <caret line="39" column="76" selection-start-line="39" selection-start-column="76" selection-end-line="39" selection-end-column="76" />
             </state>
           </provider>
         </entry>
@@ -152,6 +152,7 @@
         <option value="$PROJECT_DIR$/src/ArraysAndStrings/MaxConsecutiveOnesII.java" />
         <option value="$PROJECT_DIR$/src/ArraysAndStrings/MaxConsecutiveOneIILeetCode.java" />
         <option value="$PROJECT_DIR$/src/ArraysAndStrings/ShortestPalindrome.java" />
+        <option value="$PROJECT_DIR$/src/ArraysAndStrings/FirstMissingPositive.java" />
       </list>
     </option>
   </component>
@@ -344,17 +345,17 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.38166896" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.38166896" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17057292" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17057292" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.28043777" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.28043777" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -797,8 +798,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/FirstMissingPositive.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+        <state relative-caret-position="248">
+          <caret line="39" column="76" selection-start-line="39" selection-start-column="76" selection-end-line="39" selection-end-column="76" />
         </state>
       </provider>
     </entry>
