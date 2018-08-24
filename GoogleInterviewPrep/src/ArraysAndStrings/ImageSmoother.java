@@ -20,15 +20,17 @@ public class ImageSmoother {
     public int calculateAverage(int[][] M, int m, int n, int i, int j) {
         int sum = 0;
         int count = 0;
+        double avg = 0.0;
         for(int x = Math.max(i-1, 0); x <= Math.min(i+1, m-1); x++) {
             for(int y = Math.max(j-1, 0); y <= Math.min(j+1, n-1); y++) {
                 sum += M[x][y];
                 count++;
             }
         }
-        System.out.print(sum +  " " + count);
-        System.out.println();
-        return sum / count;
+        //System.out.print(sum +  " " + count);
+        //System.out.println();
+        avg = sum / count;
+        return (int)Math.floor(avg);
     }
 
     public static void main(String[] args) {
