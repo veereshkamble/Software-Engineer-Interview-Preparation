@@ -9,12 +9,14 @@ public class ImageSmoother {
         int m = M.length;
         int n = M[0].length;
 
+        int[][] result = new int[m][n];
+
         for(int i = 0; i < m; i++) {
             for(int j = 0; j < n; j++) {
-                M[i][j] = calculateAverage(M, m, n, i, j);
+                result[i][j] = calculateAverage(M, m, n, i, j);
             }
         }
-        return M;
+        return result;
     }
 
     public int calculateAverage(int[][] M, int m, int n, int i, int j) {
@@ -34,9 +36,11 @@ public class ImageSmoother {
     }
 
     public static void main(String[] args) {
-        int[][] M = new int[][] {{1,1,1},
-                                 {1,0,1},
-                                 {1,1,1}};
+        int[][] M = new int[][] {{2,3,4},
+                                 {5,6,7},
+                                 {8,9,10},
+                                 {11,12,13},
+                                 {14,15,16}};
 
         ImageSmoother imageSmoother = new ImageSmoother();
         int[][] result = imageSmoother.imageSmoother(M);
