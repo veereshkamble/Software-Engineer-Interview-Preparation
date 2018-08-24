@@ -27,4 +27,10 @@ public class FirstMissingPositive {
             return nums[0] == k ? k + 1 : k;
 
     }
+
+    private void swap(int[] nums, int i, int j) {
+        int temp = nums[i];
+        nums[i] = nums[j];
+        nums[j] = temp;
+    }
 }
