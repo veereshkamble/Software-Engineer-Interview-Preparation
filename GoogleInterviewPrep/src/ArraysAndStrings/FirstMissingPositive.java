@@ -33,4 +33,10 @@ public class FirstMissingPositive {
         nums[i] = nums[j];
         nums[j] = temp;
     }
+
+    public static void main(String[] args) {
+        FirstMissingPositive firstMissingPositive = new FirstMissingPositive();
+        int[] nums = new int[] {7, 8, 9, 11, 12, 1, 2, 3};
+        System.out.println(firstMissingPositive.firstMissingPositive(nums));
+    }
 }

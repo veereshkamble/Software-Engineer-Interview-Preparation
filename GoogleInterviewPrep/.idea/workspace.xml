@@ -204,7 +204,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ShortestPalindrome">
+  <component name="RunManager" selected="Application.FirstMissingPositive">
+    <configuration name="FirstMissingPositive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArraysAndStrings.FirstMissingPositive" />
+      <module name="GoogleInterviewPrep" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ArraysAndStrings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="MaxConsecutiveOneIILeetCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArraysAndStrings.MaxConsecutiveOneIILeetCode" />
       <module name="GoogleInterviewPrep" />
@@ -229,17 +240,6 @@
     </configuration>
     <configuration name="MaxConsecutiveOnesII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArraysAndStrings.MaxConsecutiveOnesII" />
-      <module name="GoogleInterviewPrep" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ArraysAndStrings.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="OneEditDistance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArraysAndStrings.OneEditDistance" />
       <module name="GoogleInterviewPrep" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -302,19 +302,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.OneEditDistance" />
       <item itemvalue="Application.MaxConsecutiveOnesII" />
       <item itemvalue="Application.MaxConsecutiveOnes" />
       <item itemvalue="Application.MaxConsecutiveOneIILeetCode" />
       <item itemvalue="Application.ShortestPalindrome" />
+      <item itemvalue="Application.FirstMissingPositive" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FirstMissingPositive" />
         <item itemvalue="Application.ShortestPalindrome" />
         <item itemvalue="Application.MaxConsecutiveOneIILeetCode" />
         <item itemvalue="Application.MaxConsecutiveOnes" />
         <item itemvalue="Application.MaxConsecutiveOnesII" />
-        <item itemvalue="Application.OneEditDistance" />
       </list>
     </recent_temporary>
   </component>
