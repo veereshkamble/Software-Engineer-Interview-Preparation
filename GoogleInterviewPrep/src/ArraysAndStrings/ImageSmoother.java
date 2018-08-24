@@ -31,8 +31,8 @@ public class ImageSmoother {
 
     public static void main(String[] args) {
         int[][] M = new int[][] {{1,1,1},
-                {1,0,1},
-                {1,1,1}};
+                                 {1,0,1},
+                                 {1,1,1}};
 
         ImageSmoother imageSmoother = new ImageSmoother();
         int[][] result = imageSmoother.imageSmoother(M);
