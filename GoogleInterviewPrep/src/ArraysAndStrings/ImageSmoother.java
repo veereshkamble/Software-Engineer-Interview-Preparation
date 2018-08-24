@@ -29,5 +29,19 @@ public class ImageSmoother {
         return sum / count;
     }
 
-   
+    public static void main(String[] args) {
+        int[][] M = new int[][] {{1,1,1},
+                {1,0,1},
+                {1,1,1}};
+
+        ImageSmoother imageSmoother = new ImageSmoother();
+        int[][] result = imageSmoother.imageSmoother(M);
+
+        for(int i = 0; i < M.length; i++) {
+            for(int j = 0; j < M[0].length; j++) {
+                System.out.print(result[i][j] + " ");
+            }
+            System.out.println();
+        }
+    }
 }
