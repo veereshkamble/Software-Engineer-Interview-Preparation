@@ -12,15 +12,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Intersection.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/Intersection.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="379">
-              <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="MaxConsecutiveOnes.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/MaxConsecutiveOnes.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -102,11 +93,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MaxConsecutiveOneIILeetCode.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MaxConsecutiveOneIILeetCode.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/MaxConsecutiveOneIILeetCode.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="350">
               <caret line="23" column="54" selection-start-line="23" selection-start-column="54" selection-end-line="23" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ShortestPalindrome.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/ShortestPalindrome.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="243">
+              <caret line="35" selection-start-line="35" selection-end-line="35" />
             </state>
           </provider>
         </entry>
@@ -154,6 +154,7 @@
         <option value="$PROJECT_DIR$/src/ArraysAndStrings/OneEditDistance.java" />
         <option value="$PROJECT_DIR$/src/ArraysAndStrings/MaxConsecutiveOnesII.java" />
         <option value="$PROJECT_DIR$/src/ArraysAndStrings/MaxConsecutiveOneIILeetCode.java" />
+        <option value="$PROJECT_DIR$/src/ArraysAndStrings/ShortestPalindrome.java" />
       </list>
     </option>
   </component>
@@ -206,7 +207,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MaxConsecutiveOneIILeetCode">
+  <component name="RunManager" selected="Application.ShortestPalindrome">
     <configuration name="MaxConsecutiveOneIILeetCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArraysAndStrings.MaxConsecutiveOneIILeetCode" />
       <module name="GoogleInterviewPrep" />
@@ -251,8 +252,8 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="RemoveDuplicates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArraysAndStrings.RemoveDuplicates" />
+    <configuration name="ShortestPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArraysAndStrings.ShortestPalindrome" />
       <module name="GoogleInterviewPrep" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -304,19 +305,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.RemoveDuplicates" />
       <item itemvalue="Application.OneEditDistance" />
       <item itemvalue="Application.MaxConsecutiveOnesII" />
       <item itemvalue="Application.MaxConsecutiveOnes" />
       <item itemvalue="Application.MaxConsecutiveOneIILeetCode" />
+      <item itemvalue="Application.ShortestPalindrome" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ShortestPalindrome" />
         <item itemvalue="Application.MaxConsecutiveOneIILeetCode" />
         <item itemvalue="Application.MaxConsecutiveOnes" />
         <item itemvalue="Application.MaxConsecutiveOnesII" />
         <item itemvalue="Application.OneEditDistance" />
-        <item itemvalue="Application.RemoveDuplicates" />
       </list>
     </recent_temporary>
   </component>
@@ -346,7 +347,7 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.38166896" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.38166896" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -356,7 +357,7 @@
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3652531" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4528044" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -378,20 +379,10 @@
           <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="11" />
+      <option name="time" value="12" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/InterviewProcess/RepeatedStringMatch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="91" selection-start-line="22" selection-start-column="91" selection-end-line="22" selection-end-column="91" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/InterviewProcess/KEmtpySlots.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
@@ -804,6 +795,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="350">
           <caret line="23" column="54" selection-start-line="23" selection-start-column="54" selection-end-line="23" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/ShortestPalindrome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
         </state>
       </provider>
     </entry>

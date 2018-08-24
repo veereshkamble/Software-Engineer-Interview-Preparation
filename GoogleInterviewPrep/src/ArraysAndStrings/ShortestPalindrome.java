@@ -30,4 +30,9 @@ public class ShortestPalindrome {
         return table;
     }
 
+    public static void main(String[] args) {
+        ShortestPalindrome shortestPalindrome = new ShortestPalindrome();
+        System.out.println(shortestPalindrome.shortestPalindrome("aacecaaa"));
+    }
+
 }
