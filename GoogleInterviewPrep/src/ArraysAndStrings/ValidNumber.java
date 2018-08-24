@@ -34,4 +34,10 @@ public class ValidNumber {
 
         return numberSeen && numberAfterE;
     }
+
+    public static void main(String[] args) {
+        ValidNumber validNumber = new ValidNumber();
+        System.out.println(validNumber.isNumber("abcdef123"));
+        System.out.println(validNumber.isNumber("1234567"));
+    }
 }

@@ -21,15 +21,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MoveZeroes.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/MoveZeroes.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="63" lean-forward="true" selection-start-line="19" selection-start-column="63" selection-end-line="19" selection-end-column="63" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="RemoveDuplicates.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/RemoveDuplicates.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -99,11 +90,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FirstMissingPositive.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FirstMissingPositive.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/FirstMissingPositive.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="248">
               <caret line="39" column="76" selection-start-line="39" selection-start-column="76" selection-end-line="39" selection-end-column="76" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ValidNumber.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/ValidNumber.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="367">
+              <caret line="40" column="56" selection-start-line="40" selection-start-column="56" selection-end-line="40" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -153,6 +153,7 @@
         <option value="$PROJECT_DIR$/src/ArraysAndStrings/MaxConsecutiveOneIILeetCode.java" />
         <option value="$PROJECT_DIR$/src/ArraysAndStrings/ShortestPalindrome.java" />
         <option value="$PROJECT_DIR$/src/ArraysAndStrings/FirstMissingPositive.java" />
+        <option value="$PROJECT_DIR$/src/ArraysAndStrings/ValidNumber.java" />
       </list>
     </option>
   </component>
@@ -205,7 +206,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FirstMissingPositive">
+  <component name="RunManager" selected="Application.ValidNumber">
     <configuration name="FirstMissingPositive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArraysAndStrings.FirstMissingPositive" />
       <module name="GoogleInterviewPrep" />
@@ -239,8 +240,8 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="MaxConsecutiveOnesII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArraysAndStrings.MaxConsecutiveOnesII" />
+    <configuration name="ShortestPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArraysAndStrings.ShortestPalindrome" />
       <module name="GoogleInterviewPrep" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -250,8 +251,8 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="ShortestPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArraysAndStrings.ShortestPalindrome" />
+    <configuration name="ValidNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArraysAndStrings.ValidNumber" />
       <module name="GoogleInterviewPrep" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -303,19 +304,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.MaxConsecutiveOnesII" />
       <item itemvalue="Application.MaxConsecutiveOnes" />
       <item itemvalue="Application.MaxConsecutiveOneIILeetCode" />
       <item itemvalue="Application.ShortestPalindrome" />
       <item itemvalue="Application.FirstMissingPositive" />
+      <item itemvalue="Application.ValidNumber" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ValidNumber" />
         <item itemvalue="Application.FirstMissingPositive" />
         <item itemvalue="Application.ShortestPalindrome" />
         <item itemvalue="Application.MaxConsecutiveOneIILeetCode" />
         <item itemvalue="Application.MaxConsecutiveOnes" />
-        <item itemvalue="Application.MaxConsecutiveOnesII" />
       </list>
     </recent_temporary>
   </component>
@@ -381,16 +382,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/InterviewProcess/LongestIncreasingSubsequence.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1088">
-          <caret line="65" column="75" selection-start-line="65" selection-start-column="75" selection-end-line="65" selection-end-column="75" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/InterviewProcess/NumberOfIslandsDFS.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="782">
@@ -800,6 +791,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="248">
           <caret line="39" column="76" selection-start-line="39" selection-start-column="76" selection-end-line="39" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/ValidNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="40" column="56" selection-start-line="40" selection-start-column="56" selection-end-line="40" selection-end-column="56" />
         </state>
       </provider>
     </entry>
