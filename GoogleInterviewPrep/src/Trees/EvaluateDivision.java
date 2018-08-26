@@ -24,5 +24,15 @@ public class EvaluateDivision {
         }
         return res;
     }
-        
+    
+    public static void insertPairs(Map<String, Map<String, Double>> numMap, String num, String denom, Double value) {
+        Map<String, Double> denomMap = numMap.get(num);
+        if(denomMap == null) {
+            denomMap = new HashMap<>();
+            numMap.put(num, denomMap);
+        }
+        denomMap.put(denom, value);
+    }
+
+
 }
