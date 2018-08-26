@@ -22,4 +22,9 @@ public class GraphValidTree {
 
         return edges.length == n - 1;
     }
+
+    int find(int nums[], int i) {
+        if (nums[i] == -1) return i;
+        return find(nums, nums[i]);
+    }
 }
