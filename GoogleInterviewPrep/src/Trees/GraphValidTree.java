@@ -1,5 +1,7 @@
 package Trees;
 
+import java.util.Arrays;
+
 public class GraphValidTree {
 
     public boolean validTree(int n, int[][] edges) {
@@ -26,5 +28,12 @@ public class GraphValidTree {
     int find(int nums[], int i) {
         if (nums[i] == -1) return i;
         return find(nums, nums[i]);
+    }
+
+    public static void main(String[] args) {
+        GraphValidTree graphValidTree = new GraphValidTree();
+        int[][] edges = new int[][] {{0, 1}, {0, 2}, {0, 3}, {1, 4}};
+        int n = 5;
+        System.out.println(graphValidTree.validTree(n, edges));
     }
 }
