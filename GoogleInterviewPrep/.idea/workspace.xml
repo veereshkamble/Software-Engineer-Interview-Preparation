@@ -91,8 +91,8 @@
       <file leaf-file-name="GraphValidTree.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Trees/GraphValidTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="34" column="67" selection-start-line="34" selection-start-column="67" selection-end-line="34" selection-end-column="67" />
+            <state relative-caret-position="317">
+              <caret line="37" column="5" lean-forward="true" selection-start-line="32" selection-start-column="4" selection-end-line="37" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -100,8 +100,8 @@
       <file leaf-file-name="GraphValidTreeBFS.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Trees/GraphValidTreeBFS.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+            <state relative-caret-position="460">
+              <caret line="44" selection-start-line="44" selection-end-line="44" />
             </state>
           </provider>
         </entry>
@@ -219,7 +219,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.GraphValidTree">
+  <component name="RunManager" selected="Application.GraphValidTreeBFS">
     <configuration name="FirstMissingPositive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArraysAndStrings.FirstMissingPositive" />
       <module name="GoogleInterviewPrep" />
@@ -242,19 +242,19 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="ImageSmoother" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArraysAndStrings.ImageSmoother" />
+    <configuration name="GraphValidTreeBFS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Trees.GraphValidTreeBFS" />
       <module name="GoogleInterviewPrep" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ArraysAndStrings.*" />
+          <option name="PATTERN" value="Trees.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="ShortestPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArraysAndStrings.ShortestPalindrome" />
+    <configuration name="ImageSmoother" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArraysAndStrings.ImageSmoother" />
       <module name="GoogleInterviewPrep" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -317,19 +317,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.ShortestPalindrome" />
       <item itemvalue="Application.FirstMissingPositive" />
       <item itemvalue="Application.ValidNumber" />
       <item itemvalue="Application.ImageSmoother" />
       <item itemvalue="Application.GraphValidTree" />
+      <item itemvalue="Application.GraphValidTreeBFS" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GraphValidTreeBFS" />
         <item itemvalue="Application.GraphValidTree" />
         <item itemvalue="Application.ImageSmoother" />
         <item itemvalue="Application.ValidNumber" />
         <item itemvalue="Application.FirstMissingPositive" />
-        <item itemvalue="Application.ShortestPalindrome" />
       </list>
     </recent_temporary>
   </component>
@@ -359,7 +359,7 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31053352" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.31053352" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -369,7 +369,7 @@
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.36935705" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.37072504" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -391,7 +391,7 @@
           <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="13" />
+      <option name="time" value="14" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -753,15 +753,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Trees/GraphValidTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="34" column="67" selection-start-line="34" selection-start-column="67" selection-end-line="34" selection-end-column="67" />
+        <state relative-caret-position="317">
+          <caret line="37" column="5" lean-forward="true" selection-start-line="32" selection-start-column="4" selection-end-line="37" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Trees/GraphValidTreeBFS.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+        <state relative-caret-position="460">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
         </state>
       </provider>
     </entry>
