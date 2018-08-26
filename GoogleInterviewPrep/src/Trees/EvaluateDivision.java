@@ -24,7 +24,7 @@ public class EvaluateDivision {
         }
         return res;
     }
-    
+
     public static void insertPairs(Map<String, Map<String, Double>> numMap, String num, String denom, Double value) {
         Map<String, Double> denomMap = numMap.get(num);
         if(denomMap == null) {
@@ -32,6 +32,24 @@ public class EvaluateDivision {
             numMap.put(num, denomMap);
         }
         denomMap.put(denom, value);
+    }
+
+    public static Double handleQuery(String num, String denom, Map<String, Map<String, Double>> numMap, Set<String> visitedSet) {
+        String dupeKey = num+":"+denom;
+        if(visitedSet.contains(dupeKey)) return null;
+        if(!numMap.containsKey(num) || !numMap.containsKey(denom)) return null;
+        if(num.equals(denom)) return 1.0;
+
+        Map<String, Double> denomMap = numMap.get(num);
+        visitedSet.add(dupeKey);
+        for(String key : denomMap.keySet()) {
+            Double res = handleQuery(key, denom, numMap, visitedSet);
+            if(res != null) {
+                return denomMap.get(key) * res;
+            }
+        }
+        visitedSet.remove(dupeKey);
+        return null;
     }
 
 
