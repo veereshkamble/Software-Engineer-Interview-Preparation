@@ -1,5 +1,8 @@
 package Trees;
 
+import java.util.LinkedList;
+import java.util.Queue;
+
 public class CourseSchedule {
 
     public boolean canFinish(int numCourses, int[][] prerequisites) {
@@ -30,5 +33,12 @@ public class CourseSchedule {
             }
         }
         return count == numCourses;
+    }
+
+    public static void main(String[] args) {
+        CourseSchedule courseSchedule = new CourseSchedule();
+        int[][] prerequisites = new int[][] {{1,0}};
+        int numOfCourses = 2;
+        System.out.println(courseSchedule.canFinish(numOfCourses, prerequisites));
     }
 }
