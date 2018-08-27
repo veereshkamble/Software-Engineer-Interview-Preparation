@@ -41,4 +41,14 @@ public class RedundantConnectionII {
         }
         return i;
     }
+
+    public static void main(String[] args) {
+        RedundantConnectionII redundantConnectionII = new RedundantConnectionII();
+        int[][] edges = new int[][] {{1,2}, {2,3}, {3,4}, {4,1}, {1,5}};
+        int[] result = redundantConnectionII.findRedundantDirectedConnection(edges);
+
+        for(int i = 0 ; i < result.length; i++) {
+            System.out.print(result[i] + "  ");
+        }
+    }
 }
