@@ -36,9 +36,15 @@ public class EvaluateDivision {
 
     public static Double handleQuery(String num, String denom, Map<String, Map<String, Double>> numMap, Set<String> visitedSet) {
         String dupeKey = num+":"+denom;
-        if(visitedSet.contains(dupeKey)) return null;
-        if(!numMap.containsKey(num) || !numMap.containsKey(denom)) return null;
-        if(num.equals(denom)) return 1.0;
+        if(visitedSet.contains(dupeKey)) {
+            return null;
+        }
+        if(!numMap.containsKey(num) || !numMap.containsKey(denom)) {
+            return null;
+        }
+        if(num.equals(denom)) {
+            return 1.0;
+        }
 
         Map<String, Double> denomMap = numMap.get(num);
         visitedSet.add(dupeKey);
@@ -50,6 +56,19 @@ public class EvaluateDivision {
         }
         visitedSet.remove(dupeKey);
         return null;
+    }
+
+    public static void main(String[] args) {
+        EvaluateDivision evaluateDivision = new EvaluateDivision();
+        String[][] equations = new String[][] {{"a", "b"}, {"b", "c"}};
+        double[] values = new double[] {2.0, 3.0};
+        String[][] queries = new String[][] {{"a", "c"}, {"b", "a"}, {"a", "e"}, {"a", "a"}, {"x", "x"}};
+
+        double[] result = calcEquation(equations, values, queries);
+
+        for(int i = 0; i < result.length; i++) {
+            System.out.print(result[i] + " ");
+        }
     }
 
 
