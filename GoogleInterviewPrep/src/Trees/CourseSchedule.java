@@ -37,8 +37,8 @@ public class CourseSchedule {
 
     public static void main(String[] args) {
         CourseSchedule courseSchedule = new CourseSchedule();
-        int[][] prerequisites = new int[][] {{1,0}};
-        int numOfCourses = 2;
+        int[][] prerequisites = new int[][] {{1,0}, {2,1}, {3,2}};
+        int numOfCourses = 4;
         System.out.println(courseSchedule.canFinish(numOfCourses, prerequisites));
     }
 }

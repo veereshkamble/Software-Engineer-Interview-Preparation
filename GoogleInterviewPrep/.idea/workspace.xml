@@ -84,8 +84,11 @@
       <file leaf-file-name="CourseSchedule.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Trees/CourseSchedule.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
-              <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+            <state relative-caret-position="357">
+              <caret line="42" selection-start-line="42" selection-end-line="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -229,9 +232,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LongestIncreasingSubsequence">
-    <configuration name="EvaluateDivision" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Trees.EvaluateDivision" />
+  <component name="RunManager" selected="Application.CourseSchedule">
+    <configuration name="CourseSchedule" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Trees.CourseSchedule" />
       <module name="GoogleInterviewPrep" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -241,8 +244,8 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="InorderSuccessorBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Trees.InorderSuccessorBST" />
+    <configuration name="EvaluateDivision" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Trees.EvaluateDivision" />
       <module name="GoogleInterviewPrep" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -327,19 +330,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.InorderSuccessorBST" />
       <item itemvalue="Application.ValidateBinarySearchTreeIterative" />
       <item itemvalue="Application.EvaluateDivision" />
       <item itemvalue="Application.RedundantConnectionII" />
       <item itemvalue="Application.LongestIncreasingSubsequence" />
+      <item itemvalue="Application.CourseSchedule" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CourseSchedule" />
         <item itemvalue="Application.LongestIncreasingSubsequence" />
         <item itemvalue="Application.RedundantConnectionII" />
         <item itemvalue="Application.EvaluateDivision" />
         <item itemvalue="Application.ValidateBinarySearchTreeIterative" />
-        <item itemvalue="Application.InorderSuccessorBST" />
       </list>
     </recent_temporary>
   </component>
@@ -373,13 +376,13 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17057292" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17057292" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.4377565" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4377565" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -407,7 +410,7 @@
           <option name="timeStamp" value="16" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="20" />
+      <option name="time" value="23" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
@@ -803,8 +806,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Trees/CourseSchedule.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+        <state relative-caret-position="357">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
