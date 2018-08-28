@@ -100,8 +100,11 @@
       <file leaf-file-name="WordSearchII.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Recursion/WordSearchII.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+            <state relative-caret-position="343">
+              <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -133,7 +136,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/InterviewProcess/KEmtpySlots.java" />
         <option value="$PROJECT_DIR$/src/InterviewProcess/LongestIncreasingSubsequence.java" />
         <option value="$PROJECT_DIR$/src/InterviewProcess/RussinaDoll.java" />
         <option value="$PROJECT_DIR$/src/InterviewProcess/NextClosestTimeSolution1.java" />
@@ -184,6 +186,7 @@
         <option value="$PROJECT_DIR$/src/Trees/ClosestBinarySearchTreeValue.java" />
         <option value="$PROJECT_DIR$/src/Trees/losestBinarySearchTreeValueRecursive.java" />
         <option value="$PROJECT_DIR$/src/Recursion/WordSquares.java" />
+        <option value="$PROJECT_DIR$/src/Recursion/WordSearchII.java" />
       </list>
     </option>
   </component>
@@ -817,8 +820,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Recursion/WordSearchII.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+        <state relative-caret-position="343">
+          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
