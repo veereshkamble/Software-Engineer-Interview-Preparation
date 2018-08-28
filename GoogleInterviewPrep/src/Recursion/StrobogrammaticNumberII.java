@@ -33,7 +33,11 @@ public class StrobogrammaticNumberII {
         }
         return res;
     }
-    
+
+    public static void main(String[] args) {
+        StrobogrammaticNumberII strobogrammaticNumberII = new StrobogrammaticNumberII();
+        System.out.println(strobogrammaticNumberII.findStrobogrammatic(5));
+    }
 
 
 }
