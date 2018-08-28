@@ -97,7 +97,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WordSearchII.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="WordSearchII.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Recursion/WordSearchII.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="343">
@@ -109,11 +109,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Robot.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Trees/Robot.java">
+      <file leaf-file-name="StrobogrammaticNumberII.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Recursion/StrobogrammaticNumberII.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+            <state relative-caret-position="34">
+              <caret line="2" column="38" lean-forward="true" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -426,13 +426,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/InterviewProcess/LongestUnivaluePath.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-165">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/InterviewProcess/LicenseKeyFormatting.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -825,6 +818,13 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Recursion/StrobogrammaticNumberII.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="38" lean-forward="true" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
         </state>
       </provider>
     </entry>
