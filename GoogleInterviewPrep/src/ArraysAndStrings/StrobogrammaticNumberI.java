@@ -1,5 +1,10 @@
 package ArraysAndStrings;
 
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Map;
+import java.util.Set;
+
 public class StrobogrammaticNumberI {
 
     public boolean isStrobogrammatic_map(String num) {
@@ -59,5 +64,11 @@ public class StrobogrammaticNumberI {
             }
         }
         return true;
+    }
+
+    public static void main(String[] args) {
+        StrobogrammaticNumberI strobogrammaticNumberI = new StrobogrammaticNumberI();
+        System.out.println(strobogrammaticNumberI.isStrobogrammatic_map("6969"));
+        System.out.println(strobogrammaticNumberI.isStrobogrammatic_set("6969"));
     }
 }

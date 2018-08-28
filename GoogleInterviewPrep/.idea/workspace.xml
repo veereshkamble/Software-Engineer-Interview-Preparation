@@ -12,18 +12,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="RobotRoomCleaner.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Trees/RobotRoomCleaner.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="27" selection-start-line="27" selection-end-line="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="RedundantConnectionII.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Trees/RedundantConnectionII.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -112,8 +100,23 @@
       <file leaf-file-name="StrobogrammaticNumberII.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Recursion/StrobogrammaticNumberII.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+            <state relative-caret-position="289">
+              <caret line="35" column="4" lean-forward="true" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#188#189#0" expanded="true" />
+                <element signature="e#232#233#0" expanded="true" />
+                <element signature="e#573#581#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StrobogrammaticNumberI.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/StrobogrammaticNumberI.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="36" column="25" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -139,7 +142,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/InterviewProcess/RussinaDoll.java" />
         <option value="$PROJECT_DIR$/src/InterviewProcess/NextClosestTimeSolution1.java" />
         <option value="$PROJECT_DIR$/src/InterviewProcess/LongestSpanSameSum.java" />
         <option value="$PROJECT_DIR$/src/InterviewProcess/LongestUnivaluePath.java" />
@@ -189,6 +191,7 @@
         <option value="$PROJECT_DIR$/src/Trees/losestBinarySearchTreeValueRecursive.java" />
         <option value="$PROJECT_DIR$/src/Recursion/WordSquares.java" />
         <option value="$PROJECT_DIR$/src/Recursion/WordSearchII.java" />
+        <option value="$PROJECT_DIR$/src/ArraysAndStrings/StrobogrammaticNumberI.java" />
         <option value="$PROJECT_DIR$/src/Recursion/StrobogrammaticNumberII.java" />
       </list>
     </option>
@@ -242,7 +245,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CourseSchedule">
+  <component name="RunManager" selected="Application.StrobogrammaticNumberI">
     <configuration name="CourseSchedule" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Trees.CourseSchedule" />
       <module name="GoogleInterviewPrep" />
@@ -287,13 +290,13 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="ValidateBinarySearchTreeIterative" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Trees.ValidateBinarySearchTreeIterative" />
+    <configuration name="StrobogrammaticNumberI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArraysAndStrings.StrobogrammaticNumberI" />
       <module name="GoogleInterviewPrep" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Trees.*" />
+          <option name="PATTERN" value="ArraysAndStrings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -340,19 +343,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.ValidateBinarySearchTreeIterative" />
       <item itemvalue="Application.EvaluateDivision" />
       <item itemvalue="Application.RedundantConnectionII" />
       <item itemvalue="Application.LongestIncreasingSubsequence" />
       <item itemvalue="Application.CourseSchedule" />
+      <item itemvalue="Application.StrobogrammaticNumberI" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StrobogrammaticNumberI" />
         <item itemvalue="Application.CourseSchedule" />
         <item itemvalue="Application.LongestIncreasingSubsequence" />
         <item itemvalue="Application.RedundantConnectionII" />
         <item itemvalue="Application.EvaluateDivision" />
-        <item itemvalue="Application.ValidateBinarySearchTreeIterative" />
       </list>
     </recent_temporary>
   </component>
@@ -382,7 +385,7 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3502052" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3502052" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -392,7 +395,7 @@
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.4377565" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4377565" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -429,13 +432,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/InterviewProcess/LicenseKeyFormatting.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="85" selection-start-line="23" selection-start-column="85" selection-end-line="23" selection-end-column="85" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/InterviewProcess/NextClosestTimeDFS.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -824,12 +820,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Recursion/StrobogrammaticNumberII.java">
+    <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/StrobogrammaticNumberI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        <state relative-caret-position="493">
+          <caret line="36" column="25" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Recursion/StrobogrammaticNumberII.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="35" column="4" lean-forward="true" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#188#189#0" expanded="true" />
+            <element signature="e#232#233#0" expanded="true" />
+            <element signature="e#573#581#0" expanded="true" />
           </folding>
         </state>
       </provider>
