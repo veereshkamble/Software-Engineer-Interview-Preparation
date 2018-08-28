@@ -47,5 +47,21 @@ public class WordSquares {
         }
     }
 
+    public List<List<String>> wordSquares(String[] words) {
+        List<List<String>> ans = new ArrayList<>();
+        if (words == null || words.length == 0)
+            return ans;
+        int len = words[0].length();
+        Trie trie = new Trie(words);
+        List<String> ansBuilder = new ArrayList<>();
+        for (String w : words) {
+            ansBuilder.add(w);
+            search(len, trie, ans, ansBuilder);
+            ansBuilder.remove(ansBuilder.size() - 1);
+        }
 
+        return ans;
+    }
+
+    
 }

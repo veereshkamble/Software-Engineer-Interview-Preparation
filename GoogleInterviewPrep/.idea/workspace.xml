@@ -12,15 +12,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ValidateBinarySearchTreeIterative.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Trees/ValidateBinarySearchTreeIterative.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="867">
-              <caret line="51" selection-start-line="51" selection-end-line="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="EvaluateDivision.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Trees/EvaluateDivision.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -93,7 +84,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="losestBinarySearchTreeValueRecursive.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="losestBinarySearchTreeValueRecursive.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Trees/losestBinarySearchTreeValueRecursive.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
@@ -101,6 +92,18 @@
               <folding>
                 <element signature="e#127#128#0" expanded="true" />
                 <element signature="e#181#182#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WordSquares.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Recursion/WordSquares.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="428">
+              <caret line="65" column="4" selection-start-line="65" selection-start-column="4" selection-end-line="65" selection-end-column="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -133,7 +136,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/InterviewProcess/RepeatedStringMatch.java" />
         <option value="$PROJECT_DIR$/src/InterviewProcess/KEmtpySlots.java" />
         <option value="$PROJECT_DIR$/src/InterviewProcess/LongestIncreasingSubsequence.java" />
         <option value="$PROJECT_DIR$/src/InterviewProcess/RussinaDoll.java" />
@@ -184,6 +186,7 @@
         <option value="$PROJECT_DIR$/src/Trees/CourseSchedule.java" />
         <option value="$PROJECT_DIR$/src/Trees/ClosestBinarySearchTreeValue.java" />
         <option value="$PROJECT_DIR$/src/Trees/losestBinarySearchTreeValueRecursive.java" />
+        <option value="$PROJECT_DIR$/src/Recursion/WordSquares.java" />
       </list>
     </option>
   </component>
@@ -214,7 +217,7 @@
               <item name="GoogleInterviewPrep" type="b2602c69:ProjectViewProjectNode" />
               <item name="GoogleInterviewPrep" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Trees" type="462c0819:PsiDirectoryNode" />
+              <item name="Recursion" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -423,13 +426,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/InterviewProcess/NextClosestTimeSolution2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="37" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/InterviewProcess/LongestSpanSameSum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -815,6 +811,16 @@
           <folding>
             <element signature="e#127#128#0" expanded="true" />
             <element signature="e#181#182#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Recursion/WordSquares.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="65" column="4" selection-start-line="65" selection-start-column="4" selection-end-line="65" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
