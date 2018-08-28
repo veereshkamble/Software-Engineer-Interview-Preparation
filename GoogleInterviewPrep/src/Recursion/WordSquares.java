@@ -63,5 +63,22 @@ public class WordSquares {
         return ans;
     }
 
-    
+    private void search(int len, Trie tr, List<List<String>> ans,
+                        List<String> ansBuilder) {
+        if (ansBuilder.size() == len) {
+            ans.add(new ArrayList<>(ansBuilder));
+            return;
+        }
+
+        int idx = ansBuilder.size();
+        StringBuilder prefixBuilder = new StringBuilder();
+        for (String s : ansBuilder)
+            prefixBuilder.append(s.charAt(idx));
+        List<String> startWith = tr.findByPrefix(prefixBuilder.toString());
+        for (String sw : startWith) {
+            ansBuilder.add(sw);
+            search(len, tr, ans, ansBuilder);
+            ansBuilder.remove(ansBuilder.size() - 1);
+        }
+    }
 }
