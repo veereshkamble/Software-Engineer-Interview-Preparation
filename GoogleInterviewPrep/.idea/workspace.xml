@@ -12,15 +12,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="InorderSuccessorBST.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Trees/InorderSuccessorBST.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="46" selection-start-line="46" selection-end-line="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ValidateBinarySearchTreeIterative.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Trees/ValidateBinarySearchTreeIterative.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -93,11 +84,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ClosestBinarySearchTreeValue.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ClosestBinarySearchTreeValue.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Trees/ClosestBinarySearchTreeValue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="43" lean-forward="true" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
+            <state relative-caret-position="326">
+              <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="losestBinarySearchTreeValueRecursive.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Trees/losestBinarySearchTreeValueRecursive.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+              <folding>
+                <element signature="e#127#128#0" expanded="true" />
+                <element signature="e#181#182#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -129,8 +133,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/InterviewProcess/NumberOfIslandsBFS.java" />
-        <option value="$PROJECT_DIR$/src/InterviewProcess/IntersectionOfTwoArraysII.java" />
         <option value="$PROJECT_DIR$/src/InterviewProcess/RepeatedStringMatch.java" />
         <option value="$PROJECT_DIR$/src/InterviewProcess/KEmtpySlots.java" />
         <option value="$PROJECT_DIR$/src/InterviewProcess/LongestIncreasingSubsequence.java" />
@@ -180,6 +182,8 @@
         <option value="$PROJECT_DIR$/src/Trees/RobotRoomCleaner.java" />
         <option value="$PROJECT_DIR$/src/Trees/RedundantConnectionII.java" />
         <option value="$PROJECT_DIR$/src/Trees/CourseSchedule.java" />
+        <option value="$PROJECT_DIR$/src/Trees/ClosestBinarySearchTreeValue.java" />
+        <option value="$PROJECT_DIR$/src/Trees/losestBinarySearchTreeValueRecursive.java" />
       </list>
     </option>
   </component>
@@ -419,16 +423,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/InterviewProcess/NextClosestTimeSolution1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="53" column="51" selection-start-line="53" selection-start-column="51" selection-end-line="53" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/InterviewProcess/NextClosestTimeSolution2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -809,8 +803,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Trees/ClosestBinarySearchTreeValue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="43" lean-forward="true" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
+        <state relative-caret-position="326">
+          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Trees/losestBinarySearchTreeValueRecursive.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <folding>
+            <element signature="e#127#128#0" expanded="true" />
+            <element signature="e#181#182#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
