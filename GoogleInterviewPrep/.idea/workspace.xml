@@ -106,8 +106,8 @@
       <file leaf-file-name="AndroidUnlockPatterns.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Recursion/AndroidUnlockPatterns.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
+            <state relative-caret-position="527">
+              <caret line="46" selection-start-line="46" selection-end-line="46" />
             </state>
           </provider>
         </entry>
@@ -245,7 +245,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.StrobogrammaticNumberII">
+  <component name="RunManager" selected="Application.AndroidUnlockPatterns">
+    <configuration name="AndroidUnlockPatterns" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Recursion.AndroidUnlockPatterns" />
+      <module name="GoogleInterviewPrep" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Recursion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="CourseSchedule" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Trees.CourseSchedule" />
       <module name="GoogleInterviewPrep" />
@@ -264,17 +275,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="InterviewProcess.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="RedundantConnectionII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Trees.RedundantConnectionII" />
-      <module name="GoogleInterviewPrep" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Trees.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -343,19 +343,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.RedundantConnectionII" />
       <item itemvalue="Application.LongestIncreasingSubsequence" />
       <item itemvalue="Application.CourseSchedule" />
       <item itemvalue="Application.StrobogrammaticNumberI" />
       <item itemvalue="Application.StrobogrammaticNumberII" />
+      <item itemvalue="Application.AndroidUnlockPatterns" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AndroidUnlockPatterns" />
         <item itemvalue="Application.StrobogrammaticNumberII" />
         <item itemvalue="Application.StrobogrammaticNumberI" />
         <item itemvalue="Application.CourseSchedule" />
         <item itemvalue="Application.LongestIncreasingSubsequence" />
-        <item itemvalue="Application.RedundantConnectionII" />
       </list>
     </recent_temporary>
   </component>
@@ -395,7 +395,7 @@
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4377565" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.17783858" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -423,7 +423,7 @@
           <option name="timeStamp" value="16" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="26" />
+      <option name="time" value="27" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
@@ -831,8 +831,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Recursion/AndroidUnlockPatterns.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
+        <state relative-caret-position="527">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
         </state>
       </provider>
     </entry>
