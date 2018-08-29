@@ -17,6 +17,7 @@ public class MovingAverage {
         sum = 0L;
         max = size;
     }
+    
 
     public double next(int val) {
         if (q.size() < max) {
