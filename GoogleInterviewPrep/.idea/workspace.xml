@@ -24,18 +24,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WordSearchII.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Recursion/WordSearchII.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="343">
-              <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="StrobogrammaticNumberII.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Recursion/StrobogrammaticNumberII.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -99,15 +87,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ZigZagIterator.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ZigZagIterator.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Design/ZigZagIterator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
+            <state relative-caret-position="118">
               <caret line="14" column="53" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#316#317#0" expanded="true" />
                 <element signature="e#376#377#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ZigZagIetratorCyclic.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Design/ZigZagIetratorCyclic.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#926#927#0" expanded="true" />
+                <element signature="e#977#978#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -156,7 +158,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/ArraysAndStrings/PlusOne.java" />
         <option value="$PROJECT_DIR$/src/ArraysAndStrings/TrapWater.java" />
         <option value="$PROJECT_DIR$/src/ArraysAndStrings/BoldTag.java" />
         <option value="$PROJECT_DIR$/src/ArraysAndStrings/GameOfLife.java" />
@@ -207,10 +208,11 @@
         <option value="$PROJECT_DIR$/src/Design/PeekingIterator.java" />
         <option value="$PROJECT_DIR$/src/Design/ZigZagIteratorQueue.java" />
         <option value="$PROJECT_DIR$/src/Design/ZigZagIterator.java" />
+        <option value="$PROJECT_DIR$/src/Design/ZigZagIetratorCyclic.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-15" />
     <option name="width" value="850" />
     <option name="height" value="1105" />
@@ -387,7 +389,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -446,7 +448,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/ValidParanthesis.java" />
     <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/ValidPalindrome.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -849,12 +850,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Design/ZigZagIterator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
+        <state relative-caret-position="118">
           <caret line="14" column="53" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#316#317#0" expanded="true" />
             <element signature="e#376#377#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Design/ZigZagIetratorCyclic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#926#927#0" expanded="true" />
+            <element signature="e#977#978#0" expanded="true" />
           </folding>
         </state>
       </provider>
