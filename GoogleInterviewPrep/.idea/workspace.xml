@@ -24,18 +24,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WordSquares.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Recursion/WordSquares.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="115" selection-start-column="115" selection-end-column="115" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="WordSearchII.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Recursion/WordSearchII.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -97,7 +85,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ZigZagIteratorQueue.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ZigZagIteratorQueue.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Design/ZigZagIteratorQueue.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-1">
@@ -106,6 +94,20 @@
                 <element signature="imports" expanded="true" />
                 <element signature="e#518#519#0" expanded="true" />
                 <element signature="e#557#558#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ZigZagIterator.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Design/ZigZagIterator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="169">
+              <caret line="14" column="53" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#316#317#0" expanded="true" />
+                <element signature="e#376#377#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -154,7 +156,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/ArraysAndStrings/SpiralMatrix.java" />
         <option value="$PROJECT_DIR$/src/ArraysAndStrings/PlusOne.java" />
         <option value="$PROJECT_DIR$/src/ArraysAndStrings/TrapWater.java" />
         <option value="$PROJECT_DIR$/src/ArraysAndStrings/BoldTag.java" />
@@ -205,6 +206,7 @@
         <option value="$PROJECT_DIR$/src/Design/MovingAverage.java" />
         <option value="$PROJECT_DIR$/src/Design/PeekingIterator.java" />
         <option value="$PROJECT_DIR$/src/Design/ZigZagIteratorQueue.java" />
+        <option value="$PROJECT_DIR$/src/Design/ZigZagIterator.java" />
       </list>
     </option>
   </component>
@@ -444,13 +446,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/GameOfLife.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/ValidParanthesis.java" />
     <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/ValidPalindrome.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -848,6 +843,18 @@
             <element signature="imports" expanded="true" />
             <element signature="e#518#519#0" expanded="true" />
             <element signature="e#557#558#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Design/ZigZagIterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="14" column="53" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#316#317#0" expanded="true" />
+            <element signature="e#376#377#0" expanded="true" />
           </folding>
         </state>
       </provider>
