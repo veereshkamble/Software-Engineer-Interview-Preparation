@@ -12,15 +12,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="RussinaDoll.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/InterviewProcess/RussinaDoll.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-34">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="LongestIncreasingSubsequence.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/InterviewProcess/LongestIncreasingSubsequence.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -103,11 +94,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AndroidUnlockPatterns.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AndroidUnlockPatterns.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Recursion/AndroidUnlockPatterns.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="46" selection-start-line="46" selection-end-line="46" />
+            <state relative-caret-position="68">
+              <caret line="4" selection-start-line="4" selection-end-line="41" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MovingAverage.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Design/MovingAverage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="254">
+              <caret line="31" column="9" lean-forward="true" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -142,7 +145,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/InterviewProcess/LongestSpanSameSum.java" />
         <option value="$PROJECT_DIR$/src/InterviewProcess/LongestUnivaluePath.java" />
         <option value="$PROJECT_DIR$/src/InterviewProcess/LicenseKeyFormatting.java" />
         <option value="$PROJECT_DIR$/src/InterviewProcess/NextClosestTimeDFS.java" />
@@ -193,6 +195,7 @@
         <option value="$PROJECT_DIR$/src/ArraysAndStrings/StrobogrammaticNumberI.java" />
         <option value="$PROJECT_DIR$/src/Recursion/StrobogrammaticNumberII.java" />
         <option value="$PROJECT_DIR$/src/Recursion/AndroidUnlockPatterns.java" />
+        <option value="$PROJECT_DIR$/src/Design/MovingAverage.java" />
       </list>
     </option>
   </component>
@@ -223,7 +226,7 @@
               <item name="GoogleInterviewPrep" type="b2602c69:ProjectViewProjectNode" />
               <item name="GoogleInterviewPrep" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Recursion" type="462c0819:PsiDirectoryNode" />
+              <item name="Design" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -245,7 +248,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AndroidUnlockPatterns">
+  <component name="RunManager" selected="Application.MovingAverage">
     <configuration name="AndroidUnlockPatterns" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Recursion.AndroidUnlockPatterns" />
       <module name="GoogleInterviewPrep" />
@@ -268,13 +271,13 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="LongestIncreasingSubsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InterviewProcess.LongestIncreasingSubsequence" />
+    <configuration name="MovingAverage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Design.MovingAverage" />
       <module name="GoogleInterviewPrep" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="InterviewProcess.*" />
+          <option name="PATTERN" value="Design.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -343,19 +346,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.LongestIncreasingSubsequence" />
       <item itemvalue="Application.CourseSchedule" />
       <item itemvalue="Application.StrobogrammaticNumberI" />
       <item itemvalue="Application.StrobogrammaticNumberII" />
       <item itemvalue="Application.AndroidUnlockPatterns" />
+      <item itemvalue="Application.MovingAverage" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MovingAverage" />
         <item itemvalue="Application.AndroidUnlockPatterns" />
         <item itemvalue="Application.StrobogrammaticNumberII" />
         <item itemvalue="Application.StrobogrammaticNumberI" />
         <item itemvalue="Application.CourseSchedule" />
-        <item itemvalue="Application.LongestIncreasingSubsequence" />
       </list>
     </recent_temporary>
   </component>
@@ -374,7 +377,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -385,17 +387,17 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3502052" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3502052" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17057292" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17057292" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.17783858" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.17783858" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -432,13 +434,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/PlusOne.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/TrapWater.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -831,8 +826,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Recursion/AndroidUnlockPatterns.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="41" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Design/MovingAverage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="31" column="9" lean-forward="true" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
