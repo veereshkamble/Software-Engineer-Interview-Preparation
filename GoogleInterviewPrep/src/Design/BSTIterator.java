@@ -1,8 +1,15 @@
 package Design;
 
+import java.util.Stack;
+
 public class BSTIterator {
 
-    
+    public class TreeNode {
+       int val;
+       TreeNode left;
+       TreeNode right;
+       TreeNode(int x) { val = x; }
+   }
 
     private Stack<TreeNode> stack;
     public BSTIterator(TreeNode root) {
