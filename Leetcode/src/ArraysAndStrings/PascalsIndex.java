@@ -24,6 +24,6 @@ public class PascalsIndex {
 
     public static void main(String[] args) {
         PascalsIndex pascalsIndex = new PascalsIndex();
-        System.out.println(pascalsIndex.getRow(8));
+        System.out.println(pascalsIndex.getRow(6));
     }
 }
