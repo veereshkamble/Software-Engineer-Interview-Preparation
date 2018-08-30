@@ -103,6 +103,19 @@ public class ElementDifference {
 
     }
 
-  
+    public static void main(String[] args) {
+        ElementDifference elementDiff = new ElementDifference();
+        int[] A = new int[] {1, 2, 5, 5, 5};
+        int[] B = new int[] {2, 4, 5};
+
+        List<List<Integer>> result = elementDiff.elementDiff(A, B);
+
+        for(List<Integer> list : result) {
+            for(Integer num : list) {
+                System.out.print(num + " ");
+            }
+            System.out.println();
+        }
+    }
 
 }
