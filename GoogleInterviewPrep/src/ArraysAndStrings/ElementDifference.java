@@ -18,6 +18,40 @@ public class ElementDifference {
     L1 = [1, 5, 5]
     L2 = [4]*/
 
+    public List<List<Integer>> elementDiff(int[] A, int[] B) {
 
+        List<List<Integer>> result = new ArrayList<>();
+        List<Integer> listA = new ArrayList<>();
+        List<Integer> listB = new ArrayList<>();
+
+        Map<Integer, Integer> mapA = new HashMap<>();
+        Map<Integer, Integer> mapB = new HashMap<>();
+
+        for(int i = 0; i < A.length; i++) {
+            if(mapA.containsKey(A[i])) {
+                int count = mapA.get(A[i]);
+                count++;
+                mapA.put(A[i], count);
+            } else {
+                mapA.put(A[i], 1);
+            }
+        }
+
+        for(int i = 0; i < B.length; i++) {
+            if(mapB.containsKey(B[i])) {
+                int count = mapB.get(B[i]);
+                count++;
+                mapB.put(B[i], count);
+            } else {
+                mapB.put(B[i], 1);
+            }
+        }
+
+
+
+
+
+
+    }
 
 }
