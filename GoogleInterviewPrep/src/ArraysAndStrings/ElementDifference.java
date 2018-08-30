@@ -51,7 +51,58 @@ public class ElementDifference {
 
 
 
+        // A = [1, 1, 2, 5, 5, 5]
+        // B = [2, 4, 5]
+        //listA = [1, 1, 5, 5]
+
+        for(int key : mapA.keySet()) {
+            int countA = mapA.get(key);
+            if(mapB.containsKey(key)){
+                int countB = mapB.get(key);
+
+                int diff = countA - countB;
+                if(diff > 0) {
+                    while(diff != 0) {
+                        listA.add(key);
+                        diff--;
+                    }
+                }
+
+            } else {
+                while(countA != 0){
+                    listA.add(key);
+                    countA--;
+                }
+            }
+        }
+
+        for(int key : mapB.keySet()) {
+            int countB = mapB.get(key);
+            if(mapA.containsKey(key)){
+                int countA = mapA.get(key);
+
+                int diff = countB - countA;
+                if(diff > 0) {
+                    while(diff != 0) {
+                        listB.add(key);
+                        diff--;
+                    }
+                }
+
+            } else {
+                while(countB != 0){
+                    listB.add(key);
+                    countB--;
+                }
+            }
+        }
+
+        result.add(listA);
+        result.add(listB);
+        return result;
 
     }
+
+  
 
 }
