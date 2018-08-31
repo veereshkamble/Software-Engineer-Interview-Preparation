@@ -1,5 +1,7 @@
 package SortingAndSearching;
 
+import java.util.Arrays;
+
 public class DiagonalTraverse {
 
     public int[] findDiagonalOrder(int[][] matrix) {
@@ -25,5 +27,9 @@ public class DiagonalTraverse {
 
     }
 
-    
+    public static void main(String[] args) {
+        DiagonalTraverse diagonalTraverse = new DiagonalTraverse();
+        int[][] matrix = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}, {10, 11, 12}};
+        System.out.println(Arrays.toString(diagonalTraverse.findDiagonalOrder(matrix)));
+    }
 }

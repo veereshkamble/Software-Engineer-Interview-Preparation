@@ -12,20 +12,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="StrobogrammaticNumberII.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Recursion/StrobogrammaticNumberII.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="34" column="5" selection-start-line="8" selection-start-column="3" selection-end-line="34" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#188#189#0" expanded="true" />
-                <element signature="e#232#233#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="AndroidUnlockPatterns.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Recursion/AndroidUnlockPatterns.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -92,14 +78,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ElementDifference.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ElementDifference.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/ElementDifference.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="383">
-              <caret line="62" column="4" selection-start-line="62" selection-start-column="4" selection-end-line="62" selection-end-column="4" />
+              <caret line="62" selection-start-line="62" selection-end-line="62" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DiagonalTraverse.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/SortingAndSearching/DiagonalTraverse.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="434">
+              <caret line="32" column="59" selection-start-line="32" selection-start-column="59" selection-end-line="32" selection-end-column="59" />
             </state>
           </provider>
         </entry>
@@ -141,7 +136,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/ArraysAndStrings/GameOfLife.java" />
         <option value="$PROJECT_DIR$/src/ArraysAndStrings/GameOgLifeInPlace.java" />
         <option value="$PROJECT_DIR$/src/ArraysAndStrings/ValidPalindrome.java" />
         <option value="$PROJECT_DIR$/src/ArraysAndStrings/ValidParanthesis.java" />
@@ -192,6 +186,7 @@
         <option value="$PROJECT_DIR$/src/Design/ZigZagIetratorCyclic.java" />
         <option value="$PROJECT_DIR$/src/Design/TicTacToe.java" />
         <option value="$PROJECT_DIR$/src/ArraysAndStrings/ElementDifference.java" />
+        <option value="$PROJECT_DIR$/src/SortingAndSearching/DiagonalTraverse.java" />
       </list>
     </option>
   </component>
@@ -224,7 +219,7 @@
               <item name="GoogleInterviewPrep" type="b2602c69:ProjectViewProjectNode" />
               <item name="GoogleInterviewPrep" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ArraysAndStrings" type="462c0819:PsiDirectoryNode" />
+              <item name="SortingAndSearching" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -431,13 +426,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/Intersection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/FirstUniqueCharacterInAString.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="248">
@@ -810,10 +798,17 @@
     <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/ElementDifference.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="383">
-          <caret line="62" column="4" selection-start-line="62" selection-start-column="4" selection-end-line="62" selection-end-column="4" />
+          <caret line="62" selection-start-line="62" selection-end-line="62" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SortingAndSearching/DiagonalTraverse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="32" column="59" selection-start-line="32" selection-start-column="59" selection-end-line="32" selection-end-column="59" />
         </state>
       </provider>
     </entry>
