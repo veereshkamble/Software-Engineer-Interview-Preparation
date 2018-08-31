@@ -7,7 +7,10 @@ public class TicTacToe {
     private int antiDiagonal;
 
     /** Initialize your data structure here. */
-    
+    public TicTacToe(int n) {
+        rows = new int[n];
+        cols = new int[n];
+    }
 
     /** Player {player} makes a move at ({row}, {col}).
      @param row The row of the board.
