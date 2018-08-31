@@ -54,6 +54,7 @@ public class ElementDifference {
         // A = [1, 1, 2, 5, 5, 5]
         // B = [2, 4, 5]
         //listA = [1, 1, 5, 5]
+        //listB = [4]
 
         for(int key : mapA.keySet()) {
             int countA = mapA.get(key);
