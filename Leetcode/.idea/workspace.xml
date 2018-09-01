@@ -42,8 +42,8 @@
       <file leaf-file-name="MergeSortedArray.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/SortingAndSearching/MergeSortedArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+            <state relative-caret-position="595">
+              <caret line="35" column="46" selection-start-line="35" selection-start-column="46" selection-end-line="35" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -230,7 +230,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PascalsIndex">
+  <component name="RunManager" selected="Application.MergeSortedArray">
     <configuration name="LongestSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SlidingWindowAlgorithm.LongestSubstring" />
       <module name="Leetcode" />
@@ -253,13 +253,13 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="LongestSubstringIII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SlidingWindowAlgorithm.LongestSubstringIII" />
+    <configuration name="MergeSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SortingAndSearching.MergeSortedArray" />
       <module name="Leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SlidingWindowAlgorithm.*" />
+          <option name="PATTERN" value="SortingAndSearching.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -329,18 +329,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.LongestSubstring" />
-      <item itemvalue="Application.LongestSubstringIII" />
       <item itemvalue="Application.LongestSubstringII" />
       <item itemvalue="Application.PascalsTriangle" />
       <item itemvalue="Application.PascalsIndex" />
+      <item itemvalue="Application.MergeSortedArray" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MergeSortedArray" />
         <item itemvalue="Application.PascalsIndex" />
         <item itemvalue="Application.PascalsTriangle" />
         <item itemvalue="Application.LongestSubstringII" />
         <item itemvalue="Application.LongestSubstring" />
-        <item itemvalue="Application.LongestSubstringIII" />
       </list>
     </recent_temporary>
   </component>
@@ -772,8 +772,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/SortingAndSearching/MergeSortedArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        <state relative-caret-position="595">
+          <caret line="35" column="46" selection-start-line="35" selection-start-column="46" selection-end-line="35" selection-end-column="46" />
         </state>
       </provider>
     </entry>

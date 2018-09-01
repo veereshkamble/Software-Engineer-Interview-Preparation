@@ -24,4 +24,16 @@ public class MergeSortedArray {
             k--;
         }
     }
+
+    public static void main(String[] args) {
+        int[] nums2 = new int[] {2, 5, 6};
+        int[] nums1 = new int[] {1, 4, 5, 5, 0, 0, 0};
+
+        MergeSortedArray mergeSortedArray = new MergeSortedArray();
+        mergeSortedArray.merge(nums1, 4, nums2, 3);
+
+        for(int i = 0; i < nums1.length; i++) {
+            System.out.print(nums1[i] + "  ");
+        }
+    }
 }
