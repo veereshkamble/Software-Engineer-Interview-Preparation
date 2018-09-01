@@ -60,7 +60,7 @@
       <file leaf-file-name="ZigZagIetratorCyclic.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Design/ZigZagIetratorCyclic.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
+            <state relative-caret-position="459">
               <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -72,7 +72,7 @@
       <file leaf-file-name="ElementDifference.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/ElementDifference.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="383">
+            <state relative-caret-position="1003">
               <caret line="62" selection-start-line="62" selection-end-line="62" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -84,7 +84,7 @@
       <file leaf-file-name="DiagonalTraverse.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SortingAndSearching/DiagonalTraverse.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="434">
+            <state relative-caret-position="544">
               <caret line="32" column="59" selection-start-line="32" selection-start-column="59" selection-end-line="32" selection-end-column="59" />
             </state>
           </provider>
@@ -95,9 +95,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="527">
               <caret line="43" column="66" selection-start-line="43" selection-start-column="66" selection-end-line="43" selection-end-column="66" />
-              <folding>
-                <element signature="e#151#160#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -106,7 +103,7 @@
         <entry file="file://$PROJECT_DIR$/src/Design/TicTacToe.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
@@ -203,9 +200,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -228,6 +222,9 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="RunDashboard">
@@ -374,7 +371,6 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32968536" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
@@ -398,6 +394,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32968536" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -687,9 +684,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
           <caret line="36" column="25" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -697,9 +691,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="680">
           <caret line="41" selection-start-line="41" selection-end-line="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -714,11 +705,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="34" column="5" selection-start-line="8" selection-start-column="3" selection-end-line="34" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#188#189#0" expanded="true" />
-            <element signature="e#232#233#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -775,7 +761,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Design/ZigZagIetratorCyclic.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
+        <state relative-caret-position="459">
           <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -786,13 +772,13 @@
     <entry file="file://$PROJECT_DIR$/src/Design/TicTacToe.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/ElementDifference.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
+        <state relative-caret-position="1003">
           <caret line="62" selection-start-line="62" selection-end-line="62" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -802,7 +788,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/SortingAndSearching/DiagonalTraverse.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
+        <state relative-caret-position="544">
           <caret line="32" column="59" selection-start-line="32" selection-start-column="59" selection-end-line="32" selection-end-column="59" />
         </state>
       </provider>
@@ -811,9 +797,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
           <caret line="43" column="66" selection-start-line="43" selection-start-column="66" selection-end-line="43" selection-end-column="66" />
-          <folding>
-            <element signature="e#151#160#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
