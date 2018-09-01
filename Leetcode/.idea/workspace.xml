@@ -11,21 +11,39 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="FindDiagonalOrder.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/FindDiagonalOrder.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="527">
-              <caret line="31" column="89" lean-forward="true" selection-start-line="30" selection-start-column="8" selection-end-line="31" selection-end-column="89" />
+              <caret line="31" column="89" selection-start-line="30" selection-start-column="8" selection-end-line="31" selection-end-column="89" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ReversePolishNotation.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ReversePolishNotation.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Stacks/ReversePolishNotation.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="578">
-              <caret line="43" column="66" lean-forward="true" selection-start-line="41" selection-start-column="7" selection-end-line="43" selection-end-column="66" />
+              <caret line="43" column="66" selection-start-line="41" selection-start-column="7" selection-end-line="43" selection-end-column="66" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StringtoInteger.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/StringtoInteger.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="36" column="57" selection-start-line="36" selection-start-column="57" selection-end-line="36" selection-end-column="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DeleteNode.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/LinkedList/DeleteNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -99,13 +117,13 @@
         <option value="$PROJECT_DIR$/src/ArraysAndStrings/ReverseInteger.java" />
         <option value="$PROJECT_DIR$/src/ArraysAndStrings/ValidAnagram.java" />
         <option value="$PROJECT_DIR$/src/ArraysAndStrings/ValidPalindrome.java" />
-        <option value="$PROJECT_DIR$/src/ArraysAndStrings/StringtoInteger.java" />
         <option value="$PROJECT_DIR$/src/ArraysAndStrings/CountAndSay.java" />
         <option value="$PROJECT_DIR$/src/ArraysAndStrings/PlusOne.java" />
         <option value="$PROJECT_DIR$/src/SlidingWindowAlgorithm/LongestSubstringIII.java" />
         <option value="$PROJECT_DIR$/src/SlidingWindowAlgorithm/LongestSubstring.java" />
         <option value="$PROJECT_DIR$/src/SlidingWindowAlgorithm/LongestSubstringII.java" />
         <option value="$PROJECT_DIR$/src/ArraysAndStrings/PascalsIndex.java" />
+        <option value="$PROJECT_DIR$/src/ArraysAndStrings/StringtoInteger.java" />
       </list>
     </option>
   </component>
@@ -119,7 +137,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -136,18 +153,13 @@
               <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Stacks" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="StacksAndQueues" type="462c0819:PsiDirectoryNode" />
+              <item name="LinkedList" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
       <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
@@ -302,8 +314,8 @@
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="6" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.22982216" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.22982216" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
@@ -312,15 +324,15 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.20109439" />
       <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.20109439" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32968536" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32968536" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -354,13 +366,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Stacks/DFSTemplateI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/StacksAndQueues.java" />
     <entry file="file://$PROJECT_DIR$/src/StacksAndQueues/QueueUsingStack.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -499,13 +504,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="22" column="52" selection-start-line="22" selection-start-column="52" selection-end-line="22" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/StringtoInteger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
         </state>
       </provider>
     </entry>
@@ -694,14 +692,28 @@
     <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/FindDiagonalOrder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
-          <caret line="31" column="89" lean-forward="true" selection-start-line="30" selection-start-column="8" selection-end-line="31" selection-end-column="89" />
+          <caret line="31" column="89" selection-start-line="30" selection-start-column="8" selection-end-line="31" selection-end-column="89" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Stacks/ReversePolishNotation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
-          <caret line="43" column="66" lean-forward="true" selection-start-line="41" selection-start-column="7" selection-end-line="43" selection-end-column="66" />
+          <caret line="43" column="66" selection-start-line="41" selection-start-column="7" selection-end-line="43" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/StringtoInteger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="36" column="57" selection-start-line="36" selection-start-column="57" selection-end-line="36" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LinkedList/DeleteNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
         </state>
       </provider>
     </entry>
