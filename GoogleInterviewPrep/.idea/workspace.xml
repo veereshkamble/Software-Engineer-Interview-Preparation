@@ -12,15 +12,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AndroidUnlockPatterns.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Recursion/AndroidUnlockPatterns.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" selection-start-line="4" selection-end-line="41" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="MovingAverage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Design/MovingAverage.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -90,11 +81,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DiagonalTraverse.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DiagonalTraverse.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SortingAndSearching/DiagonalTraverse.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="434">
               <caret line="32" column="59" selection-start-line="32" selection-start-column="59" selection-end-line="32" selection-end-column="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReversePolishNotation.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/SortingAndSearching/ReversePolishNotation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="43" column="66" selection-start-line="43" selection-start-column="66" selection-end-line="43" selection-end-column="66" />
+              <folding>
+                <element signature="e#151#160#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -136,7 +139,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/ArraysAndStrings/GameOgLifeInPlace.java" />
         <option value="$PROJECT_DIR$/src/ArraysAndStrings/ValidPalindrome.java" />
         <option value="$PROJECT_DIR$/src/ArraysAndStrings/ValidParanthesis.java" />
         <option value="$PROJECT_DIR$/src/ArraysAndStrings/ValidParenthesis.java" />
@@ -187,6 +189,7 @@
         <option value="$PROJECT_DIR$/src/Design/TicTacToe.java" />
         <option value="$PROJECT_DIR$/src/ArraysAndStrings/ElementDifference.java" />
         <option value="$PROJECT_DIR$/src/SortingAndSearching/DiagonalTraverse.java" />
+        <option value="$PROJECT_DIR$/src/SortingAndSearching/ReversePolishNotation.java" />
       </list>
     </option>
   </component>
@@ -368,7 +371,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -379,7 +381,7 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.29001367" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.29001367" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -426,13 +428,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/FirstUniqueCharacterInAString.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="29" column="76" selection-start-line="29" selection-start-column="76" selection-end-line="29" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/MoveZeroes.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -809,6 +804,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="434">
           <caret line="32" column="59" selection-start-line="32" selection-start-column="59" selection-end-line="32" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SortingAndSearching/ReversePolishNotation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="43" column="66" selection-start-line="43" selection-start-column="66" selection-end-line="43" selection-end-column="66" />
+          <folding>
+            <element signature="e#151#160#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
