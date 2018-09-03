@@ -46,8 +46,12 @@
       <file leaf-file-name="ShuffleAnArray.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Design/ShuffleAnArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+            <state relative-caret-position="478">
+              <caret line="53" column="31" selection-start-line="53" selection-start-column="31" selection-end-line="53" selection-end-column="31" />
+              <folding>
+                <element signature="e#390#391#0" expanded="true" />
+                <element signature="e#425#426#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -131,7 +135,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Stacks/MinStackII.java" />
         <option value="$PROJECT_DIR$/src/Stacks/ValidParenthesis.java" />
         <option value="$PROJECT_DIR$/src/Stacks/DailyTemperatures.java" />
         <option value="$PROJECT_DIR$/src/Stacks/ReversePolishNotation.java" />
@@ -182,6 +185,7 @@
         <option value="$PROJECT_DIR$/src/LinkedList/DeleteNode.java" />
         <option value="$PROJECT_DIR$/src/SortingAndSearching/MergeSortedArray.java" />
         <option value="$PROJECT_DIR$/src/SortingAndSearching/FirstBadVersion.java" />
+        <option value="$PROJECT_DIR$/src/Design/ShuffleAnArray.java" />
       </list>
     </option>
   </component>
@@ -234,18 +238,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MergeSortedArray">
-    <configuration name="LongestSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SlidingWindowAlgorithm.LongestSubstring" />
-      <module name="Leetcode" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SlidingWindowAlgorithm.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
+  <component name="RunManager" selected="Application.ShuffleAnArray">
     <configuration name="LongestSubstringII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SlidingWindowAlgorithm.LongestSubstringII" />
       <module name="Leetcode" />
@@ -286,6 +279,17 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ArraysAndStrings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="ShuffleAnArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Design.ShuffleAnArray" />
+      <module name="Leetcode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Design.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -332,19 +336,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.LongestSubstring" />
       <item itemvalue="Application.LongestSubstringII" />
       <item itemvalue="Application.PascalsTriangle" />
       <item itemvalue="Application.PascalsIndex" />
       <item itemvalue="Application.MergeSortedArray" />
+      <item itemvalue="Application.ShuffleAnArray" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ShuffleAnArray" />
         <item itemvalue="Application.MergeSortedArray" />
         <item itemvalue="Application.PascalsIndex" />
         <item itemvalue="Application.PascalsTriangle" />
         <item itemvalue="Application.LongestSubstringII" />
-        <item itemvalue="Application.LongestSubstring" />
       </list>
     </recent_temporary>
   </component>
@@ -780,8 +784,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Design/ShuffleAnArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+        <state relative-caret-position="478">
+          <caret line="53" column="31" selection-start-line="53" selection-start-column="31" selection-end-line="53" selection-end-column="31" />
+          <folding>
+            <element signature="e#390#391#0" expanded="true" />
+            <element signature="e#425#426#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

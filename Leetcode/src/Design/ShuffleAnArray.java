@@ -35,5 +35,22 @@ public class ShuffleAnArray {
             a[i] = a[j];
             a[j] = t;
         }
-    
+
+    /**
+     * Your Solution object will be instantiated and called as such:
+     * Solution obj = new Solution(nums);
+     * int[] param_1 = obj.reset();
+     * int[] param_2 = obj.shuffle();
+     */
+
+
+        public static void main(String[] args) {
+            int[] nums = new int[] {1,2,3,4,5};
+            ShuffleAnArray shuffleAnArray = new ShuffleAnArray(nums);
+            int[] result = shuffleAnArray.shuffle();
+            for(int i = 0; i < result.length; i++) {
+                System.out.print(result[i] + " ");
+            }
+            System.out.println();
+        }
 }
