@@ -96,8 +96,12 @@
       <file leaf-file-name="PowerOfThree.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Math/PowerOfThree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+            <state relative-caret-position="332">
+              <caret line="24" column="57" selection-start-line="24" selection-start-column="57" selection-end-line="24" selection-end-column="57" />
+              <folding>
+                <element signature="e#353#354#0" expanded="true" />
+                <element signature="e#406#407#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -145,7 +149,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Stacks/CloneGraph.java" />
         <option value="$PROJECT_DIR$/src/Queues/PerfectSquaresDP.java" />
         <option value="$PROJECT_DIR$/src/Stacks/CloneGraphBFS.java" />
         <option value="$PROJECT_DIR$/src/Stacks/CloneGraphDFS.java" />
@@ -196,6 +199,7 @@
         <option value="$PROJECT_DIR$/src/Design/MinStack.java" />
         <option value="$PROJECT_DIR$/src/Math/FizzBuzz.java" />
         <option value="$PROJECT_DIR$/src/Math/CountPrimes.java" />
+        <option value="$PROJECT_DIR$/src/Math/PowerOfThree.java" />
       </list>
     </option>
   </component>
@@ -248,7 +252,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CountPrimes">
+  <component name="RunManager" selected="Application.PowerOfThree">
     <configuration name="CountPrimes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Math.CountPrimes" />
       <module name="Leetcode" />
@@ -282,13 +286,13 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="PascalsIndex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArraysAndStrings.PascalsIndex" />
+    <configuration name="PowerOfThree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Math.PowerOfThree" />
       <module name="Leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ArraysAndStrings.*" />
+          <option name="PATTERN" value="Math.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -346,19 +350,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.PascalsIndex" />
       <item itemvalue="Application.MergeSortedArray" />
       <item itemvalue="Application.ShuffleAnArray" />
       <item itemvalue="Application.FizzBuzz" />
       <item itemvalue="Application.CountPrimes" />
+      <item itemvalue="Application.PowerOfThree" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PowerOfThree" />
         <item itemvalue="Application.CountPrimes" />
         <item itemvalue="Application.FizzBuzz" />
         <item itemvalue="Application.ShuffleAnArray" />
         <item itemvalue="Application.MergeSortedArray" />
-        <item itemvalue="Application.PascalsIndex" />
       </list>
     </recent_temporary>
   </component>
@@ -808,8 +812,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Math/PowerOfThree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+        <state relative-caret-position="332">
+          <caret line="24" column="57" selection-start-line="24" selection-start-column="57" selection-end-line="24" selection-end-column="57" />
+          <folding>
+            <element signature="e#353#354#0" expanded="true" />
+            <element signature="e#406#407#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
