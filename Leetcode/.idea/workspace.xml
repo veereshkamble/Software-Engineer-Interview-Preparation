@@ -248,7 +248,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FizzBuzz">
+  <component name="RunManager" selected="Application.CountPrimes">
+    <configuration name="CountPrimes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Math.CountPrimes" />
+      <module name="Leetcode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Math.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="FizzBuzz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Math.FizzBuzz" />
       <module name="Leetcode" />
@@ -273,17 +284,6 @@
     </configuration>
     <configuration name="PascalsIndex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArraysAndStrings.PascalsIndex" />
-      <module name="Leetcode" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ArraysAndStrings.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="PascalsTriangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArraysAndStrings.PascalsTriangle" />
       <module name="Leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -346,19 +346,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.PascalsTriangle" />
       <item itemvalue="Application.PascalsIndex" />
       <item itemvalue="Application.MergeSortedArray" />
       <item itemvalue="Application.ShuffleAnArray" />
       <item itemvalue="Application.FizzBuzz" />
+      <item itemvalue="Application.CountPrimes" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CountPrimes" />
         <item itemvalue="Application.FizzBuzz" />
         <item itemvalue="Application.ShuffleAnArray" />
         <item itemvalue="Application.MergeSortedArray" />
         <item itemvalue="Application.PascalsIndex" />
-        <item itemvalue="Application.PascalsTriangle" />
       </list>
     </recent_temporary>
   </component>

@@ -11,7 +11,7 @@ public class CountPrimes {
 
 
         int count = 0;
-        for(int i = 1; i <= n; i++) {
+        for(int i = 2; i <= n; i++) {
             boolean isPrime = true;
 
             for(int j = 2; j <= i/2; j++) {
@@ -25,5 +25,11 @@ public class CountPrimes {
             }
         }
         return count;
+    }
+
+    public static void main(String[] args) {
+        int n = 10;
+        CountPrimes countPrimes = new CountPrimes();
+        System.out.println(countPrimes.countPrimes(n));
     }
 }
