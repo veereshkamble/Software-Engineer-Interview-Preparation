@@ -87,8 +87,8 @@
       <file leaf-file-name="CountPrimes.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Math/CountPrimes.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+            <state relative-caret-position="459">
+              <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -145,7 +145,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Stacks/ReversePolishNotation.java" />
         <option value="$PROJECT_DIR$/src/Stacks/CloneGraph.java" />
         <option value="$PROJECT_DIR$/src/Queues/PerfectSquaresDP.java" />
         <option value="$PROJECT_DIR$/src/Stacks/CloneGraphBFS.java" />
@@ -196,6 +195,7 @@
         <option value="$PROJECT_DIR$/src/Design/ShuffleAnArray.java" />
         <option value="$PROJECT_DIR$/src/Design/MinStack.java" />
         <option value="$PROJECT_DIR$/src/Math/FizzBuzz.java" />
+        <option value="$PROJECT_DIR$/src/Math/CountPrimes.java" />
       </list>
     </option>
   </component>
@@ -808,8 +808,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Math/CountPrimes.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+        <state relative-caret-position="459">
+          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
         </state>
       </provider>
     </entry>
