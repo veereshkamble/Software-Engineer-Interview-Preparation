@@ -9,4 +9,9 @@ public class IntegerToRoman {
         String[] I = {"", "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX"};
         return M[num / 1000] + C[(num % 1000) / 100] + X[(num % 100) / 10] + I[num % 10];
     }
+
+    public static void main(String[] args) {
+        IntegerToRoman integerToRoman = new IntegerToRoman();
+        System.out.println(integerToRoman.intToRoman(1994));
+    }
 }

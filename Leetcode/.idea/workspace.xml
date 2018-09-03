@@ -106,7 +106,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RomanToInteger.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="RomanToInteger.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Math/RomanToInteger.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="192">
@@ -118,11 +118,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyLinkedList.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/LinkedList/MyLinkedList.java">
+      <file leaf-file-name="IntegerToRoman.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Math/IntegerToRoman.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2312">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="238">
+              <caret line="14" column="57" selection-start-line="14" selection-start-column="57" selection-end-line="14" selection-end-column="57" />
             </state>
           </provider>
         </entry>
@@ -152,7 +152,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Stacks/CloneGraphBFS.java" />
         <option value="$PROJECT_DIR$/src/Stacks/CloneGraphDFS.java" />
         <option value="$PROJECT_DIR$/src/Stacks/DFSTemplateI.java" />
         <option value="$PROJECT_DIR$/src/Stacks/DFSTemplateII.java" />
@@ -203,6 +202,7 @@
         <option value="$PROJECT_DIR$/src/Math/CountPrimes.java" />
         <option value="$PROJECT_DIR$/src/Math/PowerOfThree.java" />
         <option value="$PROJECT_DIR$/src/Math/RomanToInteger.java" />
+        <option value="$PROJECT_DIR$/src/Math/IntegerToRoman.java" />
       </list>
     </option>
   </component>
@@ -255,7 +255,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.RomanToInteger">
+  <component name="RunManager" selected="Application.IntegerToRoman">
     <configuration name="CountPrimes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Math.CountPrimes" />
       <module name="Leetcode" />
@@ -269,6 +269,17 @@
     </configuration>
     <configuration name="FizzBuzz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Math.FizzBuzz" />
+      <module name="Leetcode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Math.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="IntegerToRoman" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Math.IntegerToRoman" />
       <module name="Leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -296,17 +307,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Math.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="ShuffleAnArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Design.ShuffleAnArray" />
-      <module name="Leetcode" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Design.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -353,19 +353,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.ShuffleAnArray" />
       <item itemvalue="Application.FizzBuzz" />
       <item itemvalue="Application.CountPrimes" />
       <item itemvalue="Application.PowerOfThree" />
       <item itemvalue="Application.RomanToInteger" />
+      <item itemvalue="Application.IntegerToRoman" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IntegerToRoman" />
         <item itemvalue="Application.RomanToInteger" />
         <item itemvalue="Application.PowerOfThree" />
         <item itemvalue="Application.CountPrimes" />
         <item itemvalue="Application.FizzBuzz" />
-        <item itemvalue="Application.ShuffleAnArray" />
       </list>
     </recent_temporary>
   </component>
@@ -445,13 +445,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Tries/WordDictionary.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1054">
-          <caret line="64" column="53" selection-start-line="64" selection-start-column="53" selection-end-line="64" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Tries/TrieNodeXOR.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -824,6 +817,13 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Math/IntegerToRoman.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="57" selection-start-line="14" selection-start-column="57" selection-end-line="14" selection-end-column="57" />
         </state>
       </provider>
     </entry>
