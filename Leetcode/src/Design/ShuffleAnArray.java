@@ -52,5 +52,19 @@ public class ShuffleAnArray {
                 System.out.print(result[i] + " ");
             }
             System.out.println();
+
+            int[] result1 = shuffleAnArray.shuffle();
+            for(int i = 0; i < result1.length; i++) {
+                System.out.print(result1[i] + " ");
+            }
+            System.out.println();
+
+            int[] result2 = shuffleAnArray.reset();
+            for(int i = 0; i < result2.length; i++) {
+                System.out.print(result2[i] + " ");
+            }
+            System.out.println();
+
+
         }
 }
