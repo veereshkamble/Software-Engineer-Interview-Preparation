@@ -44,5 +44,6 @@ public class CountPrimes {
         int n = 10;
         CountPrimes countPrimes = new CountPrimes();
         System.out.println(countPrimes.countPrimes(n));
+        System.out.println(countPrimes.countPrimesDynamic(15));
     }
 }
