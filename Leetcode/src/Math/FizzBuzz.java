@@ -25,4 +25,14 @@ public class FizzBuzz {
 
         return result;
     }
+
+    public static void main(String[] args) {
+        int n = 15;
+        FizzBuzz fizzBuzz = new FizzBuzz();
+        List<String> result = fizzBuzz.fizzBuzz(n);
+
+        for(String num : result) {
+            System.out.println(num);
+        }
+    }
 }

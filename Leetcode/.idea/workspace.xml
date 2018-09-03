@@ -248,14 +248,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ShuffleAnArray">
-    <configuration name="LongestSubstringII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SlidingWindowAlgorithm.LongestSubstringII" />
+  <component name="RunManager" selected="Application.FizzBuzz">
+    <configuration name="FizzBuzz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Math.FizzBuzz" />
       <module name="Leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SlidingWindowAlgorithm.*" />
+          <option name="PATTERN" value="Math.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -346,19 +346,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.LongestSubstringII" />
       <item itemvalue="Application.PascalsTriangle" />
       <item itemvalue="Application.PascalsIndex" />
       <item itemvalue="Application.MergeSortedArray" />
       <item itemvalue="Application.ShuffleAnArray" />
+      <item itemvalue="Application.FizzBuzz" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FizzBuzz" />
         <item itemvalue="Application.ShuffleAnArray" />
         <item itemvalue="Application.MergeSortedArray" />
         <item itemvalue="Application.PascalsIndex" />
         <item itemvalue="Application.PascalsTriangle" />
-        <item itemvalue="Application.LongestSubstringII" />
       </list>
     </recent_temporary>
   </component>
