@@ -56,20 +56,30 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MinStack.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MinStack.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Design/MinStack.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="23" lean-forward="true" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+            <state relative-caret-position="-117">
+              <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+              <folding>
+                <element signature="e#502#503#0" expanded="true" />
+                <element signature="e#537#538#0" expanded="true" />
+                <element signature="e#564#565#0" expanded="true" />
+                <element signature="e#590#591#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DoublyLinkedList.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/LinkedList/DoublyLinkedList.java">
+      <file leaf-file-name="FizzBuzz.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Math/FizzBuzz.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="391">
+              <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#124#132#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -135,8 +145,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Stacks/ValidParenthesis.java" />
-        <option value="$PROJECT_DIR$/src/Stacks/DailyTemperatures.java" />
         <option value="$PROJECT_DIR$/src/Stacks/ReversePolishNotation.java" />
         <option value="$PROJECT_DIR$/src/Stacks/CloneGraph.java" />
         <option value="$PROJECT_DIR$/src/Queues/PerfectSquaresDP.java" />
@@ -186,6 +194,8 @@
         <option value="$PROJECT_DIR$/src/SortingAndSearching/MergeSortedArray.java" />
         <option value="$PROJECT_DIR$/src/SortingAndSearching/FirstBadVersion.java" />
         <option value="$PROJECT_DIR$/src/Design/ShuffleAnArray.java" />
+        <option value="$PROJECT_DIR$/src/Design/MinStack.java" />
+        <option value="$PROJECT_DIR$/src/Math/FizzBuzz.java" />
       </list>
     </option>
   </component>
@@ -215,7 +225,7 @@
               <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Design" type="462c0819:PsiDirectoryNode" />
+              <item name="Math" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -366,7 +376,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -378,11 +388,11 @@
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="6" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.22982216" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.22982216" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1796875" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1796875" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
@@ -428,13 +438,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Tries/ReplaceWords.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1071">
-          <caret line="63" column="23" selection-start-line="63" selection-start-column="23" selection-end-line="63" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Tries/Pair.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -788,8 +791,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Design/MinStack.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="23" lean-forward="true" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+        <state relative-caret-position="-117">
+          <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+          <folding>
+            <element signature="e#502#503#0" expanded="true" />
+            <element signature="e#537#538#0" expanded="true" />
+            <element signature="e#564#565#0" expanded="true" />
+            <element signature="e#590#591#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Math/FizzBuzz.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#124#132#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
