@@ -255,7 +255,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.IntegerToRoman">
+  <component name="RunManager" selected="Application.HammingWeight">
     <configuration name="CountPrimes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Math.CountPrimes" />
       <module name="Leetcode" />
@@ -267,13 +267,13 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="FizzBuzz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Math.FizzBuzz" />
+    <configuration name="HammingWeight" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Others.HammingWeight" />
       <module name="Leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Math.*" />
+          <option name="PATTERN" value="Others.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -353,19 +353,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.FizzBuzz" />
       <item itemvalue="Application.CountPrimes" />
       <item itemvalue="Application.PowerOfThree" />
       <item itemvalue="Application.RomanToInteger" />
       <item itemvalue="Application.IntegerToRoman" />
+      <item itemvalue="Application.HammingWeight" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HammingWeight" />
         <item itemvalue="Application.IntegerToRoman" />
         <item itemvalue="Application.RomanToInteger" />
         <item itemvalue="Application.PowerOfThree" />
         <item itemvalue="Application.CountPrimes" />
-        <item itemvalue="Application.FizzBuzz" />
       </list>
     </recent_temporary>
   </component>
