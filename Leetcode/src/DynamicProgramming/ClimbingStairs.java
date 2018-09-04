@@ -18,4 +18,9 @@ public class ClimbingStairs {
             return dp[n];
         }
     }
+
+    public static void main(String[] args) {
+        ClimbingStairs climbingStairs = new ClimbingStairs();
+        System.out.println(climbingStairs.climbStairs(4));
+    }
 }

@@ -149,14 +149,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MissingNumber">
-    <configuration name="HammingDistance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Others.HammingDistance" />
+  <component name="RunManager" selected="Application.ClimbingStairs">
+    <configuration name="ClimbingStairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DynamicProgramming.ClimbingStairs" />
       <module name="Leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Others.*" />
+          <option name="PATTERN" value="DynamicProgramming.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -247,19 +247,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.HammingDistance" />
       <item itemvalue="Application.ReverseBits" />
       <item itemvalue="Application.PascalsTriangle" />
       <item itemvalue="Application.ValidParenthesis" />
       <item itemvalue="Application.MissingNumber" />
+      <item itemvalue="Application.ClimbingStairs" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ClimbingStairs" />
         <item itemvalue="Application.MissingNumber" />
         <item itemvalue="Application.ValidParenthesis" />
         <item itemvalue="Application.PascalsTriangle" />
         <item itemvalue="Application.ReverseBits" />
-        <item itemvalue="Application.HammingDistance" />
       </list>
     </recent_temporary>
   </component>
