@@ -17,5 +17,10 @@ public class BestTimeToBuyAndSellStock {
         }
         return maxProfit;
     }
-    
+
+    public static void main(String[] args) {
+        BestTimeToBuyAndSellStock bestTimeToBuyAndSellStock = new BestTimeToBuyAndSellStock();
+        int[] stocks = new int[] {7, 1, 5, 3, 6, 4};
+        System.out.println(bestTimeToBuyAndSellStock.maxProfit(stocks));
+    }
 }
