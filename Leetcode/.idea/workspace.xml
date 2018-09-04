@@ -251,7 +251,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.HammingDistance">
+  <component name="RunManager" selected="Application.ReverseBits">
     <configuration name="HammingDistance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Others.HammingDistance" />
       <module name="Leetcode" />
@@ -285,13 +285,13 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="PowerOfThree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Math.PowerOfThree" />
+    <configuration name="ReverseBits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Others.ReverseBits" />
       <module name="Leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Math.*" />
+          <option name="PATTERN" value="Others.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -349,19 +349,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.PowerOfThree" />
       <item itemvalue="Application.RomanToInteger" />
       <item itemvalue="Application.IntegerToRoman" />
       <item itemvalue="Application.HammingWeight" />
       <item itemvalue="Application.HammingDistance" />
+      <item itemvalue="Application.ReverseBits" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReverseBits" />
         <item itemvalue="Application.HammingDistance" />
         <item itemvalue="Application.HammingWeight" />
         <item itemvalue="Application.IntegerToRoman" />
         <item itemvalue="Application.RomanToInteger" />
-        <item itemvalue="Application.PowerOfThree" />
       </list>
     </recent_temporary>
   </component>
