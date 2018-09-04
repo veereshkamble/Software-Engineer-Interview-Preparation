@@ -107,8 +107,8 @@
       <file leaf-file-name="MissingNumber.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Others/MissingNumber.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+            <state relative-caret-position="430">
+              <caret line="40" column="67" selection-start-line="40" selection-start-column="67" selection-end-line="40" selection-end-column="67" />
             </state>
           </provider>
         </entry>
@@ -241,7 +241,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ValidParenthesis">
+  <component name="RunManager" selected="Application.MissingNumber">
     <configuration name="HammingDistance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Others.HammingDistance" />
       <module name="Leetcode" />
@@ -253,8 +253,8 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="HammingWeight" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Others.HammingWeight" />
+    <configuration name="MissingNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Others.MissingNumber" />
       <module name="Leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -339,19 +339,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.HammingWeight" />
       <item itemvalue="Application.HammingDistance" />
       <item itemvalue="Application.ReverseBits" />
       <item itemvalue="Application.PascalsTriangle" />
       <item itemvalue="Application.ValidParenthesis" />
+      <item itemvalue="Application.MissingNumber" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MissingNumber" />
         <item itemvalue="Application.ValidParenthesis" />
         <item itemvalue="Application.PascalsTriangle" />
         <item itemvalue="Application.ReverseBits" />
         <item itemvalue="Application.HammingDistance" />
-        <item itemvalue="Application.HammingWeight" />
       </list>
     </recent_temporary>
   </component>
@@ -817,8 +817,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Others/MissingNumber.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+        <state relative-caret-position="430">
+          <caret line="40" column="67" selection-start-line="40" selection-start-column="67" selection-end-line="40" selection-end-column="67" />
         </state>
       </provider>
     </entry>

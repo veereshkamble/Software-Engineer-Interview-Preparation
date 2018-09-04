@@ -32,4 +32,13 @@ public class MissingNumber {
         }
         return left;
     }
+
+    public static void main(String[] args) {
+        int[] nums = new int[] {9, 8, 4, 2, 1, 3, 0, 6, 5};
+        MissingNumber missingNumber = new MissingNumber();
+        System.out.println(missingNumber.missingNumberBitManipulation(nums));
+        System.out.println(missingNumber.missingNumberSum(nums));
+        System.out.println(missingNumber.missingNumberBinarySearch(nums));
+
+    }
 }
