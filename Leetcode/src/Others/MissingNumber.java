@@ -1,5 +1,7 @@
 package Others;
 
+import java.util.Arrays;
+
 public class MissingNumber {
 
     public int missingNumberBitManipulation(int[] nums) {
@@ -18,5 +20,16 @@ public class MissingNumber {
         for(int i=0; i<len; i++)
             sum-=nums[i];
         return sum;
+    }
+
+    public int missingNumberBinarySearch(int[] nums) { //binary search
+        Arrays.sort(nums);
+        int left = 0, right = nums.length, mid= (left + right)/2;
+        while(left<right){
+            mid = (left + right)/2;
+            if(nums[mid]>mid) right = mid;
+            else left = mid+1;
+        }
+        return left;
     }
 }
