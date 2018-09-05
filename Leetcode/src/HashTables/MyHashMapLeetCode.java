@@ -9,11 +9,13 @@ public class MyHashMapLeetCode {
 
     /**Initializing data structure here*/
     public MyHashMapLeetCode() {
+
         map = (List<Pair<Integer, Integer>>[]) new ArrayList[MAX_LEN];
     }
 
     /**Returns the corresponding bucket index */
     private int getIndex(int key) {
+
         return key % MAX_LEN;
     }
 
@@ -68,5 +70,17 @@ public class MyHashMapLeetCode {
         }
     }
 
+    public static void main(String[] args) {
+        MyHashMapLeetCode myHashMapLeetCode = new MyHashMapLeetCode();
+        myHashMapLeetCode.put(1,10);
+        myHashMapLeetCode.put(2,20);
+        myHashMapLeetCode.put(3,30);
+        System.out.println(myHashMapLeetCode.get(1));
+        System.out.println(myHashMapLeetCode.get(2));
+        System.out.println(myHashMapLeetCode.get(3));
 
+        myHashMapLeetCode.remove(2);
+        System.out.println(myHashMapLeetCode.get(2));
+
+    }
 }
