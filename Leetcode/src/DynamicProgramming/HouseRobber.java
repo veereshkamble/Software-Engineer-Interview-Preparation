@@ -21,7 +21,7 @@ public class HouseRobber {
         return dp[nums.length - 1];
     }
 
-    public int rob(int[] num) {
+    /*public int rob(int[] num) {
         int prevNo = 0;
         int prevYes = 0;
         for (int n : num) {
@@ -30,12 +30,25 @@ public class HouseRobber {
             prevYes = n + temp;
         }
         return Math.max(prevNo, prevYes);
+    }*/
+
+    public int robNotRob(int[] num) {
+        int rob = 0; //max monney can get if rob current house
+        int notrob = 0; //max money can get if not rob current house
+        for(int i=0; i<num.length; i++) {
+            int currob = notrob + num[i]; //if rob current value, previous house must not be robbed
+            notrob = Math.max(notrob, rob); //if not rob ith house, take the max value of robbed (i-1)th house and not rob (i-1)th house
+            rob = currob;
+        }
+        return Math.max(rob, notrob);
     }
 
     public static void main(String[] args) {
         HouseRobber houseRobber = new HouseRobber();
-        int[] nums = new int[] {7, 1, 1, 7};
+        int[] nums = new int[] {2, 7, 9, 3, 1};
         System.out.println(houseRobber.robDP(nums));
-        System.out.println(houseRobber.rob(nums));
+        //System.out.println(houseRobber.rob(nums));
+        System.out.println(houseRobber.robNotRob(nums));
+
     }
 }
