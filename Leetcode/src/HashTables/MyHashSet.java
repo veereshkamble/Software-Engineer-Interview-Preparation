@@ -8,14 +8,17 @@ public class MyHashSet {
 
     /* Initialize your data structure here*/
     public MyHashSet() {
+
         table = new boolean[buckets][];
     }
 
     public int hash(int key) {
+
         return key % buckets;
     }
 
     public int pos(int key) {
+        
         return key / buckets;
     }
 

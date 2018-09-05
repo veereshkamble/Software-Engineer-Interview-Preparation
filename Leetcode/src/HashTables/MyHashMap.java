@@ -9,13 +9,16 @@ public class MyHashMap {
 
     /* Initialize your data Structure here */
     public MyHashMap() {
+
         table = new int[buckets][];
     }
     public int hash(int key) {
+
         return key % buckets;
     }
 
     public int pos(int key) {
+
         return key / buckets;
     }
 
