@@ -167,7 +167,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BestTimeToBuyAndSellStock">
+  <component name="RunManager" selected="Application.MaximumSubArray">
     <configuration name="BestTimeToBuyAndSellStock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DynamicProgramming.BestTimeToBuyAndSellStock" />
       <module name="Leetcode" />
@@ -190,19 +190,19 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="MissingNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Others.MissingNumber" />
+    <configuration name="MaximumSubArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DynamicProgramming.MaximumSubArray" />
       <module name="Leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Others.*" />
+          <option name="PATTERN" value="DynamicProgramming.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="PascalsTriangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Others.PascalsTriangle" />
+    <configuration name="MissingNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Others.MissingNumber" />
       <module name="Leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -265,19 +265,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.PascalsTriangle" />
       <item itemvalue="Application.ValidParenthesis" />
       <item itemvalue="Application.MissingNumber" />
       <item itemvalue="Application.ClimbingStairs" />
       <item itemvalue="Application.BestTimeToBuyAndSellStock" />
+      <item itemvalue="Application.MaximumSubArray" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaximumSubArray" />
         <item itemvalue="Application.BestTimeToBuyAndSellStock" />
         <item itemvalue="Application.ClimbingStairs" />
         <item itemvalue="Application.MissingNumber" />
         <item itemvalue="Application.ValidParenthesis" />
-        <item itemvalue="Application.PascalsTriangle" />
       </list>
     </recent_temporary>
   </component>
