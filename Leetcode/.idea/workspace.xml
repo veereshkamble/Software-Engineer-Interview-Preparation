@@ -42,8 +42,8 @@
       <file leaf-file-name="HouseRobber.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/DynamicProgramming/HouseRobber.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="25" column="42" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
+            <state relative-caret-position="277">
+              <caret line="38" selection-start-line="38" selection-end-line="38" />
             </state>
           </provider>
         </entry>
@@ -353,14 +353,8 @@
           <properties />
           <option name="timeStamp" value="52" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/DynamicProgramming/HouseRobber.java</url>
-          <line>26</line>
-          <properties />
-          <option name="timeStamp" value="61" />
-        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="62" />
+      <option name="time" value="63" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
@@ -731,8 +725,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DynamicProgramming/HouseRobber.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="25" column="42" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
+        <state relative-caret-position="277">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
         </state>
       </provider>
     </entry>

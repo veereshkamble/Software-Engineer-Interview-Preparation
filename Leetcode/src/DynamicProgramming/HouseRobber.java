@@ -2,7 +2,7 @@ package DynamicProgramming;
 
 public class HouseRobber {
 
-    public int rob(int[] nums) {
+    public int robDP(int[] nums) {
         if (nums == null || nums.length == 0) {
             return 0;
         }
@@ -21,9 +21,21 @@ public class HouseRobber {
         return dp[nums.length - 1];
     }
 
+    public int rob(int[] num) {
+        int prevNo = 0;
+        int prevYes = 0;
+        for (int n : num) {
+            int temp = prevNo;
+            prevNo = Math.max(prevNo, prevYes);
+            prevYes = n + temp;
+        }
+        return Math.max(prevNo, prevYes);
+    }
+
     public static void main(String[] args) {
         HouseRobber houseRobber = new HouseRobber();
         int[] nums = new int[] {7, 1, 1, 7};
+        System.out.println(houseRobber.robDP(nums));
         System.out.println(houseRobber.rob(nums));
     }
 }
