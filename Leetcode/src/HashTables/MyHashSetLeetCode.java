@@ -8,6 +8,7 @@ public class MyHashSetLeetCode {
 
     /** Returns the corresponding bucket index. */
     private int getIndex(int key) {
+
         return key % MAX_LEN;
     }
 
@@ -29,6 +30,7 @@ public class MyHashSetLeetCode {
 
     /** Initialize your data structure here. */
     public MyHashSetLeetCode() {
+
         set = (List<Integer>[])new ArrayList[MAX_LEN];
     }
 
@@ -59,4 +61,6 @@ public class MyHashSetLeetCode {
         int pos = getPos(key, index);
         return pos >= 0;
     }
+
+    
 }
