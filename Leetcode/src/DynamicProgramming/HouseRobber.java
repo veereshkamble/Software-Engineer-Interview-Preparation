@@ -20,4 +20,10 @@ public class HouseRobber {
         }
         return dp[nums.length - 1];
     }
+
+    public static void main(String[] args) {
+        HouseRobber houseRobber = new HouseRobber();
+        int[] nums = new int[] {7, 1, 1, 7};
+        System.out.println(houseRobber.rob(nums));
+    }
 }
