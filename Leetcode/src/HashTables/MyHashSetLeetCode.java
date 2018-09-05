@@ -62,5 +62,14 @@ public class MyHashSetLeetCode {
         return pos >= 0;
     }
 
-    
+    public static void main(String[] args) {
+        MyHashSetLeetCode myHashSetLeetCode = new MyHashSetLeetCode();
+        myHashSetLeetCode.add(1);
+        myHashSetLeetCode.add(2);
+        System.out.println(myHashSetLeetCode.contains(3));
+        myHashSetLeetCode.add(2);
+        myHashSetLeetCode.remove(2);
+        System.out.println(myHashSetLeetCode.contains(2));
+        System.out.println(myHashSetLeetCode.contains(1));
+    }
 }
