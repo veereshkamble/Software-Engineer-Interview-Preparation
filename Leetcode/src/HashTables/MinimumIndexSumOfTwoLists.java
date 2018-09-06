@@ -27,4 +27,16 @@ public class MinimumIndexSumOfTwoLists {
         }
         return res.toArray(new String[res.size()]);
     }
+
+    public static void main(String[] args) {
+        MinimumIndexSumOfTwoLists minimumIndexSumOfTwoLists = new MinimumIndexSumOfTwoLists();
+        String[] list1 = {"Shogun", "Tapioca Express", "Burger King", "Piatti", "Hungry Hunter Steakhouse"};
+        String[] list2 = {"Piatti", "The Grill at Torrey Pines", "Hungry Hunter Steakhouse", "Shogun"};
+
+        String[] result = minimumIndexSumOfTwoLists.findRestaurant(list1, list2);
+
+        for(String string : result) {
+            System.out.println(string);
+        }
+    }
 }

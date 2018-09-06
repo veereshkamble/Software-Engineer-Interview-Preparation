@@ -90,8 +90,11 @@
       <file leaf-file-name="MinimumIndexSumOfTwoLists.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/HashTables/MinimumIndexSumOfTwoLists.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+            <state relative-caret-position="430">
+              <caret line="38" column="39" selection-start-line="38" selection-start-column="39" selection-end-line="38" selection-end-column="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -225,18 +228,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.IsomorphicStrings">
-    <configuration name="HouseRobber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DynamicProgramming.HouseRobber" />
-      <module name="Leetcode" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="DynamicProgramming.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
+  <component name="RunManager" selected="Application.MinimumIndexSumOfTwoLists">
     <configuration name="Intersection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HashTables.Intersection" />
       <module name="Leetcode" />
@@ -250,6 +242,17 @@
     </configuration>
     <configuration name="IsomorphicStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HashTables.IsomorphicStrings" />
+      <module name="Leetcode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HashTables.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="MinimumIndexSumOfTwoLists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HashTables.MinimumIndexSumOfTwoLists" />
       <module name="Leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -323,19 +326,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.HouseRobber" />
       <item itemvalue="Application.MyHashSetLeetCode" />
       <item itemvalue="Application.MyHashMapLeetCode" />
       <item itemvalue="Application.Intersection" />
       <item itemvalue="Application.IsomorphicStrings" />
+      <item itemvalue="Application.MinimumIndexSumOfTwoLists" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MinimumIndexSumOfTwoLists" />
         <item itemvalue="Application.IsomorphicStrings" />
         <item itemvalue="Application.Intersection" />
         <item itemvalue="Application.MyHashMapLeetCode" />
         <item itemvalue="Application.MyHashSetLeetCode" />
-        <item itemvalue="Application.HouseRobber" />
       </list>
     </recent_temporary>
   </component>
@@ -777,8 +780,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/HashTables/MinimumIndexSumOfTwoLists.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+        <state relative-caret-position="430">
+          <caret line="38" column="39" selection-start-line="38" selection-start-column="39" selection-end-line="38" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
