@@ -19,7 +19,9 @@ public class MinimumWindowSubstring {
             char c = s.charAt(end);
             if( map.containsKey(c) ){
                 map.put(c, map.get(c)-1);
-                if(map.get(c) == 0) counter--;
+                if(map.get(c) == 0) {
+                    counter--;
+                }
             }
             end++;
 

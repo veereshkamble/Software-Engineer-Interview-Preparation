@@ -12,9 +12,14 @@ public class SubstringConcatenation {
         int wl = L[0].length();
         Map<String, Integer> map = new HashMap<>(), curMap = new HashMap<>();
         for (String s : L) {
-            if (map.containsKey(s))   map.put(s, map.get(s) + 1);
-            else                      map.put(s, 1);
+            if (map.containsKey(s))   {
+                map.put(s, map.get(s) + 1);
+            }
+            else{
+                map.put(s, 1);
+            }
         }
+
         String str = null, tmp = null;
         for (int i = 0; i < wl; i++) {
             int count = 0;  // remark: reset count
@@ -22,17 +27,25 @@ public class SubstringConcatenation {
             for (int r = i; r + wl <= N; r += wl) {
                 str = S.substring(r, r + wl);
                 if (map.containsKey(str)) {
-                    if (curMap.containsKey(str))   curMap.put(str, curMap.get(str) + 1);
-                    else                           curMap.put(str, 1);
+                    if (curMap.containsKey(str)) {
+                        curMap.put(str, curMap.get(str) + 1);
+                    }
+                    else {
+                        curMap.put(str, 1);
+                    }
 
-                    if (curMap.get(str) <= map.get(str))    count++;
+                    if (curMap.get(str) <= map.get(str))  {
+                        count++;
+                    }
                     while (curMap.get(str) > map.get(str)) {
                         tmp = S.substring(start, start + wl);
                         curMap.put(tmp, curMap.get(tmp) - 1);
                         start += wl;
 
                         //the same as https://leetcode.com/problems/longest-substring-without-repeating-characters/
-                        if (curMap.get(tmp) < map.get(tmp)) count--;
+                        if (curMap.get(tmp) < map.get(tmp)) {
+                            count--;
+                        }
 
                     }
                     if (count == M) {

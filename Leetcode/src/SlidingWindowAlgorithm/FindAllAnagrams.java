@@ -5,7 +5,9 @@ public class FindAllAnagrams {
 
     public List<Integer> findAnagrams(String s, String t) {
         List<Integer> result = new LinkedList<>();
-        if(t.length()> s.length()) return result;
+        if(t.length()> s.length()) {
+            return result;
+        }
         Map<Character, Integer> map = new HashMap<>();
         for(char c : t.toCharArray()){
             map.put(c, map.getOrDefault(c, 0) + 1);
@@ -21,7 +23,9 @@ public class FindAllAnagrams {
             char c = s.charAt(end);
             if( map.containsKey(c) ){
                 map.put(c, map.get(c)-1);
-                if(map.get(c) == 0) counter--;
+                if(map.get(c) == 0) {
+                    counter--;
+                }
             }
             end++;
 
