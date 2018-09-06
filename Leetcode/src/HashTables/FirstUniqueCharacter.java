@@ -26,6 +26,12 @@ public class FirstUniqueCharacter {
             }
         }
 
+       /* for(char key : hashMap.keySet()) {
+            if(hashMap.get(key) == 1) {
+                return hashMap.get(key);
+            }
+        }*/
+
 
         return -1;
     }
