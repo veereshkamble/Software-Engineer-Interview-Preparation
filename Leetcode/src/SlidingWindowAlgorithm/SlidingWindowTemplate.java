@@ -19,7 +19,9 @@ public class SlidingWindowTemplate {
         }
 
         //maintain a counter to check whether we match the target string
-        int counter = hashMap.size(); // this must be the map size and not the string size because the characters may be duplicate.
+        // this must be the map size and not the string size because the characters may be duplicate.
+        int counter = hashMap.size();
+
 
         //Maintain two pointers: begin - left pointer of the window; end - right pointer of the window
         int begin = 0, end = 0;
