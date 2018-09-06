@@ -11,7 +11,7 @@ public class LongestConsecutiveSequence {
         return  false;
     }
 
-    public int longestSequence(int[] nums) {
+    public int longestSequenceBruteForce(int[] nums) {
         int longestStreak = 0;
 
         for(int num : nums) {
@@ -26,4 +26,10 @@ public class LongestConsecutiveSequence {
         }
         return longestStreak;
     }
+
+    public static void main(String[] args) {
+        
+    }
+
+
 }
