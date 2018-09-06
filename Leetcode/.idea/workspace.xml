@@ -87,7 +87,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MinimumIndexSumOfTwoLists.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MinimumIndexSumOfTwoLists.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/HashTables/MinimumIndexSumOfTwoLists.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="294">
@@ -95,6 +95,15 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FirstUniqueCharacter.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/HashTables/FirstUniqueCharacter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="141">
+              <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="26" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -125,7 +134,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Tries/MapSum.java" />
         <option value="$PROJECT_DIR$/src/Tries/ReplaceWords.java" />
         <option value="$PROJECT_DIR$/src/Tries/Pair.java" />
         <option value="$PROJECT_DIR$/src/Tries/AutoCompleteSystem.java" />
@@ -176,6 +184,7 @@
         <option value="$PROJECT_DIR$/src/HashTables/IsomorphicStringsLeetCode.java" />
         <option value="$PROJECT_DIR$/src/HashTables/IsomorphicStrings.java" />
         <option value="$PROJECT_DIR$/src/HashTables/MinimumIndexSumOfTwoLists.java" />
+        <option value="$PROJECT_DIR$/src/HashTables/FirstUniqueCharacter.java" />
       </list>
     </option>
   </component>
@@ -228,7 +237,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FirstUniqueCharacter">
+  <component name="RunManager" selected="Application.IntersectionII">
     <configuration name="FirstUniqueCharacter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HashTables.FirstUniqueCharacter" />
       <module name="Leetcode" />
@@ -251,6 +260,17 @@
         </pattern>
       </extension>
     </configuration>
+    <configuration name="IntersectionII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HashTables.IntersectionII" />
+      <module name="Leetcode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HashTables.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="IsomorphicStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HashTables.IsomorphicStrings" />
       <module name="Leetcode" />
@@ -264,17 +284,6 @@
     </configuration>
     <configuration name="MinimumIndexSumOfTwoLists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HashTables.MinimumIndexSumOfTwoLists" />
-      <module name="Leetcode" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="HashTables.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="MyHashMapLeetCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HashTables.MyHashMapLeetCode" />
       <module name="Leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -326,19 +335,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.MyHashMapLeetCode" />
       <item itemvalue="Application.Intersection" />
       <item itemvalue="Application.IsomorphicStrings" />
       <item itemvalue="Application.MinimumIndexSumOfTwoLists" />
       <item itemvalue="Application.FirstUniqueCharacter" />
+      <item itemvalue="Application.IntersectionII" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IntersectionII" />
         <item itemvalue="Application.FirstUniqueCharacter" />
         <item itemvalue="Application.MinimumIndexSumOfTwoLists" />
         <item itemvalue="Application.IsomorphicStrings" />
         <item itemvalue="Application.Intersection" />
-        <item itemvalue="Application.MyHashMapLeetCode" />
       </list>
     </recent_temporary>
   </component>
@@ -356,7 +365,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -419,13 +428,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Trees/InorderSuccessorInBSTRecursive.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Trees/InorderSuccessorinBST.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
@@ -785,6 +787,13 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HashTables/FirstUniqueCharacter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="26" selection-end-column="9" />
         </state>
       </provider>
     </entry>
