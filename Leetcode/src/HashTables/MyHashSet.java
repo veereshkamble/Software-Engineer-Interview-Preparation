@@ -18,7 +18,7 @@ public class MyHashSet {
     }
 
     public int pos(int key) {
-        
+
         return key / buckets;
     }
 
