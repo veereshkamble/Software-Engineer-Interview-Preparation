@@ -2,7 +2,7 @@ package Grammarly;
 
 public class LongestConsecutiveSequence {
 
-    private boolean arrayContains(int[] nums, int num) {
+    private static boolean arrayContains(int[] nums, int num) {
         for(int i = 0; i < nums.length; i++) {
             if(nums[i] == num) {
                 return true;
@@ -11,7 +11,7 @@ public class LongestConsecutiveSequence {
         return  false;
     }
 
-    public int longestSequenceBruteForce(int[] nums) {
+    public static int longestSequenceBruteForce(int[] nums) {
         int longestStreak = 0;
 
         for(int num : nums) {
@@ -27,8 +27,31 @@ public class LongestConsecutiveSequence {
         return longestStreak;
     }
 
+    public static int longestSequqenceSorting(int[] nums) {
+        if(nums.length == 0) {
+            return 0;
+        }
+
+        int longestStreak = 0;
+        int currentStreak = 1;
+
+        for(int i = 1; i < nums.length; i++) {
+            if(nums[i] != nums[i-1]) {
+                if(nums[i] == nums[i-1] + 1) {
+                    currentStreak += 1;
+                } else {
+                    longestStreak = Math.max(longestStreak, currentStreak);
+                    currentStreak = 1;
+                }
+            }
+        }
+        return longestStreak;
+    }
+
     public static void main(String[] args) {
-        
+        LongestConsecutiveSequence longestConsecutiveSequence = new LongestConsecutiveSequence();
+        int[] nums = new int[] {100, 4, 200, 1, 3, 2};
+        System.out.println(longestSequenceBruteForce(nums));
     }
 
 
