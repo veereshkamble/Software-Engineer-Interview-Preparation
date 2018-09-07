@@ -82,6 +82,7 @@ public class LongestConsecutiveSequence {
         int[] nums = new int[] {100, 4, 200, 1, 3, 2};
         System.out.println(longestSequenceBruteForce(nums));
         System.out.println(longestSequqenceSorting(nums));
+        System.out.println(longestSubsequenceHashSet(nums));
     }
 
 
