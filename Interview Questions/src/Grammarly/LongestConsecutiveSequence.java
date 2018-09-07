@@ -1,5 +1,7 @@
 package Grammarly;
 
+import java.util.Arrays;
+
 public class LongestConsecutiveSequence {
 
     private static boolean arrayContains(int[] nums, int num) {
@@ -31,6 +33,7 @@ public class LongestConsecutiveSequence {
         if(nums.length == 0) {
             return 0;
         }
+        Arrays.sort(nums);
 
         int longestStreak = 0;
         int currentStreak = 1;
@@ -52,6 +55,7 @@ public class LongestConsecutiveSequence {
         LongestConsecutiveSequence longestConsecutiveSequence = new LongestConsecutiveSequence();
         int[] nums = new int[] {100, 4, 200, 1, 3, 2};
         System.out.println(longestSequenceBruteForce(nums));
+        System.out.println(longestSequqenceSorting(nums));
     }
 
 
