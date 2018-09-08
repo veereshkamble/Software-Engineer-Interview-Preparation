@@ -217,7 +217,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SubstringConcatenation">
+  <component name="RunManager" selected="Application.LongestSubstringWithoutRepeatingCharacters">
     <configuration name="FindAllAnagrams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SlidingWindowAlgorithm.FindAllAnagrams" />
       <module name="Leetcode" />
@@ -229,17 +229,6 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="GroupAnagrams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HashTables.GroupAnagrams" />
-      <module name="Leetcode" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="HashTables.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
     <configuration name="LongestSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SlidingWindowAlgorithm.LongestSubstring" />
       <module name="Leetcode" />
@@ -247,6 +236,17 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="SlidingWindowAlgorithm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="LongestSubstringWithoutRepeatingCharacters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HashTables.LongestSubstringWithoutRepeatingCharacters" />
+      <module name="Leetcode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HashTables.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -315,19 +315,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.GroupAnagrams" />
       <item itemvalue="Application.ValidSudoku" />
       <item itemvalue="Application.LongestSubstring" />
       <item itemvalue="Application.FindAllAnagrams" />
       <item itemvalue="Application.SubstringConcatenation" />
+      <item itemvalue="Application.LongestSubstringWithoutRepeatingCharacters" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LongestSubstringWithoutRepeatingCharacters" />
         <item itemvalue="Application.SubstringConcatenation" />
         <item itemvalue="Application.FindAllAnagrams" />
         <item itemvalue="Application.LongestSubstring" />
         <item itemvalue="Application.ValidSudoku" />
-        <item itemvalue="Application.GroupAnagrams" />
       </list>
     </recent_temporary>
   </component>
