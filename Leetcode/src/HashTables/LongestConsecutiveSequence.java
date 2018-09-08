@@ -1,5 +1,7 @@
 package HashTables;
 
+import java.util.Arrays;
+
 public class LongestConsecutiveSequence {
 
     private static boolean arrayContains(int[] nums, int num) {
@@ -23,6 +25,28 @@ public class LongestConsecutiveSequence {
                 currentStreak += 1;
             }
             longestStreak = Math.max(longestStreak, currentStreak);
+        }
+        return longestStreak;
+    }
+
+    public static int longestSequqenceSorting(int[] nums) {
+        if(nums.length == 0) {
+            return 0;
+        }
+        Arrays.sort(nums);
+
+        int longestStreak = 0;
+        int currentStreak = 1;
+
+        for(int i = 1; i < nums.length; i++) {
+            if(nums[i] != nums[i-1]) {
+                if(nums[i] == nums[i-1] + 1) {
+                    currentStreak += 1;
+                } else {
+                    longestStreak = Math.max(longestStreak, currentStreak);
+                    currentStreak = 1;
+                }
+            }
         }
         return longestStreak;
     }
