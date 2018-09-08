@@ -58,8 +58,8 @@
       <file leaf-file-name="LongestConsecutiveSequence.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Grammarly/LongestConsecutiveSequence.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="477">
-              <caret line="77" column="5" lean-forward="true" selection-start-line="55" selection-start-column="4" selection-end-line="77" selection-end-column="5" />
+            <state relative-caret-position="375">
+              <caret line="79" column="4" lean-forward="true" selection-start-line="79" selection-start-column="4" selection-end-line="85" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1523#1532#0" expanded="true" />
@@ -556,8 +556,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Grammarly/LongestConsecutiveSequence.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="477">
-          <caret line="77" column="5" lean-forward="true" selection-start-line="55" selection-start-column="4" selection-end-line="77" selection-end-column="5" />
+        <state relative-caret-position="375">
+          <caret line="79" column="4" lean-forward="true" selection-start-line="79" selection-start-column="4" selection-end-line="85" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1523#1532#0" expanded="true" />

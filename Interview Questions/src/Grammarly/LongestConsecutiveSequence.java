@@ -84,6 +84,4 @@ public class LongestConsecutiveSequence {
         System.out.println(longestSequqenceSorting(nums));
         System.out.println(longestSubsequenceHashSet(nums));
     }
-
-
 }
