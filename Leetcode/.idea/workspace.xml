@@ -66,11 +66,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SlidingWindowTemplate.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SlidingWindowTemplate.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SlidingWindowAlgorithm/SlidingWindowTemplate.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-471">
               <caret line="21" column="101" selection-start-line="21" selection-start-column="101" selection-end-line="21" selection-end-column="101" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LongestConsecutiveSequence.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/HashTables/LongestConsecutiveSequence.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
@@ -101,7 +110,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Tries/TrieNodeXOR.java" />
         <option value="$PROJECT_DIR$/src/Tries/MaximumXOR.java" />
         <option value="$PROJECT_DIR$/src/Tries/PalindromePairs.java" />
         <option value="$PROJECT_DIR$/src/Tries/TrieNode.java" />
@@ -152,6 +160,7 @@
         <option value="$PROJECT_DIR$/src/SlidingWindowAlgorithm/MinimumWindowSubstring.java" />
         <option value="$PROJECT_DIR$/src/SlidingWindowAlgorithm/SubstringConcatenation.java" />
         <option value="$PROJECT_DIR$/src/SlidingWindowAlgorithm/SlidingWindowTemplate.java" />
+        <option value="$PROJECT_DIR$/src/HashTables/LongestConsecutiveSequence.java" />
       </list>
     </option>
   </component>
@@ -177,6 +186,12 @@
               <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="HashTables" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -383,13 +398,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Stacks/ReversePolishNotation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="43" column="66" selection-start-line="41" selection-start-column="7" selection-end-line="43" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/StringtoInteger.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
@@ -752,6 +760,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-471">
           <caret line="21" column="101" selection-start-line="21" selection-start-column="101" selection-end-line="21" selection-end-column="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HashTables/LongestConsecutiveSequence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>

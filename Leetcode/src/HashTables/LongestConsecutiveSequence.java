@@ -11,5 +11,19 @@ public class LongestConsecutiveSequence {
         return  false;
     }
 
-    
+    public static int longestSequenceBruteForce(int[] nums) {
+        int longestStreak = 0;
+
+        for(int num : nums) {
+            int currentNum = num;
+            int currentStreak = 1;
+
+            while(arrayContains(nums, currentNum + 1)) {
+                currentNum += 1;
+                currentStreak += 1;
+            }
+            longestStreak = Math.max(longestStreak, currentStreak);
+        }
+        return longestStreak;
+    }
 }
