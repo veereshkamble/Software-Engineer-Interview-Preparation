@@ -32,6 +32,15 @@ public class ThreeSum {
     }
 
     public static void main(String[] args) {
+        ThreeSum threeSum  = new ThreeSum();
+        int[] nums = new int[] {-1, 0, 1, 2, -1, -4};
+        List<List<Integer>> result = threeSum.threeSumThreeLoops(nums);
 
+        for(List list : result) {
+            for(Object num : list) {
+                System.out.print(num + " ");
+            }
+            System.out.println();
+        }
     }
 }
