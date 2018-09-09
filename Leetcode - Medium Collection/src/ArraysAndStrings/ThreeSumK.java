@@ -1,5 +1,8 @@
 package ArraysAndStrings;
 
+import java.util.HashSet;
+import java.util.Set;
+
 // Java program to find three element
 // from different three arrays such
 // that that a + b + c is equal to
@@ -21,6 +24,24 @@ public class ThreeSumK
                     if (a1[i] + a2[j] + a3[k] == sum)
                         return true;
 
+        return false;
+    }
+
+    public static boolean findTripletHashTable(int a1[], int a2[],
+                                               int a3[], int n1,
+                                               int n2, int n3, int sum) {
+        Set<Integer> hashSet = new HashSet<Integer>();
+        for(int i = 0; i < n1; i++) {
+            hashSet.add(a1[i]);
+        }
+
+        for(int j = 0; j < n2; j++) {
+            for(int k = 0; k < n3; k++) {
+                if (hashSet.contains(sum - (a2[j] + a2[k]))) {
+                    return true;
+                }
+            }
+        }
         return false;
     }
 
