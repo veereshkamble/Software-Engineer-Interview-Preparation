@@ -24,5 +24,21 @@ public class ThreeSumK
         return false;
     }
 
-    
+    // Driver code
+    public static void main (String[] args)
+    {
+        int a1[] = { 1 , 2 , 3 , 4 , 5 };
+        int a2[] = { 2 , 3 , 6 , 1 , 2 };
+        int a3[] = { 3 , 2 , 4 , 5 , 6 };
+        int sum = 9;
+
+        int n1 = a1.length;
+        int n2 = a2.length;
+        int n3 = a3.length;
+
+        if(findTriplet(a1, a2, a3, n1, n2, n3, sum))
+            System.out.print("Yes");
+        else
+            System.out.print("No");
+    }
 }
