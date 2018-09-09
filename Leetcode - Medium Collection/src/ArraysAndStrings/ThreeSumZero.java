@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
-public class ThreeSum {
+public class ThreeSumZero {
 
     public List<List<Integer>> threeSumThreeLoops(int[] nums) {
         List<List<Integer>> result = new ArrayList<>();
@@ -63,7 +63,7 @@ public class ThreeSum {
     }
 
     public static void main(String[] args) {
-        ThreeSum threeSum  = new ThreeSum();
+        ThreeSumZero threeSum  = new ThreeSumZero();
         int[] nums = new int[] {-1, 0, 1, 2, -1, -4};
         List<List<Integer>> result = threeSum.threeSumThreeLoops(nums);
 
