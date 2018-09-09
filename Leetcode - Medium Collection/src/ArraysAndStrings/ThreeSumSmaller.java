@@ -25,5 +25,10 @@ public class ThreeSumSmaller {
         return ans;
     }
 
-    
+    // Driver method to test the above function
+    public static void main(String[] args)
+    {
+        int sum = 12;
+        System.out.println(countTriplets(arr.length, sum));
+    }
 }
