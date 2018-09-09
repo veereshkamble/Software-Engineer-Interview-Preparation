@@ -15,7 +15,7 @@
       <file leaf-file-name="ThreeSumZero.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/ThreeSumZero.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
+            <state relative-caret-position="388">
               <caret line="52" column="24" selection-start-line="52" selection-start-column="24" selection-end-line="52" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -24,7 +24,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ThreeSumK.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ThreeSum.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/ThreeSum.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="354">
+              <caret line="59" column="1" selection-start-line="59" selection-start-column="1" selection-end-line="59" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#348#356#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ThreeSumK.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/ThreeSumK.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="354">
@@ -51,9 +64,9 @@
       <list>
         <option value="$PROJECT_DIR$/src/ArraysAndStrings.java" />
         <option value="$PROJECT_DIR$/src/ThreeSum.java" />
-        <option value="$PROJECT_DIR$/src/ArraysAndStrings/ThreeSum.java" />
         <option value="$PROJECT_DIR$/src/ArraysAndStrings/ThreeSumZero.java" />
         <option value="$PROJECT_DIR$/src/ArraysAndStrings/ThreeSumK.java" />
+        <option value="$PROJECT_DIR$/src/ArraysAndStrings/ThreeSum.java" />
       </list>
     </option>
   </component>
@@ -214,16 +227,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/ThreeSumZero.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="52" column="24" selection-start-line="52" selection-start-column="24" selection-end-line="52" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/ThreeSumK.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="354">
@@ -231,6 +234,34 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1000#1009#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ThreeSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/ThreeSumZero.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="52" column="24" selection-start-line="52" selection-start-column="24" selection-end-line="52" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/ThreeSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="59" column="1" selection-start-line="59" selection-start-column="1" selection-end-line="59" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#348#356#0" expanded="true" />
           </folding>
         </state>
       </provider>

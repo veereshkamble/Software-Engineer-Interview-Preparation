@@ -57,4 +57,18 @@ public class ThreeSum {
         }
         return pair;
     }
+
+    public static void main(String[] args)
+    {
+        int[] nums = { 12, 3, 6, 1, 6, 9 };
+        int sum = 24;
+
+        List<List<Integer> > triplets = findTriplets(nums, sum);
+
+        if (!triplets.isEmpty()) {
+            System.out.println(triplets);
+        } else {
+            System.out.println("No triplets can be formed");
+        }
+    }
 }
