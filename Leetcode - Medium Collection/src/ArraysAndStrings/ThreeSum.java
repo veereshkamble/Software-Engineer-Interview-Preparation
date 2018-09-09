@@ -1,8 +1,10 @@
+package ArraysAndStrings;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public class ArraysAndStrings {
+public class ThreeSum {
 
     public List<List<Integer>> threeSumThreeLoops(int[] nums) {
         List<List<Integer>> result = new ArrayList<>();
@@ -29,5 +31,7 @@ public class ArraysAndStrings {
         return result;
     }
 
-    
+    public static void main(String[] args) {
+
+    }
 }
