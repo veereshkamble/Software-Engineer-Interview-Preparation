@@ -49,8 +49,8 @@
       <file leaf-file-name="SetMatrixZeroes.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/SetMatrixZeroes.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+            <state relative-caret-position="467">
+              <caret line="85" column="33" selection-start-line="85" selection-start-column="33" selection-end-line="85" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -86,6 +86,7 @@
         <option value="$PROJECT_DIR$/src/ArraysAndStrings/ThreeSumK.java" />
         <option value="$PROJECT_DIR$/src/ArraysAndStrings/ThreeSum.java" />
         <option value="$PROJECT_DIR$/src/ArraysAndStrings/ThreeSumSmaller.java" />
+        <option value="$PROJECT_DIR$/src/ArraysAndStrings/SetMatrixZeroes.java" />
       </list>
     </option>
   </component>
@@ -138,7 +139,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.SetMatrixZeroes">
+    <configuration name="SetMatrixZeroes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArraysAndStrings.SetMatrixZeroes" />
+      <module name="Leetcode - Medium Collection" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ArraysAndStrings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="ThreeSumZero" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArraysAndStrings.ThreeSumZero" />
       <module name="Leetcode - Medium Collection" />
@@ -191,8 +203,13 @@
       <properties />
       <listeners />
     </configuration>
+    <list>
+      <item itemvalue="Application.ThreeSumZero" />
+      <item itemvalue="Application.SetMatrixZeroes" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SetMatrixZeroes" />
         <item itemvalue="Application.ThreeSumZero" />
       </list>
     </recent_temporary>
@@ -294,8 +311,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/SetMatrixZeroes.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+        <state relative-caret-position="467">
+          <caret line="85" column="33" selection-start-line="85" selection-start-column="33" selection-end-line="85" selection-end-column="33" />
         </state>
       </provider>
     </entry>
