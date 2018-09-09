@@ -61,5 +61,10 @@ public class ThreeSumK
             System.out.print("Yes");
         else
             System.out.print("No");
+
+        if(findTripletHashTable(a1, a2, a3, n1, n2, n3, sum))
+            System.out.print("Yes");
+        else
+            System.out.print("No");
     }
 }
