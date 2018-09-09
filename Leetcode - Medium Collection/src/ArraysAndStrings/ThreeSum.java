@@ -46,8 +46,12 @@ public class ThreeSum {
                     res.add(Arrays.asList(nums[i], nums[j], nums[k]));
                     j++;
                     k--;
-                    while (j < k && nums[j] == nums[j - 1]) j++;  // skip same result
-                    while (j < k && nums[k] == nums[k + 1]) k--;  // skip same result
+                    while (j < k && nums[j] == nums[j - 1]) {
+                        j++;  // skip same result
+                    }
+                    while (j < k && nums[k] == nums[k + 1]) {
+                        k--;  // skip same result
+                    }
                 } else if (nums[j] + nums[k] > target) {
                     k--;
                 } else {
@@ -64,6 +68,15 @@ public class ThreeSum {
         List<List<Integer>> result = threeSum.threeSumThreeLoops(nums);
 
         for(List list : result) {
+            for(Object num : list) {
+                System.out.print(num + " ");
+            }
+            System.out.println();
+        }
+
+        List<List<Integer>> result1 = threeSum.threeSumThreeLoops(nums);
+
+        for(List list : result1) {
             for(Object num : list) {
                 System.out.print(num + " ");
             }
