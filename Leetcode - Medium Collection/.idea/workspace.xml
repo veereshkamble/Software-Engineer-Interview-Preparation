@@ -185,9 +185,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LongestPalindromicSubstring">
+  <component name="RunManager" selected="Application.IncreasingTripletSubsequence">
     <configuration name="GroupAnagrams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArraysAndStrings.GroupAnagrams" />
+      <module name="Leetcode - Medium Collection" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ArraysAndStrings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="IncreasingTripletSubsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArraysAndStrings.IncreasingTripletSubsequence" />
       <module name="Leetcode - Medium Collection" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -221,17 +232,6 @@
     </configuration>
     <configuration name="SetMatrixZeroes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArraysAndStrings.SetMatrixZeroes" />
-      <module name="Leetcode - Medium Collection" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ArraysAndStrings.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="ThreeSumZero" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArraysAndStrings.ThreeSumZero" />
       <module name="Leetcode - Medium Collection" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -283,19 +283,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.ThreeSumZero" />
       <item itemvalue="Application.SetMatrixZeroes" />
       <item itemvalue="Application.GroupAnagrams" />
       <item itemvalue="Application.LongestSubstringWithoutRepeatingCharacters" />
       <item itemvalue="Application.LongestPalindromicSubstring" />
+      <item itemvalue="Application.IncreasingTripletSubsequence" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IncreasingTripletSubsequence" />
         <item itemvalue="Application.LongestPalindromicSubstring" />
         <item itemvalue="Application.LongestSubstringWithoutRepeatingCharacters" />
         <item itemvalue="Application.GroupAnagrams" />
         <item itemvalue="Application.SetMatrixZeroes" />
-        <item itemvalue="Application.ThreeSumZero" />
       </list>
     </recent_temporary>
   </component>

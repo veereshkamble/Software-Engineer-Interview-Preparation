@@ -12,4 +12,11 @@ public class IncreasingTripletSubsequence {
         }
         return false;
     }
+
+    public static void main(String[] args) {
+        int[] nums = new int[] {1,2,3,4,5};
+        IncreasingTripletSubsequence increasingTripletSubsequence = new IncreasingTripletSubsequence();
+        System.out.println(increasingTripletSubsequence.increasingTriplet(nums));
+        
+    }
 }
