@@ -88,11 +88,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IncreasingTripletSubsequence.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="IncreasingTripletSubsequence.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/IncreasingTripletSubsequence.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+            <state relative-caret-position="323">
+              <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PrintMissingElement.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/PrintMissingElement.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-272">
+              <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -133,6 +142,7 @@
         <option value="$PROJECT_DIR$/src/ArraysAndStrings/LongestSubstringWithoutRepeatingCharacters.java" />
         <option value="$PROJECT_DIR$/src/ArraysAndStrings/LongestPalindromicSubstring.java" />
         <option value="$PROJECT_DIR$/src/ArraysAndStrings/IncreasingTripletSubsequence.java" />
+        <option value="$PROJECT_DIR$/src/ArraysAndStrings/PrintMissingElement.java" />
       </list>
     </option>
   </component>
@@ -185,7 +195,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.IncreasingTripletSubsequence">
+  <component name="RunManager" selected="Application.PrintMissingElement">
     <configuration name="GroupAnagrams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArraysAndStrings.GroupAnagrams" />
       <module name="Leetcode - Medium Collection" />
@@ -230,8 +240,8 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="SetMatrixZeroes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArraysAndStrings.SetMatrixZeroes" />
+    <configuration name="PrintMissingElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArraysAndStrings.PrintMissingElement" />
       <module name="Leetcode - Medium Collection" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -283,19 +293,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.SetMatrixZeroes" />
       <item itemvalue="Application.GroupAnagrams" />
       <item itemvalue="Application.LongestSubstringWithoutRepeatingCharacters" />
       <item itemvalue="Application.LongestPalindromicSubstring" />
       <item itemvalue="Application.IncreasingTripletSubsequence" />
+      <item itemvalue="Application.PrintMissingElement" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PrintMissingElement" />
         <item itemvalue="Application.IncreasingTripletSubsequence" />
         <item itemvalue="Application.LongestPalindromicSubstring" />
         <item itemvalue="Application.LongestSubstringWithoutRepeatingCharacters" />
         <item itemvalue="Application.GroupAnagrams" />
-        <item itemvalue="Application.SetMatrixZeroes" />
       </list>
     </recent_temporary>
   </component>
@@ -430,8 +440,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/IncreasingTripletSubsequence.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+        <state relative-caret-position="323">
+          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/PrintMissingElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-272">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
         </state>
       </provider>
     </entry>
