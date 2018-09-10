@@ -19,4 +19,13 @@ public class AddTwoNumbers {
         }
         return head.next;
     }
+
+    public static  void main(String[] args) {
+        AddTwoNumbers addTwoNumbers = new AddTwoNumbers();
+        ListNode node1 = new ListNode(1);
+        ListNode node2 = new ListNode(2);
+
+        ListNode result = addTwoNumbers.addTwoNumbers(node1, node2);
+        System.out.println(result.val);
+    }
 }
