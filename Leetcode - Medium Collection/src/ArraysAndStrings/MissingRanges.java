@@ -48,4 +48,9 @@ public class MissingRanges {
         else
             return start+"->"+end;
     }
+
+    public static void main(String[] args) {
+        MissingRanges missingRanges = new MissingRanges();
+        System.out.println(missingRanges.findMissingRanges(new int[] {0, 1, 3, 50, 75}, 0, 99));
+    }
 }
