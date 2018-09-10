@@ -79,8 +79,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LongestPalindromicSubstring.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LongestPalindromicSubstring.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/LongestPalindromicSubstring.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IncreasingTripletSubsequence.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/IncreasingTripletSubsequence.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
               <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
@@ -123,6 +132,7 @@
         <option value="$PROJECT_DIR$/src/ArraysAndStrings/GroupAnagrams.java" />
         <option value="$PROJECT_DIR$/src/ArraysAndStrings/LongestSubstringWithoutRepeatingCharacters.java" />
         <option value="$PROJECT_DIR$/src/ArraysAndStrings/LongestPalindromicSubstring.java" />
+        <option value="$PROJECT_DIR$/src/ArraysAndStrings/IncreasingTripletSubsequence.java" />
       </list>
     </option>
   </component>
@@ -412,6 +422,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/LongestPalindromicSubstring.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/IncreasingTripletSubsequence.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
