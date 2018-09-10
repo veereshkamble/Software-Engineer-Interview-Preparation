@@ -175,9 +175,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LongestSubstringWithoutRepeatingCharacters">
+  <component name="RunManager" selected="Application.LongestPalindromicSubstring">
     <configuration name="GroupAnagrams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArraysAndStrings.GroupAnagrams" />
+      <module name="Leetcode - Medium Collection" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ArraysAndStrings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="LongestPalindromicSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArraysAndStrings.LongestPalindromicSubstring" />
       <module name="Leetcode - Medium Collection" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -266,9 +277,11 @@
       <item itemvalue="Application.SetMatrixZeroes" />
       <item itemvalue="Application.GroupAnagrams" />
       <item itemvalue="Application.LongestSubstringWithoutRepeatingCharacters" />
+      <item itemvalue="Application.LongestPalindromicSubstring" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LongestPalindromicSubstring" />
         <item itemvalue="Application.LongestSubstringWithoutRepeatingCharacters" />
         <item itemvalue="Application.GroupAnagrams" />
         <item itemvalue="Application.SetMatrixZeroes" />
