@@ -72,6 +72,6 @@ public class BSTDeleteRecursive {
         node7.right = null;
 
         BSTDeleteRecursive bstDeleteRecursive = new BSTDeleteRecursive();
-        System.out.println(bstDeleteRecursive.deleteNode(node5, 2));
+        System.out.println(bstDeleteRecursive.deleteNode(node5, 2).val);
     }
 }
