@@ -1,6 +1,8 @@
 package Trees;
 import java.util.*;
 
+//Queue approach seems easier, although stack approach is not too difficult.
+
 public class SymmetricTreeIterative {
 
     public boolean isSymmetric(TreeNode root) {

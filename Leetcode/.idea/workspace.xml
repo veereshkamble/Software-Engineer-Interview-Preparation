@@ -57,11 +57,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PostorderIterative.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PostorderIterative.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Trees/PostorderIterative.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
               <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SymmetricTreeIterative.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Trees/SymmetricTreeIterative.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-714">
+              <caret line="3" column="76" selection-start-line="3" selection-start-column="76" selection-end-line="3" selection-end-column="76" />
             </state>
           </provider>
         </entry>
@@ -119,7 +128,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Tries/MaximumXOR.java" />
         <option value="$PROJECT_DIR$/src/Tries/PalindromePairs.java" />
         <option value="$PROJECT_DIR$/src/Tries/TrieNode.java" />
         <option value="$PROJECT_DIR$/src/Tries/Trie.java" />
@@ -170,6 +178,7 @@
         <option value="$PROJECT_DIR$/src/SlidingWindowAlgorithm/SubstringConcatenation.java" />
         <option value="$PROJECT_DIR$/src/SlidingWindowAlgorithm/SlidingWindowTemplate.java" />
         <option value="$PROJECT_DIR$/src/HashTables/LongestConsecutiveSequence.java" />
+        <option value="$PROJECT_DIR$/src/Trees/SymmetricTreeIterative.java" />
       </list>
     </option>
   </component>
@@ -399,13 +408,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Design/ShuffleAnArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="61" column="50" selection-start-line="61" selection-start-column="50" selection-end-line="61" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Design/MinStack.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-117">
@@ -759,6 +761,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Trees/SymmetricTreeIterative.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-714">
+          <caret line="3" column="76" selection-start-line="3" selection-start-column="76" selection-end-line="3" selection-end-column="76" />
         </state>
       </provider>
     </entry>
