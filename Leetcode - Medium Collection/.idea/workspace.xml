@@ -114,7 +114,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AddTwoNumbers">
+  <component name="RunManager" selected="Application.BinaryTree">
     <configuration name="AddTwoNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LinkedList.AddTwoNumbers" />
       <module name="Leetcode - Medium Collection" />
@@ -126,19 +126,19 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="IncreasingTripletSubsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArraysAndStrings.IncreasingTripletSubsequence" />
+    <configuration name="BinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Trees.BinaryTree" />
       <module name="Leetcode - Medium Collection" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ArraysAndStrings.*" />
+          <option name="PATTERN" value="Trees.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="LongestPalindromicSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArraysAndStrings.LongestPalindromicSubstring" />
+    <configuration name="IncreasingTripletSubsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArraysAndStrings.IncreasingTripletSubsequence" />
       <module name="Leetcode - Medium Collection" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -212,19 +212,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.LongestPalindromicSubstring" />
       <item itemvalue="Application.IncreasingTripletSubsequence" />
       <item itemvalue="Application.PrintMissingElement" />
       <item itemvalue="Application.MissingRanges" />
       <item itemvalue="Application.AddTwoNumbers" />
+      <item itemvalue="Application.BinaryTree" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BinaryTree" />
         <item itemvalue="Application.AddTwoNumbers" />
         <item itemvalue="Application.MissingRanges" />
         <item itemvalue="Application.PrintMissingElement" />
         <item itemvalue="Application.IncreasingTripletSubsequence" />
-        <item itemvalue="Application.LongestPalindromicSubstring" />
       </list>
     </recent_temporary>
   </component>
