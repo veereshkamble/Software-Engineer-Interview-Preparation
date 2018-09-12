@@ -34,7 +34,24 @@ public class KthLargestELementInAStreamLeetcode {
             }
         }
 
-       
+        private Node root;
+        private int m_k;
+
+        public KthLargest(int k, int[] nums) {
+            root = null;
+            for (int i = 0; i < nums.length; ++i) {
+                root = insertNode(root, nums[i]);
+            }
+            m_k = k;
+        }
+
+        public int add(int val) {
+            root = insertNode(root, val);
+            return searchKth(root, m_k);
+        }
+    }
+
+    
 
 /**
  * Your KthLargest object will be instantiated and called as such:
