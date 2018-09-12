@@ -51,7 +51,18 @@ public class KthLargestELementInAStreamLeetcode {
         }
     }
 
-    
+    class Node {    // the structure for the tree node
+        Node left;
+        Node right;
+        int val;
+        int cnt;    // the size of the subtree rooted at the node
+        public Node (int v, int c) {
+            left = null;
+            right = null;
+            val = v;
+            cnt = c;
+        }
+    }
 
 /**
  * Your KthLargest object will be instantiated and called as such:
