@@ -18,7 +18,23 @@ public class KthLargestELementInAStreamLeetcode {
             return root;
         }
 
-  
+        private int searchKth(Node root, int k) {
+            // m = the size of right subtree
+            int m = root.right != null ? root.right.cnt : 0;
+            // root is the m+1 largest node in the BST
+            if (k == m + 1) {
+                return root.val;
+            }
+            if (k <= m) {
+                // find kth largest in the right subtree
+                return searchKth(root.right, k);
+            } else {
+                // find (k-m-1)th largest in the left subtree
+                return searchKth(root.left, k - m - 1);
+            }
+        }
+
+       
 
 /**
  * Your KthLargest object will be instantiated and called as such:
