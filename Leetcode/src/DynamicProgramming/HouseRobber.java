@@ -47,7 +47,7 @@ public class HouseRobber {
         HouseRobber houseRobber = new HouseRobber();
         int[] nums = new int[] {2, 7, 9, 3, 1};
         System.out.println(houseRobber.robDP(nums));
-        //System.out.println(houseRobber.rob(nums));
+        //`System.out.println(houseRobber.rob(nums));
         System.out.println(houseRobber.robNotRob(nums));
 
     }

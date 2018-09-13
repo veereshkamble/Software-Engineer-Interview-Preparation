@@ -12,33 +12,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="PostorderRecursive.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Trees/PostorderRecursive.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PreorderIterative.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Trees/PreorderIterative.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="33" lean-forward="true" selection-start-line="16" selection-start-column="12" selection-end-line="17" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PreorderIterativeLeetCode.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Trees/PreorderIterativeLeetCode.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="InorderIterative.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Trees/InorderIterative.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -84,11 +57,38 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="KthLargestELementInAStreamLeetcode.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="KthLargestELementInAStreamLeetcode.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Trees/KthLargestELementInAStreamLeetcode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="47" selection-start-line="2" selection-start-column="47" selection-end-line="2" selection-end-column="47" />
+            <state relative-caret-position="221">
+              <caret line="64" column="5" lean-forward="true" selection-start-line="53" selection-start-column="4" selection-end-line="64" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Trie.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Tries/Trie.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-323">
+              <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReplaceWords.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Tries/ReplaceWords.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-340">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HouseRobber.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/DynamicProgramming/HouseRobber.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="31" column="41" lean-forward="true" selection-start-line="31" selection-start-column="41" selection-end-line="31" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -128,7 +128,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Tries/TrieNode.java" />
         <option value="$PROJECT_DIR$/src/Tries/Trie.java" />
         <option value="$PROJECT_DIR$/src/Tries/WordSquares.java" />
         <option value="$PROJECT_DIR$/src/ArraysAndStrings/BuyAndSellStockII.java" />
@@ -162,7 +161,6 @@
         <option value="$PROJECT_DIR$/src/DynamicProgramming/ClimbingStairs.java" />
         <option value="$PROJECT_DIR$/src/DynamicProgramming/BestTimeToBuyAndSellStock.java" />
         <option value="$PROJECT_DIR$/src/DynamicProgramming/MaximumSubArray.java" />
-        <option value="$PROJECT_DIR$/src/DynamicProgramming/HouseRobber.java" />
         <option value="$PROJECT_DIR$/src/HashTables/MyHashSetLeetCode.java" />
         <option value="$PROJECT_DIR$/src/HashTables/MyHashMapLeetCode.java" />
         <option value="$PROJECT_DIR$/src/HashTables/MyHashMap.java" />
@@ -179,6 +177,8 @@
         <option value="$PROJECT_DIR$/src/HashTables/LongestConsecutiveSequence.java" />
         <option value="$PROJECT_DIR$/src/Trees/SymmetricTreeIterative.java" />
         <option value="$PROJECT_DIR$/src/Trees/BSTDeleteRecursive.java" />
+        <option value="$PROJECT_DIR$/src/Trees/KthLargestELementInAStreamLeetcode.java" />
+        <option value="$PROJECT_DIR$/src/DynamicProgramming/HouseRobber.java" />
       </list>
     </option>
   </component>
@@ -209,7 +209,7 @@
               <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Trees" type="462c0819:PsiDirectoryNode" />
+              <item name="DynamicProgramming" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -410,20 +410,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Math/RomanToInteger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Math/IntegerToRoman.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="57" selection-start-line="14" selection-start-column="57" selection-end-line="14" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Others/HammingWeight.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="918">
@@ -498,13 +484,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="311">
           <caret line="44" column="64" selection-start-line="44" selection-start-column="64" selection-end-line="44" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DynamicProgramming/HouseRobber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="49" column="10" selection-start-line="49" selection-start-column="10" selection-end-line="49" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -768,8 +747,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Trees/KthLargestELementInAStreamLeetcode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="47" selection-start-line="2" selection-start-column="47" selection-end-line="2" selection-end-column="47" />
+        <state relative-caret-position="221">
+          <caret line="64" column="5" lean-forward="true" selection-start-line="53" selection-start-column="4" selection-end-line="64" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tries/Trie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-323">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tries/ReplaceWords.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-340">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DynamicProgramming/HouseRobber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="31" column="41" lean-forward="true" selection-start-line="31" selection-start-column="41" selection-end-line="31" selection-end-column="41" />
         </state>
       </provider>
     </entry>
