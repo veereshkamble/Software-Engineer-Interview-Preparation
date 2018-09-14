@@ -16,7 +16,7 @@ public class SubArraySumEqualsK {
         return count;
     }
 
-    public int subarraySumCumulativeSum(int[] nums, int k) {
+    public int subarraySumCumulativeSumWithoutSpace(int[] nums, int k) {
         int count = 0;
         int[] sum = new int[nums.length + 1];
         sum[0] = 0;
