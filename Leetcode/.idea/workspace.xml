@@ -87,7 +87,7 @@
       <file leaf-file-name="HouseRobber.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/DynamicProgramming/HouseRobber.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
+            <state relative-caret-position="187">
               <caret line="31" column="41" lean-forward="true" selection-start-line="31" selection-start-column="41" selection-end-line="31" selection-end-column="41" />
             </state>
           </provider>
@@ -380,7 +380,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.39534885" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39534885" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -768,7 +768,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DynamicProgramming/HouseRobber.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
+        <state relative-caret-position="187">
           <caret line="31" column="41" lean-forward="true" selection-start-line="31" selection-start-column="41" selection-end-line="31" selection-end-column="41" />
         </state>
       </provider>
