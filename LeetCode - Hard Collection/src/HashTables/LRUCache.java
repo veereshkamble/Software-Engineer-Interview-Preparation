@@ -55,7 +55,23 @@ public class LRUCache {
         }
     }
 
-    
+    private void update(Node node){
+        remove(node);
+        add(node);
+    }
+    private void add(Node node){
+        Node after = head.next;
+        head.next = node;
+        node.prev = head;
+        node.next = after;
+        after.prev = node;
+    }
+
+    private void remove(Node node){
+        Node before = node.prev, after = node.next;
+        before.next = after;
+        after.prev = before;
+    }
 }
 
 /**
