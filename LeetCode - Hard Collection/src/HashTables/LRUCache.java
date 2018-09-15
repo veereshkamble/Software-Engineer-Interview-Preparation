@@ -12,7 +12,21 @@ public class LRUCache {
             this(0, 0);
         }
     }
+    private int capacity, count;
+    private Map<Integer, Node> map;
+    private Node head, tail;
 
+    public LRUCache(int capacity) {
+        this.capacity = capacity;
+        this.count = 0;
+        map = new HashMap<>();
+        head = new Node();
+        tail = new Node();
+        head.next = tail;
+        tail.prev = head;
+    }
+
+    
 }
 
 /**
