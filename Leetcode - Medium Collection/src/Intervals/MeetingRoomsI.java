@@ -30,4 +30,9 @@ public class MeetingRoomsI {
         return ((i1.start >= i2.start && i1.start < i2.end)
                 || (i2.start >= i1.start && i2.start < i1.end));
     }
+
+    private boolean overlapConcise(Interval i1, Interval i2) {
+        return (Math.min(i1.end, i2.end) >
+                Math.max(i1.start, i2.start));
+    }
 }
