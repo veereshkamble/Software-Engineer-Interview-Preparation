@@ -26,6 +26,35 @@ public class LRUCache {
         tail.prev = head;
     }
 
+    public int get(int key) {
+        Node n = map.get(key);
+        if(null==n){
+            return -1;
+        }
+        update(n);
+        return n.value;
+    }
+
+    public void put(int key, int value) {
+        Node n = map.get(key);
+        if(null==n){
+            n = new Node(key, value);
+            map.put(key, n);
+            add(n);
+            ++count;
+        }
+        else{
+            n.value = value;
+            update(n);
+        }
+        if(count>capacity){
+            Node toDel = tail.prev;
+            remove(toDel);
+            map.remove(toDel.key);
+            --count;
+        }
+    }
+
     
 }
 
