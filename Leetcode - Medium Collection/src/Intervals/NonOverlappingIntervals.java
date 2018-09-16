@@ -25,4 +25,23 @@ public class NonOverlappingIntervals {
         nottaken = erase_Overlap_Intervals(prev, curr + 1, intervals) + 1;
         return Math.min(taken, nottaken);
     }
+
+    public int eraseOverlapIntervalsGreedyApproachStartingPoint(Interval[] intervals) {
+        if (intervals.length == 0) {
+            return 0;
+        }
+        Arrays.sort(intervals, new myComparator());
+        int end = intervals[0].end, prev = 0, count = 0;
+        for (int i = 1; i < intervals.length; i++) {
+            if (intervals[prev].end > intervals[i].start) {
+                if (intervals[prev].end > intervals[i].end) {
+                    prev = i;
+                }
+                count++;
+            } else {
+                prev = i;
+            }
+        }
+        return count;
+    }
 }
