@@ -111,8 +111,20 @@
       <file leaf-file-name="MeetingRoomsII.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Intervals/MeetingRoomsII.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+            <state relative-caret-position="272">
+              <caret line="55" column="56" selection-start-line="55" selection-start-column="56" selection-end-line="55" selection-end-column="56" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#345#354#0" expanded="true" />
+                <element signature="e#519#520#0" expanded="true" />
+                <element signature="e#595#596#0" expanded="true" />
+                <element signature="e#826#827#0" expanded="true" />
+                <element signature="e#898#899#0" expanded="true" />
+                <element signature="e#2401#2402#0" expanded="true" />
+                <element signature="e#2461#2462#0" expanded="true" />
+                <element signature="e#2677#2678#0" expanded="true" />
+                <element signature="e#2737#2738#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -159,6 +171,7 @@
         <option value="$PROJECT_DIR$/src/Intervals/InsertInterval.java" />
         <option value="$PROJECT_DIR$/src/Intervals/MergeIntervals.java" />
         <option value="$PROJECT_DIR$/src/Intervals/MeetingRoomsI.java" />
+        <option value="$PROJECT_DIR$/src/Intervals/MeetingRoomsII.java" />
       </list>
     </option>
   </component>
@@ -724,8 +737,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Intervals/MeetingRoomsII.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+        <state relative-caret-position="272">
+          <caret line="55" column="56" selection-start-line="55" selection-start-column="56" selection-end-line="55" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#345#354#0" expanded="true" />
+            <element signature="e#519#520#0" expanded="true" />
+            <element signature="e#595#596#0" expanded="true" />
+            <element signature="e#826#827#0" expanded="true" />
+            <element signature="e#898#899#0" expanded="true" />
+            <element signature="e#2401#2402#0" expanded="true" />
+            <element signature="e#2461#2462#0" expanded="true" />
+            <element signature="e#2677#2678#0" expanded="true" />
+            <element signature="e#2737#2738#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
