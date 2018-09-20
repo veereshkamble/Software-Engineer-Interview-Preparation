@@ -27,8 +27,12 @@ public class ZigZagLevelOrderTraversalRecursive {
         }
 
         List<Integer> collection  = sol.get(level);
-        if(level % 2 == 0) collection.add(curr.val);
-        else collection.add(0, curr.val);
+        if(level % 2 == 0) {
+            collection.add(curr.val);
+        }
+        else {
+            collection.add(0, curr.val);
+        }
 
         travel(curr.left, sol, level + 1);
         travel(curr.right, sol, level + 1);
