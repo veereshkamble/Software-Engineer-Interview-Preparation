@@ -87,7 +87,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TreeLinkNode.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TreeLinkNode.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Trees/TreeLinkNode.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
@@ -100,20 +100,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LowestCommonAncestorBST.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Trees/LowestCommonAncestorBST.java">
+      <file leaf-file-name="InorderSuccessorInBST.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Trees/InorderSuccessorInBST.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="31" column="72" selection-start-line="31" selection-start-column="72" selection-end-line="31" selection-end-column="72" />
+            <state relative-caret-position="255">
+              <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UnivalueSubtrees.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Trees/UnivalueSubtrees.java">
+      <file leaf-file-name="NumberOfIslands.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Trees/NumberOfIslands.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+            <state relative-caret-position="629">
+              <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -171,6 +171,8 @@
         <option value="$PROJECT_DIR$/src/Trees/ConstructBinaryTreeFromInorderAndPreorderTraversal.java" />
         <option value="$PROJECT_DIR$/src/Trees/PopulateNextRightPointersInEachNode.java" />
         <option value="$PROJECT_DIR$/src/Trees/TreeLinkNode.java" />
+        <option value="$PROJECT_DIR$/src/Trees/InorderSuccessorInBST.java" />
+        <option value="$PROJECT_DIR$/src/Trees/NumberOfIslands.java" />
       </list>
     </option>
   </component>
@@ -386,20 +388,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/SpiralMatrixIII.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/StoneGame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/ContainerWithMostWater.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -746,6 +734,20 @@
             <element signature="e#170#171#0" expanded="true" />
             <element signature="e#200#201#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Trees/InorderSuccessorInBST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Trees/NumberOfIslands.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
         </state>
       </provider>
     </entry>
