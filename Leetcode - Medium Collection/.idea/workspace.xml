@@ -54,7 +54,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BinaryTreeInorderTraversal.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BinaryTreeInorderTraversal.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Trees/BinaryTreeInorderTraversal.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="425">
@@ -65,6 +65,24 @@
                 <element signature="e#569#578#0" expanded="true" />
                 <element signature="e#662#672#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConstructBinaryTreeFromInorderAndPreorderTraversal.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Trees/ConstructBinaryTreeFromInorderAndPreorderTraversal.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PopulateNextRightPointersInEachNode.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Trees/PopulateNextRightPointersInEachNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -137,6 +155,8 @@
         <option value="$PROJECT_DIR$/src/Trees/ZigZagLevelOrderTraversalQueue.java" />
         <option value="$PROJECT_DIR$/src/Trees/ZigZagLevelOrderTraversalRecursive.java" />
         <option value="$PROJECT_DIR$/src/Trees/BinaryTreeInorderTraversal.java" />
+        <option value="$PROJECT_DIR$/src/Trees/ConstructBinaryTreeFromInorderAndPreorderTraversal.java" />
+        <option value="$PROJECT_DIR$/src/Trees/PopulateNextRightPointersInEachNode.java" />
       </list>
     </option>
   </component>
@@ -352,20 +372,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Trees/LowetCommonAncestorPaths.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1139">
-          <caret line="67" column="42" selection-start-line="67" selection-start-column="42" selection-end-line="67" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Trees/LowestCommonAncestorRecursive.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1122">
-          <caret line="66" column="5" selection-start-line="66" selection-start-column="5" selection-end-line="66" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Trees/LowestCommonAncestorBST.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
@@ -708,6 +714,20 @@
             <element signature="e#569#578#0" expanded="true" />
             <element signature="e#662#672#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Trees/ConstructBinaryTreeFromInorderAndPreorderTraversal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Trees/PopulateNextRightPointersInEachNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
         </state>
       </provider>
     </entry>
