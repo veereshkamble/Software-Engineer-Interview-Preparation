@@ -49,6 +49,4 @@ public class PermutationsI {
         List<List<Integer>> result = permutationsI.permute(nums);
         System.out.println(result);
     }
-
-
 }
