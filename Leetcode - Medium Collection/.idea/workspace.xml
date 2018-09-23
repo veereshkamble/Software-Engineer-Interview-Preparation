@@ -105,8 +105,12 @@
       <file leaf-file-name="PermutationsI.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Backtracking/PermutationsI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="355">
+              <caret line="49" column="33" selection-start-line="49" selection-start-column="33" selection-end-line="49" selection-end-column="33" />
+              <folding>
+                <element signature="e#0#1122#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -220,7 +224,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PermutationsString">
+  <component name="RunManager" selected="Application.PermutationsI">
     <configuration name="AddTwoNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LinkedList.AddTwoNumbers" />
       <module name="Leetcode - Medium Collection" />
@@ -254,8 +258,8 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="PermutationsString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Backtracking.PermutationsString" />
+    <configuration name="PermutationsI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Backtracking.PermutationsI" />
       <module name="Leetcode - Medium Collection" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -265,13 +269,13 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="PrintMissingElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArraysAndStrings.PrintMissingElement" />
+    <configuration name="PermutationsString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Backtracking.PermutationsString" />
       <module name="Leetcode - Medium Collection" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ArraysAndStrings.*" />
+          <option name="PATTERN" value="Backtracking.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -318,19 +322,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.PrintMissingElement" />
       <item itemvalue="Application.MissingRanges" />
       <item itemvalue="Application.AddTwoNumbers" />
       <item itemvalue="Application.BinaryTree" />
       <item itemvalue="Application.PermutationsString" />
+      <item itemvalue="Application.PermutationsI" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PermutationsI" />
         <item itemvalue="Application.PermutationsString" />
         <item itemvalue="Application.BinaryTree" />
         <item itemvalue="Application.AddTwoNumbers" />
         <item itemvalue="Application.MissingRanges" />
-        <item itemvalue="Application.PrintMissingElement" />
       </list>
     </recent_temporary>
   </component>
@@ -739,8 +743,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Backtracking/PermutationsI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="355">
+          <caret line="49" column="33" selection-start-line="49" selection-start-column="33" selection-end-line="49" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#1122#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

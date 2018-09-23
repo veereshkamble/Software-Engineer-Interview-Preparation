@@ -1,5 +1,3 @@
-package Backtracking;
-
 /*Given a collection of distinct integers, return all possible permutations.
 
         Example:
@@ -13,7 +11,10 @@ package Backtracking;
         [2,3,1],
         [3,1,2],
         [3,2,1]
-        ]*/
+        ]
+        */
+
+package Backtracking;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -40,5 +41,14 @@ public class PermutationsI {
         }
     }
 
-    
+    public static void main(String[] args) {
+
+        int[] nums = new int[] {1, 2, 3};
+        PermutationsI permutationsI = new PermutationsI();
+
+        List<List<Integer>> result = permutationsI.permute(nums);
+        System.out.println(result);
+    }
+
+
 }
