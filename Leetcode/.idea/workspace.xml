@@ -57,11 +57,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CombineTwoTables.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CombineTwoTables.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Practice/CombineTwoTables.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
               <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PalindromeNumber.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Practice/PalindromeNumber.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -110,7 +119,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Tries/WordSquares.java" />
         <option value="$PROJECT_DIR$/src/ArraysAndStrings/BuyAndSellStockII.java" />
         <option value="$PROJECT_DIR$/src/ArraysAndStrings/RotateMatrix.java" />
         <option value="$PROJECT_DIR$/src/ArraysAndStrings/ReverseInteger.java" />
@@ -161,6 +169,7 @@
         <option value="$PROJECT_DIR$/src/Trees/KthLargestELementInAStreamLeetcode.java" />
         <option value="$PROJECT_DIR$/src/DynamicProgramming/HouseRobber.java" />
         <option value="$PROJECT_DIR$/src/Practice/CombineTwoTables.java" />
+        <option value="$PROJECT_DIR$/src/Practice/PalindromeNumber.java" />
       </list>
     </option>
   </component>
@@ -342,6 +351,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -391,13 +401,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/PascalTriangle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Others/PascalsTriangle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -745,6 +748,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Practice/PalindromeNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
         </state>
       </provider>
     </entry>
