@@ -15,7 +15,7 @@
       <file leaf-file-name="FindAllAnagrams.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SlidingWindowAlgorithm/FindAllAnagrams.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
+            <state relative-caret-position="476">
               <caret line="28" column="12" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="13" />
             </state>
           </provider>
@@ -24,7 +24,7 @@
       <file leaf-file-name="LongestSubstring.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SlidingWindowAlgorithm/LongestSubstring.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
+            <state relative-caret-position="136">
               <caret line="8" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
@@ -48,11 +48,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MinimumWindowSubstring.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MinimumWindowSubstring.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SlidingWindowAlgorithm/MinimumWindowSubstring.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="23" column="17" lean-forward="true" selection-start-line="21" selection-start-column="16" selection-end-line="23" selection-end-column="17" />
+            <state relative-caret-position="277">
+              <caret line="29" column="43" lean-forward="true" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CombineTwoTables.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Practice/CombineTwoTables.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -60,7 +69,7 @@
       <file leaf-file-name="SlidingWindowTemplate.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SlidingWindowAlgorithm/SlidingWindowTemplate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
+            <state relative-caret-position="357">
               <caret line="21" column="101" selection-start-line="21" selection-start-column="101" selection-end-line="21" selection-end-column="101" />
             </state>
           </provider>
@@ -69,7 +78,7 @@
       <file leaf-file-name="SubstringConcatenation.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SlidingWindowAlgorithm/SubstringConcatenation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="669">
+            <state relative-caret-position="782">
               <caret line="46" column="28" selection-start-line="46" selection-start-column="28" selection-end-line="46" selection-end-column="28" />
             </state>
           </provider>
@@ -101,7 +110,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Tries/Trie.java" />
         <option value="$PROJECT_DIR$/src/Tries/WordSquares.java" />
         <option value="$PROJECT_DIR$/src/ArraysAndStrings/BuyAndSellStockII.java" />
         <option value="$PROJECT_DIR$/src/ArraysAndStrings/RotateMatrix.java" />
@@ -152,6 +160,7 @@
         <option value="$PROJECT_DIR$/src/Trees/BSTDeleteRecursive.java" />
         <option value="$PROJECT_DIR$/src/Trees/KthLargestELementInAStreamLeetcode.java" />
         <option value="$PROJECT_DIR$/src/DynamicProgramming/HouseRobber.java" />
+        <option value="$PROJECT_DIR$/src/Practice/CombineTwoTables.java" />
       </list>
     </option>
   </component>
@@ -165,6 +174,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -182,14 +193,12 @@
               <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="SlidingWindowAlgorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="Practice" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="RunDashboard">
@@ -333,11 +342,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32968536" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
@@ -348,7 +355,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20963542" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20963542" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
@@ -361,6 +368,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32968536" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -383,13 +391,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/PascalsTriangle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/PascalTriangle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -527,9 +528,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-          <folding>
-            <element signature="e#242#262#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -696,14 +694,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/SlidingWindowAlgorithm/SubstringConcatenation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="669">
+        <state relative-caret-position="782">
           <caret line="46" column="28" selection-start-line="46" selection-start-column="28" selection-end-line="46" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/SlidingWindowAlgorithm/LongestSubstring.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
+        <state relative-caret-position="136">
           <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
@@ -724,22 +722,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/SlidingWindowAlgorithm/SlidingWindowTemplate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
+        <state relative-caret-position="357">
           <caret line="21" column="101" selection-start-line="21" selection-start-column="101" selection-end-line="21" selection-end-column="101" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/SlidingWindowAlgorithm/FindAllAnagrams.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
+        <state relative-caret-position="476">
           <caret line="28" column="12" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/SlidingWindowAlgorithm/MinimumWindowSubstring.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="23" column="17" lean-forward="true" selection-start-line="21" selection-start-column="16" selection-end-line="23" selection-end-column="17" />
+        <state relative-caret-position="277">
+          <caret line="29" column="43" lean-forward="true" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Practice/CombineTwoTables.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
