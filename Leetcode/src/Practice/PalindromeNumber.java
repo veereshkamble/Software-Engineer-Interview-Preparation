@@ -2,7 +2,7 @@ package Practice;
 
 public class PalindromeNumber {
 
-    public class Solution {
+
         public boolean IsPalindrome(int x) {
             // Special cases:
             // As discussed above, when x < 0, x is not a palindrome.
@@ -24,5 +24,11 @@ public class PalindromeNumber {
             // since the middle digit doesn't matter in palidrome(it will always equal to itself), we can simply get rid of it.
             return x == revertedNumber || x == revertedNumber/10;
         }
-    }
+
+
+        public static void main(String[] args) {
+
+            PalindromeNumber palindromeNumber = new PalindromeNumber();
+            System.out.println(palindromeNumber.IsPalindrome(1221));
+        }
 }

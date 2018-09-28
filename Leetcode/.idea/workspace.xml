@@ -222,7 +222,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MinimumWindowSubstring">
+  <component name="RunManager" selected="Application.PalindromeNumber">
     <configuration name="BSTDeleteRecursive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Trees.BSTDeleteRecursive" />
       <module name="Leetcode" />
@@ -230,17 +230,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Trees.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="FindAllAnagrams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SlidingWindowAlgorithm.FindAllAnagrams" />
-      <module name="Leetcode" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SlidingWindowAlgorithm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -263,6 +252,17 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="SlidingWindowAlgorithm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="PalindromeNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practice.PalindromeNumber" />
+      <module name="Leetcode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -320,19 +320,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.FindAllAnagrams" />
       <item itemvalue="Application.SubstringConcatenation" />
       <item itemvalue="Application.LongestSubstringWithoutRepeatingCharacters" />
       <item itemvalue="Application.BSTDeleteRecursive" />
       <item itemvalue="Application.MinimumWindowSubstring" />
+      <item itemvalue="Application.PalindromeNumber" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PalindromeNumber" />
         <item itemvalue="Application.MinimumWindowSubstring" />
         <item itemvalue="Application.BSTDeleteRecursive" />
         <item itemvalue="Application.LongestSubstringWithoutRepeatingCharacters" />
         <item itemvalue="Application.SubstringConcatenation" />
-        <item itemvalue="Application.FindAllAnagrams" />
       </list>
     </recent_temporary>
   </component>
