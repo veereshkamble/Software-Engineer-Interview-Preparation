@@ -39,6 +39,8 @@ public class MostCommonWord {
 
     public static void main(String[] args) {
         MostCommonWord mostCommonWord = new MostCommonWord();
-        
+        String[] banned = {"hit"};
+        String paragraph = "Bob hit a ball, the hit BALL flew far after it was hit.";
+        System.out.println(mostCommonWord.mostCommonWord(paragraph, banned));
     }
 }

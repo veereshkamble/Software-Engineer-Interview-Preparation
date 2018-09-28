@@ -231,7 +231,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PalindromeNumber">
+  <component name="RunManager" selected="Application.MostCommonWord">
     <configuration name="BSTDeleteRecursive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Trees.BSTDeleteRecursive" />
       <module name="Leetcode" />
@@ -265,8 +265,8 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="PalindromeNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practice.PalindromeNumber" />
+    <configuration name="MostCommonWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practice.MostCommonWord" />
       <module name="Leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -276,13 +276,13 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="SubstringConcatenation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SlidingWindowAlgorithm.SubstringConcatenation" />
+    <configuration name="PalindromeNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practice.PalindromeNumber" />
       <module name="Leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SlidingWindowAlgorithm.*" />
+          <option name="PATTERN" value="Practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -329,19 +329,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.SubstringConcatenation" />
       <item itemvalue="Application.LongestSubstringWithoutRepeatingCharacters" />
       <item itemvalue="Application.BSTDeleteRecursive" />
       <item itemvalue="Application.MinimumWindowSubstring" />
       <item itemvalue="Application.PalindromeNumber" />
+      <item itemvalue="Application.MostCommonWord" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MostCommonWord" />
         <item itemvalue="Application.PalindromeNumber" />
         <item itemvalue="Application.MinimumWindowSubstring" />
         <item itemvalue="Application.BSTDeleteRecursive" />
         <item itemvalue="Application.LongestSubstringWithoutRepeatingCharacters" />
-        <item itemvalue="Application.SubstringConcatenation" />
       </list>
     </recent_temporary>
   </component>
