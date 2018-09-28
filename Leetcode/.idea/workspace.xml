@@ -21,15 +21,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LongestSubstring.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/SlidingWindowAlgorithm/LongestSubstring.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="LongestSubstringII.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SlidingWindowAlgorithm/LongestSubstringII.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -87,11 +78,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DiameterOfBinaryTree.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DiameterOfBinaryTree.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Trees/DiameterOfBinaryTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+            <state relative-caret-position="306">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BigCountries.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/BigCountries.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="25" selection-start-column="25" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -131,7 +131,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/ArraysAndStrings/RotateMatrix.java" />
         <option value="$PROJECT_DIR$/src/ArraysAndStrings/ReverseInteger.java" />
         <option value="$PROJECT_DIR$/src/ArraysAndStrings/ValidAnagram.java" />
         <option value="$PROJECT_DIR$/src/ArraysAndStrings/ValidPalindrome.java" />
@@ -182,6 +181,7 @@
         <option value="$PROJECT_DIR$/src/Practice/CombineTwoTables.java" />
         <option value="$PROJECT_DIR$/src/Practice/PalindromeNumber.java" />
         <option value="$PROJECT_DIR$/src/Practice/MostCommonWord.java" />
+        <option value="$PROJECT_DIR$/src/Trees/DiameterOfBinaryTree.java" />
       </list>
     </option>
   </component>
@@ -214,7 +214,7 @@
               <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Trees" type="462c0819:PsiDirectoryNode" />
+              <item name="Practice" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -413,13 +413,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Others/MissingNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="40" column="67" selection-start-line="40" selection-start-column="67" selection-end-line="40" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/HashTables/MyHashSetLeetCode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -768,8 +761,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Trees/DiameterOfBinaryTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+        <state relative-caret-position="306">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BigCountries.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="25" selection-start-column="25" selection-end-column="25" />
         </state>
       </provider>
     </entry>
