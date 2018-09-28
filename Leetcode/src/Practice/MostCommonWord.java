@@ -36,4 +36,9 @@ public class MostCommonWord {
 
         return ans;
     }
+
+    public static void main(String[] args) {
+        MostCommonWord mostCommonWord = new MostCommonWord();
+        
+    }
 }
