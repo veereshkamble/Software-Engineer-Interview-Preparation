@@ -27,4 +27,13 @@ public class PermutationsII {
             }
         }
     }
+
+    public static void main(String[] args) {
+
+        int[] nums = new int[] {1, 2, 2};
+        PermutationsII permutationsII = new PermutationsII();
+
+        List<List<Integer>> result = permutationsII.permuteUnique(nums);
+        System.out.println(result);
+    }
 }

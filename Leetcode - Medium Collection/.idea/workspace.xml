@@ -225,7 +225,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PermutationsI">
+  <component name="RunManager" selected="Application.PermutationsII">
     <configuration name="AddTwoNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LinkedList.AddTwoNumbers" />
       <module name="Leetcode - Medium Collection" />
@@ -248,19 +248,19 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="MissingRanges" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArraysAndStrings.MissingRanges" />
+    <configuration name="PermutationsI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Backtracking.PermutationsI" />
       <module name="Leetcode - Medium Collection" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ArraysAndStrings.*" />
+          <option name="PATTERN" value="Backtracking.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="PermutationsI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Backtracking.PermutationsI" />
+    <configuration name="PermutationsII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Backtracking.PermutationsII" />
       <module name="Leetcode - Medium Collection" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -323,19 +323,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.MissingRanges" />
       <item itemvalue="Application.AddTwoNumbers" />
       <item itemvalue="Application.BinaryTree" />
       <item itemvalue="Application.PermutationsString" />
       <item itemvalue="Application.PermutationsI" />
+      <item itemvalue="Application.PermutationsII" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PermutationsII" />
         <item itemvalue="Application.PermutationsI" />
         <item itemvalue="Application.PermutationsString" />
         <item itemvalue="Application.BinaryTree" />
         <item itemvalue="Application.AddTwoNumbers" />
-        <item itemvalue="Application.MissingRanges" />
       </list>
     </recent_temporary>
   </component>
