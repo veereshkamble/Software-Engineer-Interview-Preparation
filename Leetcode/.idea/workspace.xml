@@ -75,11 +75,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MostCommonWord.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MostCommonWord.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Practice/MostCommonWord.java">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="328">
+              <caret line="43" column="77" selection-start-line="43" selection-start-column="77" selection-end-line="43" selection-end-column="77" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DiameterOfBinaryTree.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Trees/DiameterOfBinaryTree.java">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
-              <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+              <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -89,15 +101,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="357">
               <caret line="21" column="101" selection-start-line="21" selection-start-column="101" selection-end-line="21" selection-end-column="101" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SubstringConcatenation.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/SlidingWindowAlgorithm/SubstringConcatenation.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="782">
-              <caret line="46" column="28" selection-start-line="46" selection-start-column="28" selection-end-line="46" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -128,7 +131,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/ArraysAndStrings/BuyAndSellStockII.java" />
         <option value="$PROJECT_DIR$/src/ArraysAndStrings/RotateMatrix.java" />
         <option value="$PROJECT_DIR$/src/ArraysAndStrings/ReverseInteger.java" />
         <option value="$PROJECT_DIR$/src/ArraysAndStrings/ValidAnagram.java" />
@@ -179,6 +181,7 @@
         <option value="$PROJECT_DIR$/src/DynamicProgramming/HouseRobber.java" />
         <option value="$PROJECT_DIR$/src/Practice/CombineTwoTables.java" />
         <option value="$PROJECT_DIR$/src/Practice/PalindromeNumber.java" />
+        <option value="$PROJECT_DIR$/src/Practice/MostCommonWord.java" />
       </list>
     </option>
   </component>
@@ -211,7 +214,7 @@
               <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Practice" type="462c0819:PsiDirectoryNode" />
+              <item name="Trees" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -410,13 +413,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Others/ValidParenthesis.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="65" selection-start-line="30" selection-start-column="65" selection-end-line="30" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Others/MissingNumber.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
@@ -762,8 +758,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Practice/MostCommonWord.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="43" column="77" selection-start-line="43" selection-start-column="77" selection-end-line="43" selection-end-column="77" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Trees/DiameterOfBinaryTree.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+          <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
         </state>
       </provider>
     </entry>
