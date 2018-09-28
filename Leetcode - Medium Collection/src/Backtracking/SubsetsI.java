@@ -21,4 +21,13 @@ public class SubsetsI {
             tempList.remove(tempList.size() - 1);
         }
     }
+
+    public static void main(String[] args) {
+
+        int[] nums = new int[] {1, 2, 3};
+        SubsetsI subsetsI = new SubsetsI();
+
+        List<List<Integer>> result = subsetsI.subsets(nums);
+        System.out.println(result);
+    }
 }
