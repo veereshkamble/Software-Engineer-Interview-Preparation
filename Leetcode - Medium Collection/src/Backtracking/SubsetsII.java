@@ -22,4 +22,13 @@ public class SubsetsII {
             tempList.remove(tempList.size() - 1);
         }
     }
+
+    public static void main(String[] args) {
+
+        int[] nums = new int[] {1, 2, 3};
+        SubsetsII subsetsII = new SubsetsII();
+
+        List<List<Integer>> result = subsetsII.subsetsWithDup(nums);
+        System.out.println(result);
+    }
 }
