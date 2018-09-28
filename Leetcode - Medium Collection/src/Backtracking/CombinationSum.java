@@ -25,5 +25,11 @@ public class CombinationSum {
         }
     }
 
-    
+    public static void main(String[] args) {
+        CombinationSum combinationSum = new CombinationSum();
+        int[] candidates = new int[] {2,3,6,7};
+        int target = 7;
+
+        System.out.println(combinationSum.combinationSum(candidates, target));
+    }
 }

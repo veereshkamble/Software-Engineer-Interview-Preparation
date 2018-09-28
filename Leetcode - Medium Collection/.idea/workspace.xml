@@ -185,7 +185,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SubsetsII">
+  <component name="RunManager" selected="Application.CombinationSum">
+    <configuration name="CombinationSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Backtracking.CombinationSum" />
+      <module name="Leetcode - Medium Collection" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Backtracking.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="PermutationsI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Backtracking.PermutationsI" />
       <module name="Leetcode - Medium Collection" />
@@ -199,17 +210,6 @@
     </configuration>
     <configuration name="PermutationsII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Backtracking.PermutationsII" />
-      <module name="Leetcode - Medium Collection" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Backtracking.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="PermutationsString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Backtracking.PermutationsString" />
       <module name="Leetcode - Medium Collection" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -283,19 +283,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.PermutationsString" />
       <item itemvalue="Application.PermutationsI" />
       <item itemvalue="Application.PermutationsII" />
       <item itemvalue="Application.SubsetsI" />
       <item itemvalue="Application.SubsetsII" />
+      <item itemvalue="Application.CombinationSum" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CombinationSum" />
         <item itemvalue="Application.SubsetsII" />
         <item itemvalue="Application.SubsetsI" />
         <item itemvalue="Application.PermutationsII" />
         <item itemvalue="Application.PermutationsI" />
-        <item itemvalue="Application.PermutationsString" />
       </list>
     </recent_temporary>
   </component>
