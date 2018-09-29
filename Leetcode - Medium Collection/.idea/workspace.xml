@@ -37,11 +37,36 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GenerateParanthesisBruteForce.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GenerateParanthesisBruteForce.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Backtracking/GenerateParanthesisBruteForce.java">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WordSearch.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Backtracking/WordSearch.java">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="429">
-              <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+              <caret line="41" column="49" selection-start-line="41" selection-start-column="49" selection-end-line="41" selection-end-column="49" />
+              <folding>
+                <element signature="e#1200#1201#0" expanded="true" />
+                <element signature="e#1255#1256#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SortColors.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/SortingAndSearching/SortColors.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -58,8 +83,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/ArraysAndStrings/ThreeSum.java" />
-        <option value="$PROJECT_DIR$/src/ArraysAndStrings/ThreeSumSmaller.java" />
         <option value="$PROJECT_DIR$/src/ArraysAndStrings/SetMatrixZeroes.java" />
         <option value="$PROJECT_DIR$/src/ArraysAndStrings/GroupAnagrams.java" />
         <option value="$PROJECT_DIR$/src/ArraysAndStrings/LongestSubstringWithoutRepeatingCharacters.java" />
@@ -109,6 +132,8 @@
         <option value="$PROJECT_DIR$/src/Backtracking/LetterCombinationsOfAPhoneNumber.java" />
         <option value="$PROJECT_DIR$/src/Backtracking/GenerateParanthesis.java" />
         <option value="$PROJECT_DIR$/src/Backtracking/GenerateParanthesisBruteForce.java" />
+        <option value="$PROJECT_DIR$/src/Backtracking/WordSearch.java" />
+        <option value="$PROJECT_DIR$/src/SortingAndSearching/SortColors.java" />
       </list>
     </option>
   </component>
@@ -139,7 +164,7 @@
               <item name="Leetcode - Medium Collection" type="b2602c69:ProjectViewProjectNode" />
               <item name="Leetcode - Medium Collection" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Backtracking" type="462c0819:PsiDirectoryNode" />
+              <item name="SortingAndSearching" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -301,11 +326,11 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.29685363" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.29685363" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -329,14 +354,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/ThreeSum.java" />
-    <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/ThreeSumZero.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="52" column="24" selection-start-line="52" selection-start-column="24" selection-end-line="52" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/ThreeSum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1224">
@@ -705,8 +722,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Backtracking/GenerateParanthesisBruteForce.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Backtracking/WordSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="429">
-          <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+          <caret line="41" column="49" selection-start-line="41" selection-start-column="49" selection-end-line="41" selection-end-column="49" />
+          <folding>
+            <element signature="e#1200#1201#0" expanded="true" />
+            <element signature="e#1255#1256#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SortingAndSearching/SortColors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
         </state>
       </provider>
     </entry>
