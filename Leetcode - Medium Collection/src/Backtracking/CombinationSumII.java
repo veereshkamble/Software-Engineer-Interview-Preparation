@@ -25,4 +25,12 @@ public class CombinationSumII {
             }
         }
     }
+
+    public static void main(String[] args) {
+        CombinationSumII combinationSum = new CombinationSumII();
+        int[] candidates = new int[] {10,1,2,7,6,1,5};
+        int target = ;
+
+        System.out.println(combinationSum.combinationSum2(candidates, target));
+    }
 }
