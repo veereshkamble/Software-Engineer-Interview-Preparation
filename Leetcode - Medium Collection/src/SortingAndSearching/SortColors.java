@@ -34,7 +34,7 @@ public class SortColors {
         }
     }
 
-    void sortColors(int A[], int n) {
+    void sortColorsA(int A[], int n) {
         int j = 0, k = n - 1;
         for (int i = 0; i <= k; ++i){
             if (A[i] == 0 && i != j)
@@ -45,7 +45,7 @@ public class SortColors {
     }
 
     // one pass in place solution
-    void sortColors(int A[], int n) {
+    void sortColorsB(int A[], int n) {
         int j = 0, k = n-1;
         for (int i=0; i <= k; i++) {
             if (A[i] == 0)
@@ -53,5 +53,9 @@ public class SortColors {
             else if (A[i] == 2)
                 swap(A[i--], A[k--]);
         }
+    }
+
+    public void swap(int i, int j) {
+
     }
 }
