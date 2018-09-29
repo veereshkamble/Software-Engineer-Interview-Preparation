@@ -25,11 +25,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GenerateParanthesis.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GenerateParanthesis.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Backtracking/GenerateParanthesis.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+            <state relative-caret-position="327">
+              <caret line="48" selection-start-line="48" selection-end-line="48" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GenerateParanthesisBruteForce.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Backtracking/GenerateParanthesisBruteForce.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="429">
+              <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -46,8 +58,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/ArraysAndStrings/ThreeSumZero.java" />
-        <option value="$PROJECT_DIR$/src/ArraysAndStrings/ThreeSumK.java" />
         <option value="$PROJECT_DIR$/src/ArraysAndStrings/ThreeSum.java" />
         <option value="$PROJECT_DIR$/src/ArraysAndStrings/ThreeSumSmaller.java" />
         <option value="$PROJECT_DIR$/src/ArraysAndStrings/SetMatrixZeroes.java" />
@@ -97,6 +107,8 @@
         <option value="$PROJECT_DIR$/src/Backtracking/CombinationSumII.java" />
         <option value="$PROJECT_DIR$/src/Backtracking/PalidromePartitioning.java" />
         <option value="$PROJECT_DIR$/src/Backtracking/LetterCombinationsOfAPhoneNumber.java" />
+        <option value="$PROJECT_DIR$/src/Backtracking/GenerateParanthesis.java" />
+        <option value="$PROJECT_DIR$/src/Backtracking/GenerateParanthesisBruteForce.java" />
       </list>
     </option>
   </component>
@@ -317,13 +329,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/ThreeSumK.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="64" column="32" selection-start-line="64" selection-start-column="32" selection-end-line="64" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ThreeSum.java" />
     <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/ThreeSumZero.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -690,8 +695,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Backtracking/GenerateParanthesis.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+        <state relative-caret-position="327">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Backtracking/GenerateParanthesisBruteForce.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
         </state>
       </provider>
     </entry>

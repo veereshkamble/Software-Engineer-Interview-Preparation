@@ -3,9 +3,9 @@ package Backtracking;
 import java.util.ArrayList;
 import java.util.List;
 
-public class GenerateParanthesis {
+public class GenerateParanthesisBruteForce {
 
-    public List<String> generateParenthesisBruteForce(int n) {
+    public List<String> generateParenthesis(int n) {
         List<String> combinations = new ArrayList();
         generateAll(new char[2 * n], 0, combinations);
         return combinations;
@@ -32,19 +32,4 @@ public class GenerateParanthesis {
         }
         return (balance == 0);
     }
-
-    public List<String> generateParenthesisClosureNumber(int n) {
-        List<String> ans = new ArrayList();
-        if (n == 0) {
-            ans.add("");
-        } else {
-            for (int c = 0; c < n; ++c)
-                for (String left: generateParenthesisClosureNumber(c))
-                    for (String right: generateParenthesisClosureNumber(n-1-c))
-                        ans.add("(" + left + ")" + right);
-        }
-        return ans;
-    }
-
-
 }
