@@ -33,5 +33,16 @@ public class GenerateParanthesis {
         return (balance == 0);
     }
 
-    
+    public List<String> generateParenthesisClosureNumber(int n) {
+        List<String> ans = new ArrayList();
+        if (n == 0) {
+            ans.add("");
+        } else {
+            for (int c = 0; c < n; ++c)
+                for (String left: generateParenthesisClosureNumber(c))
+                    for (String right: generateParenthesisClosureNumber(n-1-c))
+                        ans.add("(" + left + ")" + right);
+        }
+        return ans;
+    }
 }
