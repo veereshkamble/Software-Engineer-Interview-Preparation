@@ -31,5 +31,5 @@ public class PalidromePartitioning {
         return true;
     }
 
-    
+
 }
