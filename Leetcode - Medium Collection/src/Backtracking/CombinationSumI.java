@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class CombinationSum {
+public class CombinationSumI {
 
     public List<List<Integer>> combinationSum(int[] nums, int target) {
         List<List<Integer>> list = new ArrayList<>();
@@ -26,7 +26,7 @@ public class CombinationSum {
     }
 
     public static void main(String[] args) {
-        CombinationSum combinationSum = new CombinationSum();
+        CombinationSumI combinationSum = new CombinationSumI();
         int[] candidates = new int[] {2,3,6,7};
         int target = 7;
 
