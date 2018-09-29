@@ -20,4 +20,9 @@ public class LetterCombinationsOfAPhoneNumber {
         }
         return ans;
     }
+
+    public static void main(String[] args) {
+        LetterCombinationsOfAPhoneNumber letterCombinationsOfAPhoneNumber = new LetterCombinationsOfAPhoneNumber();
+        System.out.println(letterCombinationsOfAPhoneNumber.letterCombinations("234"));
+    }
 }

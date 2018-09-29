@@ -136,7 +136,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CombinationSumI">
+  <component name="RunManager" selected="Application.LetterCombinationsOfAPhoneNumber">
     <configuration name="CombinationSumI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Backtracking.CombinationSumI" />
       <module name="Leetcode - Medium Collection" />
@@ -148,8 +148,8 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="PermutationsI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Backtracking.PermutationsI" />
+    <configuration name="LetterCombinationsOfAPhoneNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Backtracking.LetterCombinationsOfAPhoneNumber" />
       <module name="Leetcode - Medium Collection" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -234,19 +234,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.PermutationsI" />
       <item itemvalue="Application.PermutationsII" />
       <item itemvalue="Application.SubsetsI" />
       <item itemvalue="Application.SubsetsII" />
       <item itemvalue="Application.CombinationSumI" />
+      <item itemvalue="Application.LetterCombinationsOfAPhoneNumber" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LetterCombinationsOfAPhoneNumber" />
         <item itemvalue="Application.CombinationSumI" />
         <item itemvalue="Application.SubsetsII" />
         <item itemvalue="Application.SubsetsI" />
         <item itemvalue="Application.PermutationsII" />
-        <item itemvalue="Application.PermutationsI" />
       </list>
     </recent_temporary>
   </component>
