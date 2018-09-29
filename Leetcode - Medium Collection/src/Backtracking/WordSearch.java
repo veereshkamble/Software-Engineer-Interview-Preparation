@@ -37,4 +37,8 @@ public class WordSearch {
         visited[i][j] = false;
         return false;
     }
+
+    public static void main(String[] args) {
+        WordSearch wordSearch = new WordSearch();
+    }
 }
