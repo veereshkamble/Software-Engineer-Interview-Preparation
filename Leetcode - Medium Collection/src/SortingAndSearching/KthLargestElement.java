@@ -1,5 +1,7 @@
 package SortingAndSearching;
 
+import java.util.Random;
+
 public class KthLargestElement {
 
     public int findKthLargest(int[] nums, int k) {
@@ -50,5 +52,16 @@ public class KthLargestElement {
         }
         exch(a, lo, j);
         return j;
+    }
+
+    private boolean less(int v, int w) {
+        return v < w;
+    }
+
+    public static void main(String[] args) {
+        KthLargestElement kthLargestElement = new KthLargestElement();
+        int[] nums = new int[] {3,2,3,1,2,4,5,5,6};
+        int k = 4;
+        System.out.println(kthLargestElement.findKthLargest(nums, k));
     }
 }
