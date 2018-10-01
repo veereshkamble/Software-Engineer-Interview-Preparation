@@ -20,4 +20,13 @@ public class KthLargestElement {
         }
         return nums[k];
     }
+
+    private void shuffle(int a[]) {
+
+        final Random random = new Random();
+        for(int ind = 1; ind < a.length; ind++) {
+            final int r = random.nextInt(ind + 1);
+            exch(a, ind, r);
+        }
+    }
 }
