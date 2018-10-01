@@ -28,11 +28,11 @@
       <file leaf-file-name="PeakElement.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/SortingAndSearching/PeakElement.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
+            <state relative-caret-position="395">
+              <caret line="41" column="65" selection-start-line="41" selection-start-column="65" selection-end-line="41" selection-end-column="65" />
               <folding>
-                <element signature="e#321#322#0" expanded="true" />
-                <element signature="e#376#377#0" expanded="true" />
+                <element signature="e#337#338#0" expanded="true" />
+                <element signature="e#392#393#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -153,7 +153,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.KthLargestElement">
+  <component name="RunManager" selected="Application.PeakElement">
     <configuration name="CombinationSumI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Backtracking.CombinationSumI" />
       <module name="Leetcode - Medium Collection" />
@@ -187,13 +187,13 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="SubsetsI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Backtracking.SubsetsI" />
+    <configuration name="PeakElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SortingAndSearching.PeakElement" />
       <module name="Leetcode - Medium Collection" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Backtracking.*" />
+          <option name="PATTERN" value="SortingAndSearching.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -251,19 +251,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.SubsetsI" />
       <item itemvalue="Application.SubsetsII" />
       <item itemvalue="Application.CombinationSumI" />
       <item itemvalue="Application.LetterCombinationsOfAPhoneNumber" />
       <item itemvalue="Application.KthLargestElement" />
+      <item itemvalue="Application.PeakElement" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PeakElement" />
         <item itemvalue="Application.KthLargestElement" />
         <item itemvalue="Application.LetterCombinationsOfAPhoneNumber" />
         <item itemvalue="Application.CombinationSumI" />
         <item itemvalue="Application.SubsetsII" />
-        <item itemvalue="Application.SubsetsI" />
       </list>
     </recent_temporary>
   </component>
@@ -718,11 +718,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/SortingAndSearching/PeakElement.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
+        <state relative-caret-position="395">
+          <caret line="41" column="65" selection-start-line="41" selection-start-column="65" selection-end-line="41" selection-end-column="65" />
           <folding>
-            <element signature="e#321#322#0" expanded="true" />
-            <element signature="e#376#377#0" expanded="true" />
+            <element signature="e#337#338#0" expanded="true" />
+            <element signature="e#392#393#0" expanded="true" />
           </folding>
         </state>
       </provider>

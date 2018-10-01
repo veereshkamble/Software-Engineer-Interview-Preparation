@@ -33,4 +33,12 @@ public class PeakElement {
         }
         return l;
     }
+
+    public static void main(String[] args) {
+        PeakElement peakElement = new PeakElement();
+        int[] nums = new int[] {1,2,1,3,5,6,4};
+        System.out.println(peakElement.findPeakElementIterativeBinary(nums));
+        System.out.println(peakElement.findPeakElementRecursiveBinary(nums));
+        System.out.println(peakElement.findPeakElementLinearScan(nums));
+    }
 }
