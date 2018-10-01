@@ -25,7 +25,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PeakElement.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PeakElement.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SortingAndSearching/PeakElement.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="395">
@@ -33,6 +33,19 @@
               <folding>
                 <element signature="e#337#338#0" expanded="true" />
                 <element signature="e#392#393#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IntervalComparator.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/SortingAndSearching/IntervalComparator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+              <folding>
+                <element signature="e#158#159#0" expanded="true" />
+                <element signature="e#232#233#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -50,7 +63,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/ArraysAndStrings/LongestPalindromicSubstring.java" />
         <option value="$PROJECT_DIR$/src/ArraysAndStrings/IncreasingTripletSubsequence.java" />
         <option value="$PROJECT_DIR$/src/ArraysAndStrings/PrintMissingElement.java" />
         <option value="$PROJECT_DIR$/src/ArraysAndStrings/MissingRanges.java" />
@@ -101,6 +113,7 @@
         <option value="$PROJECT_DIR$/src/SortingAndSearching/TopKFrequentElements.java" />
         <option value="$PROJECT_DIR$/src/SortingAndSearching/KthLargestElement.java" />
         <option value="$PROJECT_DIR$/src/SortingAndSearching/PeakElement.java" />
+        <option value="$PROJECT_DIR$/src/SortingAndSearching/IntervalComparator.java" />
       </list>
     </option>
   </component>
@@ -321,13 +334,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/GroupAnagrams.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="62" selection-start-line="23" selection-start-column="62" selection-end-line="23" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/LongestSubstringWithoutRepeatingCharacters.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="467">
@@ -723,6 +729,17 @@
           <folding>
             <element signature="e#337#338#0" expanded="true" />
             <element signature="e#392#393#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SortingAndSearching/IntervalComparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+          <folding>
+            <element signature="e#158#159#0" expanded="true" />
+            <element signature="e#232#233#0" expanded="true" />
           </folding>
         </state>
       </provider>
