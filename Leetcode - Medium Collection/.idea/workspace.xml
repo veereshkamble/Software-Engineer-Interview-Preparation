@@ -56,8 +56,8 @@
       <file leaf-file-name="SearchInARotatedSortedArray.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/SortingAndSearching/SearchInARotatedSortedArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="40" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
+            <state relative-caret-position="429">
+              <caret line="33" column="77" selection-start-line="33" selection-start-column="77" selection-end-line="33" selection-end-column="77" />
             </state>
           </provider>
         </entry>
@@ -83,7 +83,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/ArraysAndStrings/MissingRanges.java" />
         <option value="$PROJECT_DIR$/src/LinkedList/ListNode.java" />
         <option value="$PROJECT_DIR$/src/LinkedList/AddTwoNumbers.java" />
         <option value="$PROJECT_DIR$/src/LinkedList/OddEvenLinkedList.java" />
@@ -134,6 +133,7 @@
         <option value="$PROJECT_DIR$/src/SortingAndSearching/Interval.java" />
         <option value="$PROJECT_DIR$/src/SortingAndSearching/IntervalComparator.java" />
         <option value="$PROJECT_DIR$/src/SortingAndSearching/MergeInterval.java" />
+        <option value="$PROJECT_DIR$/src/SortingAndSearching/SearchInARotatedSortedArray.java" />
       </list>
     </option>
   </component>
@@ -186,7 +186,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PeakElement">
+  <component name="RunManager" selected="Application.SearchInARotatedSortedArray">
     <configuration name="CombinationSumI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Backtracking.CombinationSumI" />
       <module name="Leetcode - Medium Collection" />
@@ -231,13 +231,13 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="SubsetsII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Backtracking.SubsetsII" />
+    <configuration name="SearchInARotatedSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SortingAndSearching.SearchInARotatedSortedArray" />
       <module name="Leetcode - Medium Collection" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Backtracking.*" />
+          <option name="PATTERN" value="SortingAndSearching.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -284,19 +284,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.SubsetsII" />
       <item itemvalue="Application.CombinationSumI" />
       <item itemvalue="Application.LetterCombinationsOfAPhoneNumber" />
       <item itemvalue="Application.KthLargestElement" />
       <item itemvalue="Application.PeakElement" />
+      <item itemvalue="Application.SearchInARotatedSortedArray" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SearchInARotatedSortedArray" />
         <item itemvalue="Application.PeakElement" />
         <item itemvalue="Application.KthLargestElement" />
         <item itemvalue="Application.LetterCombinationsOfAPhoneNumber" />
         <item itemvalue="Application.CombinationSumI" />
-        <item itemvalue="Application.SubsetsII" />
       </list>
     </recent_temporary>
   </component>
@@ -761,8 +761,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/SortingAndSearching/SearchInARotatedSortedArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="40" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
+        <state relative-caret-position="429">
+          <caret line="33" column="77" selection-start-line="33" selection-start-column="77" selection-end-line="33" selection-end-column="77" />
         </state>
       </provider>
     </entry>

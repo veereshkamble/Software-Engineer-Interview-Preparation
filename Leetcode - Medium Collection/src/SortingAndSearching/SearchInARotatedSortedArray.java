@@ -26,4 +26,11 @@ public class SearchInARotatedSortedArray {
         }
         return -1;
     }
+
+    public static void main(String[] args) {
+        SearchInARotatedSortedArray searchInARotatedSortedArray = new SearchInARotatedSortedArray();
+        int[] nums = new int[] {4,5,6,7,0,1,2};
+        int target = 0;
+        System.out.println(searchInARotatedSortedArray.search(nums, target));
+    }
 }
