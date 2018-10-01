@@ -29,4 +29,10 @@ public class KthLargestElement {
             exch(a, ind, r);
         }
     }
+
+    private void exch(int[] a, int i, int j) {
+        final int tmp = a[i];
+        a[i] = a[j];
+        a[j] = tmp;
+    }
 }
