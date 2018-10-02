@@ -150,7 +150,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MostCommonWord">
+  <component name="RunManager" selected="Application.RotatedDigits">
     <configuration name="BSTDeleteRecursive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Trees.BSTDeleteRecursive" />
       <module name="Leetcode" />
@@ -158,17 +158,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Trees.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="LongestSubstringWithoutRepeatingCharacters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HashTables.LongestSubstringWithoutRepeatingCharacters" />
-      <module name="Leetcode" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="HashTables.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -197,6 +186,17 @@
     </configuration>
     <configuration name="PalindromeNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Practice.PalindromeNumber" />
+      <module name="Leetcode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="RotatedDigits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practice.RotatedDigits" />
       <module name="Leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -248,19 +248,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.LongestSubstringWithoutRepeatingCharacters" />
       <item itemvalue="Application.BSTDeleteRecursive" />
       <item itemvalue="Application.MinimumWindowSubstring" />
       <item itemvalue="Application.PalindromeNumber" />
       <item itemvalue="Application.MostCommonWord" />
+      <item itemvalue="Application.RotatedDigits" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RotatedDigits" />
         <item itemvalue="Application.MostCommonWord" />
         <item itemvalue="Application.PalindromeNumber" />
         <item itemvalue="Application.MinimumWindowSubstring" />
         <item itemvalue="Application.BSTDeleteRecursive" />
-        <item itemvalue="Application.LongestSubstringWithoutRepeatingCharacters" />
       </list>
     </recent_temporary>
   </component>

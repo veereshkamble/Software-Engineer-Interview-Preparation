@@ -28,4 +28,9 @@ public class RotatedDigits {
         }
         return validFound;
     }
+
+    public static void main(String[] args) {
+        RotatedDigits rotatedDigits = new RotatedDigits();
+        System.out.println(rotatedDigits.rotatedDigits(10));
+    }
 }
