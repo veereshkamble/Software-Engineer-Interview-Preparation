@@ -30,6 +30,11 @@ public class SearchForARange {
     }
 
     public static void main(String[] args) {
-        Sea
+        SearchForARange searchForARange = new SearchForARange();
+        int[] nums = new int[] {5,7,7,8,8,10};
+        int target = 8;
+
+        int[] result = searchForARange.searchRange(nums, target);
+        
     }
 }
