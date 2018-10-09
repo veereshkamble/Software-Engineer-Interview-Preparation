@@ -19,4 +19,9 @@ public class SearchA2DMatrix {
         }
         return false;
     }
+
+    public static void main(String[] args) {
+        SearchA2DMatrix searchA2DMatrix = new SearchA2DMatrix();
+        
+    }
 }
