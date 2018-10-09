@@ -22,6 +22,6 @@ public class SearchA2DMatrix {
 
     public static void main(String[] args) {
         SearchA2DMatrix searchA2DMatrix = new SearchA2DMatrix();
-        
+
     }
 }
