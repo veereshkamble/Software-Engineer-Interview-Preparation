@@ -1,5 +1,9 @@
 package DynamicProgramming;
 
+enum Index {
+    GOOD, BAD, UNKNOWN
+}
+
 public class JumpGame {
 
     public boolean canJumpFromPositionBacktracking(int position, int[] nums) {
