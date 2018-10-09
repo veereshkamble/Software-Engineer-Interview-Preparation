@@ -3,11 +3,11 @@ package SortingAndSearching;
 public class SearchForARange {
 
     public int[] searchRange(int[] A, int target) {
-        int start = Solution.firstGreaterEqual(A, target);
+        int start = firstGreaterEqual(A, target);
         if (start == A.length || A[start] != target) {
             return new int[]{-1, -1};
         }
-        return new int[]{start, Solution.firstGreaterEqual(A, target + 1) - 1};
+        return new int[]{start, firstGreaterEqual(A, target + 1) - 1};
     }
 
     //find the first number that is greater than or equal to target.
@@ -27,5 +27,9 @@ public class SearchForARange {
             }
         }
         return low;
+    }
+
+    public static void main(String[] args) {
+        Sea
     }
 }

@@ -46,11 +46,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SearchInARotatedSortedArray.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SearchInARotatedSortedArray.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SortingAndSearching/SearchInARotatedSortedArray.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="527">
               <caret line="33" column="77" selection-start-line="33" selection-start-column="77" selection-end-line="33" selection-end-column="77" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SearchForARange.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/SortingAndSearching/SearchForARange.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+              <folding>
+                <element signature="e#1115#1116#0" expanded="true" />
+                <element signature="e#1133#1134#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -76,7 +89,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/LinkedList/ListNode.java" />
         <option value="$PROJECT_DIR$/src/LinkedList/AddTwoNumbers.java" />
         <option value="$PROJECT_DIR$/src/LinkedList/OddEvenLinkedList.java" />
         <option value="$PROJECT_DIR$/src/LinkedList/IntersectionOfTwoLinkedLists.java" />
@@ -127,6 +139,7 @@
         <option value="$PROJECT_DIR$/src/SortingAndSearching/IntervalComparator.java" />
         <option value="$PROJECT_DIR$/src/SortingAndSearching/MergeInterval.java" />
         <option value="$PROJECT_DIR$/src/SortingAndSearching/SearchInARotatedSortedArray.java" />
+        <option value="$PROJECT_DIR$/src/SortingAndSearching/SearchForARange.java" />
       </list>
     </option>
   </component>
@@ -308,6 +321,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -346,13 +360,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/PrintMissingElement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-476">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/MissingRanges.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="467">
@@ -742,6 +749,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
           <caret line="33" column="77" selection-start-line="33" selection-start-column="77" selection-end-line="33" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SortingAndSearching/SearchForARange.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+          <folding>
+            <element signature="e#1115#1116#0" expanded="true" />
+            <element signature="e#1133#1134#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
