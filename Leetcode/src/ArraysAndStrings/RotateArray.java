@@ -1,6 +1,5 @@
 package ArraysAndStrings;
 
-import javafx.scene.transform.Rotate;
 
 public class RotateArray {
     public int[] rotate(int[] nums, int k) {

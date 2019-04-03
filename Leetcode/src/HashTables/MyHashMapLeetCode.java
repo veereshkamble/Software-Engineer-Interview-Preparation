@@ -1,3 +1,4 @@
+/*
 package HashTables;
 import javafx.util.Pair;
 
@@ -7,19 +8,25 @@ public class MyHashMapLeetCode {
     private final int MAX_LEN = 100000;             //the amount of buckets
     private List<Pair<Integer, Integer>>[] map;     //hash map implemented by array
 
-    /**Initializing data structure here*/
+    */
+/**Initializing data structure here*//*
+
     public MyHashMapLeetCode() {
 
         map = (List<Pair<Integer, Integer>>[]) new ArrayList[MAX_LEN];
     }
 
-    /**Returns the corresponding bucket index */
+    */
+/**Returns the corresponding bucket index *//*
+
     private int getIndex(int key) {
 
         return key % MAX_LEN;
     }
 
-    /** Search the key in a specific bucket. Return -1 if the key does not exist */
+    */
+/** Search the key in a specific bucket. Return -1 if the key does not exist *//*
+
     private int getPos(int key, int index) {
         //Each bucket contains a list.
         List<Pair<Integer, Integer>> temp = map[index];
@@ -49,7 +56,9 @@ public class MyHashMapLeetCode {
         }
     }
 
-    /* Returns the value to which the specified key is mapped, or -1 if this map contains no mapping for the key */
+    */
+/* Returns the value to which the specified key is mapped, or -1 if this map contains no mapping for the key *//*
+
     public int get(int key) {
         int index = getIndex(key);
         int pos = getPos(key, index);
@@ -60,7 +69,9 @@ public class MyHashMapLeetCode {
         }
     }
 
-    /* Removes the mapping of the specified value key if this map contains a mapping for the key */
+    */
+/* Removes the mapping of the specified value key if this map contains a mapping for the key *//*
+
     public void remove(int key) {
         int index = getIndex(key);
         int pos = getPos(key, index);
@@ -84,3 +95,4 @@ public class MyHashMapLeetCode {
 
     }
 }
+*/
