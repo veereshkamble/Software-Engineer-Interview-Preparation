@@ -21,8 +21,11 @@ public class RangeSumOfBST {
                     stack.push(node.left);
                 }
 
-                if(node)
+                if(node.val < R) {
+                    stack.push(node.right);
+                }
             }
         }
+        return ans;
     }
 }
