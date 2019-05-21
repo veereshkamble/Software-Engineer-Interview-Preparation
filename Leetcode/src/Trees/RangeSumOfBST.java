@@ -42,6 +42,10 @@ public class RangeSumOfBST {
         }
     }
 
+    public static void main(String[] args) {
+        
+    }
+
 
 
 
