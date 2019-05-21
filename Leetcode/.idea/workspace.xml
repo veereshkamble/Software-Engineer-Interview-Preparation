@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d79882a-9792-4c01-96b4-b973275bdd0d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Trees/RangeSumOfBST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Trees/RangeSumOfBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Trees/RangeSumOfBST.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -52,8 +52,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Trees/RangeSumOfBST.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+            <state relative-caret-position="465">
+              <caret line="31" column="4" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -132,7 +132,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Design/MinStack.java" />
         <option value="$PROJECT_DIR$/src/Math/FizzBuzz.java" />
         <option value="$PROJECT_DIR$/src/Math/CountPrimes.java" />
         <option value="$PROJECT_DIR$/src/Math/PowerOfThree.java" />
@@ -183,6 +182,7 @@
         <option value="$PROJECT_DIR$/src/ArraysAndStrings/CountAndSay.java" />
         <option value="$PROJECT_DIR$/src/LinkedList/LinkedListCycle.java" />
         <option value="$PROJECT_DIR$/src/LinkedList/LinkedListCycleII.java" />
+        <option value="$PROJECT_DIR$/src/Trees/RangeSumOfBST.java" />
       </list>
     </option>
   </component>
@@ -233,7 +233,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558420195272" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558420247301" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
@@ -376,10 +376,10 @@
     <option name="totallyTimeSpent" value="121000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="122" y="23" width="941" height="984" extended-state="0" />
+    <frame x="12" y="32" width="941" height="984" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.16666667" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.16573972" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -782,8 +782,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Trees/RangeSumOfBST.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+        <state relative-caret-position="465">
+          <caret line="31" column="4" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
         </state>
       </provider>
     </entry>
